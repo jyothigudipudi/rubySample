@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+            Taxonomy: 2009-04-01 (Final)
+            ********************** 
+            Copyright © 2009 International Accounting Standards Committee (IASC) Foundation 
+            This material is copyright of the IASC Foundation and all rights are reserved. 
+            No part of this material may be translated, reprinted, reproduced or utilised in 
+            any form or manner that is not expressly permitted by the IASC Foundations XBRL 
+            IP Policy see: http://www.iasb.org/xbrl/ 
+            ********************** 
+            
+
+        -->
+<xsd:schema targetNamespace="http://xbrl.iasb.org/role/ifrs/rol_ifrs_1_2009-04-01" attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:rol_ifrs_1_2009-04-01="http://xbrl.iasb.org/role/ifrs/rol_ifrs_1_2009-04-01" xmlns:link="http://www.xbrl.org/2003/linkbase">
+  <xsd:annotation>
+    <xsd:appinfo>
+      <link:roleType roleURI="http://xbrl.iasb.org/role/ifrs/IFRS_1_2009-04-01_role-819100" id="IFRS_1_2009-04-01_role-819100">
+        <link:definition>[819100] Notes - First time adoption</link:definition>
+        <link:usedOn>link:definitionLink</link:usedOn>
+        <link:usedOn>link:presentationLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://xbrl.iasb.org/role/ifrs/IFRS_1_2009-04-01_role-819110" id="IFRS_1_2009-04-01_role-819110">
+        <link:definition>[819110] Notes - First time adoption, fair values used as deemed cost [alternative]</link:definition>
+        <link:usedOn>link:definitionLink</link:usedOn>
+        <link:usedOn>link:presentationLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://xbrl.iasb.org/role/ifrs/IFRS_1_2009-04-01_role-819120" id="IFRS_1_2009-04-01_role-819120">
+        <link:definition>[819120] Notes - First time adoption, fair values used as deemed cost</link:definition>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+        <link:usedOn>link:presentationLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://xbrl.iasb.org/role/ifrs/IFRS_1_2009-04-01_role-819130" id="IFRS_1_2009-04-01_role-819130">
+        <link:definition>[819130] Notes - First time adoption, redesignated financial assets and liabilities [alternative]</link:definition>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+        <link:usedOn>link:presentationLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://xbrl.iasb.org/role/ifrs/IFRS_1_2009-04-01_role-819140" id="IFRS_1_2009-04-01_role-819140">
+        <link:definition>[819140] Notes - First time adoption, redesignated financial assets and liabilities</link:definition>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+        <link:usedOn>link:presentationLink</link:usedOn>
+      </link:roleType>
+    </xsd:appinfo>
+  </xsd:annotation>
+  <xsd:import namespace="http://www.xbrl.org/2003/linkbase" schemaLocation="http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd"/>
+</xsd:schema>

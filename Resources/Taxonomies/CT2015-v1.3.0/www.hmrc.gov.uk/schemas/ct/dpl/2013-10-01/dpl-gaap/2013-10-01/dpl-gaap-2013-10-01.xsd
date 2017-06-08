@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema" xmlns:dpl-gaap="http://www.govtalk.gov.uk/uk/fr/tax/dpl-gaap/2013-10-01" xmlns:uk-aurep="http://www.xbrl.org/uk/reports/aurep/2009-09-01" xmlns:ref="http://www.xbrl.org/2006/ref" xmlns:xbrldt="http://xbrl.org/2005/xbrldt" xmlns:uk-countries="http://www.xbrl.org/uk/cd/countries/2009-09-01" xmlns:uk-common="http://www.xbrl.org/uk/all/common/2009-09-01" xmlns:uk-lang="http://www.xbrl.org/uk/cd/languages/2009-09-01" xmlns:uk-bus="http://www.xbrl.org/uk/cd/business/2009-09-01" xmlns:uk-curr="http://www.xbrl.org/uk/cd/currencies/2009-09-01" xmlns:uk-cd-ref="http://www.xbrl.org/uk/all/ref/2009-09-01" xmlns:uk-types="http://www.xbrl.org/uk/all/types/2009-09-01" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:uk-exch="http://www.xbrl.org/uk/cd/exchanges/2009-09-01" xmlns:uk-direp="http://www.xbrl.org/uk/reports/direp/2009-09-01" xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:uk-gaap-ref="http://www.xbrl.org/uk/all/gaap-ref/2009-09-01" targetNamespace="http://www.govtalk.gov.uk/uk/fr/tax/dpl-gaap/2013-10-01" attributeFormDefault="unqualified" elementFormDefault="qualified">
+  <annotation>
+    <appinfo>
+      <link:linkbaseRef xlink:type="simple" xlink:href="dpl-gaap-2013-10-01-presentation.xml" xlink:title="Presentation Links, all" xlink:role="http://www.xbrl.org/2003/role/presentationLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
+      <link:linkbaseRef xlink:type="simple" xlink:href="dpl-gaap-2013-10-01-definition.xml" xlink:title="Definition Links, all" xlink:role="http://www.xbrl.org/2003/role/definitionLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
+      <link:linkbaseRef xlink:type="simple" xlink:href="dpl-gaap-2013-10-01-label.xml" xlink:title="Label Links, all" xlink:role="http://www.xbrl.org/2003/role/labelLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
+      <link:roleType roleURI="http://www.govtalk.gov.uk/uk/fr/tax/dpl-gaap/2013-10-01/role/Hypercube-DetailedProfitAndLossReserve" id="hypercubeDetailedProfitAndLossReserve">
+        <link:definition>851 - Hypercube - Detailed Profit and Loss Account Reserve</link:definition>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+    </appinfo>
+  </annotation>
+  <import namespace="http://www.xbrl.org/2003/instance" schemaLocation="http://www.xbrl.org/2003/xbrl-instance-2003-12-31.xsd"/>
+  <import namespace="http://xbrl.org/2005/xbrldt" schemaLocation="http://www.xbrl.org/2005/xbrldt-2005.xsd"/>
+  <import namespace="http://www.xbrl.org/uk/gaap/core/2009-09-01" schemaLocation="http://www.xbrl.org/uk/gaap/core/2009-09-01/uk-gaap-2009-09-01.xsd"/>
+  <import namespace="http://www.govtalk.gov.uk/uk/fr/tax/dpl-core/2013-10-01" schemaLocation="../../dpl-core/2013-10-01/dpl-2013-10-01.xsd"/>
+  <element name="CurrentTaxArisingOnGainsLossesInPensionSchemes" id="dpl-gaap_CurrentTaxArisingOnGainsLossesInPensionSchemes" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:balance="debit" xbrli:periodType="duration"/>
+  <element name="DetailedProfitLossAccountReserveHypercube" id="dpl-gaap_DetailedProfitLossAccountReserveHypercube" type="xbrli:stringItemType" substitutionGroup="xbrldt:hypercubeItem" abstract="true" nillable="true" xbrli:periodType="duration"/>
+  <element name="GainLossFromImpactChangesInTaxRateOnDeferredTaxProfitLossAccount" id="dpl-gaap_GainLossFromImpactChangesInTaxRateOnDeferredTaxProfitLossAccount" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:balance="credit" xbrli:periodType="duration"/>
+  <element name="GainOnReleaseNegativeGoodwill" id="dpl-gaap_GainOnReleaseNegativeGoodwill" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:balance="credit" xbrli:periodType="duration"/>
+  <element name="IncreaseDecreaseInFinishedGoodsGoodsForResale" id="dpl-gaap_IncreaseDecreaseInFinishedGoodsGoodsForResale" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:balance="debit" xbrli:periodType="duration"/>
+  <element name="IncreaseDecreaseInStocksPaymentsOnAccount" id="dpl-gaap_IncreaseDecreaseInStocksPaymentsOnAccount" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:balance="debit" xbrli:periodType="duration"/>
+  <element name="IncreaseDecreaseInStocksRawMaterialsConsumables" id="dpl-gaap_IncreaseDecreaseInStocksRawMaterialsConsumables" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:balance="debit" xbrli:periodType="duration"/>
+  <element name="IncreaseDecreaseInWorkInProgress" id="dpl-gaap_IncreaseDecreaseInWorkInProgress" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:balance="debit" xbrli:periodType="duration"/>
+  <element name="ItemsInheritingDetailedProfitLossAccountReserveDimensions" id="dpl-gaap_ItemsInheritingDetailedProfitLossAccountReserveDimensions" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="true" nillable="true" xbrli:periodType="duration"/>
+  <element name="OtherIncreaseDecreaseProfitLossAccount" id="dpl-gaap_OtherIncreaseDecreaseProfitLossAccount" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:balance="credit" xbrli:periodType="duration"/>
+  <element name="ProfitLossAccountReserve-DetailedPLMovementAnalysisHeading" id="dpl-gaap_ProfitLossAccountReserve-DetailedPLMovementAnalysisHeading" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="true" nillable="true" xbrli:periodType="duration"/>
+  <element name="ProfitLossFormat2Sub-totalsNotIncludedElsewhereHeading" id="dpl-gaap_ProfitLossFormat2Sub-totalsNotIncludedElsewhereHeading" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="true" nillable="true" xbrli:periodType="duration"/>
+</schema>

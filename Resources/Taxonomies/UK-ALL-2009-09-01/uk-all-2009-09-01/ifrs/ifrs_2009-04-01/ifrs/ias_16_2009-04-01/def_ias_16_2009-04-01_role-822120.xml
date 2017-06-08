@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+            Taxonomy: 2009-04-01 (Final)
+            ********************** 
+            Copyright © 2009 International Accounting Standards Committee (IASC) Foundation 
+            This material is copyright of the IASC Foundation and all rights are reserved. 
+            No part of this material may be translated, reprinted, reproduced or utilised in 
+            any form or manner that is not expressly permitted by the IASC Foundations XBRL 
+            IP Policy see: http://www.iasb.org/xbrl/ 
+            ********************** 
+            
+
+        -->
+<link:linkbase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.xbrl.org/2003/linkbase http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd" xmlns:tmp="http://www.iasb.org/xbrl/versioningTempns" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <link:roleRef roleURI="http://xbrl.iasb.org/role/ifrs/IAS_16_2009-04-01_role-822120" xlink:type="simple" xlink:href="rol_ias_16_2009-04-01.xsd#IAS_16_2009-04-01_role-822120"/>
+  <link:arcroleRef arcroleURI="http://xbrl.org/int/dim/arcrole/domain-member" xlink:type="simple" xlink:href="http://www.xbrl.org/2005/xbrldt-2005.xsd#domain-member"/>
+  <link:definitionLink xlink:type="extended" xlink:role="http://xbrl.iasb.org/role/ifrs/IAS_16_2009-04-01_role-822120" xlink:title="[822120] Notes - Reconciliation of changes in property, plant and equipment [alternative]">
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_ReconciliationOfChangesInPropertyPlantAndEquipmentAbstract" xlink:label="loc"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_ReconciliationAbstract" xlink:label="loc_2"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_IncreaseDecreaseThroughNetExchangeDifferencesAbstract" xlink:label="loc_3"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_AdditionsOtherThanThroughBusinessCombinationsAbstract" xlink:label="loc_4"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_AcquisitionsThroughBusinessCombinationsAbstract" xlink:label="loc_5"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_DisposalsAbstract" xlink:label="loc_6"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_DecreaseThroughClassifiedAsHeldForSaleAbstract" xlink:label="loc_7"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_DepreciationAbstract" xlink:label="loc_8"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_ImpairmentLossRecognisedOrReversedInProfitOrLossAbstract" xlink:label="loc_9"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_ImpairmentLossRecognisedInProfitOrLossAbstract" xlink:label="loc_67"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_ReversalOfImpairmentLossRecognisedInProfitOrLossAbstract" xlink:label="loc_68"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_IncreaseDecreaseThroughRevaluationAndImpairmentLossAndReversalOfImpairmentLossAbstract" xlink:label="loc_10"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_RevaluationIncreaseDecreaseAbstract" xlink:label="loc_87"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_ImpairmentLossRecognisedInOtherComprehensiveIncomeAbstract" xlink:label="loc_88"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_ReversalOfImpairmentLossRecognisedInOtherComprehensiveIncomeAbstract" xlink:label="loc_89"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_IncreaseDecreaseThroughTransfersAndOtherChangesAbstract" xlink:label="loc_11"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_ChangesInPropertyPlantAndEquipmentAbstract" xlink:label="loc_12"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_IncreaseDecreaseThroughNetExchangeDifferencesLandAndBuildings" xlink:label="loc_13"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_IncreaseDecreaseThroughNetExchangeDifferencesTangibleExplorationAndEvaluationAssets" xlink:label="loc_14"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_IncreaseDecreaseThroughNetExchangeDifferencesFixturesAndFittings" xlink:label="loc_15"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_IncreaseDecreaseThroughNetExchangeDifferencesConstructionInProgress" xlink:label="loc_16"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_IncreaseDecreaseThroughNetExchangeDifferencesOfficeEquipment" xlink:label="loc_17"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_IncreaseDecreaseThroughNetExchangeDifferencesVehicles" xlink:label="loc_18"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_IncreaseDecreaseThroughNetExchangeDifferencesMachinery" xlink:label="loc_19"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_IncreaseDecreaseThroughNetExchangeDifferencesOtherPropertyPlantAndEquipment" xlink:label="loc_20"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_IncreaseDecreaseThroughNetExchangeDifferencesPropertyPlantAndEquipment" xlink:label="loc_21"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_AdditionsOtherThanThroughBusinessCombinationsLandAndBuildings" xlink:label="loc_22"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_AdditionsOtherThanThroughBusinessCombinationsTangibleExplorationAndEvaluationAssets" xlink:label="loc_23"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_AdditionsOtherThanThroughBusinessCombinationsFixturesAndFittings" xlink:label="loc_24"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_AdditionsOtherThanThroughBusinessCombinationsConstructionInProgress" xlink:label="loc_25"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_AdditionsOtherThanThroughBusinessCombinationsOfficeEquipment" xlink:label="loc_26"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_AdditionsOtherThanThroughBusinessCombinationsVehicles" xlink:label="loc_27"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_AdditionsOtherThanThroughBusinessCombinationsMachinery" xlink:label="loc_28"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_AdditionsOtherThanThroughBusinessCombinationsOtherPropertyPlantAndEquipment" xlink:label="loc_29"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_AdditionsOtherThanThroughBusinessCombinationsPropertyPlantAndEquipment" xlink:label="loc_30"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_AcquisitionsThroughBusinessCombinationsLandAndBuildings" xlink:label="loc_31"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_AcquisitionsThroughBusinessCombinationsTangibleExplorationAndEvaluationAssets" xlink:label="loc_32"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_AcquisitionsThroughBusinessCombinationsFixturesAndFittings" xlink:label="loc_33"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_AcquisitionsThroughBusinessCombinationsConstructionInProgress" xlink:label="loc_34"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_AcquisitionsThroughBusinessCombinationsOfficeEquipment" xlink:label="loc_35"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_AcquisitionsThroughBusinessCombinationsVehicles" xlink:label="loc_36"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_AcquisitionsThroughBusinessCombinationsMachinery" xlink:label="loc_37"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_AcquisitionsThroughBusinessCombinationsOtherPropertyPlantAndEquipment" xlink:label="loc_38"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_AcquisitionsThroughBusinessCombinationsPropertyPlantAndEquipment" xlink:label="loc_39"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_DisposalsLandAndBuildings" xlink:label="loc_40"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_DisposalsTangibleExplorationAndEvaluationAssets" xlink:label="loc_41"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_DisposalsFixturesAndFittings" xlink:label="loc_42"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_DisposalsConstructionInProgress" xlink:label="loc_43"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_DisposalsOfficeEquipment" xlink:label="loc_44"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_DisposalsVehicles" xlink:label="loc_45"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_DisposalsMachinery" xlink:label="loc_46"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_DisposalsOtherPropertyPlantAndEquipment" xlink:label="loc_47"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_DisposalsPropertyPlantAndEquipment" xlink:label="loc_48"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_DecreaseThroughClassifiedAsHeldForSaleLandAndBuildings" xlink:label="loc_49"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_DecreaseThroughClassifiedAsHeldForSaleTangibleExplorationAndEvaluationAssets" xlink:label="loc_50"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_DecreaseThroughClassifiedAsHeldForSaleFixturesAndFittings" xlink:label="loc_51"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_DecreaseThroughClassifiedAsHeldForSaleConstructionInProgress" xlink:label="loc_52"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_DecreaseThroughClassifiedAsHeldForSaleOfficeEquipment" xlink:label="loc_53"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_DecreaseThroughClassifiedAsHeldForSaleVehicles" xlink:label="loc_54"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_DecreaseThroughClassifiedAsHeldForSaleMachinery" xlink:label="loc_55"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_DecreaseThroughClassifiedAsHeldForSaleOtherPropertyPlantAndEquipment" xlink:label="loc_56"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_DecreaseThroughClassifiedAsHeldForSalePropertyPlantAndEquipment" xlink:label="loc_57"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_DepreciationLandAndBuildings" xlink:label="loc_58"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_DepreciationTangibleExplorationAndEvaluationAssets" xlink:label="loc_59"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_DepreciationFixturesAndFittings" xlink:label="loc_60"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_DepreciationConstructionInProgress" xlink:label="loc_61"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_DepreciationOfficeEquipment" xlink:label="loc_62"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_DepreciationVehicles" xlink:label="loc_63"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_DepreciationMachinery" xlink:label="loc_64"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_DepreciationOtherPropertyPlantAndEquipment" xlink:label="loc_65"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_DepreciationPropertyPlantAndEquipment" xlink:label="loc_66"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_ImpairmentLossRecognisedInProfitOrLossLandAndBuildings" xlink:label="loc_69"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_ImpairmentLossRecognisedInProfitOrLossTangibleExplorationAndEvaluationAssets" xlink:label="loc_70"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_ImpairmentLossRecognisedInProfitOrLossFixturesAndFittings" xlink:label="loc_71"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_ImpairmentLossRecognisedInProfitOrLossConstructionInProgress" xlink:label="loc_72"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_ImpairmentLossRecognisedInProfitOrLossOfficeEquipment" xlink:label="loc_73"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_ImpairmentLossRecognisedInProfitOrLossVehicles" xlink:label="loc_74"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_ImpairmentLossRecognisedInProfitOrLossMachinery" xlink:label="loc_75"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_ImpairmentLossRecognisedInProfitOrLossOtherPropertyPlantAndEquipment" xlink:label="loc_76"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_ImpairmentLossRecognisedInProfitOrLossPropertyPlantAndEquipment" xlink:label="loc_77"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_ReversalOfImpairmentLossRecognisedInProfitOrLossLandAndBuildings" xlink:label="loc_78"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_ReversalOfImpairmentLossRecognisedInProfitOrLossTangibleExplorationAndEvaluationAssets" xlink:label="loc_79"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_ReversalOfImpairmentLossRecognisedInProfitOrLossFixturesAndFittings" xlink:label="loc_80"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_ReversalOfImpairmentLossRecognisedInProfitOrLossConstructionInProgress" xlink:label="loc_81"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_ReversalOfImpairmentLossRecognisedInProfitOrLossOfficeEquipment" xlink:label="loc_82"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_ReversalOfImpairmentLossRecognisedInProfitOrLossVehicles" xlink:label="loc_83"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_ReversalOfImpairmentLossRecognisedInProfitOrLossMachinery" xlink:label="loc_84"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_ReversalOfImpairmentLossRecognisedInProfitOrLossOtherPropertyPlantAndEquipment" xlink:label="loc_85"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_ReversalOfImpairmentLossRecognisedInProfitOrLossPropertyPlantAndEquipment" xlink:label="loc_86"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_RevaluationIncreaseDecreaseLandAndBuildings" xlink:label="loc_90"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_RevaluationIncreaseDecreaseTangibleExplorationAndEvaluationAssets" xlink:label="loc_91"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_RevaluationIncreaseDecreaseFixturesAndFittings" xlink:label="loc_92"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_RevaluationIncreaseDecreaseConstructionInProgress" xlink:label="loc_93"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_RevaluationIncreaseDecreaseOfficeEquipment" xlink:label="loc_94"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_RevaluationIncreaseDecreaseVehicles" xlink:label="loc_95"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_RevaluationIncreaseDecreaseMachinery" xlink:label="loc_96"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_RevaluationIncreaseDecreaseOtherPropertyPlantAndEquipment" xlink:label="loc_97"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_RevaluationIncreaseDecreasePropertyPlantAndEquipment" xlink:label="loc_98"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_ImpairmentLossRecognisedInOtherComprehensiveIncomeLandAndBuildings" xlink:label="loc_99"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_ImpairmentLossRecognisedInOtherComprehensiveIncomeTangibleExplorationAndEvaluationAssets" xlink:label="loc_100"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_ImpairmentLossRecognisedInOtherComprehensiveIncomeFixturesAndFittings" xlink:label="loc_101"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_ImpairmentLossRecognisedInOtherComprehensiveIncomeConstructionInProgress" xlink:label="loc_102"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_ImpairmentLossRecognisedInOtherComprehensiveIncomeOfficeEquipment" xlink:label="loc_103"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_ImpairmentLossRecognisedInOtherComprehensiveIncomeVehicles" xlink:label="loc_104"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_ImpairmentLossRecognisedInOtherComprehensiveIncomeMachinery" xlink:label="loc_105"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_ImpairmentLossRecognisedInOtherComprehensiveIncomeOtherPropertyPlantAndEquipment" xlink:label="loc_106"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_ImpairmentLossRecognisedInOtherComprehensiveIncomePropertyPlantAndEquipment" xlink:label="loc_107"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_ReversalOfImpairmentLossRecognisedInOtherComprehensiveIncomeLandAndBuildings" xlink:label="loc_108"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_ReversalOfImpairmentLossRecognisedInOtherComprehensiveIncomeTangibleExplorationAndEvaluationAssets" xlink:label="loc_109"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_ReversalOfImpairmentLossRecognisedInOtherComprehensiveIncomeFixturesAndFittings" xlink:label="loc_110"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_ReversalOfImpairmentLossRecognisedInOtherComprehensiveIncomeConstructionInProgress" xlink:label="loc_111"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_ReversalOfImpairmentLossRecognisedInOtherComprehensiveIncomeOfficeEquipment" xlink:label="loc_112"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_ReversalOfImpairmentLossRecognisedInOtherComprehensiveIncomeVehicles" xlink:label="loc_113"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_ReversalOfImpairmentLossRecognisedInOtherComprehensiveIncomeMachinery" xlink:label="loc_114"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_ReversalOfImpairmentLossRecognisedInOtherComprehensiveIncomeOtherPropertyPlantAndEquipment" xlink:label="loc_115"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_ReversalOfImpairmentLossRecognisedInOtherComprehensiveIncomePropertyPlantAndEquipment" xlink:label="loc_116"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_IncreaseDecreaseThroughTransfersAndOtherChangesLandAndBuildings" xlink:label="loc_117"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_IncreaseDecreaseThroughTransfersAndOtherChangesTangibleExplorationAndEvaluationAssets" xlink:label="loc_118"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_IncreaseDecreaseThroughTransfersAndOtherChangesFixturesAndFittings" xlink:label="loc_119"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_IncreaseDecreaseThroughTransfersAndOtherChangesConstructionInProgress" xlink:label="loc_120"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_IncreaseDecreaseThroughTransfersAndOtherChangesOfficeEquipment" xlink:label="loc_121"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_IncreaseDecreaseThroughTransfersAndOtherChangesVehicles" xlink:label="loc_122"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_IncreaseDecreaseThroughTransfersAndOtherChangesMachinery" xlink:label="loc_123"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_IncreaseDecreaseThroughTransfersAndOtherChangesOtherPropertyPlantAndEquipment" xlink:label="loc_124"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_IncreaseDecreaseThroughTransfersAndOtherChangesPropertyPlantAndEquipment" xlink:label="loc_125"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_ChangesInLandAndBuildings" xlink:label="loc_126"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_ChangesInTangibleExplorationAndEvaluationAssets" xlink:label="loc_127"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_ChangesInFixturesAndFittings" xlink:label="loc_128"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_ChangesInConstructionInProgress" xlink:label="loc_129"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_ChangesInOfficeEquipment" xlink:label="loc_130"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_ChangesInVehicles" xlink:label="loc_131"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_ChangesInMachinery" xlink:label="loc_132"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_ChangesInOtherPropertyPlantAndEquipment" xlink:label="loc_133"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_ChangesInPropertyPlantAndEquipment" xlink:label="loc_134"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc" xlink:to="loc_2" order="10.0"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_2" xlink:to="loc_3" order="10.0"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_3" xlink:to="loc_13" order="10.0"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_3" xlink:to="loc_14" order="20.0"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_3" xlink:to="loc_15" order="30.0"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_3" xlink:to="loc_16" order="40.0"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_3" xlink:to="loc_17" order="50.0"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_3" xlink:to="loc_18" order="60.0"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_3" xlink:to="loc_19" order="70.0"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_3" xlink:to="loc_20" order="80.0"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_3" xlink:to="loc_21" order="90.0"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_2" xlink:to="loc_4" order="20.0"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_4" xlink:to="loc_22" order="10.0"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_4" xlink:to="loc_23" order="20.0"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_4" xlink:to="loc_24" order="30.0"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_4" xlink:to="loc_25" order="40.0"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_4" xlink:to="loc_26" order="50.0"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_4" xlink:to="loc_27" order="60.0"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_4" xlink:to="loc_28" order="70.0"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_4" xlink:to="loc_29" order="80.0"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_4" xlink:to="loc_30" order="90.0"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_2" xlink:to="loc_5" order="30.0"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_5" xlink:to="loc_31" order="10.0"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_5" xlink:to="loc_32" order="20.0"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_5" xlink:to="loc_33" order="30.0"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_5" xlink:to="loc_34" order="40.0"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_5" xlink:to="loc_35" order="50.0"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_5" xlink:to="loc_36" order="60.0"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_5" xlink:to="loc_37" order="70.0"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_5" xlink:to="loc_38" order="80.0"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_5" xlink:to="loc_39" order="90.0"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_2" xlink:to="loc_6" order="40.0"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_6" xlink:to="loc_40" order="10.0"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_6" xlink:to="loc_41" order="20.0"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_6" xlink:to="loc_42" order="30.0"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_6" xlink:to="loc_43" order="40.0"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_6" xlink:to="loc_44" order="50.0"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_6" xlink:to="loc_45" order="60.0"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_6" xlink:to="loc_46" order="70.0"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_6" xlink:to="loc_47" order="80.0"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_6" xlink:to="loc_48" order="90.0"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_2" xlink:to="loc_7" order="50.0"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_7" xlink:to="loc_49" order="10.0"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_7" xlink:to="loc_50" order="20.0"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_7" xlink:to="loc_51" order="30.0"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_7" xlink:to="loc_52" order="40.0"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_7" xlink:to="loc_53" order="50.0"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_7" xlink:to="loc_54" order="60.0"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_7" xlink:to="loc_55" order="70.0"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_7" xlink:to="loc_56" order="80.0"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_7" xlink:to="loc_57" order="90.0"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_2" xlink:to="loc_8" order="60.0"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_8" xlink:to="loc_58" order="10.0"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_8" xlink:to="loc_59" order="20.0"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_8" xlink:to="loc_60" order="30.0"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_8" xlink:to="loc_61" order="40.0"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_8" xlink:to="loc_62" order="50.0"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_8" xlink:to="loc_63" order="60.0"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_8" xlink:to="loc_64" order="70.0"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_8" xlink:to="loc_65" order="80.0"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_8" xlink:to="loc_66" order="90.0"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_2" xlink:to="loc_9" order="70.0"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_9" xlink:to="loc_67" order="10.0"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_67" xlink:to="loc_69" order="10.0"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_67" xlink:to="loc_70" order="20.0"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_67" xlink:to="loc_71" order="30.0"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_67" xlink:to="loc_72" order="40.0"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_67" xlink:to="loc_73" order="50.0"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_67" xlink:to="loc_74" order="60.0"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_67" xlink:to="loc_75" order="70.0"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_67" xlink:to="loc_76" order="80.0"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_67" xlink:to="loc_77" order="90.0"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_9" xlink:to="loc_68" order="20.0"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_68" xlink:to="loc_78" order="10.0"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_68" xlink:to="loc_79" order="20.0"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_68" xlink:to="loc_80" order="30.0"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_68" xlink:to="loc_81" order="40.0"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_68" xlink:to="loc_82" order="50.0"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_68" xlink:to="loc_83" order="60.0"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_68" xlink:to="loc_84" order="70.0"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_68" xlink:to="loc_85" order="80.0"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_68" xlink:to="loc_86" order="90.0"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_2" xlink:to="loc_10" order="80.0"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_10" xlink:to="loc_87" order="10.0"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_87" xlink:to="loc_90" order="10.0"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_87" xlink:to="loc_91" order="20.0"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_87" xlink:to="loc_92" order="30.0"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_87" xlink:to="loc_93" order="40.0"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_87" xlink:to="loc_94" order="50.0"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_87" xlink:to="loc_95" order="60.0"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_87" xlink:to="loc_96" order="70.0"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_87" xlink:to="loc_97" order="80.0"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_87" xlink:to="loc_98" order="90.0"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_10" xlink:to="loc_88" order="20.0"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_88" xlink:to="loc_99" order="10.0"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_88" xlink:to="loc_100" order="20.0"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_88" xlink:to="loc_101" order="30.0"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_88" xlink:to="loc_102" order="40.0"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_88" xlink:to="loc_103" order="50.0"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_88" xlink:to="loc_104" order="60.0"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_88" xlink:to="loc_105" order="70.0"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_88" xlink:to="loc_106" order="80.0"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_88" xlink:to="loc_107" order="90.0"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_10" xlink:to="loc_89" order="30.0"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_89" xlink:to="loc_108" order="10.0"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_89" xlink:to="loc_109" order="20.0"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_89" xlink:to="loc_110" order="30.0"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_89" xlink:to="loc_111" order="40.0"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_89" xlink:to="loc_112" order="50.0"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_89" xlink:to="loc_113" order="60.0"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_89" xlink:to="loc_114" order="70.0"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_89" xlink:to="loc_115" order="80.0"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_89" xlink:to="loc_116" order="90.0"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_2" xlink:to="loc_11" order="90.0"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_11" xlink:to="loc_117" order="10.0"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_11" xlink:to="loc_118" order="20.0"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_11" xlink:to="loc_119" order="30.0"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_11" xlink:to="loc_120" order="40.0"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_11" xlink:to="loc_121" order="50.0"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_11" xlink:to="loc_122" order="60.0"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_11" xlink:to="loc_123" order="70.0"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_11" xlink:to="loc_124" order="80.0"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_11" xlink:to="loc_125" order="90.0"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_2" xlink:to="loc_12" order="100.0"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_12" xlink:to="loc_126" order="10.0"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_12" xlink:to="loc_127" order="20.0"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_12" xlink:to="loc_128" order="30.0"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_12" xlink:to="loc_129" order="40.0"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_12" xlink:to="loc_130" order="50.0"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_12" xlink:to="loc_131" order="60.0"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_12" xlink:to="loc_132" order="70.0"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_12" xlink:to="loc_133" order="80.0"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_12" xlink:to="loc_134" order="90.0"/>
+  </link:definitionLink>
+</link:linkbase>

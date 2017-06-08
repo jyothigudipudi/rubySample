@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+            Taxonomy: 2009-04-01 (Final)
+            ********************** 
+            Copyright © 2009 International Accounting Standards Committee (IASC) Foundation 
+            This material is copyright of the IASC Foundation and all rights are reserved. 
+            No part of this material may be translated, reprinted, reproduced or utilised in 
+            any form or manner that is not expressly permitted by the IASC Foundations XBRL 
+            IP Policy see: http://www.iasb.org/xbrl/ 
+            ********************** 
+            
+
+        -->
+<link:linkbase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.xbrl.org/2003/linkbase http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <link:roleRef roleURI="http://xbrl.iasb.org/role/ifrs/IAS_38_2009-04-01_role-823150" xlink:type="simple" xlink:href="rol_ias_38_2009-04-01.xsd#IAS_38_2009-04-01_role-823150"/>
+  <link:calculationLink xlink:type="extended" xlink:role="http://xbrl.iasb.org/role/ifrs/IAS_38_2009-04-01_role-823150" xlink:title="[823150] Notes - Classes of intangible assets, gross carrying amount/accumulated amortisation">
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_BrandNames" xlink:label="loc"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_BrandNamesGross" xlink:label="loc_2"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_BrandNamesAccumulatedAmortisationAndImpairment" xlink:label="loc_3"/>
+    <link:calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc" xlink:to="loc_2" order="10.0" weight="1"/>
+    <link:calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc" xlink:to="loc_3" order="20.0" weight="-1"/>
+  </link:calculationLink>
+  <link:calculationLink xlink:type="extended" xlink:role="http://xbrl.iasb.org/role/ifrs/IAS_38_2009-04-01_role-823150" xlink:title="[823150] Notes - Classes of intangible assets, gross carrying amount/accumulated amortisation">
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_IntangibleExplorationAndEvaluationAssetsInternallyGenerated" xlink:label="loc"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_IntangibleExplorationAndEvaluationAssetsInternallyGeneratedGross" xlink:label="loc_2"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_IntangibleExplorationAndEvaluationAssetsInternallyGeneratedAccumulatedAmortisationAndImpairment" xlink:label="loc_3"/>
+    <link:calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc" xlink:to="loc_2" order="10.0" weight="1"/>
+    <link:calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc" xlink:to="loc_3" order="20.0" weight="-1"/>
+  </link:calculationLink>
+  <link:calculationLink xlink:type="extended" xlink:role="http://xbrl.iasb.org/role/ifrs/IAS_38_2009-04-01_role-823150" xlink:title="[823150] Notes - Classes of intangible assets, gross carrying amount/accumulated amortisation">
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_IntangibleExplorationAndEvaluationAssetsNotInternallyGenerated" xlink:label="loc"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_IntangibleExplorationAndEvaluationAssetsNotInternallyGeneratedGross" xlink:label="loc_2"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_IntangibleExplorationAndEvaluationAssetsNotInternallyGeneratedAccumulatedAmortisationAndImpairment" xlink:label="loc_3"/>
+    <link:calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc" xlink:to="loc_2" order="10.0" weight="1"/>
+    <link:calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc" xlink:to="loc_3" order="20.0" weight="-1"/>
+  </link:calculationLink>
+  <link:calculationLink xlink:type="extended" xlink:role="http://xbrl.iasb.org/role/ifrs/IAS_38_2009-04-01_role-823150" xlink:title="[823150] Notes - Classes of intangible assets, gross carrying amount/accumulated amortisation">
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_IntangibleExplorationAndEvaluationAssets" xlink:label="loc"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_IntangibleExplorationAndEvaluationAssetsGross" xlink:label="loc_2"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_IntangibleExplorationAndEvaluationAssetsAccumulatedAmortisationAndImpairment" xlink:label="loc_3"/>
+    <link:calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc" xlink:to="loc_2" order="10.0" weight="1"/>
+    <link:calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc" xlink:to="loc_3" order="20.0" weight="-1"/>
+  </link:calculationLink>
+  <link:calculationLink xlink:type="extended" xlink:role="http://xbrl.iasb.org/role/ifrs/IAS_38_2009-04-01_role-823150" xlink:title="[823150] Notes - Classes of intangible assets, gross carrying amount/accumulated amortisation">
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_MastheadsAndPublishingTitles" xlink:label="loc"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_MastheadsAndPublishingTitlesGross" xlink:label="loc_2"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_MastheadsAndPublishingTitlesAccumulatedAmortisationAndImpairment" xlink:label="loc_3"/>
+    <link:calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc" xlink:to="loc_2" order="10.0" weight="1"/>
+    <link:calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc" xlink:to="loc_3" order="20.0" weight="-1"/>
+  </link:calculationLink>
+  <link:calculationLink xlink:type="extended" xlink:role="http://xbrl.iasb.org/role/ifrs/IAS_38_2009-04-01_role-823150" xlink:title="[823150] Notes - Classes of intangible assets, gross carrying amount/accumulated amortisation">
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_ComputerSoftwareInternallyGenerated" xlink:label="loc"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_ComputerSoftwareInternallyGeneratedGross" xlink:label="loc_2"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_ComputerSoftwareInternallyGeneratedAccumulatedAmortisationAndImpairment" xlink:label="loc_3"/>
+    <link:calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc" xlink:to="loc_2" order="10.0" weight="1"/>
+    <link:calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc" xlink:to="loc_3" order="20.0" weight="-1"/>
+  </link:calculationLink>
+  <link:calculationLink xlink:type="extended" xlink:role="http://xbrl.iasb.org/role/ifrs/IAS_38_2009-04-01_role-823150" xlink:title="[823150] Notes - Classes of intangible assets, gross carrying amount/accumulated amortisation">
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_ComputerSoftwareNotInternallyGenerated" xlink:label="loc"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_ComputerSoftwareNotInternallyGeneratedGross" xlink:label="loc_2"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_ComputerSoftwareNotInternallyGeneratedAccumulatedAmortisationAndImpairment" xlink:label="loc_3"/>
+    <link:calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc" xlink:to="loc_2" order="10.0" weight="1"/>
+    <link:calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc" xlink:to="loc_3" order="20.0" weight="-1"/>
+  </link:calculationLink>
+  <link:calculationLink xlink:type="extended" xlink:role="http://xbrl.iasb.org/role/ifrs/IAS_38_2009-04-01_role-823150" xlink:title="[823150] Notes - Classes of intangible assets, gross carrying amount/accumulated amortisation">
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_ComputerSoftware" xlink:label="loc"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_ComputerSoftwareGross" xlink:label="loc_2"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_ComputerSoftwareAccumulatedAmortisationAndImpairment" xlink:label="loc_3"/>
+    <link:calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc" xlink:to="loc_2" order="10.0" weight="1"/>
+    <link:calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc" xlink:to="loc_3" order="20.0" weight="-1"/>
+  </link:calculationLink>
+  <link:calculationLink xlink:type="extended" xlink:role="http://xbrl.iasb.org/role/ifrs/IAS_38_2009-04-01_role-823150" xlink:title="[823150] Notes - Classes of intangible assets, gross carrying amount/accumulated amortisation">
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_LicencesAndFranchisesInternallyGenerated" xlink:label="loc"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_LicencesAndFranchisesInternallyGeneratedGross" xlink:label="loc_2"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_LicencesAndFranchisesInternallyGeneratedAccumulatedAmortisationAndImpairment" xlink:label="loc_3"/>
+    <link:calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc" xlink:to="loc_2" order="10.0" weight="1"/>
+    <link:calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc" xlink:to="loc_3" order="20.0" weight="-1"/>
+  </link:calculationLink>
+  <link:calculationLink xlink:type="extended" xlink:role="http://xbrl.iasb.org/role/ifrs/IAS_38_2009-04-01_role-823150" xlink:title="[823150] Notes - Classes of intangible assets, gross carrying amount/accumulated amortisation">
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_LicencesAndFranchisesNotInternallyGenerated" xlink:label="loc"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_LicencesAndFranchisesNotInternallyGeneratedGross" xlink:label="loc_2"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_LicencesAndFranchisesNotInternallyGeneratedAccumulatedAmortisationAndImpairment" xlink:label="loc_3"/>
+    <link:calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc" xlink:to="loc_2" order="10.0" weight="1"/>
+    <link:calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc" xlink:to="loc_3" order="20.0" weight="-1"/>
+  </link:calculationLink>
+  <link:calculationLink xlink:type="extended" xlink:role="http://xbrl.iasb.org/role/ifrs/IAS_38_2009-04-01_role-823150" xlink:title="[823150] Notes - Classes of intangible assets, gross carrying amount/accumulated amortisation">
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_LicencesAndFranchises" xlink:label="loc"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_LicencesAndFranchisesGross" xlink:label="loc_2"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_LicencesAndFranchisesAccumulatedAmortisationAndImpairment" xlink:label="loc_3"/>
+    <link:calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc" xlink:to="loc_2" order="10.0" weight="1"/>
+    <link:calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc" xlink:to="loc_3" order="20.0" weight="-1"/>
+  </link:calculationLink>
+  <link:calculationLink xlink:type="extended" xlink:role="http://xbrl.iasb.org/role/ifrs/IAS_38_2009-04-01_role-823150" xlink:title="[823150] Notes - Classes of intangible assets, gross carrying amount/accumulated amortisation">
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_CopyrightsPatentsAndOtherIndustrialPropertyRightsServiceAndOperatingRightsInternallyGenerated" xlink:label="loc"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_CopyrightsPatentsAndOtherIndustrialPropertyRightsServiceAndOperatingRightsInternallyGeneratedGross" xlink:label="loc_2"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_CopyrightsPatentsAndOtherIndustrialPropertyRightsServiceAndOperatingRightsInternallyGeneratedAccumulatedAmortisationAndImpairment" xlink:label="loc_3"/>
+    <link:calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc" xlink:to="loc_2" order="10.0" weight="1"/>
+    <link:calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc" xlink:to="loc_3" order="20.0" weight="-1"/>
+  </link:calculationLink>
+  <link:calculationLink xlink:type="extended" xlink:role="http://xbrl.iasb.org/role/ifrs/IAS_38_2009-04-01_role-823150" xlink:title="[823150] Notes - Classes of intangible assets, gross carrying amount/accumulated amortisation">
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_CopyrightsPatentsAndOtherIndustrialPropertyRightsServiceAndOperatingRightsNotInternallyGenerated" xlink:label="loc"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_CopyrightsPatentsAndOtherIndustrialPropertyRightsServiceAndOperatingRightsNotInternallyGeneratedGross" xlink:label="loc_2"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_CopyrightsPatentsAndOtherIndustrialPropertyRightsServiceAndOperatingRightsNotInternallyGeneratedAccumulatedAmortisationAndImpairment" xlink:label="loc_3"/>
+    <link:calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc" xlink:to="loc_2" order="10.0" weight="1"/>
+    <link:calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc" xlink:to="loc_3" order="20.0" weight="-1"/>
+  </link:calculationLink>
+  <link:calculationLink xlink:type="extended" xlink:role="http://xbrl.iasb.org/role/ifrs/IAS_38_2009-04-01_role-823150" xlink:title="[823150] Notes - Classes of intangible assets, gross carrying amount/accumulated amortisation">
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_CopyrightsPatentsAndOtherIndustrialPropertyRightsServiceAndOperatingRights" xlink:label="loc"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_CopyrightsPatentsAndOtherIndustrialPropertyRightsServiceAndOperatingRightsGross" xlink:label="loc_2"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_CopyrightsPatentsAndOtherIndustrialPropertyRightsServiceAndOperatingRightsAccumulatedAmortisationAndImpairment" xlink:label="loc_3"/>
+    <link:calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc" xlink:to="loc_2" order="10.0" weight="1"/>
+    <link:calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc" xlink:to="loc_3" order="20.0" weight="-1"/>
+  </link:calculationLink>
+  <link:calculationLink xlink:type="extended" xlink:role="http://xbrl.iasb.org/role/ifrs/IAS_38_2009-04-01_role-823150" xlink:title="[823150] Notes - Classes of intangible assets, gross carrying amount/accumulated amortisation">
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_RecipesFormulaeModelsDesignsAndPrototypesInternallyGenerated" xlink:label="loc"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_RecipesFormulaeModelsDesignsAndPrototypesInternallyGeneratedGross" xlink:label="loc_2"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_RecipesFormulaeModelsDesignsAndPrototypesInternallyGeneratedAccumulatedAmortisationAndImpairment" xlink:label="loc_3"/>
+    <link:calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc" xlink:to="loc_2" order="10.0" weight="1"/>
+    <link:calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc" xlink:to="loc_3" order="20.0" weight="-1"/>
+  </link:calculationLink>
+  <link:calculationLink xlink:type="extended" xlink:role="http://xbrl.iasb.org/role/ifrs/IAS_38_2009-04-01_role-823150" xlink:title="[823150] Notes - Classes of intangible assets, gross carrying amount/accumulated amortisation">
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_RecipesFormulaeModelsDesignsAndPrototypesNotInternallyGenerated" xlink:label="loc"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_RecipesFormulaeModelsDesignsAndPrototypesNotInternallyGeneratedGross" xlink:label="loc_2"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_RecipesFormulaeModelsDesignsAndPrototypesNotInternallyGeneratedAccumulatedAmortisationAndImpairment" xlink:label="loc_3"/>
+    <link:calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc" xlink:to="loc_2" order="10.0" weight="1"/>
+    <link:calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc" xlink:to="loc_3" order="20.0" weight="-1"/>
+  </link:calculationLink>
+  <link:calculationLink xlink:type="extended" xlink:role="http://xbrl.iasb.org/role/ifrs/IAS_38_2009-04-01_role-823150" xlink:title="[823150] Notes - Classes of intangible assets, gross carrying amount/accumulated amortisation">
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_RecipesFormulaeModelsDesignsAndPrototypes" xlink:label="loc"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_RecipesFormulaeModelsDesignsAndPrototypesGross" xlink:label="loc_2"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_RecipesFormulaeModelsDesignsAndPrototypesAccumulatedAmortisationAndImpairment" xlink:label="loc_3"/>
+    <link:calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc" xlink:to="loc_2" order="10.0" weight="1"/>
+    <link:calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc" xlink:to="loc_3" order="20.0" weight="-1"/>
+  </link:calculationLink>
+  <link:calculationLink xlink:type="extended" xlink:role="http://xbrl.iasb.org/role/ifrs/IAS_38_2009-04-01_role-823150" xlink:title="[823150] Notes - Classes of intangible assets, gross carrying amount/accumulated amortisation">
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_IntangibleAssetsUnderDevelopment" xlink:label="loc"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_IntangibleAssetsUnderDevelopmentGross" xlink:label="loc_2"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_IntangibleAssetsUnderDevelopmentAccumulatedAmortisationAndImpairment" xlink:label="loc_3"/>
+    <link:calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc" xlink:to="loc_2" order="10.0" weight="1"/>
+    <link:calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc" xlink:to="loc_3" order="20.0" weight="-1"/>
+  </link:calculationLink>
+  <link:calculationLink xlink:type="extended" xlink:role="http://xbrl.iasb.org/role/ifrs/IAS_38_2009-04-01_role-823150" xlink:title="[823150] Notes - Classes of intangible assets, gross carrying amount/accumulated amortisation">
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_OtherIntangibleAssetsInternallyGenerated" xlink:label="loc"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_OtherIntangibleAssetsInternallyGeneratedGross" xlink:label="loc_2"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_OtherIntangibleAssetsInternallyGeneratedAccumulatedAmortisationAndImpairment" xlink:label="loc_3"/>
+    <link:calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc" xlink:to="loc_2" order="10.0" weight="1"/>
+    <link:calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc" xlink:to="loc_3" order="20.0" weight="-1"/>
+  </link:calculationLink>
+  <link:calculationLink xlink:type="extended" xlink:role="http://xbrl.iasb.org/role/ifrs/IAS_38_2009-04-01_role-823150" xlink:title="[823150] Notes - Classes of intangible assets, gross carrying amount/accumulated amortisation">
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_OtherIntangibleAssetsNotInternallyGenerated" xlink:label="loc"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_OtherIntangibleAssetsNotInternallyGeneratedGross" xlink:label="loc_2"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_OtherIntangibleAssetsNotInternallyGeneratedAccumulatedAmortisationAndImpairment" xlink:label="loc_3"/>
+    <link:calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc" xlink:to="loc_2" order="10.0" weight="1"/>
+    <link:calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc" xlink:to="loc_3" order="20.0" weight="-1"/>
+  </link:calculationLink>
+  <link:calculationLink xlink:type="extended" xlink:role="http://xbrl.iasb.org/role/ifrs/IAS_38_2009-04-01_role-823150" xlink:title="[823150] Notes - Classes of intangible assets, gross carrying amount/accumulated amortisation">
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_OtherIntangibleAssets" xlink:label="loc"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_OtherIntangibleAssetsGross" xlink:label="loc_2"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_OtherIntangibleAssetsAccumulatedAmortisationAndImpairment" xlink:label="loc_3"/>
+    <link:calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc" xlink:to="loc_2" order="10.0" weight="1"/>
+    <link:calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc" xlink:to="loc_3" order="20.0" weight="-1"/>
+  </link:calculationLink>
+  <link:calculationLink xlink:type="extended" xlink:role="http://xbrl.iasb.org/role/ifrs/IAS_38_2009-04-01_role-823150" xlink:title="[823150] Notes - Classes of intangible assets, gross carrying amount/accumulated amortisation">
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_IntangibleAssetsOtherThanGoodwill" xlink:label="loc"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_IntangibleAssetsOtherThanGoodwillGross" xlink:label="loc_2"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_IntangibleAssetsOtherThanGoodwillAccumulatedAmortisationAndImpairment" xlink:label="loc_3"/>
+    <link:calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc" xlink:to="loc_2" order="10.0" weight="1"/>
+    <link:calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc" xlink:to="loc_3" order="20.0" weight="-1"/>
+  </link:calculationLink>
+</link:linkbase>

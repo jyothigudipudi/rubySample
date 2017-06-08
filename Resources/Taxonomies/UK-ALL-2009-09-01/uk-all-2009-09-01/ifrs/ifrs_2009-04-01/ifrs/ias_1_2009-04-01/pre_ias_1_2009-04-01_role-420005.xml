@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+            Taxonomy: 2009-04-01 (Final)
+            ********************** 
+            Copyright © 2009 International Accounting Standards Committee (IASC) Foundation 
+            This material is copyright of the IASC Foundation and all rights are reserved. 
+            No part of this material may be translated, reprinted, reproduced or utilised in 
+            any form or manner that is not expressly permitted by the IASC Foundations XBRL 
+            IP Policy see: http://www.iasb.org/xbrl/ 
+            ********************** 
+            
+
+        -->
+<link:linkbase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.xbrl.org/2003/linkbase http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd" xmlns:tmp="http://www.iasb.org/xbrl/versioningTempns" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <link:roleRef roleURI="http://xbrl.iasb.org/role/ifrs/IAS_1_2009-04-01_role-420005" xlink:type="simple" xlink:href="rol_ias_1_2009-04-01.xsd#IAS_1_2009-04-01_role-420005"/>
+  <link:roleRef roleURI="http://xbrl.iasb.org/role/label/labelNegated" xlink:type="simple" xlink:href="../../ifrs-roles_2009-04-01.xsd#labelNegated"/>
+  <link:roleRef roleURI="http://xbrl.iasb.org/role/label/totalLabelNegated" xlink:type="simple" xlink:href="../../ifrs-roles_2009-04-01.xsd#totalLabelNegated"/>
+  <link:presentationLink xlink:type="extended" xlink:role="http://xbrl.iasb.org/role/ifrs/IAS_1_2009-04-01_role-420005" xlink:title="[420005] Statement of comprehensive income [alternative] - Separate financial statements">
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_IncomeTaxRelatingToComponentsOfOtherComprehensiveIncomeAbstract" xlink:label="loc"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_StatementOfComprehensiveIncomeAbstract" xlink:label="loc_21"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_ExchangeDifferencesOnTranslationAbstract" xlink:label="loc_8"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_AvailableforsaleFinancialAssetsAbstract" xlink:label="loc_12"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_CashFlowHedgesAbstract" xlink:label="loc_16"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_ComponentsOfOtherComprehensiveIncomeBeforeTaxAbstract" xlink:label="loc_23"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_IncomeTaxRelatingToExchangeDifferencesOnTranslationOfOtherComprehensiveIncome" xlink:label="loc_2"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_IncomeTaxRelatingToAvailableforsaleFinancialAssetsOfOtherComprehensiveIncome" xlink:label="loc_3"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_IncomeTaxRelatingToCashFlowHedgesOfOtherComprehensiveIncome" xlink:label="loc_4"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_IncomeTaxRelatingToChangesInRevaluationSurplusOfOtherComprehensiveIncome" xlink:label="loc_5"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_IncomeTaxRelatingToDefinedBenefitPlansOfOtherComprehensiveIncome" xlink:label="loc_6"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_IncomeTaxRelatingToComponentsOfOtherComprehensiveIncome" xlink:label="loc_7"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_ReclassificationAdjustmentsOnIncomeTaxRelatingToComponentsOfOtherComprehensiveIncome" xlink:label="loc_28"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_ProfitLoss" xlink:label="loc_22"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_ComprehensiveIncome" xlink:label="loc_25"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_GainsLossesOnExchangeDifferencesOnTranslationBeforeTax" xlink:label="loc_9"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_ReclassificationAdjustmentsOnExchangeDifferencesOnTranslationBeforeTax" xlink:label="loc_10"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_OtherComprehensiveIncomeBeforeTaxExchangeDifferencesOnTranslation" xlink:label="loc_11"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_GainsLossesOnRemeasuringAvailableforsaleFinancialAssetsBeforeTax" xlink:label="loc_13"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_ReclassificationAdjustmentsOnAvailableforsaleFinancialAssetsBeforeTax" xlink:label="loc_14"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_OtherComprehensiveIncomeBeforeTaxAvailableforsaleFinancialAssets" xlink:label="loc_15"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_AdjustmentsForAmountsTransferredToInitialCarryingAmountOfHedgedItems" xlink:label="loc_17"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_GainsLossesOnCashFlowHedgesBeforeTax" xlink:label="loc_18"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_ReclassificationAdjustmentsOnCashFlowHedgesBeforeTax" xlink:label="loc_19"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_OtherComprehensiveIncomeBeforeTaxCashFlowHedges" xlink:label="loc_20"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_OtherComprehensiveIncomeBeforeTaxGainsLossesOnRevaluation" xlink:label="loc_26"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_OtherComprehensiveIncomeBeforeTaxActuarialGainsLossesOnDefinedBenefitPlans" xlink:label="loc_27"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_OtherComprehensiveIncome" xlink:label="loc_24"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_OtherComprehensiveIncomeBeforeTax" xlink:label="loc_29"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc" xlink:to="loc_2" order="10.0" preferredLabel="http://xbrl.iasb.org/role/label/labelNegated"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc" xlink:to="loc_3" order="20.0" preferredLabel="http://xbrl.iasb.org/role/label/labelNegated"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc" xlink:to="loc_4" order="30.0" preferredLabel="http://xbrl.iasb.org/role/label/labelNegated"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc" xlink:to="loc_5" order="40.0" preferredLabel="http://xbrl.iasb.org/role/label/labelNegated"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc" xlink:to="loc_6" order="50.0" preferredLabel="http://xbrl.iasb.org/role/label/labelNegated"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc" xlink:to="loc_7" order="70.0" preferredLabel="http://xbrl.iasb.org/role/label/totalLabelNegated"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc" xlink:to="loc_28" order="60.0"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_21" xlink:to="loc_22" order="10.0"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_21" xlink:to="loc_25" order="60.0" preferredLabel="http://www.xbrl.org/2003/role/totalLabel"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_8" xlink:to="loc_9" order="10.0"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_8" xlink:to="loc_10" order="20.0" preferredLabel="http://xbrl.iasb.org/role/label/labelNegated"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_8" xlink:to="loc_11" order="30.0"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_12" xlink:to="loc_13" order="10.0"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_12" xlink:to="loc_14" order="20.0" preferredLabel="http://xbrl.iasb.org/role/label/labelNegated"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_12" xlink:to="loc_15" order="30.0"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_16" xlink:to="loc_17" order="30.0" preferredLabel="http://xbrl.iasb.org/role/label/labelNegated"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_16" xlink:to="loc_18" order="10.0"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_16" xlink:to="loc_19" order="20.0" preferredLabel="http://xbrl.iasb.org/role/label/labelNegated"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_16" xlink:to="loc_20" order="40.0"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_21" xlink:to="loc_23" order="20.0"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_23" xlink:to="loc_8" order="10.0"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_23" xlink:to="loc_12" order="20.0"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_23" xlink:to="loc_16" order="30.0"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_23" xlink:to="loc_26" order="40.0"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_23" xlink:to="loc_27" order="50.0"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_21" xlink:to="loc" order="40.0"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_21" xlink:to="loc_24" order="50.0"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_21" xlink:to="loc_29" order="30.0"/>
+  </link:presentationLink>
+</link:linkbase>

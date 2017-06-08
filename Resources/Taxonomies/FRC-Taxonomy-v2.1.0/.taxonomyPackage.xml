@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<taxonomyPackage xmlns="http://xbrl.org/PWD/2014-01-15/taxonomy-package" xml:lang="en">
+  <name>FRC Taxonomy</name>
+  <version>2.1.0</version>
+  <remappings>
+    <remapping prefix="https://xbrl.frc.org.uk/FRS-101/2014-09-01/" replaceWith="FRS-101/2014-09-01/"/>
+    <remapping prefix="https://xbrl.frc.org.uk/FRS-102/2014-09-01/" replaceWith="FRS-102/2014-09-01/"/>
+    <remapping prefix="https://xbrl.frc.org.uk/IFRS/2014-09-01/" replaceWith="IFRS/2014-09-01/"/>
+    <remapping prefix="https://xbrl.frc.org.uk/fr/2014-09-01/" replaceWith="fr/2014-09-01/"/>
+    <remapping prefix="https://xbrl.frc.org.uk/cd/2014-09-01/" replaceWith="cd/2014-09-01/"/>
+    <remapping prefix="https://xbrl.frc.org.uk/general/2014-09-01/" replaceWith="general/2014-09-01/"/>
+    <remapping prefix="https://xbrl.frc.org.uk/reports/2014-09-01/" replaceWith="reports/2014-09-01/"/>
+  </remappings>
+  <entryPoints>
+    <entryPoint>
+      <name>FRS-101</name>
+      <entryPointDocument href="https://xbrl.frc.org.uk/FRS-101/2014-09-01/FRS-101-2014-09-01.xsd"/>
+    </entryPoint>
+    <entryPoint>
+      <name>FRS-102</name>
+      <entryPointDocument href="https://xbrl.frc.org.uk/FRS-102/2014-09-01/FRS-102-2014-09-01.xsd"/>
+    </entryPoint>
+    <entryPoint>
+      <name>IFRS</name>
+      <entryPointDocument href="https://xbrl.frc.org.uk/IFRS/2014-09-01/IFRS-2014-09-01.xsd"/>
+    </entryPoint>
+    <entryPoint>
+      <name>Core</name>
+      <entryPointDocument href="https://xbrl.frc.org.uk/fr/2014-09-01/core/frc-core-full-2014-09-01.xsd"/>
+    </entryPoint>
+  </entryPoints>
+</taxonomyPackage>

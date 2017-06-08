@@ -1,0 +1,20 @@
+<taxonomyPackage xmlns='http://www.corefiling.com/xbrl/taxonomypackage/v1' xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.corefiling.com/xbrl/taxonomypackage/v1 http://schemas.corefiling.com/taxonomypackage/1.0.0/taxonomypackage.xsd">
+  <name xml:lang='en'>IE GAAP and IE IFRS Taxonomies</name>
+  <description xml:lang='en'>Irish extension to the UK GAAP and UK IFRS (2009-09-01) taxonomies</description>
+  <version>2012-12-01</version>
+  <remappings>
+    <remapping 
+      prefix="http://www.xbrl-ie.net/public/ci/2012-12-01/"
+      replaceWith="ie-all-2012-12-01/" />
+  </remappings>
+  <entryPoints>
+    <entryPoint>
+      <name xml:lang='en'>IE GAAP Entry Point</name>
+      <entryPointDocument href='http://www.xbrl-ie.net/public/ci/2012-12-01/gaap/core/2012-12-01/ie-gaap-full-2012-12-01.xsd' />
+    </entryPoint>
+    <entryPoint>
+      <name xml:lang='en'>IE IFRS Entry Point</name>
+      <entryPointDocument href='http://www.xbrl-ie.net/public/ci/2012-12-01/ifrs/core/2012-12-01/ie-ifrs-full-2012-12-01.xsd' />
+    </entryPoint>
+  </entryPoints>
+</taxonomyPackage>

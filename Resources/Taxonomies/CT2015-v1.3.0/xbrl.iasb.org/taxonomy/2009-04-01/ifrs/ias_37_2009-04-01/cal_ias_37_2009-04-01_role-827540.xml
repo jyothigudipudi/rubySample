@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+            Taxonomy: 2009-04-01 (Final)
+            ********************** 
+            Copyright © 2009 International Accounting Standards Committee (IASC) Foundation 
+            This material is copyright of the IASC Foundation and all rights are reserved. 
+            No part of this material may be translated, reprinted, reproduced or utilised in 
+            any form or manner that is not expressly permitted by the IASC Foundations XBRL 
+            IP Policy see: http://www.iasb.org/xbrl/ 
+            ********************** 
+            
+
+        -->
+<link:linkbase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.xbrl.org/2003/linkbase http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <link:roleRef roleURI="http://xbrl.iasb.org/role/ifrs/IAS_37_2009-04-01_role-827540" xlink:type="simple" xlink:href="rol_ias_37_2009-04-01.xsd#IAS_37_2009-04-01_role-827540"/>
+  <link:calculationLink xlink:type="extended" xlink:role="http://xbrl.iasb.org/role/ifrs/IAS_37_2009-04-01_role-827540" xlink:title="[827540] Notes - Classes of other provisions, short-term/long-term classification">
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_WarrantyProvision" xlink:label="loc"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_LongtermWarrantyProvision" xlink:label="loc_2"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_ShorttermWarrantyProvision" xlink:label="loc_3"/>
+    <link:calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc" xlink:to="loc_2" order="10.0" weight="1"/>
+    <link:calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc" xlink:to="loc_3" order="20.0" weight="1"/>
+  </link:calculationLink>
+  <link:calculationLink xlink:type="extended" xlink:role="http://xbrl.iasb.org/role/ifrs/IAS_37_2009-04-01_role-827540" xlink:title="[827540] Notes - Classes of other provisions, short-term/long-term classification">
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_RestructuringProvision" xlink:label="loc"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_LongtermRestructuringProvision" xlink:label="loc_2"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_ShorttermRestructuringProvision" xlink:label="loc_3"/>
+    <link:calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc" xlink:to="loc_2" order="10.0" weight="1"/>
+    <link:calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc" xlink:to="loc_3" order="20.0" weight="1"/>
+  </link:calculationLink>
+  <link:calculationLink xlink:type="extended" xlink:role="http://xbrl.iasb.org/role/ifrs/IAS_37_2009-04-01_role-827540" xlink:title="[827540] Notes - Classes of other provisions, short-term/long-term classification">
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_LegalProceedingsProvision" xlink:label="loc"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_LongtermLegalProceedingsProvision" xlink:label="loc_2"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_ShorttermLegalProceedingsProvision" xlink:label="loc_3"/>
+    <link:calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc" xlink:to="loc_2" order="10.0" weight="1"/>
+    <link:calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc" xlink:to="loc_3" order="20.0" weight="1"/>
+  </link:calculationLink>
+  <link:calculationLink xlink:type="extended" xlink:role="http://xbrl.iasb.org/role/ifrs/IAS_37_2009-04-01_role-827540" xlink:title="[827540] Notes - Classes of other provisions, short-term/long-term classification">
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_OnerousContractsProvision" xlink:label="loc"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_LongtermOnerousContractsProvision" xlink:label="loc_2"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_ShorttermOnerousContractsProvision" xlink:label="loc_3"/>
+    <link:calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc" xlink:to="loc_2" order="10.0" weight="1"/>
+    <link:calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc" xlink:to="loc_3" order="20.0" weight="1"/>
+  </link:calculationLink>
+  <link:calculationLink xlink:type="extended" xlink:role="http://xbrl.iasb.org/role/ifrs/IAS_37_2009-04-01_role-827540" xlink:title="[827540] Notes - Classes of other provisions, short-term/long-term classification">
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_MiscellaneousOtherProvisions" xlink:label="loc"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_LongtermMiscellaneousOtherProvisions" xlink:label="loc_2"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_ShorttermMiscellaneousOtherProvisions" xlink:label="loc_3"/>
+    <link:calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc" xlink:to="loc_2" order="10.0" weight="1"/>
+    <link:calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc" xlink:to="loc_3" order="20.0" weight="1"/>
+  </link:calculationLink>
+  <link:calculationLink xlink:type="extended" xlink:role="http://xbrl.iasb.org/role/ifrs/IAS_37_2009-04-01_role-827540" xlink:title="[827540] Notes - Classes of other provisions, short-term/long-term classification">
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_ProvisionForDecommissioningRestorationAndRehabilitationCosts" xlink:label="loc"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_LongtermProvisionForDecommissioningRestorationAndRehabilitationCosts" xlink:label="loc_2"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_ShorttermProvisionForDecommissioningRestorationAndRehabilitationCosts" xlink:label="loc_3"/>
+    <link:calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc" xlink:to="loc_2" order="10.0" weight="1"/>
+    <link:calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc" xlink:to="loc_3" order="20.0" weight="1"/>
+  </link:calculationLink>
+  <link:calculationLink xlink:type="extended" xlink:role="http://xbrl.iasb.org/role/ifrs/IAS_37_2009-04-01_role-827540" xlink:title="[827540] Notes - Classes of other provisions, short-term/long-term classification">
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_OtherProvisions" xlink:label="loc"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_OtherLongtermProvisions" xlink:label="loc_2"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_OtherShorttermProvisions" xlink:label="loc_3"/>
+    <link:calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc" xlink:to="loc_2" order="10.0" weight="1"/>
+    <link:calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc" xlink:to="loc_3" order="20.0" weight="1"/>
+  </link:calculationLink>
+</link:linkbase>

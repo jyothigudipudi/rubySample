@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<link:linkbase xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.xbrl.org/2003/linkbase http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd">
+   <link:labelLink xlink:role="http://www.xbrl.org/2003/role/link" xlink:type="extended">
+      <link:label id="id_1e8da03" xlink:label="lbl_label32037379" xlink:role="http://www.xbrl.org/2003/role/verboseLabel" xlink:type="resource" xml:lang="en">Entity officers, including directors, partners and trustees [heading]</link:label>
+      <link:loc xlink:href="https://xbrl.frc.org.uk/cd/2014-09-01/business/bus-2014-09-01.xsd#bus_EntityOfficersIncludingDirectorsPartnersHeading" xlink:label="lbl_EntityOfficersIncludingDirectorsPartnersHeading" xlink:type="locator"/>
+      <link:labelArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="lbl_EntityOfficersIncludingDirectorsPartnersHeading" xlink:to="lbl_label32037379" xlink:type="arc"/>
+      <link:label id="id_5aa073" xlink:label="lbl_label5939315" xlink:role="http://www.xbrl.org/2003/role/verboseLabel" xlink:type="resource" xml:lang="en">Name of entity independent examiner</link:label>
+      <link:loc xlink:href="https://xbrl.frc.org.uk/cd/2014-09-01/business/bus-2014-09-01.xsd#bus_NameEntityExaminers" xlink:label="lbl_NameEntityExaminers" xlink:type="locator"/>
+      <link:labelArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="lbl_NameEntityExaminers" xlink:to="lbl_label5939315" xlink:type="arc"/>
+   </link:labelLink>
+</link:linkbase>

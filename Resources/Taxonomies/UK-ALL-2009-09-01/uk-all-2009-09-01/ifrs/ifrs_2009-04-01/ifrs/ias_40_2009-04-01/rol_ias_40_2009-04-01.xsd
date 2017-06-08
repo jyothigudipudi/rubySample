@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+            Taxonomy: 2009-04-01 (Final)
+            ********************** 
+            Copyright © 2009 International Accounting Standards Committee (IASC) Foundation 
+            This material is copyright of the IASC Foundation and all rights are reserved. 
+            No part of this material may be translated, reprinted, reproduced or utilised in 
+            any form or manner that is not expressly permitted by the IASC Foundations XBRL 
+            IP Policy see: http://www.iasb.org/xbrl/ 
+            ********************** 
+            
+
+        -->
+<xsd:schema targetNamespace="http://xbrl.iasb.org/role/ifrs/rol_ias_40_2009-04-01" attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:rol_ias_40_2009-04-01="http://xbrl.iasb.org/role/ifrs/rol_ias_40_2009-04-01" xmlns:link="http://www.xbrl.org/2003/linkbase">
+  <xsd:annotation>
+    <xsd:appinfo>
+      <link:roleType roleURI="http://xbrl.iasb.org/role/ifrs/IAS_40_2009-04-01_role-825100" id="IAS_40_2009-04-01_role-825100">
+        <link:definition>[825100] Notes - Investment property</link:definition>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+        <link:usedOn>link:presentationLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://xbrl.iasb.org/role/ifrs/IAS_40_2009-04-01_role-825110" id="IAS_40_2009-04-01_role-825110">
+        <link:definition>[825110] Notes - Measurement for investment property</link:definition>
+        <link:usedOn>link:definitionLink</link:usedOn>
+        <link:usedOn>link:presentationLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://xbrl.iasb.org/role/ifrs/IAS_40_2009-04-01_role-825130" id="IAS_40_2009-04-01_role-825130">
+        <link:definition>[825130] Notes - Reconciliation of changes in investment property, cost model</link:definition>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+        <link:usedOn>link:presentationLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://xbrl.iasb.org/role/ifrs/IAS_40_2009-04-01_role-825150" id="IAS_40_2009-04-01_role-825150">
+        <link:definition>[825150] Notes - Additions in investment property, cost model</link:definition>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+        <link:usedOn>link:presentationLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://xbrl.iasb.org/role/ifrs/IAS_40_2009-04-01_role-825180" id="IAS_40_2009-04-01_role-825180">
+        <link:definition>[825180] Notes - Investment property, cost model</link:definition>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+        <link:usedOn>link:presentationLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://xbrl.iasb.org/role/ifrs/IAS_40_2009-04-01_role-825220" id="IAS_40_2009-04-01_role-825220">
+        <link:definition>[825220] Notes - Reconciliation of changes in investment property, fair value model [alternative]</link:definition>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+        <link:usedOn>link:presentationLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://xbrl.iasb.org/role/ifrs/IAS_40_2009-04-01_role-825230" id="IAS_40_2009-04-01_role-825230">
+        <link:definition>[825230] Notes - Reconciliation of changes in investment property, fair value model</link:definition>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+        <link:usedOn>link:presentationLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://xbrl.iasb.org/role/ifrs/IAS_40_2009-04-01_role-825240" id="IAS_40_2009-04-01_role-825240">
+        <link:definition>[825240] Notes - Additions in investment property, fair value model [alternative]</link:definition>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+        <link:usedOn>link:presentationLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://xbrl.iasb.org/role/ifrs/IAS_40_2009-04-01_role-825250" id="IAS_40_2009-04-01_role-825250">
+        <link:definition>[825250] Notes - Additions in investment property, fair value model</link:definition>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+        <link:usedOn>link:presentationLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://xbrl.iasb.org/role/ifrs/IAS_40_2009-04-01_role-825280" id="IAS_40_2009-04-01_role-825280">
+        <link:definition>[825280] Notes - Investment property, fair value model</link:definition>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+        <link:usedOn>link:presentationLink</link:usedOn>
+      </link:roleType>
+    </xsd:appinfo>
+  </xsd:annotation>
+  <xsd:import namespace="http://www.xbrl.org/2003/linkbase" schemaLocation="http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd"/>
+</xsd:schema>

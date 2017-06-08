@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+            Taxonomy: 2009-04-01 (Final)
+            ********************** 
+            Copyright © 2009 International Accounting Standards Committee (IASC) Foundation 
+            This material is copyright of the IASC Foundation and all rights are reserved. 
+            No part of this material may be translated, reprinted, reproduced or utilised in 
+            any form or manner that is not expressly permitted by the IASC Foundations XBRL 
+            IP Policy see: http://www.iasb.org/xbrl/ 
+            ********************** 
+            
+
+        -->
+<xsd:schema targetNamespace="http://xbrl.iasb.org/role/ifrs/rol_ias_38_2009-04-01" attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:rol_ias_38_2009-04-01="http://xbrl.iasb.org/role/ifrs/rol_ias_38_2009-04-01" xmlns:link="http://www.xbrl.org/2003/linkbase">
+  <xsd:annotation>
+    <xsd:appinfo>
+      <link:roleType roleURI="http://xbrl.iasb.org/role/ifrs/IAS_38_2009-04-01_role-823100" id="IAS_38_2009-04-01_role-823100">
+        <link:definition>[823100] Notes - Measurement for intangible assets</link:definition>
+        <link:usedOn>link:definitionLink</link:usedOn>
+        <link:usedOn>link:presentationLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://xbrl.iasb.org/role/ifrs/IAS_38_2009-04-01_role-823120" id="IAS_38_2009-04-01_role-823120">
+        <link:definition>[823120] Notes - Reconciliation of changes in intangible assets other than goodwill [alternative]</link:definition>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+        <link:usedOn>link:presentationLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://xbrl.iasb.org/role/ifrs/IAS_38_2009-04-01_role-823130" id="IAS_38_2009-04-01_role-823130">
+        <link:definition>[823130] Notes - Reconciliation of changes in intangible assets other than goodwill</link:definition>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+        <link:usedOn>link:presentationLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://xbrl.iasb.org/role/ifrs/IAS_38_2009-04-01_role-823140" id="IAS_38_2009-04-01_role-823140">
+        <link:definition>[823140] Notes - Classes of intangible assets, gross carrying amount/accumulated amortisation [alternative]</link:definition>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+        <link:usedOn>link:presentationLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://xbrl.iasb.org/role/ifrs/IAS_38_2009-04-01_role-823150" id="IAS_38_2009-04-01_role-823150">
+        <link:definition>[823150] Notes - Classes of intangible assets, gross carrying amount/accumulated amortisation</link:definition>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+        <link:usedOn>link:presentationLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://xbrl.iasb.org/role/ifrs/IAS_38_2009-04-01_role-823160" id="IAS_38_2009-04-01_role-823160">
+        <link:definition>[823160] Notes - Revalued amounts, intangible assets [alternative]</link:definition>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+        <link:usedOn>link:presentationLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://xbrl.iasb.org/role/ifrs/IAS_38_2009-04-01_role-823170" id="IAS_38_2009-04-01_role-823170">
+        <link:definition>[823170] Notes - Revalued amounts, intangible assets</link:definition>
+        <link:usedOn>link:definitionLink</link:usedOn>
+        <link:usedOn>link:presentationLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://xbrl.iasb.org/role/ifrs/IAS_38_2009-04-01_role-823180" id="IAS_38_2009-04-01_role-823180">
+        <link:definition>[823180] Notes - Intangible assets</link:definition>
+        <link:usedOn>link:definitionLink</link:usedOn>
+        <link:usedOn>link:presentationLink</link:usedOn>
+      </link:roleType>
+    </xsd:appinfo>
+  </xsd:annotation>
+  <xsd:import namespace="http://www.xbrl.org/2003/linkbase" schemaLocation="http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd"/>
+</xsd:schema>

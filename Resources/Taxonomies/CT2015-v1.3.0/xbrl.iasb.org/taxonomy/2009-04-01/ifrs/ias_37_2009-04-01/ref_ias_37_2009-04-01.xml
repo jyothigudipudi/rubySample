@@ -1,0 +1,590 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+            Taxonomy: 2009-04-01 (Final)
+            ********************** 
+            Copyright © 2009 International Accounting Standards Committee (IASC) Foundation 
+            This material is copyright of the IASC Foundation and all rights are reserved. 
+            No part of this material may be translated, reprinted, reproduced or utilised in 
+            any form or manner that is not expressly permitted by the IASC Foundations XBRL 
+            IP Policy see: http://www.iasb.org/xbrl/ 
+            ********************** 
+            
+
+        -->
+<link:linkbase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.xbrl.org/2006/ref http://www.xbrl.org/2006/ref-2006-02-27.xsd http://www.xbrl.org/2003/linkbase http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:ref="http://www.xbrl.org/2006/ref" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <link:roleRef roleURI="http://xbrl.iasb.org/role/reference/recognitionRef" xlink:type="simple" xlink:href="../../ifrs-roles_2009-04-01.xsd#recognitionRef"/>
+  <link:roleRef roleURI="http://xbrl.iasb.org/role/reference/commonPracticeRef" xlink:type="simple" xlink:href="../../ifrs-roles_2009-04-01.xsd#commonPracticeRef"/>
+  <link:referenceLink xlink:type="extended" xlink:role="http://www.xbrl.org/2003/role/link">
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_IncreaseDecreaseThroughNetExchangeDifferencesAbstract" xlink:label="loc_19"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_IncreaseDecreaseThroughTransfersAndOtherChangesAbstract" xlink:label="loc_22"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_ReconciliationAbstract" xlink:label="loc_24"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_OtherProvisions" xlink:label="loc_37"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_OtherLongtermProvisions" xlink:label="loc_38"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_OtherShorttermProvisions" xlink:label="loc_52"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_DisclosureOfShareOfContingentLiabilitiesOfAssociatesExplanatory" xlink:label="loc_17"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_DescriptionOfShareOfContingentLiabilitiesOfAssociatesIncurredJointlyWithOtherInvestors" xlink:label="loc_89"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_DisclosureOfShareOfContingentLiabilitiesOfJointVentureExplanatory" xlink:label="loc_18"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_DescriptionOfShareOfContingentLiabilitiesIncurredJointlyWithOtherVenturers" xlink:label="loc_90"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_DescriptionOfShareOfContingentLiabilitiesOfJointVenturesThemselves" xlink:label="loc_101"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_AcquisitionsThroughBusinessCombinationsProvisionsAbstract" xlink:label="loc"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_AdditionalProvisionsAbstract" xlink:label="loc_2"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_ChangesInLegalProceedingsProvisionAbstract" xlink:label="loc_3"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_ChangesInMiscellaneousOtherProvisionsAbstract" xlink:label="loc_4"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_ChangesInOnerousContractsProvisionAbstract" xlink:label="loc_5"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_ChangesInOtherProvisionsAbstract" xlink:label="loc_6"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_ChangesInProvisionForDecommissioningRestorationAndRehabilitationCostsAbstract" xlink:label="loc_7"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_ChangesInRestructuringProvisionAbstract" xlink:label="loc_8"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_ChangesInWarrantyProvisionAbstract" xlink:label="loc_9"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_ClassesOfOtherProvisionsAbstract" xlink:label="loc_10"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_ClassesOfOtherProvisionsShorttermlongtermClassificationAbstract" xlink:label="loc_11"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_DisclosureOfContingentLiabilityForDecommissioningRestorationAndRehabilitationCostsExplanatory" xlink:label="loc_12"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_DisclosureOfContingentAssetsExplanatory" xlink:label="loc_13"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_DisclosureOfContingentLiabilitiesExplanatory" xlink:label="loc_14"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_DisclosureOfOtherProvisionsExplanatory" xlink:label="loc_15"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_DisclosureOfOtherProvisionsContingentLiabilitiesAndContingentAssetsExplanatory" xlink:label="loc_16"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_IncreaseDecreaseInExistingProvisionsAbstract" xlink:label="loc_20"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_IncreaseDecreaseThroughChangeInDiscountRateAbstract" xlink:label="loc_21"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_IncreaseDecreaseThroughTimeValueOfMoneyAdjustmentAbstract" xlink:label="loc_23"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_DisclosureOfLegalProceedingsContingentLiabilityExplanatory" xlink:label="loc_25"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_LegalProceedingsProvisionAbstract" xlink:label="loc_26"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_MiscellaneousOtherProvisionsAbstract" xlink:label="loc_27"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_NondisclosureOfContingentLiabilitiesAndAssetsExplanatory" xlink:label="loc_28"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_DisclosureOfOnerousContractsContingentLiabilityExplanatory" xlink:label="loc_29"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_OnerousContractsProvisionAbstract" xlink:label="loc_30"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_DisclosureOfOtherContingentLiabilitiesExplanatory" xlink:label="loc_31"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_OtherLongtermProvisionsAbstract" xlink:label="loc_32"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_OtherProvisionsAbstract" xlink:label="loc_33"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_OtherShorttermProvisionsAbstract" xlink:label="loc_34"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_ProvisionForDecommissioningRestorationAndRehabilitationCostsAbstract" xlink:label="loc_35"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_ProvisionUsedAbstract" xlink:label="loc_36"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_ReconciliationOfChangesInOtherProvisionsAbstract" xlink:label="loc_39"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_DisclosureOfRestructuringContingentLiabilityExplanatory" xlink:label="loc_40"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_RestructuringProvisionAbstract" xlink:label="loc_41"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_ShorttermAndLongtermPortionOfProvisionsAbstract" xlink:label="loc_42"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_UnusedProvisionReversedAbstract" xlink:label="loc_43"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_DisclosureOfWarrantyContingentLiabilityExplanatory" xlink:label="loc_44"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_WarrantyProvisionAbstract" xlink:label="loc_45"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_DisclosureOfWarrantyProvisionExplanatory" xlink:label="loc_46"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_DisclosureOfRestructuringProvisionExplanatory" xlink:label="loc_47"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_DisclosureOfLegalProceedingsProvisionExplanatory" xlink:label="loc_48"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_DisclosureOfOnerousContractsProvisionExplanatory" xlink:label="loc_49"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_DisclosureOfProvisionForDecommissioningRestorationAndRehabilitationCostsExplanatory" xlink:label="loc_50"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_DisclosureOfMiscellaneousOtherProvisionsExplanatory" xlink:label="loc_51"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_AcquisitionsThroughBusinessCombinationsLegalProceedingsProvision" xlink:label="loc_53"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_AcquisitionsThroughBusinessCombinationsOnerousContractsProvision" xlink:label="loc_54"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_AcquisitionsThroughBusinessCombinationsOtherProvisions" xlink:label="loc_55"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_AcquisitionsThroughBusinessCombinationsRestructuringProvision" xlink:label="loc_56"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_AcquisitionsThroughBusinessCombinationsWarrantyProvision" xlink:label="loc_57"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_IncreaseDecreaseThroughNetExchangeDifferencesLegalProceedingsProvision" xlink:label="loc_58"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_IncreaseDecreaseThroughNetExchangeDifferencesOnerousContractsProvision" xlink:label="loc_59"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_IncreaseDecreaseThroughNetExchangeDifferencesOtherProvisions" xlink:label="loc_60"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_IncreaseDecreaseThroughNetExchangeDifferencesRestructuringProvision" xlink:label="loc_61"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_IncreaseDecreaseThroughNetExchangeDifferencesWarrantyProvision" xlink:label="loc_62"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_IncreaseDecreaseThroughTransfersAndOtherChangesLegalProceedingsProvision" xlink:label="loc_63"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_IncreaseDecreaseThroughTransfersAndOtherChangesOnerousContractsProvision" xlink:label="loc_64"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_IncreaseDecreaseThroughTransfersAndOtherChangesOtherProvisions" xlink:label="loc_65"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_IncreaseDecreaseThroughTransfersAndOtherChangesRestructuringProvision" xlink:label="loc_66"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_IncreaseDecreaseThroughTransfersAndOtherChangesWarrantyProvision" xlink:label="loc_67"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_AdditionalProvisionsWarrantyProvision" xlink:label="loc_68"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_IncreaseDecreaseInExistingProvisionsOtherProvisions" xlink:label="loc_69"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_AdditionalProvisionsOnerousContractsProvision" xlink:label="loc_70"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_AdditionalProvisionsOtherProvisions" xlink:label="loc_71"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_AdditionalProvisionsRestructuringProvision" xlink:label="loc_72"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_IncreaseDecreaseInExistingProvisionsOnerousContractsProvision" xlink:label="loc_73"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_IncreaseDecreaseInExistingProvisionsWarrantyProvision" xlink:label="loc_74"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_IncreaseDecreaseInExistingProvisionsRestructuringProvision" xlink:label="loc_75"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_AdditionalProvisionsLegalProceedingsProvision" xlink:label="loc_76"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_IncreaseDecreaseInExistingProvisionsLegalProceedingsProvision" xlink:label="loc_77"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_IncreaseDecreaseInExistingProvisionsProvisionForDecommissioningRestorationAndRehabilitationCosts" xlink:label="loc_78"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_IncreaseDecreaseThroughNetExchangeDifferencesProvisionForDecommissioningRestorationAndRehabilitationCosts" xlink:label="loc_79"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_IncreaseDecreaseThroughTransfersAndOtherChangesProvisionForDecommissioningRestorationAndRehabilitationCosts" xlink:label="loc_80"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_AcquisitionsThroughBusinessCombinationsProvisionForDecommissioningRestorationAndRehabilitationCosts" xlink:label="loc_81"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_AdditionalProvisionsProvisionForDecommissioningRestorationAndRehabilitationCosts" xlink:label="loc_82"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_ShorttermProvisionForDecommissioningRestorationAndRehabilitationCosts" xlink:label="loc_83"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_LongtermProvisionForDecommissioningRestorationAndRehabilitationCosts" xlink:label="loc_84"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_ShorttermLegalProceedingsProvision" xlink:label="loc_85"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_LongtermLegalProceedingsProvision" xlink:label="loc_86"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_ShorttermOnerousContractsProvision" xlink:label="loc_87"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_LongtermOnerousContractsProvision" xlink:label="loc_88"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_ShorttermRestructuringProvision" xlink:label="loc_91"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_LongtermRestructuringProvision" xlink:label="loc_92"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_ShorttermWarrantyProvision" xlink:label="loc_93"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_LongtermWarrantyProvision" xlink:label="loc_94"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_OnerousContractsProvision" xlink:label="loc_95"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_WarrantyProvision" xlink:label="loc_96"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_ProvisionForDecommissioningRestorationAndRehabilitationCosts" xlink:label="loc_97"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_LegalProceedingsProvision" xlink:label="loc_98"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_RestructuringProvision" xlink:label="loc_99"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_LongtermMiscellaneousOtherProvisions" xlink:label="loc_100"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_ProvisionUsedLegalProceedingsProvision" xlink:label="loc_102"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_ProvisionUsedOtherProvisions" xlink:label="loc_103"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_ProvisionUsedOnerousContractsProvision" xlink:label="loc_104"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_ProvisionUsedRestructuringProvision" xlink:label="loc_106"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_ProvisionUsedWarrantyProvision" xlink:label="loc_108"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_ProvisionUsedProvisionForDecommissioningRestorationAndRehabilitationCosts" xlink:label="loc_109"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_DescriptionOfNatureOfObligationLegalProceedingsContingentLiability" xlink:label="loc_110"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_DescriptionOfNatureOfObligationContingentLiabilityForDecommissioningRestorationAndRehabilitationCosts" xlink:label="loc_111"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_DescriptionOfNatureOfObligationOtherContingentLiabilities" xlink:label="loc_112"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_DescriptionOfNatureOfObligationRestructuringContingentLiability" xlink:label="loc_113"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_DescriptionOfNatureOfObligationWarrantyContingentLiability" xlink:label="loc_114"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_DescriptionOfNatureOfObligationOnerousContractsContingentLiability" xlink:label="loc_115"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_IncreaseDecreaseThroughTimeValueOfMoneyAdjustmentRestructuringProvision" xlink:label="loc_116"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_IncreaseDecreaseThroughChangeInDiscountRateOnerousContractsProvision" xlink:label="loc_117"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_IncreaseDecreaseThroughTimeValueOfMoneyAdjustmentLegalProceedingsProvision" xlink:label="loc_118"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_IncreaseDecreaseThroughChangeInDiscountRateRestructuringProvision" xlink:label="loc_119"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_IncreaseDecreaseThroughChangeInDiscountRateLegalProceedingsProvision" xlink:label="loc_120"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_IncreaseDecreaseThroughTimeValueOfMoneyAdjustmentOnerousContractsProvision" xlink:label="loc_121"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_IncreaseDecreaseThroughTimeValueOfMoneyAdjustmentOtherProvisions" xlink:label="loc_122"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_IncreaseDecreaseThroughChangeInDiscountRateWarrantyProvision" xlink:label="loc_123"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_IncreaseDecreaseThroughChangeInDiscountRateOtherProvisions" xlink:label="loc_124"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_IncreaseDecreaseThroughTimeValueOfMoneyAdjustmentWarrantyProvision" xlink:label="loc_125"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_IncreaseDecreaseThroughChangeInDiscountRateProvisionForDecommissioningRestorationAndRehabilitationCosts" xlink:label="loc_128"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_IncreaseDecreaseThroughTimeValueOfMoneyAdjustmentProvisionForDecommissioningRestorationAndRehabilitationCosts" xlink:label="loc_129"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_UnusedProvisionReversedWarrantyProvision" xlink:label="loc_130"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_UnusedProvisionReversedLegalProceedingsProvision" xlink:label="loc_131"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_UnusedProvisionReversedRestructuringProvision" xlink:label="loc_132"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_UnusedProvisionReversedOnerousContractsProvision" xlink:label="loc_133"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_UnusedProvisionReversedOtherProvisions" xlink:label="loc_134"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_UnusedProvisionReversedProvisionForDecommissioningRestorationAndRehabilitationCosts" xlink:label="loc_135"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_DescriptionOfExpectedTimingOfOutflowsRestructuringProvision" xlink:label="loc_136"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_DescriptionOfNatureOfObligationLegalProceedingsProvision" xlink:label="loc_137"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_DescriptionOfNatureOfObligationProvisionForDecommissioningRestorationAndRehabilitationCosts" xlink:label="loc_138"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_DescriptionOfNatureOfObligationRestructuringProvision" xlink:label="loc_139"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_DescriptionOfNatureOfObligationWarrantyProvision" xlink:label="loc_140"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_DescriptionOfExpectedTimingOfOutflowsProvisionForDecommissioningRestorationAndRehabilitationCosts" xlink:label="loc_141"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_DescriptionOfExpectedTimingOfOutflowsOnerousContractsProvision" xlink:label="loc_142"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_DescriptionOfExpectedTimingOfOutflowsWarrantyProvision" xlink:label="loc_143"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_DescriptionOfNatureOfObligationOnerousContractsProvision" xlink:label="loc_144"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_DescriptionOfExpectedTimingOfOutflowsLegalProceedingsProvision" xlink:label="loc_145"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_IndicationOfUncertaintiesOfAmountOrTimingOfOutflowsProvisionForDecommissioningRestorationAndRehabilitationCosts" xlink:label="loc_146"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_IndicationOfUncertaintiesOfAmountOrTimingOfOutflowsLegalProceedingsProvision" xlink:label="loc_147"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_IndicationOfUncertaintiesOfAmountOrTimingOfOutflowsOnerousContractsProvision" xlink:label="loc_148"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_IndicationOfUncertaintiesOfAmountOrTimingOfOutflowsRestructuringProvision" xlink:label="loc_149"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_IndicationOfUncertaintiesOfAmountOrTimingOfOutflowsWarrantyProvision" xlink:label="loc_150"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_AssetRecognisedForExpectedReimbursementOnerousContractsProvision" xlink:label="loc_151"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_AssetRecognisedForExpectedReimbursementRestructuringProvision" xlink:label="loc_156"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_AssetRecognisedForExpectedReimbursementWarrantyProvision" xlink:label="loc_157"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_ExpectedReimbursementWarrantyProvision" xlink:label="loc_158"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_AssetRecognisedForExpectedReimbursementLegalProceedingsProvision" xlink:label="loc_159"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_ExpectedReimbursementOnerousContractsProvision" xlink:label="loc_160"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_ExpectedReimbursementLegalProceedingsProvision" xlink:label="loc_161"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_ExpectedReimbursementProvisionForDecommissioningRestorationAndRehabilitationCosts" xlink:label="loc_162"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_AssetRecognisedForExpectedReimbursementProvisionForDecommissioningRestorationAndRehabilitationCosts" xlink:label="loc_163"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_ExpectedReimbursementRestructuringProvision" xlink:label="loc_164"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_IndicationOfUncertaintiesOfAmountOrTimingOfOutflowsWarrantyContingentLiability" xlink:label="loc_165"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_IndicationOfUncertaintiesOfAmountOrTimingOfOutflowsContingentLiabilityForDecommissioningRestorationAndRehabilitationCosts" xlink:label="loc_166"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_IndicationOfUncertaintiesOfAmountOrTimingOfOutflowsOtherContingentLiabilities" xlink:label="loc_167"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_IndicationOfUncertaintiesOfAmountOrTimingOfOutflowsOnerousContractsContingentLiability" xlink:label="loc_168"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_IndicationOfUncertaintiesOfAmountOrTimingOfOutflowsRestructuringContingentLiability" xlink:label="loc_169"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_IndicationOfUncertaintiesOfAmountOrTimingOfOutflowsLegalProceedingsContingentLiability" xlink:label="loc_170"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_ExplanationOfFinancialEffectOfWarrantyContingentLiability" xlink:label="loc_171"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_ExplanationOfFinancialEffectOfOnerousContractsContingentLiability" xlink:label="loc_172"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_ExplanationOfFinancialEffectOfOtherContingentLiabilities" xlink:label="loc_173"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_ExplanationOfFinancialEffectOfContingentLiabilityForDecommissioningRestorationAndRehabilitationCosts" xlink:label="loc_174"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_ExplanationOfFinancialEffectOfRestructuringContingentLiability" xlink:label="loc_175"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_ExplanationOfFinancialEffectOfLegalProceedingsContingentLiability" xlink:label="loc_176"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_ExplanationOfPossibilityOfReimbursementOnerousContractsContingentLiability" xlink:label="loc_177"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_ExplanationOfPossibilityOfReimbursementContingentLiabilityForDecommissioningRestorationAndRehabilitationCosts" xlink:label="loc_178"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_ExplanationOfPossibilityOfReimbursementLegalProceedingsContingentLiability" xlink:label="loc_179"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_ExplanationOfPossibilityOfReimbursementWarrantyContingentLiability" xlink:label="loc_180"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_ExplanationOfPossibilityOfReimbursementOtherContingentLiabilities" xlink:label="loc_181"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_ExplanationOfPossibilityOfReimbursementRestructuringContingentLiability" xlink:label="loc_182"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_ExplanationOfEstimatedFinancialEffectOfContingentAssets" xlink:label="loc_183"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_DescriptionOfNatureOfContingentAssets" xlink:label="loc_184"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_InformationAboutContingentAssetsThatDisclosureIsNotPracticable" xlink:label="loc_185"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_InformationAboutContingentLiabilitiesThatDisclosureIsNotPracticable" xlink:label="loc_186"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_ExplanationOfReasonForNondisclosureOfInformationRegardingProvision" xlink:label="loc_187"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_ExplanationOfReasonForNondisclosureOfInformationRegardingContingentAsset" xlink:label="loc_188"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_ExplanationOfReasonForNondisclosureOfInformationRegardingContingentLiability" xlink:label="loc_189"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_ChangesInProvisionForDecommissioningRestorationAndRehabilitationCosts" xlink:label="loc_190"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_ChangesInLegalProceedingsProvision" xlink:label="loc_191"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_ChangesInOnerousContractsProvision" xlink:label="loc_192"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_ChangesInRestructuringProvision" xlink:label="loc_193"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_ChangesInWarrantyProvision" xlink:label="loc_194"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_ChangesInOtherProvisions" xlink:label="loc_195"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_MiscellaneousOtherProvisions" xlink:label="loc_209"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_ShorttermMiscellaneousOtherProvisions" xlink:label="loc_211"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_AcquisitionsThroughBusinessCombinationsMiscellaneousOtherProvisions" xlink:label="loc_196"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_AdditionalProvisionsMiscellaneousOtherProvisions" xlink:label="loc_197"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_IncreaseDecreaseInExistingProvisionsMiscellaneousOtherProvisions" xlink:label="loc_198"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_IncreaseDecreaseThroughNetExchangeDifferencesMiscellaneousOtherProvisions" xlink:label="loc_199"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_IncreaseDecreaseThroughTransfersAndOtherChangesMiscellaneousOtherProvisions" xlink:label="loc_200"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_ProvisionUsedMiscellaneousOtherProvisions" xlink:label="loc_206"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_IncreaseDecreaseThroughChangeInDiscountRateMiscellaneousOtherProvisions" xlink:label="loc_207"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_IncreaseDecreaseThroughTimeValueOfMoneyAdjustmentMiscellaneousOtherProvisions" xlink:label="loc_208"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_UnusedProvisionReversedMiscellaneousOtherProvisions" xlink:label="loc_212"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_DescriptionOfExpectedTimingOfOutflowsMiscellaneousOtherProvisions" xlink:label="loc_204"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_DescriptionOfNatureOfObligationMiscellaneousOtherProvisions" xlink:label="loc_205"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_IndicationOfUncertaintiesOfAmountOrTimingOfOutflowsMiscellaneousOtherProvisions" xlink:label="loc_210"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_AssetRecognisedForExpectedReimbursementMiscellaneousOtherProvisions" xlink:label="loc_201"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_ExpectedReimbursementMiscellaneousOtherProvisions" xlink:label="loc_202"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_ChangesInMiscellaneousOtherProvisions" xlink:label="loc_203"/>
+    <link:reference xlink:type="resource" xlink:label="res" xlink:role="http://www.xbrl.org/2003/role/reference">
+      <ref:Name>IAS</ref:Name>
+      <ref:Number>37</ref:Number>
+      <ref:IssueDate>2009-01-01</ref:IssueDate>
+      <ref:Section>Disclosure</ref:Section>
+    </link:reference>
+    <link:reference xlink:type="resource" xlink:label="res_2" xlink:role="http://www.xbrl.org/2003/role/definitionRef">
+      <ref:Name>IAS</ref:Name>
+      <ref:Number>37</ref:Number>
+      <ref:IssueDate>2009-01-01</ref:IssueDate>
+      <ref:Paragraph>10</ref:Paragraph>
+    </link:reference>
+    <link:reference xlink:type="resource" xlink:label="res_3" xlink:role="http://www.xbrl.org/2003/role/disclosureRef">
+      <ref:Name>IAS</ref:Name>
+      <ref:Number>37</ref:Number>
+      <ref:IssueDate>2009-01-01</ref:IssueDate>
+      <ref:Paragraph>84</ref:Paragraph>
+      <ref:Subparagraph>a</ref:Subparagraph>
+    </link:reference>
+    <link:reference xlink:type="resource" xlink:label="res_4" xlink:role="http://www.xbrl.org/2003/role/measurementRef">
+      <ref:Name>IAS</ref:Name>
+      <ref:Number>37</ref:Number>
+      <ref:IssueDate>2009-01-01</ref:IssueDate>
+      <ref:Paragraph>36</ref:Paragraph>
+    </link:reference>
+    <link:reference xlink:type="resource" xlink:label="res_5" xlink:role="http://xbrl.iasb.org/role/reference/recognitionRef">
+      <ref:Name>IAS</ref:Name>
+      <ref:Number>37</ref:Number>
+      <ref:IssueDate>2009-01-01</ref:IssueDate>
+      <ref:Paragraph>14</ref:Paragraph>
+    </link:reference>
+    <link:reference xlink:type="resource" xlink:label="res_12" xlink:role="http://www.xbrl.org/2003/role/disclosureRef">
+      <ref:Name>IAS</ref:Name>
+      <ref:Number>37</ref:Number>
+      <ref:IssueDate>2009-01-01</ref:IssueDate>
+      <ref:Paragraph>86</ref:Paragraph>
+    </link:reference>
+    <link:reference xlink:type="resource" xlink:label="res_6" xlink:role="http://www.xbrl.org/2003/role/disclosureRef">
+      <ref:Name>IAS</ref:Name>
+      <ref:Number>37</ref:Number>
+      <ref:IssueDate>2009-01-01</ref:IssueDate>
+      <ref:Paragraph>84</ref:Paragraph>
+      <ref:Subparagraph>b</ref:Subparagraph>
+    </link:reference>
+    <link:reference xlink:type="resource" xlink:label="res_7" xlink:role="http://xbrl.iasb.org/role/reference/recognitionRef">
+      <ref:Name>IAS</ref:Name>
+      <ref:Number>37</ref:Number>
+      <ref:IssueDate>2009-01-01</ref:IssueDate>
+      <ref:Paragraph>66</ref:Paragraph>
+    </link:reference>
+    <link:reference xlink:type="resource" xlink:label="res_8" xlink:role="http://www.xbrl.org/2003/role/measurementRef">
+      <ref:Name>IAS</ref:Name>
+      <ref:Number>37</ref:Number>
+      <ref:IssueDate>2009-01-01</ref:IssueDate>
+      <ref:Paragraph>80</ref:Paragraph>
+    </link:reference>
+    <link:reference xlink:type="resource" xlink:label="res_9" xlink:role="http://xbrl.iasb.org/role/reference/recognitionRef">
+      <ref:Name>IAS</ref:Name>
+      <ref:Number>37</ref:Number>
+      <ref:IssueDate>2009-01-01</ref:IssueDate>
+      <ref:Paragraph>72</ref:Paragraph>
+    </link:reference>
+    <link:reference xlink:type="resource" xlink:label="res_10" xlink:role="http://www.xbrl.org/2003/role/disclosureRef">
+      <ref:Name>IAS</ref:Name>
+      <ref:Number>37</ref:Number>
+      <ref:IssueDate>2009-01-01</ref:IssueDate>
+      <ref:Paragraph>84</ref:Paragraph>
+      <ref:Subparagraph>c</ref:Subparagraph>
+    </link:reference>
+    <link:reference xlink:type="resource" xlink:label="res_11" xlink:role="http://www.xbrl.org/2003/role/presentationRef">
+      <ref:Name>IAS</ref:Name>
+      <ref:Number>37</ref:Number>
+      <ref:IssueDate>2009-01-01</ref:IssueDate>
+      <ref:Paragraph>61</ref:Paragraph>
+    </link:reference>
+    <link:reference xlink:type="resource" xlink:label="res_13" xlink:role="http://www.xbrl.org/2003/role/disclosureRef">
+      <ref:Name>IAS</ref:Name>
+      <ref:Number>37</ref:Number>
+      <ref:IssueDate>2009-01-01</ref:IssueDate>
+      <ref:Paragraph>84</ref:Paragraph>
+      <ref:Subparagraph>e</ref:Subparagraph>
+    </link:reference>
+    <link:reference xlink:type="resource" xlink:label="res_14" xlink:role="http://www.xbrl.org/2003/role/disclosureRef">
+      <ref:Name>IAS</ref:Name>
+      <ref:Number>37</ref:Number>
+      <ref:IssueDate>2009-01-01</ref:IssueDate>
+      <ref:Paragraph>84</ref:Paragraph>
+      <ref:Subparagraph>d</ref:Subparagraph>
+    </link:reference>
+    <link:reference xlink:type="resource" xlink:label="res_15" xlink:role="http://www.xbrl.org/2003/role/disclosureRef">
+      <ref:Name>IAS</ref:Name>
+      <ref:Number>37</ref:Number>
+      <ref:IssueDate>2009-01-01</ref:IssueDate>
+      <ref:Paragraph>85</ref:Paragraph>
+      <ref:Subparagraph>a</ref:Subparagraph>
+    </link:reference>
+    <link:reference xlink:type="resource" xlink:label="res_16" xlink:role="http://www.xbrl.org/2003/role/disclosureRef">
+      <ref:Name>IAS</ref:Name>
+      <ref:Number>37</ref:Number>
+      <ref:IssueDate>2009-01-01</ref:IssueDate>
+      <ref:Paragraph>85</ref:Paragraph>
+      <ref:Subparagraph>b</ref:Subparagraph>
+    </link:reference>
+    <link:reference xlink:type="resource" xlink:label="res_17" xlink:role="http://www.xbrl.org/2003/role/disclosureRef">
+      <ref:Name>IAS</ref:Name>
+      <ref:Number>37</ref:Number>
+      <ref:IssueDate>2009-01-01</ref:IssueDate>
+      <ref:Paragraph>85</ref:Paragraph>
+      <ref:Subparagraph>c</ref:Subparagraph>
+    </link:reference>
+    <link:reference xlink:type="resource" xlink:label="res_18" xlink:role="http://www.xbrl.org/2003/role/disclosureRef">
+      <ref:Name>IAS</ref:Name>
+      <ref:Number>37</ref:Number>
+      <ref:IssueDate>2009-01-01</ref:IssueDate>
+      <ref:Paragraph>86</ref:Paragraph>
+      <ref:Subparagraph>b</ref:Subparagraph>
+    </link:reference>
+    <link:reference xlink:type="resource" xlink:label="res_19" xlink:role="http://www.xbrl.org/2003/role/disclosureRef">
+      <ref:Name>IAS</ref:Name>
+      <ref:Number>37</ref:Number>
+      <ref:IssueDate>2009-01-01</ref:IssueDate>
+      <ref:Paragraph>86</ref:Paragraph>
+      <ref:Subparagraph>a</ref:Subparagraph>
+    </link:reference>
+    <link:reference xlink:type="resource" xlink:label="res_20" xlink:role="http://www.xbrl.org/2003/role/disclosureRef">
+      <ref:Name>IAS</ref:Name>
+      <ref:Number>37</ref:Number>
+      <ref:IssueDate>2009-01-01</ref:IssueDate>
+      <ref:Paragraph>86</ref:Paragraph>
+      <ref:Subparagraph>c</ref:Subparagraph>
+    </link:reference>
+    <link:reference xlink:type="resource" xlink:label="res_21" xlink:role="http://www.xbrl.org/2003/role/disclosureRef">
+      <ref:Name>IAS</ref:Name>
+      <ref:Number>37</ref:Number>
+      <ref:IssueDate>2009-01-01</ref:IssueDate>
+      <ref:Paragraph>89</ref:Paragraph>
+    </link:reference>
+    <link:reference xlink:type="resource" xlink:label="res_22" xlink:role="http://www.xbrl.org/2003/role/disclosureRef">
+      <ref:Name>IAS</ref:Name>
+      <ref:Number>37</ref:Number>
+      <ref:IssueDate>2009-01-01</ref:IssueDate>
+      <ref:Paragraph>91</ref:Paragraph>
+    </link:reference>
+    <link:reference xlink:type="resource" xlink:label="res_23" xlink:role="http://www.xbrl.org/2003/role/disclosureRef">
+      <ref:Name>IAS</ref:Name>
+      <ref:Number>37</ref:Number>
+      <ref:IssueDate>2009-01-01</ref:IssueDate>
+      <ref:Paragraph>92</ref:Paragraph>
+    </link:reference>
+    <link:reference xlink:type="resource" xlink:label="res_24" xlink:role="http://www.xbrl.org/2003/role/measurementRef">
+      <ref:Name>IAS</ref:Name>
+      <ref:Number>37</ref:Number>
+      <ref:IssueDate>2009-01-01</ref:IssueDate>
+      <ref:Paragraph>59</ref:Paragraph>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="loc_19" xlink:to="res"/>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="loc_22" xlink:to="res"/>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="loc_24" xlink:to="res"/>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="loc_37" xlink:to="res_2"/>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="loc_37" xlink:to="res_3"/>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="loc_37" xlink:to="res_4"/>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="loc_37" xlink:to="res_5"/>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="loc_38" xlink:to="res_3"/>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="loc_52" xlink:to="res_3"/>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="loc_17" xlink:to="res"/>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="loc_89" xlink:to="res_12"/>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="loc_18" xlink:to="res"/>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="loc_90" xlink:to="res_12"/>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="loc_101" xlink:to="res_12"/>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="loc" xlink:to="res"/>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="loc_2" xlink:to="res"/>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="loc_3" xlink:to="res"/>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="loc_4" xlink:to="res"/>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="loc_5" xlink:to="res"/>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="loc_6" xlink:to="res"/>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="loc_7" xlink:to="res"/>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="loc_8" xlink:to="res"/>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="loc_9" xlink:to="res"/>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="loc_10" xlink:to="res"/>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="loc_11" xlink:to="res"/>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="loc_12" xlink:to="res"/>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="loc_13" xlink:to="res"/>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="loc_14" xlink:to="res"/>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="loc_15" xlink:to="res"/>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="loc_16" xlink:to="res"/>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="loc_20" xlink:to="res"/>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="loc_21" xlink:to="res"/>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="loc_23" xlink:to="res"/>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="loc_25" xlink:to="res"/>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="loc_26" xlink:to="res"/>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="loc_27" xlink:to="res"/>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="loc_28" xlink:to="res"/>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="loc_29" xlink:to="res"/>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="loc_30" xlink:to="res"/>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="loc_31" xlink:to="res"/>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="loc_32" xlink:to="res"/>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="loc_33" xlink:to="res"/>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="loc_34" xlink:to="res"/>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="loc_35" xlink:to="res"/>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="loc_36" xlink:to="res"/>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="loc_39" xlink:to="res"/>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="loc_40" xlink:to="res"/>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="loc_41" xlink:to="res"/>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="loc_42" xlink:to="res"/>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="loc_43" xlink:to="res"/>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="loc_44" xlink:to="res"/>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="loc_45" xlink:to="res"/>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="loc_46" xlink:to="res"/>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="loc_47" xlink:to="res"/>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="loc_48" xlink:to="res"/>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="loc_49" xlink:to="res"/>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="loc_50" xlink:to="res"/>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="loc_51" xlink:to="res"/>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="loc_53" xlink:to="res_6"/>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="loc_54" xlink:to="res_6"/>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="loc_55" xlink:to="res_6"/>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="loc_56" xlink:to="res_6"/>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="loc_57" xlink:to="res_6"/>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="loc_58" xlink:to="res_6"/>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="loc_59" xlink:to="res_6"/>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="loc_60" xlink:to="res_6"/>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="loc_61" xlink:to="res_6"/>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="loc_62" xlink:to="res_6"/>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="loc_63" xlink:to="res_6"/>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="loc_64" xlink:to="res_6"/>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="loc_65" xlink:to="res_6"/>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="loc_66" xlink:to="res_6"/>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="loc_67" xlink:to="res_6"/>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="loc_68" xlink:to="res_6"/>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="loc_69" xlink:to="res_6"/>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="loc_70" xlink:to="res_6"/>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="loc_71" xlink:to="res_6"/>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="loc_72" xlink:to="res_6"/>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="loc_73" xlink:to="res_6"/>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="loc_74" xlink:to="res_6"/>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="loc_75" xlink:to="res_6"/>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="loc_76" xlink:to="res_6"/>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="loc_77" xlink:to="res_6"/>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="loc_78" xlink:to="res_6"/>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="loc_79" xlink:to="res_6"/>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="loc_80" xlink:to="res_6"/>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="loc_81" xlink:to="res_6"/>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="loc_82" xlink:to="res_6"/>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="loc_83" xlink:to="res_3"/>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="loc_84" xlink:to="res_3"/>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="loc_85" xlink:to="res_3"/>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="loc_86" xlink:to="res_3"/>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="loc_87" xlink:to="res_3"/>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="loc_88" xlink:to="res_3"/>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="loc_91" xlink:to="res_3"/>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="loc_92" xlink:to="res_3"/>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="loc_93" xlink:to="res_3"/>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="loc_94" xlink:to="res_3"/>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="loc_95" xlink:to="res_3"/>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="loc_95" xlink:to="res_7"/>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="loc_96" xlink:to="res_3"/>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="loc_97" xlink:to="res_3"/>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="loc_98" xlink:to="res_3"/>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="loc_99" xlink:to="res_3"/>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="loc_99" xlink:to="res_8"/>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="loc_99" xlink:to="res_9"/>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="loc_100" xlink:to="res_3"/>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="loc_102" xlink:to="res_10"/>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="loc_103" xlink:to="res_10"/>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="loc_103" xlink:to="res_11"/>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="loc_104" xlink:to="res_10"/>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="loc_106" xlink:to="res_10"/>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="loc_108" xlink:to="res_10"/>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="loc_109" xlink:to="res_10"/>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="loc_110" xlink:to="res_12"/>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="loc_111" xlink:to="res_12"/>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="loc_112" xlink:to="res_12"/>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="loc_113" xlink:to="res_12"/>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="loc_114" xlink:to="res_12"/>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="loc_115" xlink:to="res_12"/>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="loc_116" xlink:to="res_13"/>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="loc_117" xlink:to="res_13"/>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="loc_118" xlink:to="res_13"/>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="loc_119" xlink:to="res_13"/>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="loc_120" xlink:to="res_13"/>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="loc_121" xlink:to="res_13"/>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="loc_122" xlink:to="res_13"/>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="loc_123" xlink:to="res_13"/>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="loc_124" xlink:to="res_13"/>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="loc_125" xlink:to="res_13"/>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="loc_128" xlink:to="res_13"/>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="loc_129" xlink:to="res_13"/>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="loc_130" xlink:to="res_14"/>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="loc_131" xlink:to="res_14"/>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="loc_132" xlink:to="res_14"/>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="loc_133" xlink:to="res_14"/>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="loc_134" xlink:to="res_14"/>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="loc_135" xlink:to="res_14"/>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="loc_136" xlink:to="res_15"/>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="loc_137" xlink:to="res_15"/>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="loc_138" xlink:to="res_15"/>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="loc_139" xlink:to="res_15"/>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="loc_140" xlink:to="res_15"/>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="loc_141" xlink:to="res_15"/>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="loc_142" xlink:to="res_15"/>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="loc_143" xlink:to="res_15"/>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="loc_144" xlink:to="res_15"/>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="loc_145" xlink:to="res_15"/>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="loc_146" xlink:to="res_16"/>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="loc_147" xlink:to="res_16"/>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="loc_148" xlink:to="res_16"/>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="loc_149" xlink:to="res_16"/>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="loc_150" xlink:to="res_16"/>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="loc_151" xlink:to="res_17"/>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="loc_156" xlink:to="res_17"/>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="loc_157" xlink:to="res_17"/>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="loc_158" xlink:to="res_17"/>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="loc_159" xlink:to="res_17"/>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="loc_160" xlink:to="res_17"/>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="loc_161" xlink:to="res_17"/>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="loc_162" xlink:to="res_17"/>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="loc_163" xlink:to="res_17"/>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="loc_164" xlink:to="res_17"/>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="loc_165" xlink:to="res_18"/>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="loc_166" xlink:to="res_18"/>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="loc_167" xlink:to="res_18"/>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="loc_168" xlink:to="res_18"/>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="loc_169" xlink:to="res_18"/>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="loc_170" xlink:to="res_18"/>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="loc_171" xlink:to="res_19"/>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="loc_172" xlink:to="res_19"/>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="loc_173" xlink:to="res_19"/>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="loc_174" xlink:to="res_19"/>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="loc_175" xlink:to="res_19"/>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="loc_176" xlink:to="res_19"/>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="loc_177" xlink:to="res_20"/>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="loc_178" xlink:to="res_20"/>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="loc_179" xlink:to="res_20"/>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="loc_180" xlink:to="res_20"/>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="loc_181" xlink:to="res_20"/>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="loc_182" xlink:to="res_20"/>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="loc_183" xlink:to="res_21"/>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="loc_184" xlink:to="res_21"/>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="loc_185" xlink:to="res_22"/>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="loc_186" xlink:to="res_22"/>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="loc_187" xlink:to="res_23"/>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="loc_188" xlink:to="res_23"/>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="loc_189" xlink:to="res_23"/>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="loc_190" xlink:to="res_24"/>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="loc_191" xlink:to="res_24"/>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="loc_192" xlink:to="res_24"/>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="loc_193" xlink:to="res_24"/>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="loc_194" xlink:to="res_24"/>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="loc_195" xlink:to="res_24"/>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="loc_209" xlink:to="res_3"/>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="loc_211" xlink:to="res_3"/>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="loc_196" xlink:to="res_6"/>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="loc_197" xlink:to="res_6"/>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="loc_198" xlink:to="res_6"/>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="loc_199" xlink:to="res_6"/>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="loc_200" xlink:to="res_6"/>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="loc_206" xlink:to="res_10"/>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="loc_207" xlink:to="res_13"/>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="loc_208" xlink:to="res_13"/>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="loc_212" xlink:to="res_14"/>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="loc_204" xlink:to="res_15"/>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="loc_205" xlink:to="res_15"/>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="loc_210" xlink:to="res_16"/>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="loc_201" xlink:to="res_17"/>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="loc_202" xlink:to="res_17"/>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="loc_203" xlink:to="res_24"/>
+  </link:referenceLink>
+</link:linkbase>

@@ -1,0 +1,947 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<linkbase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.xbrl.org/2003/linkbase" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="http://www.xbrl.org/2003/linkbase http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd">
+  <roleRef roleURI="http://www.govtalk.gov.uk/uk/fr/tax/dpl-core/2013-10-01/role/FullDetailedProfitandLoss" xlink:type="simple" xlink:href="dpl-2013-10-01.xsd#fullDetailedProfitandLoss_18a782d"/>
+  <presentationLink xlink:type="extended" xlink:role="http://www.govtalk.gov.uk/uk/fr/tax/dpl-core/2013-10-01/role/FullDetailedProfitandLoss">
+    <loc xlink:type="locator" xlink:href="dpl-2013-10-01.xsd#dpl_DetailedProfitLossHeading" xlink:label="dpl_DetailedProfitLossHeading"/>
+    <loc xlink:type="locator" xlink:href="dpl-2013-10-01.xsd#dpl_TradingIncomeHeading" xlink:label="dpl_TradingIncomeHeading"/>
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="dpl_DetailedProfitLossHeading" xlink:to="dpl_TradingIncomeHeading" use="optional" order="1.0"/>
+    <loc xlink:type="locator" xlink:href="dpl-2013-10-01.xsd#dpl_StocksInventoriesHeading" xlink:label="dpl_StocksInventoriesHeading"/>
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="dpl_TradingIncomeHeading" xlink:to="dpl_StocksInventoriesHeading" use="optional" order="6.0"/>
+    <loc xlink:type="locator" xlink:href="dpl-2013-10-01.xsd#dpl_StocksInventoriesStartEndPeriodHeading" xlink:label="dpl_StocksInventoriesStartEndPeriodHeading"/>
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="dpl_StocksInventoriesHeading" xlink:to="dpl_StocksInventoriesStartEndPeriodHeading" use="optional" order="1.0"/>
+    <loc xlink:type="locator" xlink:href="dpl-2013-10-01.xsd#dpl_IncreaseDecreaseInStocksInventories" xlink:label="dpl_IncreaseDecreaseInStocksInventories"/>
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="dpl_StocksInventoriesHeading" xlink:to="dpl_IncreaseDecreaseInStocksInventories" use="optional" order="2.0"/>
+    <loc xlink:type="locator" xlink:href="dpl-2013-10-01.xsd#dpl_PurchaseRawMaterialsConsumables" xlink:label="dpl_PurchaseRawMaterialsConsumables"/>
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="dpl_StocksInventoriesHeading" xlink:to="dpl_PurchaseRawMaterialsConsumables" use="optional" order="3.0"/>
+    <loc xlink:type="locator" xlink:href="dpl-2013-10-01.xsd#dpl_OtherOperatingIncomeNetItemsHeading" xlink:label="dpl_OtherOperatingIncomeNetItemsHeading"/>
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="dpl_DetailedProfitLossHeading" xlink:to="dpl_OtherOperatingIncomeNetItemsHeading" use="optional" order="2.0"/>
+    <loc xlink:type="locator" xlink:href="dpl-2013-10-01.xsd#dpl_ForeignExchangeGainLossIncludedInOtherOperatingIncome" xlink:label="dpl_ForeignExchangeGainLossIncludedInOtherOperatingIncome"/>
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="dpl_OtherOperatingIncomeNetItemsHeading" xlink:to="dpl_ForeignExchangeGainLossIncludedInOtherOperatingIncome" use="optional" order="1.0"/>
+    <loc xlink:type="locator" xlink:href="dpl-2013-10-01.xsd#dpl_OtherOperatingIncomeExcludingForeignExchangeGainOrLoss" xlink:label="dpl_OtherOperatingIncomeExcludingForeignExchangeGainOrLoss"/>
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="dpl_OtherOperatingIncomeNetItemsHeading" xlink:to="dpl_OtherOperatingIncomeExcludingForeignExchangeGainOrLoss" use="optional" order="2.0"/>
+    <loc xlink:type="locator" xlink:href="dpl-2013-10-01.xsd#dpl_Non-operatingIncomeNetItemsHeading" xlink:label="dpl_Non-operatingIncomeNetItemsHeading"/>
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="dpl_DetailedProfitLossHeading" xlink:to="dpl_Non-operatingIncomeNetItemsHeading" use="optional" order="3.0"/>
+    <loc xlink:type="locator" xlink:href="dpl-2013-10-01.xsd#dpl_IncomeFromShares" xlink:label="dpl_IncomeFromShares"/>
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="dpl_Non-operatingIncomeNetItemsHeading" xlink:to="dpl_IncomeFromShares" use="optional" order="1.0"/>
+    <loc xlink:type="locator" xlink:href="dpl-2013-10-01.xsd#dpl_ForeignExchangeGainLossIncludedInNon-operatingIncome" xlink:label="dpl_ForeignExchangeGainLossIncludedInNon-operatingIncome"/>
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="dpl_Non-operatingIncomeNetItemsHeading" xlink:to="dpl_ForeignExchangeGainLossIncludedInNon-operatingIncome" use="optional" order="2.0"/>
+    <loc xlink:type="locator" xlink:href="dpl-2013-10-01.xsd#dpl_FairValueGainsLossesOnDistributionNon-cashAssets" xlink:label="dpl_FairValueGainsLossesOnDistributionNon-cashAssets"/>
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="dpl_Non-operatingIncomeNetItemsHeading" xlink:to="dpl_FairValueGainsLossesOnDistributionNon-cashAssets" use="optional" order="3.0"/>
+    <loc xlink:type="locator" xlink:href="dpl-2013-10-01.xsd#dpl_ResidualNon-operatingGainLoss" xlink:label="dpl_ResidualNon-operatingGainLoss"/>
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="dpl_Non-operatingIncomeNetItemsHeading" xlink:to="dpl_ResidualNon-operatingGainLoss" use="optional" order="4.0"/>
+    <loc xlink:type="locator" xlink:href="dpl-2013-10-01.xsd#dpl_OtherItemsHeading" xlink:label="dpl_OtherItemsHeading"/>
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="dpl_DetailedProfitLossHeading" xlink:to="dpl_OtherItemsHeading" use="optional" order="4.0"/>
+    <loc xlink:type="locator" xlink:href="dpl-2013-10-01.xsd#dpl_GovernmentGrantIncome" xlink:label="dpl_GovernmentGrantIncome"/>
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="dpl_OtherItemsHeading" xlink:to="dpl_GovernmentGrantIncome" use="optional" order="1.0"/>
+    <loc xlink:type="locator" xlink:href="dpl-2013-10-01.xsd#dpl_Hyper-inflationGainsLosses" xlink:label="dpl_Hyper-inflationGainsLosses"/>
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="dpl_OtherItemsHeading" xlink:to="dpl_Hyper-inflationGainsLosses" use="optional" order="2.0"/>
+    <loc xlink:type="locator" xlink:href="dpl-2013-10-01.xsd#dpl_DepreciationExpenseTransferredToBalanceSheet" xlink:label="dpl_DepreciationExpenseTransferredToBalanceSheet"/>
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="dpl_OtherItemsHeading" xlink:to="dpl_DepreciationExpenseTransferredToBalanceSheet" use="optional" order="3.0"/>
+    <loc xlink:type="locator" xlink:href="dpl-2013-10-01.xsd#dpl_OtherExpensesTransferredToBalanceSheet" xlink:label="dpl_OtherExpensesTransferredToBalanceSheet"/>
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="dpl_OtherItemsHeading" xlink:to="dpl_OtherExpensesTransferredToBalanceSheet" use="optional" order="4.0"/>
+    <loc xlink:type="locator" xlink:href="dpl-2013-10-01.xsd#dpl_FinanceIncomeNetItemsHeading" xlink:label="dpl_FinanceIncomeNetItemsHeading"/>
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="dpl_DetailedProfitLossHeading" xlink:to="dpl_FinanceIncomeNetItemsHeading" use="optional" order="5.0"/>
+    <loc xlink:type="locator" xlink:href="dpl-2013-10-01.xsd#dpl_BankInterestSimilarIncomeReceivable" xlink:label="dpl_BankInterestSimilarIncomeReceivable"/>
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="dpl_FinanceIncomeNetItemsHeading" xlink:to="dpl_BankInterestSimilarIncomeReceivable" use="optional" order="1.0"/>
+    <loc xlink:type="locator" xlink:href="dpl-2013-10-01.xsd#dpl_Non-bankInterestSimilarIncomeReceivable" xlink:label="dpl_Non-bankInterestSimilarIncomeReceivable"/>
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="dpl_FinanceIncomeNetItemsHeading" xlink:to="dpl_Non-bankInterestSimilarIncomeReceivable" use="optional" order="2.0"/>
+    <loc xlink:type="locator" xlink:href="dpl-2013-10-01.xsd#dpl_FinancialInstrumentFairValueGain" xlink:label="dpl_FinancialInstrumentFairValueGain"/>
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="dpl_FinanceIncomeNetItemsHeading" xlink:to="dpl_FinancialInstrumentFairValueGain" use="optional" order="3.0"/>
+    <loc xlink:type="locator" xlink:href="dpl-2013-10-01.xsd#dpl_ForeignExchangeGainLossIncludedInFinancialIncome" xlink:label="dpl_ForeignExchangeGainLossIncludedInFinancialIncome"/>
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="dpl_FinanceIncomeNetItemsHeading" xlink:to="dpl_ForeignExchangeGainLossIncludedInFinancialIncome" use="optional" order="4.0"/>
+    <loc xlink:type="locator" xlink:href="dpl-2013-10-01.xsd#dpl_ResidualFinanceIncome" xlink:label="dpl_ResidualFinanceIncome"/>
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="dpl_FinanceIncomeNetItemsHeading" xlink:to="dpl_ResidualFinanceIncome" use="optional" order="5.0"/>
+    <loc xlink:type="locator" xlink:href="dpl-2013-10-01.xsd#dpl_TotalCosts" xlink:label="dpl_TotalCosts"/>
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="dpl_DetailedProfitLossHeading" xlink:to="dpl_TotalCosts" use="optional" order="6.0"/>
+    <loc xlink:type="locator" xlink:href="dpl-2013-10-01.xsd#dpl_AuditAccountancyCosts" xlink:label="dpl_AuditAccountancyCosts"/>
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="dpl_TotalCosts" xlink:to="dpl_AuditAccountancyCosts" use="optional" order="1.0"/>
+    <loc xlink:type="locator" xlink:href="dpl-2013-10-01.xsd#dpl_AuditAccountancyAuditCosts" xlink:label="dpl_AuditAccountancyAuditCosts"/>
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="dpl_AuditAccountancyCosts" xlink:to="dpl_AuditAccountancyAuditCosts" use="optional" order="1.0"/>
+    <loc xlink:type="locator" xlink:href="dpl-2013-10-01.xsd#dpl_AuditAccountancyTaxServices" xlink:label="dpl_AuditAccountancyTaxServices"/>
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="dpl_AuditAccountancyCosts" xlink:to="dpl_AuditAccountancyTaxServices" use="optional" order="2.0"/>
+    <loc xlink:type="locator" xlink:href="dpl-2013-10-01.xsd#dpl_AuditAccountancyOtherServices" xlink:label="dpl_AuditAccountancyOtherServices"/>
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="dpl_AuditAccountancyCosts" xlink:to="dpl_AuditAccountancyOtherServices" use="optional" order="3.0"/>
+    <loc xlink:type="locator" xlink:href="dpl-2013-10-01.xsd#dpl_MarketingClientRelatedCostsHeading" xlink:label="dpl_MarketingClientRelatedCostsHeading"/>
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="dpl_TotalCosts" xlink:to="dpl_MarketingClientRelatedCostsHeading" use="optional" order="2.0"/>
+    <loc xlink:type="locator" xlink:href="dpl-2013-10-01.xsd#dpl_AdvertisingPromotionsMarketingCosts" xlink:label="dpl_AdvertisingPromotionsMarketingCosts"/>
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="dpl_MarketingClientRelatedCostsHeading" xlink:to="dpl_AdvertisingPromotionsMarketingCosts" use="optional" order="0.0"/>
+    <loc xlink:type="locator" xlink:href="dpl-2013-10-01.xsd#dpl_ClientEntertainingCosts" xlink:label="dpl_ClientEntertainingCosts"/>
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="dpl_MarketingClientRelatedCostsHeading" xlink:to="dpl_ClientEntertainingCosts" use="optional" order="1.0"/>
+    <loc xlink:type="locator" xlink:href="dpl-2013-10-01.xsd#dpl_OtherEntertainingCosts" xlink:label="dpl_OtherEntertainingCosts"/>
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="dpl_MarketingClientRelatedCostsHeading" xlink:to="dpl_OtherEntertainingCosts" use="optional" order="2.0"/>
+    <loc xlink:type="locator" xlink:href="dpl-2013-10-01.xsd#dpl_PropertyPlantRelatedCostsHeading" xlink:label="dpl_PropertyPlantRelatedCostsHeading"/>
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="dpl_TotalCosts" xlink:to="dpl_PropertyPlantRelatedCostsHeading" use="optional" order="3.0"/>
+    <loc xlink:type="locator" xlink:href="dpl-2013-10-01.xsd#dpl_RentRatesServicesCosts" xlink:label="dpl_RentRatesServicesCosts"/>
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="dpl_PropertyPlantRelatedCostsHeading" xlink:to="dpl_RentRatesServicesCosts" use="optional" order="1.0"/>
+    <loc xlink:type="locator" xlink:href="dpl-2013-10-01.xsd#dpl_UtilitiesCosts" xlink:label="dpl_UtilitiesCosts"/>
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="dpl_PropertyPlantRelatedCostsHeading" xlink:to="dpl_UtilitiesCosts" use="optional" order="2.0"/>
+    <loc xlink:type="locator" xlink:href="dpl-2013-10-01.xsd#dpl_PropertyRepairsMaintenanceCosts" xlink:label="dpl_PropertyRepairsMaintenanceCosts"/>
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="dpl_PropertyPlantRelatedCostsHeading" xlink:to="dpl_PropertyRepairsMaintenanceCosts" use="optional" order="3.0"/>
+    <loc xlink:type="locator" xlink:href="dpl-2013-10-01.xsd#dpl_OtherRepairsMaintenanceCosts" xlink:label="dpl_OtherRepairsMaintenanceCosts"/>
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="dpl_PropertyPlantRelatedCostsHeading" xlink:to="dpl_OtherRepairsMaintenanceCosts" use="optional" order="4.0"/>
+    <loc xlink:type="locator" xlink:href="dpl-2013-10-01.xsd#dpl_CleaningCosts" xlink:label="dpl_CleaningCosts"/>
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="dpl_PropertyPlantRelatedCostsHeading" xlink:to="dpl_CleaningCosts" use="optional" order="5.0"/>
+    <loc xlink:type="locator" xlink:href="dpl-2013-10-01.xsd#dpl_DepreciationAmortisationImpairmentCostsHeading" xlink:label="dpl_DepreciationAmortisationImpairmentCostsHeading"/>
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="dpl_TotalCosts" xlink:to="dpl_DepreciationAmortisationImpairmentCostsHeading" use="optional" order="4.0"/>
+    <loc xlink:type="locator" xlink:href="dpl-2013-10-01.xsd#dpl_TransportStorageRelatedCostsHeading" xlink:label="dpl_TransportStorageRelatedCostsHeading"/>
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="dpl_TotalCosts" xlink:to="dpl_TransportStorageRelatedCostsHeading" use="optional" order="5.0"/>
+    <loc xlink:type="locator" xlink:href="dpl-2013-10-01.xsd#dpl_VehicleCosts" xlink:label="dpl_VehicleCosts"/>
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="dpl_TransportStorageRelatedCostsHeading" xlink:to="dpl_VehicleCosts" use="optional" order="1.0"/>
+    <loc xlink:type="locator" xlink:href="dpl-2013-10-01.xsd#dpl_FreightHaulageCosts" xlink:label="dpl_FreightHaulageCosts"/>
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="dpl_TransportStorageRelatedCostsHeading" xlink:to="dpl_FreightHaulageCosts" use="optional" order="2.0"/>
+    <loc xlink:type="locator" xlink:href="dpl-2013-10-01.xsd#dpl_WarehouseStorageCosts" xlink:label="dpl_WarehouseStorageCosts"/>
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="dpl_TransportStorageRelatedCostsHeading" xlink:to="dpl_WarehouseStorageCosts" use="optional" order="3.0"/>
+    <loc xlink:type="locator" xlink:href="dpl-2013-10-01.xsd#dpl_StaffEmploymentRelatedCostsHeading" xlink:label="dpl_StaffEmploymentRelatedCostsHeading"/>
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="dpl_TotalCosts" xlink:to="dpl_StaffEmploymentRelatedCostsHeading" use="optional" order="6.0"/>
+    <loc xlink:type="locator" xlink:href="dpl-2013-10-01.xsd#dpl_Bonuses" xlink:label="dpl_Bonuses"/>
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="dpl_StaffEmploymentRelatedCostsHeading" xlink:to="dpl_Bonuses" use="optional" order="1.0"/>
+    <loc xlink:type="locator" xlink:href="dpl-2013-10-01.xsd#dpl_RemunerationTrustExpenses" xlink:label="dpl_RemunerationTrustExpenses"/>
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="dpl_StaffEmploymentRelatedCostsHeading" xlink:to="dpl_RemunerationTrustExpenses" use="optional" order="2.0"/>
+    <loc xlink:type="locator" xlink:href="dpl-2013-10-01.xsd#dpl_OtherStaffCosts" xlink:label="dpl_OtherStaffCosts"/>
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="dpl_StaffEmploymentRelatedCostsHeading" xlink:to="dpl_OtherStaffCosts" use="optional" order="3.0"/>
+    <loc xlink:type="locator" xlink:href="dpl-2013-10-01.xsd#dpl_StaffCostsExcludingDirectors" xlink:label="dpl_StaffCostsExcludingDirectors"/>
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="dpl_StaffEmploymentRelatedCostsHeading" xlink:to="dpl_StaffCostsExcludingDirectors" use="optional" order="4.0"/>
+    <loc xlink:type="locator" xlink:href="dpl-2013-10-01.xsd#dpl_WagesSalariesExcludingDirectors" xlink:label="dpl_WagesSalariesExcludingDirectors"/>
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="dpl_StaffCostsExcludingDirectors" xlink:to="dpl_WagesSalariesExcludingDirectors" use="optional" order="1.0"/>
+    <loc xlink:type="locator" xlink:href="dpl-2013-10-01.xsd#dpl_BonusesExcludingDirectors" xlink:label="dpl_BonusesExcludingDirectors"/>
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="dpl_StaffCostsExcludingDirectors" xlink:to="dpl_BonusesExcludingDirectors" use="optional" order="2.0"/>
+    <loc xlink:type="locator" xlink:href="dpl-2013-10-01.xsd#dpl_SocialSecurityCostsExcludingDirectors" xlink:label="dpl_SocialSecurityCostsExcludingDirectors"/>
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="dpl_StaffCostsExcludingDirectors" xlink:to="dpl_SocialSecurityCostsExcludingDirectors" use="optional" order="3.0"/>
+    <loc xlink:type="locator" xlink:href="dpl-2013-10-01.xsd#dpl_PensionsCostsDefinedBenefitSchemesExcludingDirectors" xlink:label="dpl_PensionsCostsDefinedBenefitSchemesExcludingDirectors"/>
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="dpl_StaffCostsExcludingDirectors" xlink:to="dpl_PensionsCostsDefinedBenefitSchemesExcludingDirectors" use="optional" order="4.0"/>
+    <loc xlink:type="locator" xlink:href="dpl-2013-10-01.xsd#dpl_PensionsCostsDefinedContributionSchemesExcludingDirectors" xlink:label="dpl_PensionsCostsDefinedContributionSchemesExcludingDirectors"/>
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="dpl_StaffCostsExcludingDirectors" xlink:to="dpl_PensionsCostsDefinedContributionSchemesExcludingDirectors" use="optional" order="5.0"/>
+    <loc xlink:type="locator" xlink:href="dpl-2013-10-01.xsd#dpl_Share-basedPaymentsExcludingDirectors" xlink:label="dpl_Share-basedPaymentsExcludingDirectors"/>
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="dpl_StaffCostsExcludingDirectors" xlink:to="dpl_Share-basedPaymentsExcludingDirectors" use="optional" order="6.0"/>
+    <loc xlink:type="locator" xlink:href="dpl-2013-10-01.xsd#dpl_RemunerationTrustExpensesExcludingDirectors" xlink:label="dpl_RemunerationTrustExpensesExcludingDirectors"/>
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="dpl_StaffCostsExcludingDirectors" xlink:to="dpl_RemunerationTrustExpensesExcludingDirectors" use="optional" order="7.0"/>
+    <loc xlink:type="locator" xlink:href="dpl-2013-10-01.xsd#dpl_OtherStaffCostsExcludingDirectors" xlink:label="dpl_OtherStaffCostsExcludingDirectors"/>
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="dpl_StaffCostsExcludingDirectors" xlink:to="dpl_OtherStaffCostsExcludingDirectors" use="optional" order="8.0"/>
+    <loc xlink:type="locator" xlink:href="dpl-2013-10-01.xsd#dpl_StaffCostsDirectors" xlink:label="dpl_StaffCostsDirectors"/>
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="dpl_StaffEmploymentRelatedCostsHeading" xlink:to="dpl_StaffCostsDirectors" use="optional" order="5.0"/>
+    <loc xlink:type="locator" xlink:href="dpl-2013-10-01.xsd#dpl_SocialSecurityCostsDirectors" xlink:label="dpl_SocialSecurityCostsDirectors"/>
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="dpl_StaffCostsDirectors" xlink:to="dpl_SocialSecurityCostsDirectors" use="optional" order="1.0"/>
+    <loc xlink:type="locator" xlink:href="dpl-2013-10-01.xsd#dpl_Share-basedPaymentsDirectors" xlink:label="dpl_Share-basedPaymentsDirectors"/>
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="dpl_StaffCostsDirectors" xlink:to="dpl_Share-basedPaymentsDirectors" use="optional" order="2.0"/>
+    <loc xlink:type="locator" xlink:href="dpl-2013-10-01.xsd#dpl_RemunerationTrustExpensesDirectors" xlink:label="dpl_RemunerationTrustExpensesDirectors"/>
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="dpl_StaffCostsDirectors" xlink:to="dpl_RemunerationTrustExpensesDirectors" use="optional" order="3.0"/>
+    <loc xlink:type="locator" xlink:href="dpl-2013-10-01.xsd#dpl_OtherStaffCostsDirectors" xlink:label="dpl_OtherStaffCostsDirectors"/>
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="dpl_StaffCostsDirectors" xlink:to="dpl_OtherStaffCostsDirectors" use="optional" order="4.0"/>
+    <loc xlink:type="locator" xlink:href="dpl-2013-10-01.xsd#dpl_ConsultancyCosts" xlink:label="dpl_ConsultancyCosts"/>
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="dpl_StaffEmploymentRelatedCostsHeading" xlink:to="dpl_ConsultancyCosts" use="optional" order="6.0"/>
+    <loc xlink:type="locator" xlink:href="dpl-2013-10-01.xsd#dpl_SubcontractorCosts" xlink:label="dpl_SubcontractorCosts"/>
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="dpl_StaffEmploymentRelatedCostsHeading" xlink:to="dpl_SubcontractorCosts" use="optional" order="7.0"/>
+    <loc xlink:type="locator" xlink:href="dpl-2013-10-01.xsd#dpl_TravelSubsistenceCosts" xlink:label="dpl_TravelSubsistenceCosts"/>
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="dpl_StaffEmploymentRelatedCostsHeading" xlink:to="dpl_TravelSubsistenceCosts" use="optional" order="8.0"/>
+    <loc xlink:type="locator" xlink:href="dpl-2013-10-01.xsd#dpl_TrainingCosts" xlink:label="dpl_TrainingCosts"/>
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="dpl_StaffEmploymentRelatedCostsHeading" xlink:to="dpl_TrainingCosts" use="optional" order="9.0"/>
+    <loc xlink:type="locator" xlink:href="dpl-2013-10-01.xsd#dpl_StaffEntertainingCosts" xlink:label="dpl_StaffEntertainingCosts"/>
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="dpl_StaffEmploymentRelatedCostsHeading" xlink:to="dpl_StaffEntertainingCosts" use="optional" order="10.0"/>
+    <loc xlink:type="locator" xlink:href="dpl-2013-10-01.xsd#dpl_RecruitmentRemunerationServiceCosts" xlink:label="dpl_RecruitmentRemunerationServiceCosts"/>
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="dpl_StaffEmploymentRelatedCostsHeading" xlink:to="dpl_RecruitmentRemunerationServiceCosts" use="optional" order="11.0"/>
+    <loc xlink:type="locator" xlink:href="dpl-2013-10-01.xsd#dpl_OtherEmploymentCosts" xlink:label="dpl_OtherEmploymentCosts"/>
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="dpl_StaffEmploymentRelatedCostsHeading" xlink:to="dpl_OtherEmploymentCosts" use="optional" order="12.0"/>
+    <loc xlink:type="locator" xlink:href="dpl-2013-10-01.xsd#dpl_Finance-relatedCostsNetItemsHeading" xlink:label="dpl_Finance-relatedCostsNetItemsHeading"/>
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="dpl_TotalCosts" xlink:to="dpl_Finance-relatedCostsNetItemsHeading" use="optional" order="7.0"/>
+    <loc xlink:type="locator" xlink:href="dpl-2013-10-01.xsd#dpl_Non-bankInterestSimilarCharges" xlink:label="dpl_Non-bankInterestSimilarCharges"/>
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="dpl_Finance-relatedCostsNetItemsHeading" xlink:to="dpl_Non-bankInterestSimilarCharges" use="optional" order="1.0"/>
+    <loc xlink:type="locator" xlink:href="dpl-2013-10-01.xsd#dpl_BadDebtsImpairmentLosses" xlink:label="dpl_BadDebtsImpairmentLosses"/>
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="dpl_Finance-relatedCostsNetItemsHeading" xlink:to="dpl_BadDebtsImpairmentLosses" use="optional" order="2.0"/>
+    <loc xlink:type="locator" xlink:href="dpl-2013-10-01.xsd#dpl_LoansWrittenOffOrDown" xlink:label="dpl_LoansWrittenOffOrDown"/>
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="dpl_Finance-relatedCostsNetItemsHeading" xlink:to="dpl_LoansWrittenOffOrDown" use="optional" order="3.0"/>
+    <loc xlink:type="locator" xlink:href="dpl-2013-10-01.xsd#dpl_FinancialInstrumentFairValueLoss" xlink:label="dpl_FinancialInstrumentFairValueLoss"/>
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="dpl_Finance-relatedCostsNetItemsHeading" xlink:to="dpl_FinancialInstrumentFairValueLoss" use="optional" order="4.0"/>
+    <loc xlink:type="locator" xlink:href="dpl-2013-10-01.xsd#dpl_BankCharges" xlink:label="dpl_BankCharges"/>
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="dpl_Finance-relatedCostsNetItemsHeading" xlink:to="dpl_BankCharges" use="optional" order="5.0"/>
+    <loc xlink:type="locator" xlink:href="dpl-2013-10-01.xsd#dpl_ResidualFinanceCosts" xlink:label="dpl_ResidualFinanceCosts"/>
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="dpl_Finance-relatedCostsNetItemsHeading" xlink:to="dpl_ResidualFinanceCosts" use="optional" order="6.0"/>
+    <loc xlink:type="locator" xlink:href="dpl-2013-10-01.xsd#dpl_ForForeignExchangeCostClassifiedUnderFinanceSeeNetItemUnderFinanceIncomeCross-reference" xlink:label="dpl_ForForeignExchangeCostClassifiedUnderFinanceSeeNetItemUnderFinanceIncomeCross-reference"/>
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="dpl_Finance-relatedCostsNetItemsHeading" xlink:to="dpl_ForForeignExchangeCostClassifiedUnderFinanceSeeNetItemUnderFinanceIncomeCross-reference" use="optional" order="7.0"/>
+    <loc xlink:type="locator" xlink:href="dpl-2013-10-01.xsd#dpl_ForForeignExchangeCostClassifiedAsOperatingSeeNetItemUnderOtherOperatingIncomeCross-reference" xlink:label="dpl_ForForeignExchangeCostClassifiedAsOperatingSeeNetItemUnderOtherOperatingIncomeCross-reference"/>
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="dpl_Finance-relatedCostsNetItemsHeading" xlink:to="dpl_ForForeignExchangeCostClassifiedAsOperatingSeeNetItemUnderOtherOperatingIncomeCross-reference" use="optional" order="8.0"/>
+    <loc xlink:type="locator" xlink:href="dpl-2013-10-01.xsd#dpl_ForForeignExchangeCostClassifiedAsNon-operatingSeeNetItemUnderNon-operatingIncomeCross-reference" xlink:label="dpl_ForForeignExchangeCostClassifiedAsNon-operatingSeeNetItemUnderNon-operatingIncomeCross-reference"/>
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="dpl_Finance-relatedCostsNetItemsHeading" xlink:to="dpl_ForForeignExchangeCostClassifiedAsNon-operatingSeeNetItemUnderNon-operatingIncomeCross-reference" use="optional" order="9.0"/>
+    <loc xlink:type="locator" xlink:href="dpl-2013-10-01.xsd#dpl_ForOtherForeignExchangeCostSeeNetItemUnderOperationalAdministrationCostsCross-reference" xlink:label="dpl_ForOtherForeignExchangeCostSeeNetItemUnderOperationalAdministrationCostsCross-reference"/>
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="dpl_Finance-relatedCostsNetItemsHeading" xlink:to="dpl_ForOtherForeignExchangeCostSeeNetItemUnderOperationalAdministrationCostsCross-reference" use="optional" order="10.0"/>
+    <loc xlink:type="locator" xlink:href="dpl-2013-10-01.xsd#dpl_GeneralServicesExpensesHeading" xlink:label="dpl_GeneralServicesExpensesHeading"/>
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="dpl_TotalCosts" xlink:to="dpl_GeneralServicesExpensesHeading" use="optional" order="8.0"/>
+    <loc xlink:type="locator" xlink:href="dpl-2013-10-01.xsd#dpl_LegalProfessionalCosts" xlink:label="dpl_LegalProfessionalCosts"/>
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="dpl_GeneralServicesExpensesHeading" xlink:to="dpl_LegalProfessionalCosts" use="optional" order="1.0"/>
+    <loc xlink:type="locator" xlink:href="dpl-2013-10-01.xsd#dpl_ExternalCommissionCosts" xlink:label="dpl_ExternalCommissionCosts"/>
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="dpl_GeneralServicesExpensesHeading" xlink:to="dpl_ExternalCommissionCosts" use="optional" order="2.0"/>
+    <loc xlink:type="locator" xlink:href="dpl-2013-10-01.xsd#dpl_RoyaltiesOrSimilarPaymentsForIntellectualProperty" xlink:label="dpl_RoyaltiesOrSimilarPaymentsForIntellectualProperty"/>
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="dpl_GeneralServicesExpensesHeading" xlink:to="dpl_RoyaltiesOrSimilarPaymentsForIntellectualProperty" use="optional" order="3.0"/>
+    <loc xlink:type="locator" xlink:href="dpl-2013-10-01.xsd#dpl_Inter-companyManagementFees" xlink:label="dpl_Inter-companyManagementFees"/>
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="dpl_GeneralServicesExpensesHeading" xlink:to="dpl_Inter-companyManagementFees" use="optional" order="4.0"/>
+    <loc xlink:type="locator" xlink:href="dpl-2013-10-01.xsd#dpl_Inter-companyRecharges" xlink:label="dpl_Inter-companyRecharges"/>
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="dpl_GeneralServicesExpensesHeading" xlink:to="dpl_Inter-companyRecharges" use="optional" order="5.0"/>
+    <loc xlink:type="locator" xlink:href="dpl-2013-10-01.xsd#dpl_OperationalAdministrationCostsHeading" xlink:label="dpl_OperationalAdministrationCostsHeading"/>
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="dpl_TotalCosts" xlink:to="dpl_OperationalAdministrationCostsHeading" use="optional" order="9.0"/>
+    <loc xlink:type="locator" xlink:href="dpl-2013-10-01.xsd#dpl_InsuranceCosts" xlink:label="dpl_InsuranceCosts"/>
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="dpl_OperationalAdministrationCostsHeading" xlink:to="dpl_InsuranceCosts" use="optional" order="1.0"/>
+    <loc xlink:type="locator" xlink:href="dpl-2013-10-01.xsd#dpl_ITComputingCosts" xlink:label="dpl_ITComputingCosts"/>
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="dpl_OperationalAdministrationCostsHeading" xlink:to="dpl_ITComputingCosts" use="optional" order="2.0"/>
+    <loc xlink:type="locator" xlink:href="dpl-2013-10-01.xsd#dpl_TelecommunicationsCosts" xlink:label="dpl_TelecommunicationsCosts"/>
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="dpl_OperationalAdministrationCostsHeading" xlink:to="dpl_TelecommunicationsCosts" use="optional" order="3.0"/>
+    <loc xlink:type="locator" xlink:href="dpl-2013-10-01.xsd#dpl_OutsourcedServicesCosts" xlink:label="dpl_OutsourcedServicesCosts"/>
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="dpl_OperationalAdministrationCostsHeading" xlink:to="dpl_OutsourcedServicesCosts" use="optional" order="4.0"/>
+    <loc xlink:type="locator" xlink:href="dpl-2013-10-01.xsd#dpl_PrintingPostageStationeryCosts" xlink:label="dpl_PrintingPostageStationeryCosts"/>
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="dpl_OperationalAdministrationCostsHeading" xlink:to="dpl_PrintingPostageStationeryCosts" use="optional" order="5.0"/>
+    <loc xlink:type="locator" xlink:href="dpl-2013-10-01.xsd#dpl_HealthSafetyCosts" xlink:label="dpl_HealthSafetyCosts"/>
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="dpl_OperationalAdministrationCostsHeading" xlink:to="dpl_HealthSafetyCosts" use="optional" order="6.0"/>
+    <loc xlink:type="locator" xlink:href="dpl-2013-10-01.xsd#dpl_SecurityCosts" xlink:label="dpl_SecurityCosts"/>
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="dpl_OperationalAdministrationCostsHeading" xlink:to="dpl_SecurityCosts" use="optional" order="7.0"/>
+    <loc xlink:type="locator" xlink:href="dpl-2013-10-01.xsd#dpl_EnvironmentalCosts" xlink:label="dpl_EnvironmentalCosts"/>
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="dpl_OperationalAdministrationCostsHeading" xlink:to="dpl_EnvironmentalCosts" use="optional" order="8.0"/>
+    <loc xlink:type="locator" xlink:href="dpl-2013-10-01.xsd#dpl_SubscriptionsCosts" xlink:label="dpl_SubscriptionsCosts"/>
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="dpl_OperationalAdministrationCostsHeading" xlink:to="dpl_SubscriptionsCosts" use="optional" order="9.0"/>
+    <loc xlink:type="locator" xlink:href="dpl-2013-10-01.xsd#dpl_FinesPenalties" xlink:label="dpl_FinesPenalties"/>
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="dpl_OperationalAdministrationCostsHeading" xlink:to="dpl_FinesPenalties" use="optional" order="10.0"/>
+    <loc xlink:type="locator" xlink:href="dpl-2013-10-01.xsd#dpl_IrrecoverableVAT" xlink:label="dpl_IrrecoverableVAT"/>
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="dpl_OperationalAdministrationCostsHeading" xlink:to="dpl_IrrecoverableVAT" use="optional" order="11.0"/>
+    <loc xlink:type="locator" xlink:href="dpl-2013-10-01.xsd#dpl_OtherForeignExchangeLossGain" xlink:label="dpl_OtherForeignExchangeLossGain"/>
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="dpl_OperationalAdministrationCostsHeading" xlink:to="dpl_OtherForeignExchangeLossGain" use="optional" order="12.0"/>
+    <loc xlink:type="locator" xlink:href="dpl-2013-10-01.xsd#dpl_OtherOperationalAdministrationCosts" xlink:label="dpl_OtherOperationalAdministrationCosts"/>
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="dpl_OperationalAdministrationCostsHeading" xlink:to="dpl_OtherOperationalAdministrationCosts" use="optional" order="13.0"/>
+    <loc xlink:type="locator" xlink:href="dpl-2013-10-01.xsd#dpl_OtherCosts" xlink:label="dpl_OtherCosts"/>
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="dpl_TotalCosts" xlink:to="dpl_OtherCosts" use="optional" order="10.0"/>
+    <loc xlink:type="locator" xlink:href="dpl-2013-10-01.xsd#dpl_ProfitTaxTotalsHeadingCopy" xlink:label="dpl_ProfitTaxTotalsHeadingCopy"/>
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="dpl_DetailedProfitLossHeading" xlink:to="dpl_ProfitTaxTotalsHeadingCopy" use="optional" order="7.0"/>
+    <loc xlink:type="locator" xlink:href="dpl-2013-10-01.xsd#dpl_DescriptionSpecificActivity-ForUseWithGenericActivityDimensionTagsHeading" xlink:label="dpl_DescriptionSpecificActivity-ForUseWithGenericActivityDimensionTagsHeading"/>
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="dpl_DetailedProfitLossHeading" xlink:to="dpl_DescriptionSpecificActivity-ForUseWithGenericActivityDimensionTagsHeading" use="optional" order="8.0"/>
+    <loc xlink:type="locator" xlink:href="dpl-2013-10-01.xsd#dpl_DescriptionActivity" xlink:label="dpl_DescriptionActivity"/>
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="dpl_DescriptionSpecificActivity-ForUseWithGenericActivityDimensionTagsHeading" xlink:to="dpl_DescriptionActivity" use="optional" order="1.0"/>
+    <loc xlink:type="locator" xlink:href="dpl-2013-10-01.xsd#dpl_DimensionTagsUsedWithDetailedProfitLossItemsHeading" xlink:label="dpl_DimensionTagsUsedWithDetailedProfitLossItemsHeading"/>
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="dpl_DetailedProfitLossHeading" xlink:to="dpl_DimensionTagsUsedWithDetailedProfitLossItemsHeading" use="optional" order="9.0"/>
+    <loc xlink:type="locator" xlink:href="dpl-2013-10-01.xsd#dpl_ActivityDimension" xlink:label="dpl_ActivityDimension"/>
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="dpl_DimensionTagsUsedWithDetailedProfitLossItemsHeading" xlink:to="dpl_ActivityDimension" use="optional" order="1.0"/>
+    <loc xlink:type="locator" xlink:href="dpl-2013-10-01.xsd#dpl_TotalActivitiesDefault" xlink:label="dpl_TotalActivitiesDefault"/>
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="dpl_ActivityDimension" xlink:to="dpl_TotalActivitiesDefault" use="optional" order="0.0"/>
+    <loc xlink:type="locator" xlink:href="dpl-2013-10-01.xsd#dpl_A-AgricultureForestryFishing" xlink:label="dpl_A-AgricultureForestryFishing"/>
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="dpl_TotalActivitiesDefault" xlink:to="dpl_A-AgricultureForestryFishing" use="optional" order="1.0"/>
+    <loc xlink:type="locator" xlink:href="dpl-2013-10-01.xsd#dpl_B-MiningQuarrying" xlink:label="dpl_B-MiningQuarrying"/>
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="dpl_TotalActivitiesDefault" xlink:to="dpl_B-MiningQuarrying" use="optional" order="2.0"/>
+    <loc xlink:type="locator" xlink:href="dpl-2013-10-01.xsd#dpl_C-Manufacturing" xlink:label="dpl_C-Manufacturing"/>
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="dpl_TotalActivitiesDefault" xlink:to="dpl_C-Manufacturing" use="optional" order="3.0"/>
+    <loc xlink:type="locator" xlink:href="dpl-2013-10-01.xsd#dpl_D-ElectricityGasSteamAirConditioningSupply" xlink:label="dpl_D-ElectricityGasSteamAirConditioningSupply"/>
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="dpl_TotalActivitiesDefault" xlink:to="dpl_D-ElectricityGasSteamAirConditioningSupply" use="optional" order="4.0"/>
+    <loc xlink:type="locator" xlink:href="dpl-2013-10-01.xsd#dpl_E-WaterSupplySewerageWasteManagementRemediationFacilities" xlink:label="dpl_E-WaterSupplySewerageWasteManagementRemediationFacilities"/>
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="dpl_TotalActivitiesDefault" xlink:to="dpl_E-WaterSupplySewerageWasteManagementRemediationFacilities" use="optional" order="5.0"/>
+    <loc xlink:type="locator" xlink:href="dpl-2013-10-01.xsd#dpl_F-Construction" xlink:label="dpl_F-Construction"/>
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="dpl_TotalActivitiesDefault" xlink:to="dpl_F-Construction" use="optional" order="6.0"/>
+    <loc xlink:type="locator" xlink:href="dpl-2013-10-01.xsd#dpl_G-WholesaleRetailTradeRepairMotorVehiclesMotorcycles" xlink:label="dpl_G-WholesaleRetailTradeRepairMotorVehiclesMotorcycles"/>
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="dpl_TotalActivitiesDefault" xlink:to="dpl_G-WholesaleRetailTradeRepairMotorVehiclesMotorcycles" use="optional" order="7.0"/>
+    <loc xlink:type="locator" xlink:href="dpl-2013-10-01.xsd#dpl_H-TransportationStorage" xlink:label="dpl_H-TransportationStorage"/>
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="dpl_TotalActivitiesDefault" xlink:to="dpl_H-TransportationStorage" use="optional" order="8.0"/>
+    <loc xlink:type="locator" xlink:href="dpl-2013-10-01.xsd#dpl_I-AccommodationFoodServiceActivities" xlink:label="dpl_I-AccommodationFoodServiceActivities"/>
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="dpl_TotalActivitiesDefault" xlink:to="dpl_I-AccommodationFoodServiceActivities" use="optional" order="9.0"/>
+    <loc xlink:type="locator" xlink:href="dpl-2013-10-01.xsd#dpl_J-InformationCommunication" xlink:label="dpl_J-InformationCommunication"/>
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="dpl_TotalActivitiesDefault" xlink:to="dpl_J-InformationCommunication" use="optional" order="10.0"/>
+    <loc xlink:type="locator" xlink:href="dpl-2013-10-01.xsd#dpl_K-FinancialInsuranceActivities" xlink:label="dpl_K-FinancialInsuranceActivities"/>
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="dpl_TotalActivitiesDefault" xlink:to="dpl_K-FinancialInsuranceActivities" use="optional" order="11.0"/>
+    <loc xlink:type="locator" xlink:href="dpl-2013-10-01.xsd#dpl_L-RealEstateActivities" xlink:label="dpl_L-RealEstateActivities"/>
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="dpl_TotalActivitiesDefault" xlink:to="dpl_L-RealEstateActivities" use="optional" order="12.0"/>
+    <loc xlink:type="locator" xlink:href="dpl-2013-10-01.xsd#dpl_M-ProfessionalScientificTechnicalActivities" xlink:label="dpl_M-ProfessionalScientificTechnicalActivities"/>
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="dpl_TotalActivitiesDefault" xlink:to="dpl_M-ProfessionalScientificTechnicalActivities" use="optional" order="13.0"/>
+    <loc xlink:type="locator" xlink:href="dpl-2013-10-01.xsd#dpl_N-AdministrativeSupportServiceActivities" xlink:label="dpl_N-AdministrativeSupportServiceActivities"/>
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="dpl_TotalActivitiesDefault" xlink:to="dpl_N-AdministrativeSupportServiceActivities" use="optional" order="14.0"/>
+    <loc xlink:type="locator" xlink:href="dpl-2013-10-01.xsd#dpl_O-PublicAdministrationDefenceCompulsorySocialSecurity" xlink:label="dpl_O-PublicAdministrationDefenceCompulsorySocialSecurity"/>
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="dpl_TotalActivitiesDefault" xlink:to="dpl_O-PublicAdministrationDefenceCompulsorySocialSecurity" use="optional" order="15.0"/>
+    <loc xlink:type="locator" xlink:href="dpl-2013-10-01.xsd#dpl_P-Education" xlink:label="dpl_P-Education"/>
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="dpl_TotalActivitiesDefault" xlink:to="dpl_P-Education" use="optional" order="16.0"/>
+    <loc xlink:type="locator" xlink:href="dpl-2013-10-01.xsd#dpl_Q-HumanHealthSocialWorkActivities" xlink:label="dpl_Q-HumanHealthSocialWorkActivities"/>
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="dpl_TotalActivitiesDefault" xlink:to="dpl_Q-HumanHealthSocialWorkActivities" use="optional" order="17.0"/>
+    <loc xlink:type="locator" xlink:href="dpl-2013-10-01.xsd#dpl_R-ArtsEntertainmentRecreation" xlink:label="dpl_R-ArtsEntertainmentRecreation"/>
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="dpl_TotalActivitiesDefault" xlink:to="dpl_R-ArtsEntertainmentRecreation" use="optional" order="18.0"/>
+    <loc xlink:type="locator" xlink:href="dpl-2013-10-01.xsd#dpl_S-OtherServiceActivities" xlink:label="dpl_S-OtherServiceActivities"/>
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="dpl_TotalActivitiesDefault" xlink:to="dpl_S-OtherServiceActivities" use="optional" order="19.0"/>
+    <loc xlink:type="locator" xlink:href="dpl-2013-10-01.xsd#dpl_T-HouseholdsAsEmployers-UndifferentiatedGoodsService-productionActivitiesHouseholdsForOwnUse" xlink:label="dpl_T-HouseholdsAsEmployers-UndifferentiatedGoodsService-productionActivitiesHouseholdsForOwnUse"/>
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="dpl_TotalActivitiesDefault" xlink:to="dpl_T-HouseholdsAsEmployers-UndifferentiatedGoodsService-productionActivitiesHouseholdsForOwnUse" use="optional" order="20.0"/>
+    <loc xlink:type="locator" xlink:href="dpl-2013-10-01.xsd#dpl_U-Extra-territorialOrganisationsBodies" xlink:label="dpl_U-Extra-territorialOrganisationsBodies"/>
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="dpl_TotalActivitiesDefault" xlink:to="dpl_U-Extra-territorialOrganisationsBodies" use="optional" order="21.0"/>
+    <loc xlink:type="locator" xlink:href="dpl-2013-10-01.xsd#dpl_CombinedCross-sectorActivities1" xlink:label="dpl_CombinedCross-sectorActivities1"/>
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="dpl_TotalActivitiesDefault" xlink:to="dpl_CombinedCross-sectorActivities1" use="optional" order="22.0"/>
+    <loc xlink:type="locator" xlink:href="dpl-2013-10-01.xsd#dpl_CombinedCross-sectorActivities2" xlink:label="dpl_CombinedCross-sectorActivities2"/>
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="dpl_TotalActivitiesDefault" xlink:to="dpl_CombinedCross-sectorActivities2" use="optional" order="23.0"/>
+    <loc xlink:type="locator" xlink:href="dpl-2013-10-01.xsd#dpl_CombinedCross-sectorActivities3" xlink:label="dpl_CombinedCross-sectorActivities3"/>
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="dpl_TotalActivitiesDefault" xlink:to="dpl_CombinedCross-sectorActivities3" use="optional" order="24.0"/>
+    <loc xlink:type="locator" xlink:href="dpl-2013-10-01.xsd#dpl_CombinedCross-sectorActivities4" xlink:label="dpl_CombinedCross-sectorActivities4"/>
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="dpl_TotalActivitiesDefault" xlink:to="dpl_CombinedCross-sectorActivities4" use="optional" order="25.0"/>
+    <loc xlink:type="locator" xlink:href="dpl-2013-10-01.xsd#dpl_OtherSpecificActivity1" xlink:label="dpl_OtherSpecificActivity1"/>
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="dpl_TotalActivitiesDefault" xlink:to="dpl_OtherSpecificActivity1" use="optional" order="26.0"/>
+    <loc xlink:type="locator" xlink:href="dpl-2013-10-01.xsd#dpl_OtherSpecificActivity2" xlink:label="dpl_OtherSpecificActivity2"/>
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="dpl_TotalActivitiesDefault" xlink:to="dpl_OtherSpecificActivity2" use="optional" order="27.0"/>
+    <loc xlink:type="locator" xlink:href="dpl-2013-10-01.xsd#dpl_OtherSpecificActivity3" xlink:label="dpl_OtherSpecificActivity3"/>
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="dpl_TotalActivitiesDefault" xlink:to="dpl_OtherSpecificActivity3" use="optional" order="28.0"/>
+    <loc xlink:type="locator" xlink:href="dpl-2013-10-01.xsd#dpl_OtherSpecificActivity4" xlink:label="dpl_OtherSpecificActivity4"/>
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="dpl_TotalActivitiesDefault" xlink:to="dpl_OtherSpecificActivity4" use="optional" order="29.0"/>
+    <loc xlink:type="locator" xlink:href="dpl-2013-10-01.xsd#dpl_OtherSpecificActivity5" xlink:label="dpl_OtherSpecificActivity5"/>
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="dpl_TotalActivitiesDefault" xlink:to="dpl_OtherSpecificActivity5" use="optional" order="30.0"/>
+    <loc xlink:type="locator" xlink:href="dpl-2013-10-01.xsd#dpl_ExpenseTypeDimension" xlink:label="dpl_ExpenseTypeDimension"/>
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="dpl_DimensionTagsUsedWithDetailedProfitLossItemsHeading" xlink:to="dpl_ExpenseTypeDimension" use="optional" order="2.0"/>
+    <loc xlink:type="locator" xlink:href="dpl-2013-10-01.xsd#dpl_TotalCostsDefault" xlink:label="dpl_TotalCostsDefault"/>
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="dpl_ExpenseTypeDimension" xlink:to="dpl_TotalCostsDefault" use="optional" order="1.0"/>
+    <loc xlink:type="locator" xlink:href="dpl-2013-10-01.xsd#dpl_CostSales" xlink:label="dpl_CostSales"/>
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="dpl_TotalCostsDefault" xlink:to="dpl_CostSales" use="optional" order="1.0"/>
+    <loc xlink:type="locator" xlink:href="dpl-2013-10-01.xsd#dpl_DistributionCosts" xlink:label="dpl_DistributionCosts"/>
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="dpl_TotalCostsDefault" xlink:to="dpl_DistributionCosts" use="optional" order="2.0"/>
+    <loc xlink:type="locator" xlink:href="dpl-2013-10-01.xsd#dpl_AdministrativeExpenses" xlink:label="dpl_AdministrativeExpenses"/>
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="dpl_TotalCostsDefault" xlink:to="dpl_AdministrativeExpenses" use="optional" order="3.0"/>
+    <loc xlink:type="locator" xlink:href="dpl-2013-10-01.xsd#dpl_ExceptionalNon-exceptionalItemsDimension" xlink:label="dpl_ExceptionalNon-exceptionalItemsDimension"/>
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="dpl_DimensionTagsUsedWithDetailedProfitLossItemsHeading" xlink:to="dpl_ExceptionalNon-exceptionalItemsDimension" use="optional" order="3.0"/>
+    <loc xlink:type="locator" xlink:href="dpl-2013-10-01.xsd#dpl_TotalExceptionalNon-exceptionalDefault" xlink:label="dpl_TotalExceptionalNon-exceptionalDefault"/>
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="dpl_ExceptionalNon-exceptionalItemsDimension" xlink:to="dpl_TotalExceptionalNon-exceptionalDefault" use="optional" order="1.0"/>
+    <loc xlink:type="locator" xlink:href="dpl-2013-10-01.xsd#dpl_Non-exceptional" xlink:label="dpl_Non-exceptional"/>
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="dpl_TotalExceptionalNon-exceptionalDefault" xlink:to="dpl_Non-exceptional" use="optional" order="1.0"/>
+    <loc xlink:type="locator" xlink:href="dpl-2013-10-01.xsd#dpl_Exceptional" xlink:label="dpl_Exceptional"/>
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="dpl_TotalExceptionalNon-exceptionalDefault" xlink:to="dpl_Exceptional" use="optional" order="2.0"/>
+    <loc xlink:type="locator" xlink:href="dpl-2013-10-01.xsd#dpl_DetailedAnalysisDimension" xlink:label="dpl_DetailedAnalysisDimension"/>
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="dpl_DimensionTagsUsedWithDetailedProfitLossItemsHeading" xlink:to="dpl_DetailedAnalysisDimension" use="optional" order="4.0"/>
+    <loc xlink:type="locator" xlink:href="dpl-2013-10-01.xsd#dpl_TotalItemsDefault" xlink:label="dpl_TotalItemsDefault"/>
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="dpl_DetailedAnalysisDimension" xlink:to="dpl_TotalItemsDefault" use="optional" order="1.0"/>
+    <loc xlink:type="locator" xlink:href="dpl-2013-10-01.xsd#dpl_Item1" xlink:label="dpl_Item1"/>
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="dpl_TotalItemsDefault" xlink:to="dpl_Item1" use="optional" order="1.0"/>
+    <loc xlink:type="locator" xlink:href="dpl-2013-10-01.xsd#dpl_Item2" xlink:label="dpl_Item2"/>
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="dpl_TotalItemsDefault" xlink:to="dpl_Item2" use="optional" order="2.0"/>
+    <loc xlink:type="locator" xlink:href="dpl-2013-10-01.xsd#dpl_Item3" xlink:label="dpl_Item3"/>
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="dpl_TotalItemsDefault" xlink:to="dpl_Item3" use="optional" order="3.0"/>
+    <loc xlink:type="locator" xlink:href="dpl-2013-10-01.xsd#dpl_Item4" xlink:label="dpl_Item4"/>
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="dpl_TotalItemsDefault" xlink:to="dpl_Item4" use="optional" order="4.0"/>
+    <loc xlink:type="locator" xlink:href="dpl-2013-10-01.xsd#dpl_Item5" xlink:label="dpl_Item5"/>
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="dpl_TotalItemsDefault" xlink:to="dpl_Item5" use="optional" order="5.0"/>
+    <loc xlink:type="locator" xlink:href="dpl-2013-10-01.xsd#dpl_Item6" xlink:label="dpl_Item6"/>
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="dpl_TotalItemsDefault" xlink:to="dpl_Item6" use="optional" order="6.0"/>
+    <loc xlink:type="locator" xlink:href="dpl-2013-10-01.xsd#dpl_Item7" xlink:label="dpl_Item7"/>
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="dpl_TotalItemsDefault" xlink:to="dpl_Item7" use="optional" order="7.0"/>
+    <loc xlink:type="locator" xlink:href="dpl-2013-10-01.xsd#dpl_Item8" xlink:label="dpl_Item8"/>
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="dpl_TotalItemsDefault" xlink:to="dpl_Item8" use="optional" order="8.0"/>
+    <loc xlink:type="locator" xlink:href="dpl-2013-10-01.xsd#dpl_Item9" xlink:label="dpl_Item9"/>
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="dpl_TotalItemsDefault" xlink:to="dpl_Item9" use="optional" order="9.0"/>
+    <loc xlink:type="locator" xlink:href="dpl-2013-10-01.xsd#dpl_Item10" xlink:label="dpl_Item10"/>
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="dpl_TotalItemsDefault" xlink:to="dpl_Item10" use="optional" order="10.0"/>
+    <loc xlink:type="locator" xlink:href="dpl-2013-10-01.xsd#dpl_Item11" xlink:label="dpl_Item11"/>
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="dpl_TotalItemsDefault" xlink:to="dpl_Item11" use="optional" order="11.0"/>
+    <loc xlink:type="locator" xlink:href="dpl-2013-10-01.xsd#dpl_Item12" xlink:label="dpl_Item12"/>
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="dpl_TotalItemsDefault" xlink:to="dpl_Item12" use="optional" order="12.0"/>
+    <loc xlink:type="locator" xlink:href="dpl-2013-10-01.xsd#dpl_Item13" xlink:label="dpl_Item13"/>
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="dpl_TotalItemsDefault" xlink:to="dpl_Item13" use="optional" order="13.0"/>
+    <loc xlink:type="locator" xlink:href="dpl-2013-10-01.xsd#dpl_Item14" xlink:label="dpl_Item14"/>
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="dpl_TotalItemsDefault" xlink:to="dpl_Item14" use="optional" order="14.0"/>
+    <loc xlink:type="locator" xlink:href="dpl-2013-10-01.xsd#dpl_Item15" xlink:label="dpl_Item15"/>
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="dpl_TotalItemsDefault" xlink:to="dpl_Item15" use="optional" order="15.0"/>
+    <loc xlink:type="locator" xlink:href="dpl-2013-10-01.xsd#dpl_Item16" xlink:label="dpl_Item16"/>
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="dpl_TotalItemsDefault" xlink:to="dpl_Item16" use="optional" order="16.0"/>
+    <loc xlink:type="locator" xlink:href="dpl-2013-10-01.xsd#dpl_Item17" xlink:label="dpl_Item17"/>
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="dpl_TotalItemsDefault" xlink:to="dpl_Item17" use="optional" order="17.0"/>
+    <loc xlink:type="locator" xlink:href="dpl-2013-10-01.xsd#dpl_Item18" xlink:label="dpl_Item18"/>
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="dpl_TotalItemsDefault" xlink:to="dpl_Item18" use="optional" order="18.0"/>
+    <loc xlink:type="locator" xlink:href="dpl-2013-10-01.xsd#dpl_Item19" xlink:label="dpl_Item19"/>
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="dpl_TotalItemsDefault" xlink:to="dpl_Item19" use="optional" order="19.0"/>
+    <loc xlink:type="locator" xlink:href="dpl-2013-10-01.xsd#dpl_Item20" xlink:label="dpl_Item20"/>
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="dpl_TotalItemsDefault" xlink:to="dpl_Item20" use="optional" order="20.0"/>
+    <loc xlink:type="locator" xlink:href="dpl-2013-10-01.xsd#dpl_Item21" xlink:label="dpl_Item21"/>
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="dpl_TotalItemsDefault" xlink:to="dpl_Item21" use="optional" order="21.0"/>
+    <loc xlink:type="locator" xlink:href="dpl-2013-10-01.xsd#dpl_Item22" xlink:label="dpl_Item22"/>
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="dpl_TotalItemsDefault" xlink:to="dpl_Item22" use="optional" order="22.0"/>
+    <loc xlink:type="locator" xlink:href="dpl-2013-10-01.xsd#dpl_Item23" xlink:label="dpl_Item23"/>
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="dpl_TotalItemsDefault" xlink:to="dpl_Item23" use="optional" order="23.0"/>
+    <loc xlink:type="locator" xlink:href="dpl-2013-10-01.xsd#dpl_Item24" xlink:label="dpl_Item24"/>
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="dpl_TotalItemsDefault" xlink:to="dpl_Item24" use="optional" order="24.0"/>
+    <loc xlink:type="locator" xlink:href="dpl-2013-10-01.xsd#dpl_Item25" xlink:label="dpl_Item25"/>
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="dpl_TotalItemsDefault" xlink:to="dpl_Item25" use="optional" order="25.0"/>
+    <loc xlink:type="locator" xlink:href="dpl-2013-10-01.xsd#dpl_Item26" xlink:label="dpl_Item26"/>
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="dpl_TotalItemsDefault" xlink:to="dpl_Item26" use="optional" order="26.0"/>
+    <loc xlink:type="locator" xlink:href="dpl-2013-10-01.xsd#dpl_Item27" xlink:label="dpl_Item27"/>
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="dpl_TotalItemsDefault" xlink:to="dpl_Item27" use="optional" order="27.0"/>
+    <loc xlink:type="locator" xlink:href="dpl-2013-10-01.xsd#dpl_Item28" xlink:label="dpl_Item28"/>
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="dpl_TotalItemsDefault" xlink:to="dpl_Item28" use="optional" order="28.0"/>
+    <loc xlink:type="locator" xlink:href="dpl-2013-10-01.xsd#dpl_Item29" xlink:label="dpl_Item29"/>
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="dpl_TotalItemsDefault" xlink:to="dpl_Item29" use="optional" order="29.0"/>
+    <loc xlink:type="locator" xlink:href="dpl-2013-10-01.xsd#dpl_Item30" xlink:label="dpl_Item30"/>
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="dpl_TotalItemsDefault" xlink:to="dpl_Item30" use="optional" order="30.0"/>
+    <loc xlink:type="locator" xlink:href="dpl-2013-10-01.xsd#dpl_Item31" xlink:label="dpl_Item31"/>
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="dpl_TotalItemsDefault" xlink:to="dpl_Item31" use="optional" order="31.0"/>
+    <loc xlink:type="locator" xlink:href="dpl-2013-10-01.xsd#dpl_Item32" xlink:label="dpl_Item32"/>
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="dpl_TotalItemsDefault" xlink:to="dpl_Item32" use="optional" order="32.0"/>
+    <loc xlink:type="locator" xlink:href="dpl-2013-10-01.xsd#dpl_Item33" xlink:label="dpl_Item33"/>
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="dpl_TotalItemsDefault" xlink:to="dpl_Item33" use="optional" order="33.0"/>
+    <loc xlink:type="locator" xlink:href="dpl-2013-10-01.xsd#dpl_Item34" xlink:label="dpl_Item34"/>
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="dpl_TotalItemsDefault" xlink:to="dpl_Item34" use="optional" order="34.0"/>
+    <loc xlink:type="locator" xlink:href="dpl-2013-10-01.xsd#dpl_Item35" xlink:label="dpl_Item35"/>
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="dpl_TotalItemsDefault" xlink:to="dpl_Item35" use="optional" order="35.0"/>
+    <loc xlink:type="locator" xlink:href="dpl-2013-10-01.xsd#dpl_Item36" xlink:label="dpl_Item36"/>
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="dpl_TotalItemsDefault" xlink:to="dpl_Item36" use="optional" order="36.0"/>
+    <loc xlink:type="locator" xlink:href="dpl-2013-10-01.xsd#dpl_Item37" xlink:label="dpl_Item37"/>
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="dpl_TotalItemsDefault" xlink:to="dpl_Item37" use="optional" order="37.0"/>
+    <loc xlink:type="locator" xlink:href="dpl-2013-10-01.xsd#dpl_Item38" xlink:label="dpl_Item38"/>
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="dpl_TotalItemsDefault" xlink:to="dpl_Item38" use="optional" order="38.0"/>
+    <loc xlink:type="locator" xlink:href="dpl-2013-10-01.xsd#dpl_Item39" xlink:label="dpl_Item39"/>
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="dpl_TotalItemsDefault" xlink:to="dpl_Item39" use="optional" order="39.0"/>
+    <loc xlink:type="locator" xlink:href="dpl-2013-10-01.xsd#dpl_Item40" xlink:label="dpl_Item40"/>
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="dpl_TotalItemsDefault" xlink:to="dpl_Item40" use="optional" order="40.0"/>
+    <loc xlink:type="locator" xlink:href="dpl-2013-10-01.xsd#dpl_IntraExtraGroupTransactionsDimension" xlink:label="dpl_IntraExtraGroupTransactionsDimension"/>
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="dpl_DimensionTagsUsedWithDetailedProfitLossItemsHeading" xlink:to="dpl_IntraExtraGroupTransactionsDimension" use="optional" order="5.0"/>
+    <loc xlink:type="locator" xlink:href="dpl-2013-10-01.xsd#dpl_TotalTransactionsDefault" xlink:label="dpl_TotalTransactionsDefault"/>
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="dpl_IntraExtraGroupTransactionsDimension" xlink:to="dpl_TotalTransactionsDefault" use="optional" order="1.0"/>
+    <loc xlink:type="locator" xlink:href="dpl-2013-10-01.xsd#dpl_GroupUndertakings" xlink:label="dpl_GroupUndertakings"/>
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="dpl_TotalTransactionsDefault" xlink:to="dpl_GroupUndertakings" use="optional" order="1.0"/>
+    <loc xlink:type="locator" xlink:href="dpl-2013-10-01.xsd#dpl_Parent" xlink:label="dpl_Parent"/>
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="dpl_GroupUndertakings" xlink:to="dpl_Parent" use="optional" order="1.0"/>
+    <loc xlink:type="locator" xlink:href="dpl-2013-10-01.xsd#dpl_SubsidiariesOtherGroupUndertakings" xlink:label="dpl_SubsidiariesOtherGroupUndertakings"/>
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="dpl_GroupUndertakings" xlink:to="dpl_SubsidiariesOtherGroupUndertakings" use="optional" order="2.0"/>
+    <loc xlink:type="locator" xlink:href="dpl-2013-10-01.xsd#dpl_JointVentures" xlink:label="dpl_JointVentures"/>
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="dpl_TotalTransactionsDefault" xlink:to="dpl_JointVentures" use="optional" order="2.0"/>
+    <loc xlink:type="locator" xlink:href="dpl-2013-10-01.xsd#dpl_Associates" xlink:label="dpl_Associates"/>
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="dpl_TotalTransactionsDefault" xlink:to="dpl_Associates" use="optional" order="3.0"/>
+    <loc xlink:type="locator" xlink:href="dpl-2013-10-01.xsd#dpl_ParticipatingInterests" xlink:label="dpl_ParticipatingInterests"/>
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="dpl_TotalTransactionsDefault" xlink:to="dpl_ParticipatingInterests" use="optional" order="4.0"/>
+    <loc xlink:type="locator" xlink:href="dpl-2013-10-01.xsd#dpl_ThirdPartiesOutsideGroup" xlink:label="dpl_ThirdPartiesOutsideGroup"/>
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="dpl_TotalTransactionsDefault" xlink:to="dpl_ThirdPartiesOutsideGroup" use="optional" order="5.0"/>
+    <loc xlink:type="locator" xlink:href="http://www.xbrl.org/uk/cd/countries-regions/2009-09-01/uk-countries-2009-09-01.xsd#uk-countries_CountriesDimension" xlink:label="uk-countries_CountriesDimension"/>
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="dpl_DimensionTagsUsedWithDetailedProfitLossItemsHeading" xlink:to="uk-countries_CountriesDimension" use="optional" order="6.0" preferredLabel="http://www.xbrl.org/2003/role/verboseLabel"/>
+    <loc xlink:type="locator" xlink:href="http://www.xbrl.org/uk/all/common/2009-09-01/uk-common-2009-09-01.xsd#uk-common_NotApplicable" xlink:label="uk-common_NotApplicable"/>
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-countries_CountriesDimension" xlink:to="uk-common_NotApplicable" use="optional" order="1.0"/>
+    <loc xlink:type="locator" xlink:href="http://www.xbrl.org/uk/cd/countries-regions/2009-09-01/uk-countries-2009-09-01.xsd#uk-countries_UnitedKingdom" xlink:label="uk-countries_UnitedKingdom"/>
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-countries_CountriesDimension" xlink:to="uk-countries_UnitedKingdom" use="optional" order="1.2"/>
+    <loc xlink:type="locator" xlink:href="http://www.xbrl.org/uk/cd/countries-regions/2009-09-01/uk-countries-2009-09-01.xsd#uk-countries_AllCountries" xlink:label="uk-countries_AllCountries"/>
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-countries_CountriesDimension" xlink:to="uk-countries_AllCountries" use="optional" order="1.5"/>
+    <loc xlink:type="locator" xlink:href="http://www.xbrl.org/uk/cd/countries-regions/2009-09-01/uk-countries-2009-09-01.xsd#uk-countries_HomeCountriesHeading" xlink:label="uk-countries_HomeCountriesHeading"/>
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-countries_CountriesDimension" xlink:to="uk-countries_HomeCountriesHeading" use="optional" order="2.0"/>
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-countries_HomeCountriesHeading" xlink:to="uk-countries_UnitedKingdom" use="optional" order="1.0"/>
+    <loc xlink:type="locator" xlink:href="http://www.xbrl.org/uk/cd/countries-regions/2009-09-01/uk-countries-2009-09-01.xsd#uk-countries_England" xlink:label="uk-countries_England"/>
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-countries_HomeCountriesHeading" xlink:to="uk-countries_England" use="optional" order="2.0"/>
+    <loc xlink:type="locator" xlink:href="http://www.xbrl.org/uk/cd/countries-regions/2009-09-01/uk-countries-2009-09-01.xsd#uk-countries_Scotland" xlink:label="uk-countries_Scotland"/>
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-countries_HomeCountriesHeading" xlink:to="uk-countries_Scotland" use="optional" order="3.0"/>
+    <loc xlink:type="locator" xlink:href="http://www.xbrl.org/uk/cd/countries-regions/2009-09-01/uk-countries-2009-09-01.xsd#uk-countries_Wales" xlink:label="uk-countries_Wales"/>
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-countries_HomeCountriesHeading" xlink:to="uk-countries_Wales" use="optional" order="4.0"/>
+    <loc xlink:type="locator" xlink:href="http://www.xbrl.org/uk/cd/countries-regions/2009-09-01/uk-countries-2009-09-01.xsd#uk-countries_NorthernIreland" xlink:label="uk-countries_NorthernIreland"/>
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-countries_HomeCountriesHeading" xlink:to="uk-countries_NorthernIreland" use="optional" order="5.0"/>
+    <loc xlink:type="locator" xlink:href="http://www.xbrl.org/uk/cd/countries-regions/2009-09-01/uk-countries-2009-09-01.xsd#uk-countries_IsleMan" xlink:label="uk-countries_IsleMan"/>
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-countries_HomeCountriesHeading" xlink:to="uk-countries_IsleMan" use="optional" order="6.0"/>
+    <loc xlink:type="locator" xlink:href="http://www.xbrl.org/uk/cd/countries-regions/2009-09-01/uk-countries-2009-09-01.xsd#uk-countries_Jersey" xlink:label="uk-countries_Jersey"/>
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-countries_HomeCountriesHeading" xlink:to="uk-countries_Jersey" use="optional" order="7.0"/>
+    <loc xlink:type="locator" xlink:href="http://www.xbrl.org/uk/cd/countries-regions/2009-09-01/uk-countries-2009-09-01.xsd#uk-countries_Guernsey" xlink:label="uk-countries_Guernsey"/>
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-countries_HomeCountriesHeading" xlink:to="uk-countries_Guernsey" use="optional" order="8.0"/>
+    <loc xlink:type="locator" xlink:href="http://www.xbrl.org/uk/cd/countries-regions/2009-09-01/uk-countries-2009-09-01.xsd#uk-countries_GreatBritain" xlink:label="uk-countries_GreatBritain"/>
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-countries_HomeCountriesHeading" xlink:to="uk-countries_GreatBritain" use="optional" order="9.0"/>
+    <loc xlink:type="locator" xlink:href="http://www.xbrl.org/uk/cd/countries-regions/2009-09-01/uk-countries-2009-09-01.xsd#uk-countries_MainRegionsHeading" xlink:label="uk-countries_MainRegionsHeading"/>
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-countries_CountriesDimension" xlink:to="uk-countries_MainRegionsHeading" use="optional" order="3.0"/>
+    <loc xlink:type="locator" xlink:href="http://www.xbrl.org/uk/cd/countries-regions/2009-09-01/uk-countries-2009-09-01.xsd#uk-countries_RestWorldOutsideUK" xlink:label="uk-countries_RestWorldOutsideUK"/>
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-countries_MainRegionsHeading" xlink:to="uk-countries_RestWorldOutsideUK" use="optional" order="1.0"/>
+    <loc xlink:type="locator" xlink:href="http://www.xbrl.org/uk/cd/countries-regions/2009-09-01/uk-countries-2009-09-01.xsd#uk-countries_RestEuropeOutsideUK" xlink:label="uk-countries_RestEuropeOutsideUK"/>
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-countries_MainRegionsHeading" xlink:to="uk-countries_RestEuropeOutsideUK" use="optional" order="2.0"/>
+    <loc xlink:type="locator" xlink:href="http://www.xbrl.org/uk/cd/countries-regions/2009-09-01/uk-countries-2009-09-01.xsd#uk-countries_OtherCountriesRegions" xlink:label="uk-countries_OtherCountriesRegions"/>
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-countries_MainRegionsHeading" xlink:to="uk-countries_OtherCountriesRegions" use="optional" order="3.0"/>
+    <loc xlink:type="locator" xlink:href="http://www.xbrl.org/uk/cd/countries-regions/2009-09-01/uk-countries-2009-09-01.xsd#uk-countries_EuropeanCommunity" xlink:label="uk-countries_EuropeanCommunity"/>
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-countries_MainRegionsHeading" xlink:to="uk-countries_EuropeanCommunity" use="optional" order="4.0"/>
+    <loc xlink:type="locator" xlink:href="http://www.xbrl.org/uk/cd/countries-regions/2009-09-01/uk-countries-2009-09-01.xsd#uk-countries_Europe" xlink:label="uk-countries_Europe"/>
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-countries_MainRegionsHeading" xlink:to="uk-countries_Europe" use="optional" order="5.0"/>
+    <loc xlink:type="locator" xlink:href="http://www.xbrl.org/uk/cd/countries-regions/2009-09-01/uk-countries-2009-09-01.xsd#uk-countries_Americas" xlink:label="uk-countries_Americas"/>
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-countries_MainRegionsHeading" xlink:to="uk-countries_Americas" use="optional" order="6.0"/>
+    <loc xlink:type="locator" xlink:href="http://www.xbrl.org/uk/cd/countries-regions/2009-09-01/uk-countries-2009-09-01.xsd#uk-countries_NorthAmerica" xlink:label="uk-countries_NorthAmerica"/>
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-countries_MainRegionsHeading" xlink:to="uk-countries_NorthAmerica" use="optional" order="7.0"/>
+    <loc xlink:type="locator" xlink:href="http://www.xbrl.org/uk/cd/countries-regions/2009-09-01/uk-countries-2009-09-01.xsd#uk-countries_SouthAmerica" xlink:label="uk-countries_SouthAmerica"/>
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-countries_MainRegionsHeading" xlink:to="uk-countries_SouthAmerica" use="optional" order="8.0"/>
+    <loc xlink:type="locator" xlink:href="http://www.xbrl.org/uk/cd/countries-regions/2009-09-01/uk-countries-2009-09-01.xsd#uk-countries_LatinAmericaCaribbean" xlink:label="uk-countries_LatinAmericaCaribbean"/>
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-countries_MainRegionsHeading" xlink:to="uk-countries_LatinAmericaCaribbean" use="optional" order="9.0"/>
+    <loc xlink:type="locator" xlink:href="http://www.xbrl.org/uk/cd/countries-regions/2009-09-01/uk-countries-2009-09-01.xsd#uk-countries_LatinAmerica" xlink:label="uk-countries_LatinAmerica"/>
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-countries_MainRegionsHeading" xlink:to="uk-countries_LatinAmerica" use="optional" order="10.0"/>
+    <loc xlink:type="locator" xlink:href="http://www.xbrl.org/uk/cd/countries-regions/2009-09-01/uk-countries-2009-09-01.xsd#uk-countries_Caribbean" xlink:label="uk-countries_Caribbean"/>
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-countries_MainRegionsHeading" xlink:to="uk-countries_Caribbean" use="optional" order="11.0"/>
+    <loc xlink:type="locator" xlink:href="http://www.xbrl.org/uk/cd/countries-regions/2009-09-01/uk-countries-2009-09-01.xsd#uk-countries_CentralAmerica" xlink:label="uk-countries_CentralAmerica"/>
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-countries_MainRegionsHeading" xlink:to="uk-countries_CentralAmerica" use="optional" order="12.0"/>
+    <loc xlink:type="locator" xlink:href="http://www.xbrl.org/uk/cd/countries-regions/2009-09-01/uk-countries-2009-09-01.xsd#uk-countries_MiddleEast" xlink:label="uk-countries_MiddleEast"/>
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-countries_MainRegionsHeading" xlink:to="uk-countries_MiddleEast" use="optional" order="13.0"/>
+    <loc xlink:type="locator" xlink:href="http://www.xbrl.org/uk/cd/countries-regions/2009-09-01/uk-countries-2009-09-01.xsd#uk-countries_Africa" xlink:label="uk-countries_Africa"/>
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-countries_MainRegionsHeading" xlink:to="uk-countries_Africa" use="optional" order="14.0"/>
+    <loc xlink:type="locator" xlink:href="http://www.xbrl.org/uk/cd/countries-regions/2009-09-01/uk-countries-2009-09-01.xsd#uk-countries_Asia" xlink:label="uk-countries_Asia"/>
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-countries_MainRegionsHeading" xlink:to="uk-countries_Asia" use="optional" order="15.0"/>
+    <loc xlink:type="locator" xlink:href="http://www.xbrl.org/uk/cd/countries-regions/2009-09-01/uk-countries-2009-09-01.xsd#uk-countries_South-eastAsia" xlink:label="uk-countries_South-eastAsia"/>
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-countries_MainRegionsHeading" xlink:to="uk-countries_South-eastAsia" use="optional" order="16.0"/>
+    <loc xlink:type="locator" xlink:href="http://www.xbrl.org/uk/cd/countries-regions/2009-09-01/uk-countries-2009-09-01.xsd#uk-countries_Australasia" xlink:label="uk-countries_Australasia"/>
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-countries_MainRegionsHeading" xlink:to="uk-countries_Australasia" use="optional" order="17.0"/>
+    <loc xlink:type="locator" xlink:href="http://www.xbrl.org/uk/cd/countries-regions/2009-09-01/uk-countries-2009-09-01.xsd#uk-countries_CountryListHeading" xlink:label="uk-countries_CountryListHeading"/>
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-countries_CountriesDimension" xlink:to="uk-countries_CountryListHeading" use="optional" order="4.0"/>
+    <loc xlink:type="locator" xlink:href="http://www.xbrl.org/uk/cd/countries-regions/2009-09-01/uk-countries-2009-09-01.xsd#uk-countries_Afghanistan" xlink:label="uk-countries_Afghanistan"/>
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-countries_CountryListHeading" xlink:to="uk-countries_Afghanistan" use="optional" order="1.0"/>
+    <loc xlink:type="locator" xlink:href="http://www.xbrl.org/uk/cd/countries-regions/2009-09-01/uk-countries-2009-09-01.xsd#uk-countries_AlandIslands" xlink:label="uk-countries_AlandIslands"/>
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-countries_CountryListHeading" xlink:to="uk-countries_AlandIslands" use="optional" order="2.0"/>
+    <loc xlink:type="locator" xlink:href="http://www.xbrl.org/uk/cd/countries-regions/2009-09-01/uk-countries-2009-09-01.xsd#uk-countries_Albania" xlink:label="uk-countries_Albania"/>
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-countries_CountryListHeading" xlink:to="uk-countries_Albania" use="optional" order="3.0"/>
+    <loc xlink:type="locator" xlink:href="http://www.xbrl.org/uk/cd/countries-regions/2009-09-01/uk-countries-2009-09-01.xsd#uk-countries_Algeria" xlink:label="uk-countries_Algeria"/>
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-countries_CountryListHeading" xlink:to="uk-countries_Algeria" use="optional" order="4.0"/>
+    <loc xlink:type="locator" xlink:href="http://www.xbrl.org/uk/cd/countries-regions/2009-09-01/uk-countries-2009-09-01.xsd#uk-countries_AmericanSamoa" xlink:label="uk-countries_AmericanSamoa"/>
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-countries_CountryListHeading" xlink:to="uk-countries_AmericanSamoa" use="optional" order="5.0"/>
+    <loc xlink:type="locator" xlink:href="http://www.xbrl.org/uk/cd/countries-regions/2009-09-01/uk-countries-2009-09-01.xsd#uk-countries_Andorra" xlink:label="uk-countries_Andorra"/>
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-countries_CountryListHeading" xlink:to="uk-countries_Andorra" use="optional" order="6.0"/>
+    <loc xlink:type="locator" xlink:href="http://www.xbrl.org/uk/cd/countries-regions/2009-09-01/uk-countries-2009-09-01.xsd#uk-countries_Angola" xlink:label="uk-countries_Angola"/>
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-countries_CountryListHeading" xlink:to="uk-countries_Angola" use="optional" order="7.0"/>
+    <loc xlink:type="locator" xlink:href="http://www.xbrl.org/uk/cd/countries-regions/2009-09-01/uk-countries-2009-09-01.xsd#uk-countries_Anguilla" xlink:label="uk-countries_Anguilla"/>
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-countries_CountryListHeading" xlink:to="uk-countries_Anguilla" use="optional" order="8.0"/>
+    <loc xlink:type="locator" xlink:href="http://www.xbrl.org/uk/cd/countries-regions/2009-09-01/uk-countries-2009-09-01.xsd#uk-countries_Antarctica" xlink:label="uk-countries_Antarctica"/>
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-countries_CountryListHeading" xlink:to="uk-countries_Antarctica" use="optional" order="9.0"/>
+    <loc xlink:type="locator" xlink:href="http://www.xbrl.org/uk/cd/countries-regions/2009-09-01/uk-countries-2009-09-01.xsd#uk-countries_AntiguaBarbuda" xlink:label="uk-countries_AntiguaBarbuda"/>
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-countries_CountryListHeading" xlink:to="uk-countries_AntiguaBarbuda" use="optional" order="10.0"/>
+    <loc xlink:type="locator" xlink:href="http://www.xbrl.org/uk/cd/countries-regions/2009-09-01/uk-countries-2009-09-01.xsd#uk-countries_Argentina" xlink:label="uk-countries_Argentina"/>
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-countries_CountryListHeading" xlink:to="uk-countries_Argentina" use="optional" order="11.0"/>
+    <loc xlink:type="locator" xlink:href="http://www.xbrl.org/uk/cd/countries-regions/2009-09-01/uk-countries-2009-09-01.xsd#uk-countries_Armenia" xlink:label="uk-countries_Armenia"/>
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-countries_CountryListHeading" xlink:to="uk-countries_Armenia" use="optional" order="12.0"/>
+    <loc xlink:type="locator" xlink:href="http://www.xbrl.org/uk/cd/countries-regions/2009-09-01/uk-countries-2009-09-01.xsd#uk-countries_Aruba" xlink:label="uk-countries_Aruba"/>
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-countries_CountryListHeading" xlink:to="uk-countries_Aruba" use="optional" order="13.0"/>
+    <loc xlink:type="locator" xlink:href="http://www.xbrl.org/uk/cd/countries-regions/2009-09-01/uk-countries-2009-09-01.xsd#uk-countries_Australia" xlink:label="uk-countries_Australia"/>
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-countries_CountryListHeading" xlink:to="uk-countries_Australia" use="optional" order="14.0"/>
+    <loc xlink:type="locator" xlink:href="http://www.xbrl.org/uk/cd/countries-regions/2009-09-01/uk-countries-2009-09-01.xsd#uk-countries_Austria" xlink:label="uk-countries_Austria"/>
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-countries_CountryListHeading" xlink:to="uk-countries_Austria" use="optional" order="15.0"/>
+    <loc xlink:type="locator" xlink:href="http://www.xbrl.org/uk/cd/countries-regions/2009-09-01/uk-countries-2009-09-01.xsd#uk-countries_Azerbaijan" xlink:label="uk-countries_Azerbaijan"/>
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-countries_CountryListHeading" xlink:to="uk-countries_Azerbaijan" use="optional" order="16.0"/>
+    <loc xlink:type="locator" xlink:href="http://www.xbrl.org/uk/cd/countries-regions/2009-09-01/uk-countries-2009-09-01.xsd#uk-countries_Bahamas" xlink:label="uk-countries_Bahamas"/>
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-countries_CountryListHeading" xlink:to="uk-countries_Bahamas" use="optional" order="17.0"/>
+    <loc xlink:type="locator" xlink:href="http://www.xbrl.org/uk/cd/countries-regions/2009-09-01/uk-countries-2009-09-01.xsd#uk-countries_Bahrain" xlink:label="uk-countries_Bahrain"/>
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-countries_CountryListHeading" xlink:to="uk-countries_Bahrain" use="optional" order="18.0"/>
+    <loc xlink:type="locator" xlink:href="http://www.xbrl.org/uk/cd/countries-regions/2009-09-01/uk-countries-2009-09-01.xsd#uk-countries_Bangladesh" xlink:label="uk-countries_Bangladesh"/>
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-countries_CountryListHeading" xlink:to="uk-countries_Bangladesh" use="optional" order="19.0"/>
+    <loc xlink:type="locator" xlink:href="http://www.xbrl.org/uk/cd/countries-regions/2009-09-01/uk-countries-2009-09-01.xsd#uk-countries_Barbados" xlink:label="uk-countries_Barbados"/>
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-countries_CountryListHeading" xlink:to="uk-countries_Barbados" use="optional" order="20.0"/>
+    <loc xlink:type="locator" xlink:href="http://www.xbrl.org/uk/cd/countries-regions/2009-09-01/uk-countries-2009-09-01.xsd#uk-countries_Belarus" xlink:label="uk-countries_Belarus"/>
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-countries_CountryListHeading" xlink:to="uk-countries_Belarus" use="optional" order="21.0"/>
+    <loc xlink:type="locator" xlink:href="http://www.xbrl.org/uk/cd/countries-regions/2009-09-01/uk-countries-2009-09-01.xsd#uk-countries_Belgium" xlink:label="uk-countries_Belgium"/>
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-countries_CountryListHeading" xlink:to="uk-countries_Belgium" use="optional" order="22.0"/>
+    <loc xlink:type="locator" xlink:href="http://www.xbrl.org/uk/cd/countries-regions/2009-09-01/uk-countries-2009-09-01.xsd#uk-countries_Belize" xlink:label="uk-countries_Belize"/>
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-countries_CountryListHeading" xlink:to="uk-countries_Belize" use="optional" order="23.0"/>
+    <loc xlink:type="locator" xlink:href="http://www.xbrl.org/uk/cd/countries-regions/2009-09-01/uk-countries-2009-09-01.xsd#uk-countries_Benin" xlink:label="uk-countries_Benin"/>
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-countries_CountryListHeading" xlink:to="uk-countries_Benin" use="optional" order="24.0"/>
+    <loc xlink:type="locator" xlink:href="http://www.xbrl.org/uk/cd/countries-regions/2009-09-01/uk-countries-2009-09-01.xsd#uk-countries_Bermuda" xlink:label="uk-countries_Bermuda"/>
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-countries_CountryListHeading" xlink:to="uk-countries_Bermuda" use="optional" order="25.0"/>
+    <loc xlink:type="locator" xlink:href="http://www.xbrl.org/uk/cd/countries-regions/2009-09-01/uk-countries-2009-09-01.xsd#uk-countries_Bhutan" xlink:label="uk-countries_Bhutan"/>
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-countries_CountryListHeading" xlink:to="uk-countries_Bhutan" use="optional" order="26.0"/>
+    <loc xlink:type="locator" xlink:href="http://www.xbrl.org/uk/cd/countries-regions/2009-09-01/uk-countries-2009-09-01.xsd#uk-countries_Bolivia" xlink:label="uk-countries_Bolivia"/>
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-countries_CountryListHeading" xlink:to="uk-countries_Bolivia" use="optional" order="27.0"/>
+    <loc xlink:type="locator" xlink:href="http://www.xbrl.org/uk/cd/countries-regions/2009-09-01/uk-countries-2009-09-01.xsd#uk-countries_BosniaHerzegovina" xlink:label="uk-countries_BosniaHerzegovina"/>
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-countries_CountryListHeading" xlink:to="uk-countries_BosniaHerzegovina" use="optional" order="28.0"/>
+    <loc xlink:type="locator" xlink:href="http://www.xbrl.org/uk/cd/countries-regions/2009-09-01/uk-countries-2009-09-01.xsd#uk-countries_Botswana" xlink:label="uk-countries_Botswana"/>
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-countries_CountryListHeading" xlink:to="uk-countries_Botswana" use="optional" order="29.0"/>
+    <loc xlink:type="locator" xlink:href="http://www.xbrl.org/uk/cd/countries-regions/2009-09-01/uk-countries-2009-09-01.xsd#uk-countries_BouvetIsland" xlink:label="uk-countries_BouvetIsland"/>
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-countries_CountryListHeading" xlink:to="uk-countries_BouvetIsland" use="optional" order="30.0"/>
+    <loc xlink:type="locator" xlink:href="http://www.xbrl.org/uk/cd/countries-regions/2009-09-01/uk-countries-2009-09-01.xsd#uk-countries_Brazil" xlink:label="uk-countries_Brazil"/>
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-countries_CountryListHeading" xlink:to="uk-countries_Brazil" use="optional" order="31.0"/>
+    <loc xlink:type="locator" xlink:href="http://www.xbrl.org/uk/cd/countries-regions/2009-09-01/uk-countries-2009-09-01.xsd#uk-countries_BritishIndianOceanTerritory" xlink:label="uk-countries_BritishIndianOceanTerritory"/>
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-countries_CountryListHeading" xlink:to="uk-countries_BritishIndianOceanTerritory" use="optional" order="32.0"/>
+    <loc xlink:type="locator" xlink:href="http://www.xbrl.org/uk/cd/countries-regions/2009-09-01/uk-countries-2009-09-01.xsd#uk-countries_BruneiDarussalam" xlink:label="uk-countries_BruneiDarussalam"/>
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-countries_CountryListHeading" xlink:to="uk-countries_BruneiDarussalam" use="optional" order="33.0"/>
+    <loc xlink:type="locator" xlink:href="http://www.xbrl.org/uk/cd/countries-regions/2009-09-01/uk-countries-2009-09-01.xsd#uk-countries_Bulgaria" xlink:label="uk-countries_Bulgaria"/>
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-countries_CountryListHeading" xlink:to="uk-countries_Bulgaria" use="optional" order="34.0"/>
+    <loc xlink:type="locator" xlink:href="http://www.xbrl.org/uk/cd/countries-regions/2009-09-01/uk-countries-2009-09-01.xsd#uk-countries_BurkinaFaso" xlink:label="uk-countries_BurkinaFaso"/>
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-countries_CountryListHeading" xlink:to="uk-countries_BurkinaFaso" use="optional" order="35.0"/>
+    <loc xlink:type="locator" xlink:href="http://www.xbrl.org/uk/cd/countries-regions/2009-09-01/uk-countries-2009-09-01.xsd#uk-countries_Burundi" xlink:label="uk-countries_Burundi"/>
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-countries_CountryListHeading" xlink:to="uk-countries_Burundi" use="optional" order="36.0"/>
+    <loc xlink:type="locator" xlink:href="http://www.xbrl.org/uk/cd/countries-regions/2009-09-01/uk-countries-2009-09-01.xsd#uk-countries_Cambodia" xlink:label="uk-countries_Cambodia"/>
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-countries_CountryListHeading" xlink:to="uk-countries_Cambodia" use="optional" order="37.0"/>
+    <loc xlink:type="locator" xlink:href="http://www.xbrl.org/uk/cd/countries-regions/2009-09-01/uk-countries-2009-09-01.xsd#uk-countries_Cameroon" xlink:label="uk-countries_Cameroon"/>
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-countries_CountryListHeading" xlink:to="uk-countries_Cameroon" use="optional" order="38.0"/>
+    <loc xlink:type="locator" xlink:href="http://www.xbrl.org/uk/cd/countries-regions/2009-09-01/uk-countries-2009-09-01.xsd#uk-countries_Canada" xlink:label="uk-countries_Canada"/>
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-countries_CountryListHeading" xlink:to="uk-countries_Canada" use="optional" order="39.0"/>
+    <loc xlink:type="locator" xlink:href="http://www.xbrl.org/uk/cd/countries-regions/2009-09-01/uk-countries-2009-09-01.xsd#uk-countries_CapeVerde" xlink:label="uk-countries_CapeVerde"/>
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-countries_CountryListHeading" xlink:to="uk-countries_CapeVerde" use="optional" order="40.0"/>
+    <loc xlink:type="locator" xlink:href="http://www.xbrl.org/uk/cd/countries-regions/2009-09-01/uk-countries-2009-09-01.xsd#uk-countries_CaymanIslands" xlink:label="uk-countries_CaymanIslands"/>
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-countries_CountryListHeading" xlink:to="uk-countries_CaymanIslands" use="optional" order="41.0"/>
+    <loc xlink:type="locator" xlink:href="http://www.xbrl.org/uk/cd/countries-regions/2009-09-01/uk-countries-2009-09-01.xsd#uk-countries_CentralAfricanRepublic" xlink:label="uk-countries_CentralAfricanRepublic"/>
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-countries_CountryListHeading" xlink:to="uk-countries_CentralAfricanRepublic" use="optional" order="42.0"/>
+    <loc xlink:type="locator" xlink:href="http://www.xbrl.org/uk/cd/countries-regions/2009-09-01/uk-countries-2009-09-01.xsd#uk-countries_Chad" xlink:label="uk-countries_Chad"/>
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-countries_CountryListHeading" xlink:to="uk-countries_Chad" use="optional" order="43.0"/>
+    <loc xlink:type="locator" xlink:href="http://www.xbrl.org/uk/cd/countries-regions/2009-09-01/uk-countries-2009-09-01.xsd#uk-countries_Chile" xlink:label="uk-countries_Chile"/>
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-countries_CountryListHeading" xlink:to="uk-countries_Chile" use="optional" order="44.0"/>
+    <loc xlink:type="locator" xlink:href="http://www.xbrl.org/uk/cd/countries-regions/2009-09-01/uk-countries-2009-09-01.xsd#uk-countries_China" xlink:label="uk-countries_China"/>
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-countries_CountryListHeading" xlink:to="uk-countries_China" use="optional" order="45.0"/>
+    <loc xlink:type="locator" xlink:href="http://www.xbrl.org/uk/cd/countries-regions/2009-09-01/uk-countries-2009-09-01.xsd#uk-countries_ChristmasIsland" xlink:label="uk-countries_ChristmasIsland"/>
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-countries_CountryListHeading" xlink:to="uk-countries_ChristmasIsland" use="optional" order="46.0"/>
+    <loc xlink:type="locator" xlink:href="http://www.xbrl.org/uk/cd/countries-regions/2009-09-01/uk-countries-2009-09-01.xsd#uk-countries_CocosKeelingIslands" xlink:label="uk-countries_CocosKeelingIslands"/>
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-countries_CountryListHeading" xlink:to="uk-countries_CocosKeelingIslands" use="optional" order="47.0"/>
+    <loc xlink:type="locator" xlink:href="http://www.xbrl.org/uk/cd/countries-regions/2009-09-01/uk-countries-2009-09-01.xsd#uk-countries_Colombia" xlink:label="uk-countries_Colombia"/>
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-countries_CountryListHeading" xlink:to="uk-countries_Colombia" use="optional" order="48.0"/>
+    <loc xlink:type="locator" xlink:href="http://www.xbrl.org/uk/cd/countries-regions/2009-09-01/uk-countries-2009-09-01.xsd#uk-countries_Comoros" xlink:label="uk-countries_Comoros"/>
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-countries_CountryListHeading" xlink:to="uk-countries_Comoros" use="optional" order="49.0"/>
+    <loc xlink:type="locator" xlink:href="http://www.xbrl.org/uk/cd/countries-regions/2009-09-01/uk-countries-2009-09-01.xsd#uk-countries_Congo" xlink:label="uk-countries_Congo"/>
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-countries_CountryListHeading" xlink:to="uk-countries_Congo" use="optional" order="50.0"/>
+    <loc xlink:type="locator" xlink:href="http://www.xbrl.org/uk/cd/countries-regions/2009-09-01/uk-countries-2009-09-01.xsd#uk-countries_CongoDemocraticRepublic" xlink:label="uk-countries_CongoDemocraticRepublic"/>
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-countries_CountryListHeading" xlink:to="uk-countries_CongoDemocraticRepublic" use="optional" order="51.0"/>
+    <loc xlink:type="locator" xlink:href="http://www.xbrl.org/uk/cd/countries-regions/2009-09-01/uk-countries-2009-09-01.xsd#uk-countries_CookIslands" xlink:label="uk-countries_CookIslands"/>
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-countries_CountryListHeading" xlink:to="uk-countries_CookIslands" use="optional" order="52.0"/>
+    <loc xlink:type="locator" xlink:href="http://www.xbrl.org/uk/cd/countries-regions/2009-09-01/uk-countries-2009-09-01.xsd#uk-countries_CostaRica" xlink:label="uk-countries_CostaRica"/>
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-countries_CountryListHeading" xlink:to="uk-countries_CostaRica" use="optional" order="53.0"/>
+    <loc xlink:type="locator" xlink:href="http://www.xbrl.org/uk/cd/countries-regions/2009-09-01/uk-countries-2009-09-01.xsd#uk-countries_CoteDIvoire" xlink:label="uk-countries_CoteDIvoire"/>
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-countries_CountryListHeading" xlink:to="uk-countries_CoteDIvoire" use="optional" order="54.0"/>
+    <loc xlink:type="locator" xlink:href="http://www.xbrl.org/uk/cd/countries-regions/2009-09-01/uk-countries-2009-09-01.xsd#uk-countries_Croatia" xlink:label="uk-countries_Croatia"/>
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-countries_CountryListHeading" xlink:to="uk-countries_Croatia" use="optional" order="55.0"/>
+    <loc xlink:type="locator" xlink:href="http://www.xbrl.org/uk/cd/countries-regions/2009-09-01/uk-countries-2009-09-01.xsd#uk-countries_Cuba" xlink:label="uk-countries_Cuba"/>
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-countries_CountryListHeading" xlink:to="uk-countries_Cuba" use="optional" order="56.0"/>
+    <loc xlink:type="locator" xlink:href="http://www.xbrl.org/uk/cd/countries-regions/2009-09-01/uk-countries-2009-09-01.xsd#uk-countries_Cyprus" xlink:label="uk-countries_Cyprus"/>
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-countries_CountryListHeading" xlink:to="uk-countries_Cyprus" use="optional" order="57.0"/>
+    <loc xlink:type="locator" xlink:href="http://www.xbrl.org/uk/cd/countries-regions/2009-09-01/uk-countries-2009-09-01.xsd#uk-countries_CzechRepublic" xlink:label="uk-countries_CzechRepublic"/>
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-countries_CountryListHeading" xlink:to="uk-countries_CzechRepublic" use="optional" order="58.0"/>
+    <loc xlink:type="locator" xlink:href="http://www.xbrl.org/uk/cd/countries-regions/2009-09-01/uk-countries-2009-09-01.xsd#uk-countries_Denmark" xlink:label="uk-countries_Denmark"/>
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-countries_CountryListHeading" xlink:to="uk-countries_Denmark" use="optional" order="59.0"/>
+    <loc xlink:type="locator" xlink:href="http://www.xbrl.org/uk/cd/countries-regions/2009-09-01/uk-countries-2009-09-01.xsd#uk-countries_Djibouti" xlink:label="uk-countries_Djibouti"/>
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-countries_CountryListHeading" xlink:to="uk-countries_Djibouti" use="optional" order="60.0"/>
+    <loc xlink:type="locator" xlink:href="http://www.xbrl.org/uk/cd/countries-regions/2009-09-01/uk-countries-2009-09-01.xsd#uk-countries_Dominica" xlink:label="uk-countries_Dominica"/>
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-countries_CountryListHeading" xlink:to="uk-countries_Dominica" use="optional" order="61.0"/>
+    <loc xlink:type="locator" xlink:href="http://www.xbrl.org/uk/cd/countries-regions/2009-09-01/uk-countries-2009-09-01.xsd#uk-countries_DominicanRepublic" xlink:label="uk-countries_DominicanRepublic"/>
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-countries_CountryListHeading" xlink:to="uk-countries_DominicanRepublic" use="optional" order="62.0"/>
+    <loc xlink:type="locator" xlink:href="http://www.xbrl.org/uk/cd/countries-regions/2009-09-01/uk-countries-2009-09-01.xsd#uk-countries_Ecuador" xlink:label="uk-countries_Ecuador"/>
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-countries_CountryListHeading" xlink:to="uk-countries_Ecuador" use="optional" order="63.0"/>
+    <loc xlink:type="locator" xlink:href="http://www.xbrl.org/uk/cd/countries-regions/2009-09-01/uk-countries-2009-09-01.xsd#uk-countries_Egypt" xlink:label="uk-countries_Egypt"/>
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-countries_CountryListHeading" xlink:to="uk-countries_Egypt" use="optional" order="64.0"/>
+    <loc xlink:type="locator" xlink:href="http://www.xbrl.org/uk/cd/countries-regions/2009-09-01/uk-countries-2009-09-01.xsd#uk-countries_ElSalvador" xlink:label="uk-countries_ElSalvador"/>
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-countries_CountryListHeading" xlink:to="uk-countries_ElSalvador" use="optional" order="65.0"/>
+    <loc xlink:type="locator" xlink:href="http://www.xbrl.org/uk/cd/countries-regions/2009-09-01/uk-countries-2009-09-01.xsd#uk-countries_EquatorialGuinea" xlink:label="uk-countries_EquatorialGuinea"/>
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-countries_CountryListHeading" xlink:to="uk-countries_EquatorialGuinea" use="optional" order="66.0"/>
+    <loc xlink:type="locator" xlink:href="http://www.xbrl.org/uk/cd/countries-regions/2009-09-01/uk-countries-2009-09-01.xsd#uk-countries_Eritrea" xlink:label="uk-countries_Eritrea"/>
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-countries_CountryListHeading" xlink:to="uk-countries_Eritrea" use="optional" order="67.0"/>
+    <loc xlink:type="locator" xlink:href="http://www.xbrl.org/uk/cd/countries-regions/2009-09-01/uk-countries-2009-09-01.xsd#uk-countries_Estonia" xlink:label="uk-countries_Estonia"/>
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-countries_CountryListHeading" xlink:to="uk-countries_Estonia" use="optional" order="68.0"/>
+    <loc xlink:type="locator" xlink:href="http://www.xbrl.org/uk/cd/countries-regions/2009-09-01/uk-countries-2009-09-01.xsd#uk-countries_Ethiopia" xlink:label="uk-countries_Ethiopia"/>
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-countries_CountryListHeading" xlink:to="uk-countries_Ethiopia" use="optional" order="69.0"/>
+    <loc xlink:type="locator" xlink:href="http://www.xbrl.org/uk/cd/countries-regions/2009-09-01/uk-countries-2009-09-01.xsd#uk-countries_FalklandIslandsMalvinas" xlink:label="uk-countries_FalklandIslandsMalvinas"/>
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-countries_CountryListHeading" xlink:to="uk-countries_FalklandIslandsMalvinas" use="optional" order="70.0"/>
+    <loc xlink:type="locator" xlink:href="http://www.xbrl.org/uk/cd/countries-regions/2009-09-01/uk-countries-2009-09-01.xsd#uk-countries_FaroeIslands" xlink:label="uk-countries_FaroeIslands"/>
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-countries_CountryListHeading" xlink:to="uk-countries_FaroeIslands" use="optional" order="71.0"/>
+    <loc xlink:type="locator" xlink:href="http://www.xbrl.org/uk/cd/countries-regions/2009-09-01/uk-countries-2009-09-01.xsd#uk-countries_Fiji" xlink:label="uk-countries_Fiji"/>
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-countries_CountryListHeading" xlink:to="uk-countries_Fiji" use="optional" order="72.0"/>
+    <loc xlink:type="locator" xlink:href="http://www.xbrl.org/uk/cd/countries-regions/2009-09-01/uk-countries-2009-09-01.xsd#uk-countries_Finland" xlink:label="uk-countries_Finland"/>
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-countries_CountryListHeading" xlink:to="uk-countries_Finland" use="optional" order="73.0"/>
+    <loc xlink:type="locator" xlink:href="http://www.xbrl.org/uk/cd/countries-regions/2009-09-01/uk-countries-2009-09-01.xsd#uk-countries_France" xlink:label="uk-countries_France"/>
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-countries_CountryListHeading" xlink:to="uk-countries_France" use="optional" order="74.0"/>
+    <loc xlink:type="locator" xlink:href="http://www.xbrl.org/uk/cd/countries-regions/2009-09-01/uk-countries-2009-09-01.xsd#uk-countries_FrenchGuiana" xlink:label="uk-countries_FrenchGuiana"/>
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-countries_CountryListHeading" xlink:to="uk-countries_FrenchGuiana" use="optional" order="75.0"/>
+    <loc xlink:type="locator" xlink:href="http://www.xbrl.org/uk/cd/countries-regions/2009-09-01/uk-countries-2009-09-01.xsd#uk-countries_FrenchPolynesia" xlink:label="uk-countries_FrenchPolynesia"/>
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-countries_CountryListHeading" xlink:to="uk-countries_FrenchPolynesia" use="optional" order="76.0"/>
+    <loc xlink:type="locator" xlink:href="http://www.xbrl.org/uk/cd/countries-regions/2009-09-01/uk-countries-2009-09-01.xsd#uk-countries_FrenchSouthernTerritories" xlink:label="uk-countries_FrenchSouthernTerritories"/>
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-countries_CountryListHeading" xlink:to="uk-countries_FrenchSouthernTerritories" use="optional" order="77.0"/>
+    <loc xlink:type="locator" xlink:href="http://www.xbrl.org/uk/cd/countries-regions/2009-09-01/uk-countries-2009-09-01.xsd#uk-countries_Gabon" xlink:label="uk-countries_Gabon"/>
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-countries_CountryListHeading" xlink:to="uk-countries_Gabon" use="optional" order="78.0"/>
+    <loc xlink:type="locator" xlink:href="http://www.xbrl.org/uk/cd/countries-regions/2009-09-01/uk-countries-2009-09-01.xsd#uk-countries_Gambia" xlink:label="uk-countries_Gambia"/>
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-countries_CountryListHeading" xlink:to="uk-countries_Gambia" use="optional" order="79.0"/>
+    <loc xlink:type="locator" xlink:href="http://www.xbrl.org/uk/cd/countries-regions/2009-09-01/uk-countries-2009-09-01.xsd#uk-countries_Georgia" xlink:label="uk-countries_Georgia"/>
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-countries_CountryListHeading" xlink:to="uk-countries_Georgia" use="optional" order="80.0"/>
+    <loc xlink:type="locator" xlink:href="http://www.xbrl.org/uk/cd/countries-regions/2009-09-01/uk-countries-2009-09-01.xsd#uk-countries_Germany" xlink:label="uk-countries_Germany"/>
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-countries_CountryListHeading" xlink:to="uk-countries_Germany" use="optional" order="81.0"/>
+    <loc xlink:type="locator" xlink:href="http://www.xbrl.org/uk/cd/countries-regions/2009-09-01/uk-countries-2009-09-01.xsd#uk-countries_Ghana" xlink:label="uk-countries_Ghana"/>
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-countries_CountryListHeading" xlink:to="uk-countries_Ghana" use="optional" order="82.0"/>
+    <loc xlink:type="locator" xlink:href="http://www.xbrl.org/uk/cd/countries-regions/2009-09-01/uk-countries-2009-09-01.xsd#uk-countries_Gibraltar" xlink:label="uk-countries_Gibraltar"/>
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-countries_CountryListHeading" xlink:to="uk-countries_Gibraltar" use="optional" order="83.0"/>
+    <loc xlink:type="locator" xlink:href="http://www.xbrl.org/uk/cd/countries-regions/2009-09-01/uk-countries-2009-09-01.xsd#uk-countries_Greece" xlink:label="uk-countries_Greece"/>
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-countries_CountryListHeading" xlink:to="uk-countries_Greece" use="optional" order="84.0"/>
+    <loc xlink:type="locator" xlink:href="http://www.xbrl.org/uk/cd/countries-regions/2009-09-01/uk-countries-2009-09-01.xsd#uk-countries_Greenland" xlink:label="uk-countries_Greenland"/>
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-countries_CountryListHeading" xlink:to="uk-countries_Greenland" use="optional" order="85.0"/>
+    <loc xlink:type="locator" xlink:href="http://www.xbrl.org/uk/cd/countries-regions/2009-09-01/uk-countries-2009-09-01.xsd#uk-countries_Grenada" xlink:label="uk-countries_Grenada"/>
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-countries_CountryListHeading" xlink:to="uk-countries_Grenada" use="optional" order="86.0"/>
+    <loc xlink:type="locator" xlink:href="http://www.xbrl.org/uk/cd/countries-regions/2009-09-01/uk-countries-2009-09-01.xsd#uk-countries_Guadeloupe" xlink:label="uk-countries_Guadeloupe"/>
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-countries_CountryListHeading" xlink:to="uk-countries_Guadeloupe" use="optional" order="87.0"/>
+    <loc xlink:type="locator" xlink:href="http://www.xbrl.org/uk/cd/countries-regions/2009-09-01/uk-countries-2009-09-01.xsd#uk-countries_Guam" xlink:label="uk-countries_Guam"/>
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-countries_CountryListHeading" xlink:to="uk-countries_Guam" use="optional" order="88.0"/>
+    <loc xlink:type="locator" xlink:href="http://www.xbrl.org/uk/cd/countries-regions/2009-09-01/uk-countries-2009-09-01.xsd#uk-countries_Guatemala" xlink:label="uk-countries_Guatemala"/>
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-countries_CountryListHeading" xlink:to="uk-countries_Guatemala" use="optional" order="89.0"/>
+    <loc xlink:type="locator" xlink:href="http://www.xbrl.org/uk/cd/countries-regions/2009-09-01/uk-countries-2009-09-01.xsd#uk-countries_Guinea" xlink:label="uk-countries_Guinea"/>
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-countries_CountryListHeading" xlink:to="uk-countries_Guinea" use="optional" order="90.0"/>
+    <loc xlink:type="locator" xlink:href="http://www.xbrl.org/uk/cd/countries-regions/2009-09-01/uk-countries-2009-09-01.xsd#uk-countries_Guinea-Bissau" xlink:label="uk-countries_Guinea-Bissau"/>
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-countries_CountryListHeading" xlink:to="uk-countries_Guinea-Bissau" use="optional" order="91.0"/>
+    <loc xlink:type="locator" xlink:href="http://www.xbrl.org/uk/cd/countries-regions/2009-09-01/uk-countries-2009-09-01.xsd#uk-countries_Guyana" xlink:label="uk-countries_Guyana"/>
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-countries_CountryListHeading" xlink:to="uk-countries_Guyana" use="optional" order="92.0"/>
+    <loc xlink:type="locator" xlink:href="http://www.xbrl.org/uk/cd/countries-regions/2009-09-01/uk-countries-2009-09-01.xsd#uk-countries_Haiti" xlink:label="uk-countries_Haiti"/>
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-countries_CountryListHeading" xlink:to="uk-countries_Haiti" use="optional" order="93.0"/>
+    <loc xlink:type="locator" xlink:href="http://www.xbrl.org/uk/cd/countries-regions/2009-09-01/uk-countries-2009-09-01.xsd#uk-countries_HeardIslandMcDonaldIslands" xlink:label="uk-countries_HeardIslandMcDonaldIslands"/>
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-countries_CountryListHeading" xlink:to="uk-countries_HeardIslandMcDonaldIslands" use="optional" order="94.0"/>
+    <loc xlink:type="locator" xlink:href="http://www.xbrl.org/uk/cd/countries-regions/2009-09-01/uk-countries-2009-09-01.xsd#uk-countries_HolySeeVaticanCityState" xlink:label="uk-countries_HolySeeVaticanCityState"/>
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-countries_CountryListHeading" xlink:to="uk-countries_HolySeeVaticanCityState" use="optional" order="95.0"/>
+    <loc xlink:type="locator" xlink:href="http://www.xbrl.org/uk/cd/countries-regions/2009-09-01/uk-countries-2009-09-01.xsd#uk-countries_Honduras" xlink:label="uk-countries_Honduras"/>
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-countries_CountryListHeading" xlink:to="uk-countries_Honduras" use="optional" order="96.0"/>
+    <loc xlink:type="locator" xlink:href="http://www.xbrl.org/uk/cd/countries-regions/2009-09-01/uk-countries-2009-09-01.xsd#uk-countries_HongKong" xlink:label="uk-countries_HongKong"/>
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-countries_CountryListHeading" xlink:to="uk-countries_HongKong" use="optional" order="97.0"/>
+    <loc xlink:type="locator" xlink:href="http://www.xbrl.org/uk/cd/countries-regions/2009-09-01/uk-countries-2009-09-01.xsd#uk-countries_Hungary" xlink:label="uk-countries_Hungary"/>
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-countries_CountryListHeading" xlink:to="uk-countries_Hungary" use="optional" order="98.0"/>
+    <loc xlink:type="locator" xlink:href="http://www.xbrl.org/uk/cd/countries-regions/2009-09-01/uk-countries-2009-09-01.xsd#uk-countries_Iceland" xlink:label="uk-countries_Iceland"/>
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-countries_CountryListHeading" xlink:to="uk-countries_Iceland" use="optional" order="99.0"/>
+    <loc xlink:type="locator" xlink:href="http://www.xbrl.org/uk/cd/countries-regions/2009-09-01/uk-countries-2009-09-01.xsd#uk-countries_India" xlink:label="uk-countries_India"/>
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-countries_CountryListHeading" xlink:to="uk-countries_India" use="optional" order="100.0"/>
+    <loc xlink:type="locator" xlink:href="http://www.xbrl.org/uk/cd/countries-regions/2009-09-01/uk-countries-2009-09-01.xsd#uk-countries_Indonesia" xlink:label="uk-countries_Indonesia"/>
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-countries_CountryListHeading" xlink:to="uk-countries_Indonesia" use="optional" order="101.0"/>
+    <loc xlink:type="locator" xlink:href="http://www.xbrl.org/uk/cd/countries-regions/2009-09-01/uk-countries-2009-09-01.xsd#uk-countries_IranIslamicRepublic" xlink:label="uk-countries_IranIslamicRepublic"/>
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-countries_CountryListHeading" xlink:to="uk-countries_IranIslamicRepublic" use="optional" order="102.0"/>
+    <loc xlink:type="locator" xlink:href="http://www.xbrl.org/uk/cd/countries-regions/2009-09-01/uk-countries-2009-09-01.xsd#uk-countries_Iraq" xlink:label="uk-countries_Iraq"/>
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-countries_CountryListHeading" xlink:to="uk-countries_Iraq" use="optional" order="103.0"/>
+    <loc xlink:type="locator" xlink:href="http://www.xbrl.org/uk/cd/countries-regions/2009-09-01/uk-countries-2009-09-01.xsd#uk-countries_Ireland" xlink:label="uk-countries_Ireland"/>
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-countries_CountryListHeading" xlink:to="uk-countries_Ireland" use="optional" order="104.0"/>
+    <loc xlink:type="locator" xlink:href="http://www.xbrl.org/uk/cd/countries-regions/2009-09-01/uk-countries-2009-09-01.xsd#uk-countries_Israel" xlink:label="uk-countries_Israel"/>
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-countries_CountryListHeading" xlink:to="uk-countries_Israel" use="optional" order="105.0"/>
+    <loc xlink:type="locator" xlink:href="http://www.xbrl.org/uk/cd/countries-regions/2009-09-01/uk-countries-2009-09-01.xsd#uk-countries_Italy" xlink:label="uk-countries_Italy"/>
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-countries_CountryListHeading" xlink:to="uk-countries_Italy" use="optional" order="106.0"/>
+    <loc xlink:type="locator" xlink:href="http://www.xbrl.org/uk/cd/countries-regions/2009-09-01/uk-countries-2009-09-01.xsd#uk-countries_Jamaica" xlink:label="uk-countries_Jamaica"/>
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-countries_CountryListHeading" xlink:to="uk-countries_Jamaica" use="optional" order="107.0"/>
+    <loc xlink:type="locator" xlink:href="http://www.xbrl.org/uk/cd/countries-regions/2009-09-01/uk-countries-2009-09-01.xsd#uk-countries_Japan" xlink:label="uk-countries_Japan"/>
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-countries_CountryListHeading" xlink:to="uk-countries_Japan" use="optional" order="108.0"/>
+    <loc xlink:type="locator" xlink:href="http://www.xbrl.org/uk/cd/countries-regions/2009-09-01/uk-countries-2009-09-01.xsd#uk-countries_Jordan" xlink:label="uk-countries_Jordan"/>
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-countries_CountryListHeading" xlink:to="uk-countries_Jordan" use="optional" order="109.0"/>
+    <loc xlink:type="locator" xlink:href="http://www.xbrl.org/uk/cd/countries-regions/2009-09-01/uk-countries-2009-09-01.xsd#uk-countries_Kazakhstan" xlink:label="uk-countries_Kazakhstan"/>
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-countries_CountryListHeading" xlink:to="uk-countries_Kazakhstan" use="optional" order="110.0"/>
+    <loc xlink:type="locator" xlink:href="http://www.xbrl.org/uk/cd/countries-regions/2009-09-01/uk-countries-2009-09-01.xsd#uk-countries_Kenya" xlink:label="uk-countries_Kenya"/>
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-countries_CountryListHeading" xlink:to="uk-countries_Kenya" use="optional" order="111.0"/>
+    <loc xlink:type="locator" xlink:href="http://www.xbrl.org/uk/cd/countries-regions/2009-09-01/uk-countries-2009-09-01.xsd#uk-countries_Kiribati" xlink:label="uk-countries_Kiribati"/>
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-countries_CountryListHeading" xlink:to="uk-countries_Kiribati" use="optional" order="112.0"/>
+    <loc xlink:type="locator" xlink:href="http://www.xbrl.org/uk/cd/countries-regions/2009-09-01/uk-countries-2009-09-01.xsd#uk-countries_KoreaDemocraticPeoplesRepublic" xlink:label="uk-countries_KoreaDemocraticPeoplesRepublic"/>
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-countries_CountryListHeading" xlink:to="uk-countries_KoreaDemocraticPeoplesRepublic" use="optional" order="113.0"/>
+    <loc xlink:type="locator" xlink:href="http://www.xbrl.org/uk/cd/countries-regions/2009-09-01/uk-countries-2009-09-01.xsd#uk-countries_KoreaRepublic" xlink:label="uk-countries_KoreaRepublic"/>
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-countries_CountryListHeading" xlink:to="uk-countries_KoreaRepublic" use="optional" order="114.0"/>
+    <loc xlink:type="locator" xlink:href="http://www.xbrl.org/uk/cd/countries-regions/2009-09-01/uk-countries-2009-09-01.xsd#uk-countries_Kuwait" xlink:label="uk-countries_Kuwait"/>
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-countries_CountryListHeading" xlink:to="uk-countries_Kuwait" use="optional" order="115.0"/>
+    <loc xlink:type="locator" xlink:href="http://www.xbrl.org/uk/cd/countries-regions/2009-09-01/uk-countries-2009-09-01.xsd#uk-countries_Kyrgyzstan" xlink:label="uk-countries_Kyrgyzstan"/>
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-countries_CountryListHeading" xlink:to="uk-countries_Kyrgyzstan" use="optional" order="116.0"/>
+    <loc xlink:type="locator" xlink:href="http://www.xbrl.org/uk/cd/countries-regions/2009-09-01/uk-countries-2009-09-01.xsd#uk-countries_LaoPeoplesDemocraticRepublic" xlink:label="uk-countries_LaoPeoplesDemocraticRepublic"/>
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-countries_CountryListHeading" xlink:to="uk-countries_LaoPeoplesDemocraticRepublic" use="optional" order="117.0"/>
+    <loc xlink:type="locator" xlink:href="http://www.xbrl.org/uk/cd/countries-regions/2009-09-01/uk-countries-2009-09-01.xsd#uk-countries_Latvia" xlink:label="uk-countries_Latvia"/>
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-countries_CountryListHeading" xlink:to="uk-countries_Latvia" use="optional" order="118.0"/>
+    <loc xlink:type="locator" xlink:href="http://www.xbrl.org/uk/cd/countries-regions/2009-09-01/uk-countries-2009-09-01.xsd#uk-countries_Lebanon" xlink:label="uk-countries_Lebanon"/>
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-countries_CountryListHeading" xlink:to="uk-countries_Lebanon" use="optional" order="119.0"/>
+    <loc xlink:type="locator" xlink:href="http://www.xbrl.org/uk/cd/countries-regions/2009-09-01/uk-countries-2009-09-01.xsd#uk-countries_Lesotho" xlink:label="uk-countries_Lesotho"/>
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-countries_CountryListHeading" xlink:to="uk-countries_Lesotho" use="optional" order="120.0"/>
+    <loc xlink:type="locator" xlink:href="http://www.xbrl.org/uk/cd/countries-regions/2009-09-01/uk-countries-2009-09-01.xsd#uk-countries_Liberia" xlink:label="uk-countries_Liberia"/>
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-countries_CountryListHeading" xlink:to="uk-countries_Liberia" use="optional" order="121.0"/>
+    <loc xlink:type="locator" xlink:href="http://www.xbrl.org/uk/cd/countries-regions/2009-09-01/uk-countries-2009-09-01.xsd#uk-countries_LibyanArabJamahiriya" xlink:label="uk-countries_LibyanArabJamahiriya"/>
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-countries_CountryListHeading" xlink:to="uk-countries_LibyanArabJamahiriya" use="optional" order="122.0"/>
+    <loc xlink:type="locator" xlink:href="http://www.xbrl.org/uk/cd/countries-regions/2009-09-01/uk-countries-2009-09-01.xsd#uk-countries_Liechtenstein" xlink:label="uk-countries_Liechtenstein"/>
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-countries_CountryListHeading" xlink:to="uk-countries_Liechtenstein" use="optional" order="123.0"/>
+    <loc xlink:type="locator" xlink:href="http://www.xbrl.org/uk/cd/countries-regions/2009-09-01/uk-countries-2009-09-01.xsd#uk-countries_Lithuania" xlink:label="uk-countries_Lithuania"/>
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-countries_CountryListHeading" xlink:to="uk-countries_Lithuania" use="optional" order="124.0"/>
+    <loc xlink:type="locator" xlink:href="http://www.xbrl.org/uk/cd/countries-regions/2009-09-01/uk-countries-2009-09-01.xsd#uk-countries_Luxembourg" xlink:label="uk-countries_Luxembourg"/>
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-countries_CountryListHeading" xlink:to="uk-countries_Luxembourg" use="optional" order="125.0"/>
+    <loc xlink:type="locator" xlink:href="http://www.xbrl.org/uk/cd/countries-regions/2009-09-01/uk-countries-2009-09-01.xsd#uk-countries_Macao" xlink:label="uk-countries_Macao"/>
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-countries_CountryListHeading" xlink:to="uk-countries_Macao" use="optional" order="126.0"/>
+    <loc xlink:type="locator" xlink:href="http://www.xbrl.org/uk/cd/countries-regions/2009-09-01/uk-countries-2009-09-01.xsd#uk-countries_MacedoniaFormerYugoslavRepublic" xlink:label="uk-countries_MacedoniaFormerYugoslavRepublic"/>
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-countries_CountryListHeading" xlink:to="uk-countries_MacedoniaFormerYugoslavRepublic" use="optional" order="127.0"/>
+    <loc xlink:type="locator" xlink:href="http://www.xbrl.org/uk/cd/countries-regions/2009-09-01/uk-countries-2009-09-01.xsd#uk-countries_Madagascar" xlink:label="uk-countries_Madagascar"/>
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-countries_CountryListHeading" xlink:to="uk-countries_Madagascar" use="optional" order="128.0"/>
+    <loc xlink:type="locator" xlink:href="http://www.xbrl.org/uk/cd/countries-regions/2009-09-01/uk-countries-2009-09-01.xsd#uk-countries_Malawi" xlink:label="uk-countries_Malawi"/>
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-countries_CountryListHeading" xlink:to="uk-countries_Malawi" use="optional" order="129.0"/>
+    <loc xlink:type="locator" xlink:href="http://www.xbrl.org/uk/cd/countries-regions/2009-09-01/uk-countries-2009-09-01.xsd#uk-countries_Malaysia" xlink:label="uk-countries_Malaysia"/>
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-countries_CountryListHeading" xlink:to="uk-countries_Malaysia" use="optional" order="130.0"/>
+    <loc xlink:type="locator" xlink:href="http://www.xbrl.org/uk/cd/countries-regions/2009-09-01/uk-countries-2009-09-01.xsd#uk-countries_Maldives" xlink:label="uk-countries_Maldives"/>
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-countries_CountryListHeading" xlink:to="uk-countries_Maldives" use="optional" order="131.0"/>
+    <loc xlink:type="locator" xlink:href="http://www.xbrl.org/uk/cd/countries-regions/2009-09-01/uk-countries-2009-09-01.xsd#uk-countries_Mali" xlink:label="uk-countries_Mali"/>
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-countries_CountryListHeading" xlink:to="uk-countries_Mali" use="optional" order="132.0"/>
+    <loc xlink:type="locator" xlink:href="http://www.xbrl.org/uk/cd/countries-regions/2009-09-01/uk-countries-2009-09-01.xsd#uk-countries_Malta" xlink:label="uk-countries_Malta"/>
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-countries_CountryListHeading" xlink:to="uk-countries_Malta" use="optional" order="133.0"/>
+    <loc xlink:type="locator" xlink:href="http://www.xbrl.org/uk/cd/countries-regions/2009-09-01/uk-countries-2009-09-01.xsd#uk-countries_MarshallIslands" xlink:label="uk-countries_MarshallIslands"/>
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-countries_CountryListHeading" xlink:to="uk-countries_MarshallIslands" use="optional" order="134.0"/>
+    <loc xlink:type="locator" xlink:href="http://www.xbrl.org/uk/cd/countries-regions/2009-09-01/uk-countries-2009-09-01.xsd#uk-countries_Martinique" xlink:label="uk-countries_Martinique"/>
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-countries_CountryListHeading" xlink:to="uk-countries_Martinique" use="optional" order="135.0"/>
+    <loc xlink:type="locator" xlink:href="http://www.xbrl.org/uk/cd/countries-regions/2009-09-01/uk-countries-2009-09-01.xsd#uk-countries_Mauritania" xlink:label="uk-countries_Mauritania"/>
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-countries_CountryListHeading" xlink:to="uk-countries_Mauritania" use="optional" order="136.0"/>
+    <loc xlink:type="locator" xlink:href="http://www.xbrl.org/uk/cd/countries-regions/2009-09-01/uk-countries-2009-09-01.xsd#uk-countries_Mauritius" xlink:label="uk-countries_Mauritius"/>
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-countries_CountryListHeading" xlink:to="uk-countries_Mauritius" use="optional" order="137.0"/>
+    <loc xlink:type="locator" xlink:href="http://www.xbrl.org/uk/cd/countries-regions/2009-09-01/uk-countries-2009-09-01.xsd#uk-countries_Mayotte" xlink:label="uk-countries_Mayotte"/>
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-countries_CountryListHeading" xlink:to="uk-countries_Mayotte" use="optional" order="138.0"/>
+    <loc xlink:type="locator" xlink:href="http://www.xbrl.org/uk/cd/countries-regions/2009-09-01/uk-countries-2009-09-01.xsd#uk-countries_Mexico" xlink:label="uk-countries_Mexico"/>
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-countries_CountryListHeading" xlink:to="uk-countries_Mexico" use="optional" order="139.0"/>
+    <loc xlink:type="locator" xlink:href="http://www.xbrl.org/uk/cd/countries-regions/2009-09-01/uk-countries-2009-09-01.xsd#uk-countries_MicronesiaFederatedStates" xlink:label="uk-countries_MicronesiaFederatedStates"/>
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-countries_CountryListHeading" xlink:to="uk-countries_MicronesiaFederatedStates" use="optional" order="140.0"/>
+    <loc xlink:type="locator" xlink:href="http://www.xbrl.org/uk/cd/countries-regions/2009-09-01/uk-countries-2009-09-01.xsd#uk-countries_MoldovaRepublic" xlink:label="uk-countries_MoldovaRepublic"/>
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-countries_CountryListHeading" xlink:to="uk-countries_MoldovaRepublic" use="optional" order="141.0"/>
+    <loc xlink:type="locator" xlink:href="http://www.xbrl.org/uk/cd/countries-regions/2009-09-01/uk-countries-2009-09-01.xsd#uk-countries_Monaco" xlink:label="uk-countries_Monaco"/>
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-countries_CountryListHeading" xlink:to="uk-countries_Monaco" use="optional" order="142.0"/>
+    <loc xlink:type="locator" xlink:href="http://www.xbrl.org/uk/cd/countries-regions/2009-09-01/uk-countries-2009-09-01.xsd#uk-countries_Mongolia" xlink:label="uk-countries_Mongolia"/>
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-countries_CountryListHeading" xlink:to="uk-countries_Mongolia" use="optional" order="143.0"/>
+    <loc xlink:type="locator" xlink:href="http://www.xbrl.org/uk/cd/countries-regions/2009-09-01/uk-countries-2009-09-01.xsd#uk-countries_Montserrat" xlink:label="uk-countries_Montserrat"/>
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-countries_CountryListHeading" xlink:to="uk-countries_Montserrat" use="optional" order="144.0"/>
+    <loc xlink:type="locator" xlink:href="http://www.xbrl.org/uk/cd/countries-regions/2009-09-01/uk-countries-2009-09-01.xsd#uk-countries_Morocco" xlink:label="uk-countries_Morocco"/>
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-countries_CountryListHeading" xlink:to="uk-countries_Morocco" use="optional" order="145.0"/>
+    <loc xlink:type="locator" xlink:href="http://www.xbrl.org/uk/cd/countries-regions/2009-09-01/uk-countries-2009-09-01.xsd#uk-countries_Mozambique" xlink:label="uk-countries_Mozambique"/>
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-countries_CountryListHeading" xlink:to="uk-countries_Mozambique" use="optional" order="146.0"/>
+    <loc xlink:type="locator" xlink:href="http://www.xbrl.org/uk/cd/countries-regions/2009-09-01/uk-countries-2009-09-01.xsd#uk-countries_Myanmar" xlink:label="uk-countries_Myanmar"/>
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-countries_CountryListHeading" xlink:to="uk-countries_Myanmar" use="optional" order="147.0"/>
+    <loc xlink:type="locator" xlink:href="http://www.xbrl.org/uk/cd/countries-regions/2009-09-01/uk-countries-2009-09-01.xsd#uk-countries_Namibia" xlink:label="uk-countries_Namibia"/>
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-countries_CountryListHeading" xlink:to="uk-countries_Namibia" use="optional" order="148.0"/>
+    <loc xlink:type="locator" xlink:href="http://www.xbrl.org/uk/cd/countries-regions/2009-09-01/uk-countries-2009-09-01.xsd#uk-countries_Nauru" xlink:label="uk-countries_Nauru"/>
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-countries_CountryListHeading" xlink:to="uk-countries_Nauru" use="optional" order="149.0"/>
+    <loc xlink:type="locator" xlink:href="http://www.xbrl.org/uk/cd/countries-regions/2009-09-01/uk-countries-2009-09-01.xsd#uk-countries_Nepal" xlink:label="uk-countries_Nepal"/>
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-countries_CountryListHeading" xlink:to="uk-countries_Nepal" use="optional" order="150.0"/>
+    <loc xlink:type="locator" xlink:href="http://www.xbrl.org/uk/cd/countries-regions/2009-09-01/uk-countries-2009-09-01.xsd#uk-countries_Netherlands" xlink:label="uk-countries_Netherlands"/>
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-countries_CountryListHeading" xlink:to="uk-countries_Netherlands" use="optional" order="151.0"/>
+    <loc xlink:type="locator" xlink:href="http://www.xbrl.org/uk/cd/countries-regions/2009-09-01/uk-countries-2009-09-01.xsd#uk-countries_NetherlandsAntilles" xlink:label="uk-countries_NetherlandsAntilles"/>
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-countries_CountryListHeading" xlink:to="uk-countries_NetherlandsAntilles" use="optional" order="152.0"/>
+    <loc xlink:type="locator" xlink:href="http://www.xbrl.org/uk/cd/countries-regions/2009-09-01/uk-countries-2009-09-01.xsd#uk-countries_NewCaledonia" xlink:label="uk-countries_NewCaledonia"/>
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-countries_CountryListHeading" xlink:to="uk-countries_NewCaledonia" use="optional" order="153.0"/>
+    <loc xlink:type="locator" xlink:href="http://www.xbrl.org/uk/cd/countries-regions/2009-09-01/uk-countries-2009-09-01.xsd#uk-countries_NewZealand" xlink:label="uk-countries_NewZealand"/>
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-countries_CountryListHeading" xlink:to="uk-countries_NewZealand" use="optional" order="154.0"/>
+    <loc xlink:type="locator" xlink:href="http://www.xbrl.org/uk/cd/countries-regions/2009-09-01/uk-countries-2009-09-01.xsd#uk-countries_Nicaragua" xlink:label="uk-countries_Nicaragua"/>
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-countries_CountryListHeading" xlink:to="uk-countries_Nicaragua" use="optional" order="155.0"/>
+    <loc xlink:type="locator" xlink:href="http://www.xbrl.org/uk/cd/countries-regions/2009-09-01/uk-countries-2009-09-01.xsd#uk-countries_Niger" xlink:label="uk-countries_Niger"/>
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-countries_CountryListHeading" xlink:to="uk-countries_Niger" use="optional" order="156.0"/>
+    <loc xlink:type="locator" xlink:href="http://www.xbrl.org/uk/cd/countries-regions/2009-09-01/uk-countries-2009-09-01.xsd#uk-countries_Nigeria" xlink:label="uk-countries_Nigeria"/>
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-countries_CountryListHeading" xlink:to="uk-countries_Nigeria" use="optional" order="157.0"/>
+    <loc xlink:type="locator" xlink:href="http://www.xbrl.org/uk/cd/countries-regions/2009-09-01/uk-countries-2009-09-01.xsd#uk-countries_Niue" xlink:label="uk-countries_Niue"/>
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-countries_CountryListHeading" xlink:to="uk-countries_Niue" use="optional" order="158.0"/>
+    <loc xlink:type="locator" xlink:href="http://www.xbrl.org/uk/cd/countries-regions/2009-09-01/uk-countries-2009-09-01.xsd#uk-countries_NorfolkIsland" xlink:label="uk-countries_NorfolkIsland"/>
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-countries_CountryListHeading" xlink:to="uk-countries_NorfolkIsland" use="optional" order="159.0"/>
+    <loc xlink:type="locator" xlink:href="http://www.xbrl.org/uk/cd/countries-regions/2009-09-01/uk-countries-2009-09-01.xsd#uk-countries_NorthernMarianaIslands" xlink:label="uk-countries_NorthernMarianaIslands"/>
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-countries_CountryListHeading" xlink:to="uk-countries_NorthernMarianaIslands" use="optional" order="160.0"/>
+    <loc xlink:type="locator" xlink:href="http://www.xbrl.org/uk/cd/countries-regions/2009-09-01/uk-countries-2009-09-01.xsd#uk-countries_Norway" xlink:label="uk-countries_Norway"/>
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-countries_CountryListHeading" xlink:to="uk-countries_Norway" use="optional" order="161.0"/>
+    <loc xlink:type="locator" xlink:href="http://www.xbrl.org/uk/cd/countries-regions/2009-09-01/uk-countries-2009-09-01.xsd#uk-countries_Oman" xlink:label="uk-countries_Oman"/>
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-countries_CountryListHeading" xlink:to="uk-countries_Oman" use="optional" order="162.0"/>
+    <loc xlink:type="locator" xlink:href="http://www.xbrl.org/uk/cd/countries-regions/2009-09-01/uk-countries-2009-09-01.xsd#uk-countries_Pakistan" xlink:label="uk-countries_Pakistan"/>
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-countries_CountryListHeading" xlink:to="uk-countries_Pakistan" use="optional" order="163.0"/>
+    <loc xlink:type="locator" xlink:href="http://www.xbrl.org/uk/cd/countries-regions/2009-09-01/uk-countries-2009-09-01.xsd#uk-countries_Palau" xlink:label="uk-countries_Palau"/>
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-countries_CountryListHeading" xlink:to="uk-countries_Palau" use="optional" order="164.0"/>
+    <loc xlink:type="locator" xlink:href="http://www.xbrl.org/uk/cd/countries-regions/2009-09-01/uk-countries-2009-09-01.xsd#uk-countries_PalestinianTerritoryOccupied" xlink:label="uk-countries_PalestinianTerritoryOccupied"/>
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-countries_CountryListHeading" xlink:to="uk-countries_PalestinianTerritoryOccupied" use="optional" order="165.0"/>
+    <loc xlink:type="locator" xlink:href="http://www.xbrl.org/uk/cd/countries-regions/2009-09-01/uk-countries-2009-09-01.xsd#uk-countries_Panama" xlink:label="uk-countries_Panama"/>
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-countries_CountryListHeading" xlink:to="uk-countries_Panama" use="optional" order="166.0"/>
+    <loc xlink:type="locator" xlink:href="http://www.xbrl.org/uk/cd/countries-regions/2009-09-01/uk-countries-2009-09-01.xsd#uk-countries_PapuaNewGuinea" xlink:label="uk-countries_PapuaNewGuinea"/>
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-countries_CountryListHeading" xlink:to="uk-countries_PapuaNewGuinea" use="optional" order="167.0"/>
+    <loc xlink:type="locator" xlink:href="http://www.xbrl.org/uk/cd/countries-regions/2009-09-01/uk-countries-2009-09-01.xsd#uk-countries_Paraguay" xlink:label="uk-countries_Paraguay"/>
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-countries_CountryListHeading" xlink:to="uk-countries_Paraguay" use="optional" order="168.0"/>
+    <loc xlink:type="locator" xlink:href="http://www.xbrl.org/uk/cd/countries-regions/2009-09-01/uk-countries-2009-09-01.xsd#uk-countries_Peru" xlink:label="uk-countries_Peru"/>
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-countries_CountryListHeading" xlink:to="uk-countries_Peru" use="optional" order="169.0"/>
+    <loc xlink:type="locator" xlink:href="http://www.xbrl.org/uk/cd/countries-regions/2009-09-01/uk-countries-2009-09-01.xsd#uk-countries_Philippines" xlink:label="uk-countries_Philippines"/>
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-countries_CountryListHeading" xlink:to="uk-countries_Philippines" use="optional" order="170.0"/>
+    <loc xlink:type="locator" xlink:href="http://www.xbrl.org/uk/cd/countries-regions/2009-09-01/uk-countries-2009-09-01.xsd#uk-countries_Pitcairn" xlink:label="uk-countries_Pitcairn"/>
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-countries_CountryListHeading" xlink:to="uk-countries_Pitcairn" use="optional" order="171.0"/>
+    <loc xlink:type="locator" xlink:href="http://www.xbrl.org/uk/cd/countries-regions/2009-09-01/uk-countries-2009-09-01.xsd#uk-countries_Poland" xlink:label="uk-countries_Poland"/>
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-countries_CountryListHeading" xlink:to="uk-countries_Poland" use="optional" order="172.0"/>
+    <loc xlink:type="locator" xlink:href="http://www.xbrl.org/uk/cd/countries-regions/2009-09-01/uk-countries-2009-09-01.xsd#uk-countries_Portugal" xlink:label="uk-countries_Portugal"/>
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-countries_CountryListHeading" xlink:to="uk-countries_Portugal" use="optional" order="173.0"/>
+    <loc xlink:type="locator" xlink:href="http://www.xbrl.org/uk/cd/countries-regions/2009-09-01/uk-countries-2009-09-01.xsd#uk-countries_PuertoRico" xlink:label="uk-countries_PuertoRico"/>
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-countries_CountryListHeading" xlink:to="uk-countries_PuertoRico" use="optional" order="174.0"/>
+    <loc xlink:type="locator" xlink:href="http://www.xbrl.org/uk/cd/countries-regions/2009-09-01/uk-countries-2009-09-01.xsd#uk-countries_Qatar" xlink:label="uk-countries_Qatar"/>
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-countries_CountryListHeading" xlink:to="uk-countries_Qatar" use="optional" order="175.0"/>
+    <loc xlink:type="locator" xlink:href="http://www.xbrl.org/uk/cd/countries-regions/2009-09-01/uk-countries-2009-09-01.xsd#uk-countries_Reunion" xlink:label="uk-countries_Reunion"/>
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-countries_CountryListHeading" xlink:to="uk-countries_Reunion" use="optional" order="176.0"/>
+    <loc xlink:type="locator" xlink:href="http://www.xbrl.org/uk/cd/countries-regions/2009-09-01/uk-countries-2009-09-01.xsd#uk-countries_Romania" xlink:label="uk-countries_Romania"/>
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-countries_CountryListHeading" xlink:to="uk-countries_Romania" use="optional" order="177.0"/>
+    <loc xlink:type="locator" xlink:href="http://www.xbrl.org/uk/cd/countries-regions/2009-09-01/uk-countries-2009-09-01.xsd#uk-countries_RussianFederation" xlink:label="uk-countries_RussianFederation"/>
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-countries_CountryListHeading" xlink:to="uk-countries_RussianFederation" use="optional" order="178.0"/>
+    <loc xlink:type="locator" xlink:href="http://www.xbrl.org/uk/cd/countries-regions/2009-09-01/uk-countries-2009-09-01.xsd#uk-countries_Rwanda" xlink:label="uk-countries_Rwanda"/>
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-countries_CountryListHeading" xlink:to="uk-countries_Rwanda" use="optional" order="179.0"/>
+    <loc xlink:type="locator" xlink:href="http://www.xbrl.org/uk/cd/countries-regions/2009-09-01/uk-countries-2009-09-01.xsd#uk-countries_SaintHelena" xlink:label="uk-countries_SaintHelena"/>
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-countries_CountryListHeading" xlink:to="uk-countries_SaintHelena" use="optional" order="180.0"/>
+    <loc xlink:type="locator" xlink:href="http://www.xbrl.org/uk/cd/countries-regions/2009-09-01/uk-countries-2009-09-01.xsd#uk-countries_SaintsKittsNevis" xlink:label="uk-countries_SaintsKittsNevis"/>
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-countries_CountryListHeading" xlink:to="uk-countries_SaintsKittsNevis" use="optional" order="181.0"/>
+    <loc xlink:type="locator" xlink:href="http://www.xbrl.org/uk/cd/countries-regions/2009-09-01/uk-countries-2009-09-01.xsd#uk-countries_SaintLucia" xlink:label="uk-countries_SaintLucia"/>
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-countries_CountryListHeading" xlink:to="uk-countries_SaintLucia" use="optional" order="182.0"/>
+    <loc xlink:type="locator" xlink:href="http://www.xbrl.org/uk/cd/countries-regions/2009-09-01/uk-countries-2009-09-01.xsd#uk-countries_SaintPierreMiquelon" xlink:label="uk-countries_SaintPierreMiquelon"/>
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-countries_CountryListHeading" xlink:to="uk-countries_SaintPierreMiquelon" use="optional" order="183.0"/>
+    <loc xlink:type="locator" xlink:href="http://www.xbrl.org/uk/cd/countries-regions/2009-09-01/uk-countries-2009-09-01.xsd#uk-countries_SaintVincentGrenadines" xlink:label="uk-countries_SaintVincentGrenadines"/>
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-countries_CountryListHeading" xlink:to="uk-countries_SaintVincentGrenadines" use="optional" order="184.0"/>
+    <loc xlink:type="locator" xlink:href="http://www.xbrl.org/uk/cd/countries-regions/2009-09-01/uk-countries-2009-09-01.xsd#uk-countries_Samoa" xlink:label="uk-countries_Samoa"/>
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-countries_CountryListHeading" xlink:to="uk-countries_Samoa" use="optional" order="185.0"/>
+    <loc xlink:type="locator" xlink:href="http://www.xbrl.org/uk/cd/countries-regions/2009-09-01/uk-countries-2009-09-01.xsd#uk-countries_SanMarino" xlink:label="uk-countries_SanMarino"/>
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-countries_CountryListHeading" xlink:to="uk-countries_SanMarino" use="optional" order="186.0"/>
+    <loc xlink:type="locator" xlink:href="http://www.xbrl.org/uk/cd/countries-regions/2009-09-01/uk-countries-2009-09-01.xsd#uk-countries_SaoTomePrincipe" xlink:label="uk-countries_SaoTomePrincipe"/>
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-countries_CountryListHeading" xlink:to="uk-countries_SaoTomePrincipe" use="optional" order="187.0"/>
+    <loc xlink:type="locator" xlink:href="http://www.xbrl.org/uk/cd/countries-regions/2009-09-01/uk-countries-2009-09-01.xsd#uk-countries_SaudiArabia" xlink:label="uk-countries_SaudiArabia"/>
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-countries_CountryListHeading" xlink:to="uk-countries_SaudiArabia" use="optional" order="188.0"/>
+    <loc xlink:type="locator" xlink:href="http://www.xbrl.org/uk/cd/countries-regions/2009-09-01/uk-countries-2009-09-01.xsd#uk-countries_Senegal" xlink:label="uk-countries_Senegal"/>
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-countries_CountryListHeading" xlink:to="uk-countries_Senegal" use="optional" order="189.0"/>
+    <loc xlink:type="locator" xlink:href="http://www.xbrl.org/uk/cd/countries-regions/2009-09-01/uk-countries-2009-09-01.xsd#uk-countries_SerbiaMontenegro" xlink:label="uk-countries_SerbiaMontenegro"/>
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-countries_CountryListHeading" xlink:to="uk-countries_SerbiaMontenegro" use="optional" order="190.0"/>
+    <loc xlink:type="locator" xlink:href="http://www.xbrl.org/uk/cd/countries-regions/2009-09-01/uk-countries-2009-09-01.xsd#uk-countries_Seychelles" xlink:label="uk-countries_Seychelles"/>
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-countries_CountryListHeading" xlink:to="uk-countries_Seychelles" use="optional" order="191.0"/>
+    <loc xlink:type="locator" xlink:href="http://www.xbrl.org/uk/cd/countries-regions/2009-09-01/uk-countries-2009-09-01.xsd#uk-countries_SierraLeone" xlink:label="uk-countries_SierraLeone"/>
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-countries_CountryListHeading" xlink:to="uk-countries_SierraLeone" use="optional" order="192.0"/>
+    <loc xlink:type="locator" xlink:href="http://www.xbrl.org/uk/cd/countries-regions/2009-09-01/uk-countries-2009-09-01.xsd#uk-countries_Singapore" xlink:label="uk-countries_Singapore"/>
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-countries_CountryListHeading" xlink:to="uk-countries_Singapore" use="optional" order="193.0"/>
+    <loc xlink:type="locator" xlink:href="http://www.xbrl.org/uk/cd/countries-regions/2009-09-01/uk-countries-2009-09-01.xsd#uk-countries_Slovakia" xlink:label="uk-countries_Slovakia"/>
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-countries_CountryListHeading" xlink:to="uk-countries_Slovakia" use="optional" order="194.0"/>
+    <loc xlink:type="locator" xlink:href="http://www.xbrl.org/uk/cd/countries-regions/2009-09-01/uk-countries-2009-09-01.xsd#uk-countries_Slovenia" xlink:label="uk-countries_Slovenia"/>
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-countries_CountryListHeading" xlink:to="uk-countries_Slovenia" use="optional" order="195.0"/>
+    <loc xlink:type="locator" xlink:href="http://www.xbrl.org/uk/cd/countries-regions/2009-09-01/uk-countries-2009-09-01.xsd#uk-countries_SolomonIslands" xlink:label="uk-countries_SolomonIslands"/>
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-countries_CountryListHeading" xlink:to="uk-countries_SolomonIslands" use="optional" order="196.0"/>
+    <loc xlink:type="locator" xlink:href="http://www.xbrl.org/uk/cd/countries-regions/2009-09-01/uk-countries-2009-09-01.xsd#uk-countries_Somalia" xlink:label="uk-countries_Somalia"/>
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-countries_CountryListHeading" xlink:to="uk-countries_Somalia" use="optional" order="197.0"/>
+    <loc xlink:type="locator" xlink:href="http://www.xbrl.org/uk/cd/countries-regions/2009-09-01/uk-countries-2009-09-01.xsd#uk-countries_SouthAfrica" xlink:label="uk-countries_SouthAfrica"/>
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-countries_CountryListHeading" xlink:to="uk-countries_SouthAfrica" use="optional" order="198.0"/>
+    <loc xlink:type="locator" xlink:href="http://www.xbrl.org/uk/cd/countries-regions/2009-09-01/uk-countries-2009-09-01.xsd#uk-countries_SouthGeorgiaSouthSandwichIslands" xlink:label="uk-countries_SouthGeorgiaSouthSandwichIslands"/>
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-countries_CountryListHeading" xlink:to="uk-countries_SouthGeorgiaSouthSandwichIslands" use="optional" order="199.0"/>
+    <loc xlink:type="locator" xlink:href="http://www.xbrl.org/uk/cd/countries-regions/2009-09-01/uk-countries-2009-09-01.xsd#uk-countries_Spain" xlink:label="uk-countries_Spain"/>
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-countries_CountryListHeading" xlink:to="uk-countries_Spain" use="optional" order="200.0"/>
+    <loc xlink:type="locator" xlink:href="http://www.xbrl.org/uk/cd/countries-regions/2009-09-01/uk-countries-2009-09-01.xsd#uk-countries_SriLanka" xlink:label="uk-countries_SriLanka"/>
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-countries_CountryListHeading" xlink:to="uk-countries_SriLanka" use="optional" order="201.0"/>
+    <loc xlink:type="locator" xlink:href="http://www.xbrl.org/uk/cd/countries-regions/2009-09-01/uk-countries-2009-09-01.xsd#uk-countries_Sudan" xlink:label="uk-countries_Sudan"/>
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-countries_CountryListHeading" xlink:to="uk-countries_Sudan" use="optional" order="202.0"/>
+    <loc xlink:type="locator" xlink:href="http://www.xbrl.org/uk/cd/countries-regions/2009-09-01/uk-countries-2009-09-01.xsd#uk-countries_Suriname" xlink:label="uk-countries_Suriname"/>
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-countries_CountryListHeading" xlink:to="uk-countries_Suriname" use="optional" order="203.0"/>
+    <loc xlink:type="locator" xlink:href="http://www.xbrl.org/uk/cd/countries-regions/2009-09-01/uk-countries-2009-09-01.xsd#uk-countries_SvalbardJanMayen" xlink:label="uk-countries_SvalbardJanMayen"/>
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-countries_CountryListHeading" xlink:to="uk-countries_SvalbardJanMayen" use="optional" order="204.0"/>
+    <loc xlink:type="locator" xlink:href="http://www.xbrl.org/uk/cd/countries-regions/2009-09-01/uk-countries-2009-09-01.xsd#uk-countries_Swaziland" xlink:label="uk-countries_Swaziland"/>
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-countries_CountryListHeading" xlink:to="uk-countries_Swaziland" use="optional" order="205.0"/>
+    <loc xlink:type="locator" xlink:href="http://www.xbrl.org/uk/cd/countries-regions/2009-09-01/uk-countries-2009-09-01.xsd#uk-countries_Sweden" xlink:label="uk-countries_Sweden"/>
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-countries_CountryListHeading" xlink:to="uk-countries_Sweden" use="optional" order="206.0"/>
+    <loc xlink:type="locator" xlink:href="http://www.xbrl.org/uk/cd/countries-regions/2009-09-01/uk-countries-2009-09-01.xsd#uk-countries_Switzerland" xlink:label="uk-countries_Switzerland"/>
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-countries_CountryListHeading" xlink:to="uk-countries_Switzerland" use="optional" order="207.0"/>
+    <loc xlink:type="locator" xlink:href="http://www.xbrl.org/uk/cd/countries-regions/2009-09-01/uk-countries-2009-09-01.xsd#uk-countries_SyrianArabRepublic" xlink:label="uk-countries_SyrianArabRepublic"/>
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-countries_CountryListHeading" xlink:to="uk-countries_SyrianArabRepublic" use="optional" order="208.0"/>
+    <loc xlink:type="locator" xlink:href="http://www.xbrl.org/uk/cd/countries-regions/2009-09-01/uk-countries-2009-09-01.xsd#uk-countries_TaiwanProvinceChina" xlink:label="uk-countries_TaiwanProvinceChina"/>
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-countries_CountryListHeading" xlink:to="uk-countries_TaiwanProvinceChina" use="optional" order="209.0"/>
+    <loc xlink:type="locator" xlink:href="http://www.xbrl.org/uk/cd/countries-regions/2009-09-01/uk-countries-2009-09-01.xsd#uk-countries_Tajikistan" xlink:label="uk-countries_Tajikistan"/>
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-countries_CountryListHeading" xlink:to="uk-countries_Tajikistan" use="optional" order="210.0"/>
+    <loc xlink:type="locator" xlink:href="http://www.xbrl.org/uk/cd/countries-regions/2009-09-01/uk-countries-2009-09-01.xsd#uk-countries_TanzaniaUnitedRepublic" xlink:label="uk-countries_TanzaniaUnitedRepublic"/>
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-countries_CountryListHeading" xlink:to="uk-countries_TanzaniaUnitedRepublic" use="optional" order="211.0"/>
+    <loc xlink:type="locator" xlink:href="http://www.xbrl.org/uk/cd/countries-regions/2009-09-01/uk-countries-2009-09-01.xsd#uk-countries_Thailand" xlink:label="uk-countries_Thailand"/>
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-countries_CountryListHeading" xlink:to="uk-countries_Thailand" use="optional" order="212.0"/>
+    <loc xlink:type="locator" xlink:href="http://www.xbrl.org/uk/cd/countries-regions/2009-09-01/uk-countries-2009-09-01.xsd#uk-countries_Timor-Leste" xlink:label="uk-countries_Timor-Leste"/>
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-countries_CountryListHeading" xlink:to="uk-countries_Timor-Leste" use="optional" order="213.0"/>
+    <loc xlink:type="locator" xlink:href="http://www.xbrl.org/uk/cd/countries-regions/2009-09-01/uk-countries-2009-09-01.xsd#uk-countries_Togo" xlink:label="uk-countries_Togo"/>
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-countries_CountryListHeading" xlink:to="uk-countries_Togo" use="optional" order="214.0"/>
+    <loc xlink:type="locator" xlink:href="http://www.xbrl.org/uk/cd/countries-regions/2009-09-01/uk-countries-2009-09-01.xsd#uk-countries_Tokelau" xlink:label="uk-countries_Tokelau"/>
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-countries_CountryListHeading" xlink:to="uk-countries_Tokelau" use="optional" order="215.0"/>
+    <loc xlink:type="locator" xlink:href="http://www.xbrl.org/uk/cd/countries-regions/2009-09-01/uk-countries-2009-09-01.xsd#uk-countries_Tonga" xlink:label="uk-countries_Tonga"/>
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-countries_CountryListHeading" xlink:to="uk-countries_Tonga" use="optional" order="216.0"/>
+    <loc xlink:type="locator" xlink:href="http://www.xbrl.org/uk/cd/countries-regions/2009-09-01/uk-countries-2009-09-01.xsd#uk-countries_TrinidadTobago" xlink:label="uk-countries_TrinidadTobago"/>
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-countries_CountryListHeading" xlink:to="uk-countries_TrinidadTobago" use="optional" order="217.0"/>
+    <loc xlink:type="locator" xlink:href="http://www.xbrl.org/uk/cd/countries-regions/2009-09-01/uk-countries-2009-09-01.xsd#uk-countries_Tunisia" xlink:label="uk-countries_Tunisia"/>
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-countries_CountryListHeading" xlink:to="uk-countries_Tunisia" use="optional" order="218.0"/>
+    <loc xlink:type="locator" xlink:href="http://www.xbrl.org/uk/cd/countries-regions/2009-09-01/uk-countries-2009-09-01.xsd#uk-countries_Turkey" xlink:label="uk-countries_Turkey"/>
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-countries_CountryListHeading" xlink:to="uk-countries_Turkey" use="optional" order="219.0"/>
+    <loc xlink:type="locator" xlink:href="http://www.xbrl.org/uk/cd/countries-regions/2009-09-01/uk-countries-2009-09-01.xsd#uk-countries_Turkmenistan" xlink:label="uk-countries_Turkmenistan"/>
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-countries_CountryListHeading" xlink:to="uk-countries_Turkmenistan" use="optional" order="220.0"/>
+    <loc xlink:type="locator" xlink:href="http://www.xbrl.org/uk/cd/countries-regions/2009-09-01/uk-countries-2009-09-01.xsd#uk-countries_TurksCaicosIslands" xlink:label="uk-countries_TurksCaicosIslands"/>
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-countries_CountryListHeading" xlink:to="uk-countries_TurksCaicosIslands" use="optional" order="221.0"/>
+    <loc xlink:type="locator" xlink:href="http://www.xbrl.org/uk/cd/countries-regions/2009-09-01/uk-countries-2009-09-01.xsd#uk-countries_Tuvalu" xlink:label="uk-countries_Tuvalu"/>
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-countries_CountryListHeading" xlink:to="uk-countries_Tuvalu" use="optional" order="222.0"/>
+    <loc xlink:type="locator" xlink:href="http://www.xbrl.org/uk/cd/countries-regions/2009-09-01/uk-countries-2009-09-01.xsd#uk-countries_Uganda" xlink:label="uk-countries_Uganda"/>
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-countries_CountryListHeading" xlink:to="uk-countries_Uganda" use="optional" order="223.0"/>
+    <loc xlink:type="locator" xlink:href="http://www.xbrl.org/uk/cd/countries-regions/2009-09-01/uk-countries-2009-09-01.xsd#uk-countries_Ukraine" xlink:label="uk-countries_Ukraine"/>
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-countries_CountryListHeading" xlink:to="uk-countries_Ukraine" use="optional" order="224.0"/>
+    <loc xlink:type="locator" xlink:href="http://www.xbrl.org/uk/cd/countries-regions/2009-09-01/uk-countries-2009-09-01.xsd#uk-countries_UnitedArabEmirates" xlink:label="uk-countries_UnitedArabEmirates"/>
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-countries_CountryListHeading" xlink:to="uk-countries_UnitedArabEmirates" use="optional" order="225.0"/>
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-countries_CountryListHeading" xlink:to="uk-countries_UnitedKingdom" use="optional" order="226.0"/>
+    <loc xlink:type="locator" xlink:href="http://www.xbrl.org/uk/cd/countries-regions/2009-09-01/uk-countries-2009-09-01.xsd#uk-countries_UnitedStates" xlink:label="uk-countries_UnitedStates"/>
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-countries_CountryListHeading" xlink:to="uk-countries_UnitedStates" use="optional" order="227.0"/>
+    <loc xlink:type="locator" xlink:href="http://www.xbrl.org/uk/cd/countries-regions/2009-09-01/uk-countries-2009-09-01.xsd#uk-countries_UnitedStatesMinorOutlyingIslands" xlink:label="uk-countries_UnitedStatesMinorOutlyingIslands"/>
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-countries_CountryListHeading" xlink:to="uk-countries_UnitedStatesMinorOutlyingIslands" use="optional" order="228.0"/>
+    <loc xlink:type="locator" xlink:href="http://www.xbrl.org/uk/cd/countries-regions/2009-09-01/uk-countries-2009-09-01.xsd#uk-countries_Uruguay" xlink:label="uk-countries_Uruguay"/>
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-countries_CountryListHeading" xlink:to="uk-countries_Uruguay" use="optional" order="229.0"/>
+    <loc xlink:type="locator" xlink:href="http://www.xbrl.org/uk/cd/countries-regions/2009-09-01/uk-countries-2009-09-01.xsd#uk-countries_Uzbekistan" xlink:label="uk-countries_Uzbekistan"/>
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-countries_CountryListHeading" xlink:to="uk-countries_Uzbekistan" use="optional" order="230.0"/>
+    <loc xlink:type="locator" xlink:href="http://www.xbrl.org/uk/cd/countries-regions/2009-09-01/uk-countries-2009-09-01.xsd#uk-countries_Vanuatu" xlink:label="uk-countries_Vanuatu"/>
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-countries_CountryListHeading" xlink:to="uk-countries_Vanuatu" use="optional" order="231.0"/>
+    <loc xlink:type="locator" xlink:href="http://www.xbrl.org/uk/cd/countries-regions/2009-09-01/uk-countries-2009-09-01.xsd#uk-countries_Venezuela" xlink:label="uk-countries_Venezuela"/>
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-countries_CountryListHeading" xlink:to="uk-countries_Venezuela" use="optional" order="232.0"/>
+    <loc xlink:type="locator" xlink:href="http://www.xbrl.org/uk/cd/countries-regions/2009-09-01/uk-countries-2009-09-01.xsd#uk-countries_VietNam" xlink:label="uk-countries_VietNam"/>
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-countries_CountryListHeading" xlink:to="uk-countries_VietNam" use="optional" order="233.0"/>
+    <loc xlink:type="locator" xlink:href="http://www.xbrl.org/uk/cd/countries-regions/2009-09-01/uk-countries-2009-09-01.xsd#uk-countries_VirginIslandsBritish" xlink:label="uk-countries_VirginIslandsBritish"/>
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-countries_CountryListHeading" xlink:to="uk-countries_VirginIslandsBritish" use="optional" order="234.0"/>
+    <loc xlink:type="locator" xlink:href="http://www.xbrl.org/uk/cd/countries-regions/2009-09-01/uk-countries-2009-09-01.xsd#uk-countries_VirginIslandsU.S." xlink:label="uk-countries_VirginIslandsU.S."/>
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-countries_CountryListHeading" xlink:to="uk-countries_VirginIslandsU.S." use="optional" order="235.0"/>
+    <loc xlink:type="locator" xlink:href="http://www.xbrl.org/uk/cd/countries-regions/2009-09-01/uk-countries-2009-09-01.xsd#uk-countries_WallisFutuna" xlink:label="uk-countries_WallisFutuna"/>
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-countries_CountryListHeading" xlink:to="uk-countries_WallisFutuna" use="optional" order="236.0"/>
+    <loc xlink:type="locator" xlink:href="http://www.xbrl.org/uk/cd/countries-regions/2009-09-01/uk-countries-2009-09-01.xsd#uk-countries_WesternSahara" xlink:label="uk-countries_WesternSahara"/>
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-countries_CountryListHeading" xlink:to="uk-countries_WesternSahara" use="optional" order="237.0"/>
+    <loc xlink:type="locator" xlink:href="http://www.xbrl.org/uk/cd/countries-regions/2009-09-01/uk-countries-2009-09-01.xsd#uk-countries_Yemen" xlink:label="uk-countries_Yemen"/>
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-countries_CountryListHeading" xlink:to="uk-countries_Yemen" use="optional" order="238.0"/>
+    <loc xlink:type="locator" xlink:href="http://www.xbrl.org/uk/cd/countries-regions/2009-09-01/uk-countries-2009-09-01.xsd#uk-countries_Zambia" xlink:label="uk-countries_Zambia"/>
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-countries_CountryListHeading" xlink:to="uk-countries_Zambia" use="optional" order="239.0"/>
+    <loc xlink:type="locator" xlink:href="http://www.xbrl.org/uk/cd/countries-regions/2009-09-01/uk-countries-2009-09-01.xsd#uk-countries_Zimbabwe" xlink:label="uk-countries_Zimbabwe"/>
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="uk-countries_CountryListHeading" xlink:to="uk-countries_Zimbabwe" use="optional" order="240.0"/>
+    <loc xlink:type="locator" xlink:href="dpl-2013-10-01.xsd#dpl_DetailedProfitLossFree-textComment" xlink:label="dpl_DetailedProfitLossFree-textComment"/>
+    <presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="dpl_DetailedProfitLossHeading" xlink:to="dpl_DetailedProfitLossFree-textComment" use="optional" order="10.0"/>
+  </presentationLink>
+</linkbase>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<xsd:schema xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xbrldt="http://xbrl.org/2005/xbrldt" xmlns:xbrli="http://www.xbrl.org/2003/instance" attributeFormDefault="unqualified" elementFormDefault="qualified" xsi:schemaLocation="http://www.w3.org/2001/XMLSchema http://www.w3.org/2001/XMLSchema.xsd http://www.xbrl.org/2003/instance http://www.xbrl.org/2003/xbrl-instance-2003-12-31.xsd http://www.xbrl.org/2003/linkbase http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd http://www.w3.org/1999/xlink http://www.xbrl.org/2003/xlink-2003-12-31.xsd" targetNamespace="http://www.govtalk.gov.uk/uk/fr/tax/dpl-frc/2015-02-14" xmlns:dpl-frc="http://www.govtalk.gov.uk/uk/fr/tax/dpl-frc/2015-02-14">
+    <xsd:import namespace="http://www.xbrl.org/2003/instance" schemaLocation="http://www.xbrl.org/2003/xbrl-instance-2003-12-31.xsd"/>
+    <xsd:import namespace="http://www.govtalk.gov.uk/uk/fr/tax/dpl-core/2013-10-01" schemaLocation="http://www.hmrc.gov.uk/schemas/ct/dpl/2013-10-01/dpl-core/2013-10-01/dpl-2013-10-01.xsd"/>
+    <xsd:import namespace="http://xbrl.frc.org.uk/fr/2014-09-01/core" schemaLocation="https://xbrl.frc.org.uk/fr/2014-09-01/core/frc-core-2014-09-01.xsd"/>
+    <xsd:annotation>
+        <xsd:appinfo>
+            <link:linkbaseRef xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase" xlink:href="dpl-frc-2015-02-14-presentation.xml" xlink:role="http://www.xbrl.org/2003/role/presentationLinkbaseRef" xlink:type="simple"/>
+            <link:linkbaseRef xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase" xlink:href="dpl-frc-2015-02-14-label.xml" xlink:role="http://www.xbrl.org/2003/role/labelLinkbaseRef" xlink:type="simple"/>
+            <link:linkbaseRef xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase" xlink:href="dpl-frc-2015-02-14-definition.xml" xlink:role="http://www.xbrl.org/2003/role/definitionLinkbaseRef" xlink:type="simple"/>
+        </xsd:appinfo>
+    </xsd:annotation>
+    <xsd:element abstract="false" xbrli:balance="credit" id="dpl-frc_IncomeFromOtherInvestments" name="IncomeFromOtherInvestments" nillable="false" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+    <xsd:element abstract="false" xbrli:balance="credit" id="dpl-frc_GainLossOnNegativeGoodwillbargainPurchasesReleasedToIncome" name="GainLossOnNegativeGoodwillbargainPurchasesReleasedToIncome" nillable="false" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+    <xsd:element abstract="false" xbrli:balance="debit" id="dpl-frc_RedundancyCostsExcludingDirectors" name="RedundancyCostsExcludingDirectors" nillable="false" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+    <xsd:element abstract="false" xbrli:balance="debit" id="dpl-frc_CharitableDonations" name="CharitableDonations" nillable="false" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"/>
+    <xsd:element abstract="true" id="dpl-frc_Sub-totalsNotIncludedElsewhereHeading" name="Sub-totalsNotIncludedElsewhereHeading" nillable="false" xbrli:periodType="duration" substitutionGroup="xbrli:item" type="xbrli:stringItemType"/>
+</xsd:schema>

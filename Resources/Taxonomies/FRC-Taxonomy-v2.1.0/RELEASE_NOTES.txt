@@ -1,0 +1,30 @@
+FRC Taxonomy 
+Version: 2.1.0
+Formal Version Date: 2014-09-01
+Release Date: 2015-12-23
+
+Change History:
+
+Changes v2.0.0 -> v2.1.0 (2015-12-23):
+* Minor taxonomy update with revised content for all entry points;
+* Entry point locations are unchanged:
+** FRS-101: "https://xbrl.frc.org.uk/FRS-101/2014-09-01/FRS-101-2014-09-01.xsd";
+** FRS-102: "https://xbrl.frc.org.uk/FRS-102/2014-09-01/FRS-102-2014-09-01.xsd";
+** IFRS: "https://xbrl.frc.org.uk/IFRS/2014-09-01/IFRS-2014-09-01.xsd";
+* Taxonomy ZIP now released as a taxonomy package;
+* RELEASE_NOTES added to taxonomy ZIP;
+* Supporting documents added to taxonomy ZIP.
+
+Changes v1.0.0 -> v2.0.0 (2014-08-06):
+* Final taxonomy release with updated content for all entry points;
+* Entry point locations are unchanged:
+** FRS-101: "https://xbrl.frc.org.uk/FRS-101/2014-09-01/FRS-101-2014-09-01.xsd";
+** FRS-102: "https://xbrl.frc.org.uk/FRS-102/2014-09-01/FRS-102-2014-09-01.xsd";
+** IFRS: "https://xbrl.frc.org.uk/IFRS/2014-09-01/IFRS-2014-09-01.xsd".
+
+v1.0.0 (2014-05-07):
+* Initial taxonomy draft with entry points:
+** FRS-101: "https://xbrl.frc.org.uk/FRS-101/2014-09-01/FRS-101-2014-09-01.xsd";
+** FRS-102: "https://xbrl.frc.org.uk/FRS-102/2014-09-01/FRS-102-2014-09-01.xsd";
+** IFRS: "https://xbrl.frc.org.uk/IFRS/2014-09-01/IFRS-2014-09-01.xsd".
+

@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+            Taxonomy: 2009-04-01 (Final)
+            ********************** 
+            Copyright © 2009 International Accounting Standards Committee (IASC) Foundation 
+            This material is copyright of the IASC Foundation and all rights are reserved. 
+            No part of this material may be translated, reprinted, reproduced or utilised in 
+            any form or manner that is not expressly permitted by the IASC Foundations XBRL 
+            IP Policy see: http://www.iasb.org/xbrl/ 
+            ********************** 
+            
+
+        -->
+<link:linkbase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.xbrl.org/2003/linkbase http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <link:roleRef roleURI="http://xbrl.iasb.org/role/ifrs/IFRS_6_2009-04-01_role-822220" xlink:type="simple" xlink:href="rol_ifrs_6_2009-04-01.xsd#IFRS_6_2009-04-01_role-822220"/>
+  <link:calculationLink xlink:type="extended" xlink:role="http://xbrl.iasb.org/role/ifrs/IFRS_6_2009-04-01_role-822220" xlink:title="[822220] Notes - Reconciliation of changes in exploration and evaluation assets [alternative]">
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_IncreaseDecreaseThroughNetExchangeDifferencesExplorationAndEvaluationAssets" xlink:label="loc"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_IncreaseDecreaseThroughNetExchangeDifferencesIntangibleExplorationAndEvaluationAssets" xlink:label="loc_2"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_IncreaseDecreaseThroughNetExchangeDifferencesTangibleExplorationAndEvaluationAssets" xlink:label="loc_3"/>
+    <link:calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc" xlink:to="loc_2" order="10.0" weight="1"/>
+    <link:calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc" xlink:to="loc_3" order="20.0" weight="1"/>
+  </link:calculationLink>
+  <link:calculationLink xlink:type="extended" xlink:role="http://xbrl.iasb.org/role/ifrs/IFRS_6_2009-04-01_role-822220" xlink:title="[822220] Notes - Reconciliation of changes in exploration and evaluation assets [alternative]">
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_AdditionsOtherThanThroughBusinessCombinationsExplorationAndEvaluationAssets" xlink:label="loc"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_AdditionsOtherThanThroughBusinessCombinationsIntangibleExplorationAndEvaluationAssets" xlink:label="loc_2"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_AdditionsOtherThanThroughBusinessCombinationsTangibleExplorationAndEvaluationAssets" xlink:label="loc_3"/>
+    <link:calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc" xlink:to="loc_2" order="10.0" weight="1"/>
+    <link:calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc" xlink:to="loc_3" order="20.0" weight="1"/>
+  </link:calculationLink>
+  <link:calculationLink xlink:type="extended" xlink:role="http://xbrl.iasb.org/role/ifrs/IFRS_6_2009-04-01_role-822220" xlink:title="[822220] Notes - Reconciliation of changes in exploration and evaluation assets [alternative]">
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_AcquisitionsThroughBusinessCombinationsExplorationAndEvaluationAssets" xlink:label="loc"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_AcquisitionsThroughBusinessCombinationsIntangibleExplorationAndEvaluationAssets" xlink:label="loc_2"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_AcquisitionsThroughBusinessCombinationsTangibleExplorationAndEvaluationAssets" xlink:label="loc_3"/>
+    <link:calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc" xlink:to="loc_2" order="10.0" weight="1"/>
+    <link:calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc" xlink:to="loc_3" order="20.0" weight="1"/>
+  </link:calculationLink>
+  <link:calculationLink xlink:type="extended" xlink:role="http://xbrl.iasb.org/role/ifrs/IFRS_6_2009-04-01_role-822220" xlink:title="[822220] Notes - Reconciliation of changes in exploration and evaluation assets [alternative]">
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_DisposalsExplorationAndEvaluationAssets" xlink:label="loc"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_DisposalsIntangibleExplorationAndEvaluationAssets" xlink:label="loc_2"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_DisposalsTangibleExplorationAndEvaluationAssets" xlink:label="loc_3"/>
+    <link:calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc" xlink:to="loc_2" order="10.0" weight="1"/>
+    <link:calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc" xlink:to="loc_3" order="20.0" weight="1"/>
+  </link:calculationLink>
+  <link:calculationLink xlink:type="extended" xlink:role="http://xbrl.iasb.org/role/ifrs/IFRS_6_2009-04-01_role-822220" xlink:title="[822220] Notes - Reconciliation of changes in exploration and evaluation assets [alternative]">
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_DecreaseThroughClassifiedAsHeldForSaleExplorationAndEvaluationAssets" xlink:label="loc"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_DecreaseThroughClassifiedAsHeldForSaleIntangibleExplorationAndEvaluationAssets" xlink:label="loc_2"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_DecreaseThroughClassifiedAsHeldForSaleTangibleExplorationAndEvaluationAssets" xlink:label="loc_3"/>
+    <link:calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc" xlink:to="loc_2" order="10.0" weight="1"/>
+    <link:calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc" xlink:to="loc_3" order="20.0" weight="1"/>
+  </link:calculationLink>
+  <link:calculationLink xlink:type="extended" xlink:role="http://xbrl.iasb.org/role/ifrs/IFRS_6_2009-04-01_role-822220" xlink:title="[822220] Notes - Reconciliation of changes in exploration and evaluation assets [alternative]">
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_DepreciationAndAmortisationExplorationAndEvaluationAssets" xlink:label="loc"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_AmortisationIntangibleExplorationAndEvaluationAssets" xlink:label="loc_2"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_DepreciationTangibleExplorationAndEvaluationAssets" xlink:label="loc_3"/>
+    <link:calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc" xlink:to="loc_2" order="10.0" weight="1"/>
+    <link:calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc" xlink:to="loc_3" order="20.0" weight="1"/>
+  </link:calculationLink>
+  <link:calculationLink xlink:type="extended" xlink:role="http://xbrl.iasb.org/role/ifrs/IFRS_6_2009-04-01_role-822220" xlink:title="[822220] Notes - Reconciliation of changes in exploration and evaluation assets [alternative]">
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_ImpairmentLossRecognisedInProfitOrLossExplorationAndEvaluationAssets" xlink:label="loc"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_ImpairmentLossRecognisedInProfitOrLossIntangibleExplorationAndEvaluationAssets" xlink:label="loc_2"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_ImpairmentLossRecognisedInProfitOrLossTangibleExplorationAndEvaluationAssets" xlink:label="loc_3"/>
+    <link:calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc" xlink:to="loc_2" order="10.0" weight="1"/>
+    <link:calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc" xlink:to="loc_3" order="20.0" weight="1"/>
+  </link:calculationLink>
+  <link:calculationLink xlink:type="extended" xlink:role="http://xbrl.iasb.org/role/ifrs/IFRS_6_2009-04-01_role-822220" xlink:title="[822220] Notes - Reconciliation of changes in exploration and evaluation assets [alternative]">
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_ReversalOfImpairmentLossRecognisedInProfitOrLossExplorationAndEvaluationAssets" xlink:label="loc"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_ReversalOfImpairmentLossRecognisedInProfitOrLossIntangibleExplorationAndEvaluationAssets" xlink:label="loc_2"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_ReversalOfImpairmentLossRecognisedInProfitOrLossTangibleExplorationAndEvaluationAssets" xlink:label="loc_3"/>
+    <link:calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc" xlink:to="loc_2" order="10.0" weight="1"/>
+    <link:calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc" xlink:to="loc_3" order="20.0" weight="1"/>
+  </link:calculationLink>
+  <link:calculationLink xlink:type="extended" xlink:role="http://xbrl.iasb.org/role/ifrs/IFRS_6_2009-04-01_role-822220" xlink:title="[822220] Notes - Reconciliation of changes in exploration and evaluation assets [alternative]">
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_RevaluationIncreaseDecreaseExplorationAndEvaluationAssets" xlink:label="loc"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_RevaluationIncreaseDecreaseIntangibleExplorationAndEvaluationAssets" xlink:label="loc_2"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_RevaluationIncreaseDecreaseTangibleExplorationAndEvaluationAssets" xlink:label="loc_3"/>
+    <link:calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc" xlink:to="loc_2" order="10.0" weight="1"/>
+    <link:calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc" xlink:to="loc_3" order="20.0" weight="1"/>
+  </link:calculationLink>
+  <link:calculationLink xlink:type="extended" xlink:role="http://xbrl.iasb.org/role/ifrs/IFRS_6_2009-04-01_role-822220" xlink:title="[822220] Notes - Reconciliation of changes in exploration and evaluation assets [alternative]">
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_ImpairmentLossRecognisedInOtherComprehensiveIncomeExplorationAndEvaluationAssets" xlink:label="loc"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_ImpairmentLossRecognisedInOtherComprehensiveIncomeIntangibleExplorationAndEvaluationAssets" xlink:label="loc_2"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_ImpairmentLossRecognisedInOtherComprehensiveIncomeTangibleExplorationAndEvaluationAssets" xlink:label="loc_3"/>
+    <link:calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc" xlink:to="loc_2" order="10.0" weight="1"/>
+    <link:calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc" xlink:to="loc_3" order="20.0" weight="1"/>
+  </link:calculationLink>
+  <link:calculationLink xlink:type="extended" xlink:role="http://xbrl.iasb.org/role/ifrs/IFRS_6_2009-04-01_role-822220" xlink:title="[822220] Notes - Reconciliation of changes in exploration and evaluation assets [alternative]">
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_ReversalOfImpairmentLossRecognisedInOtherComprehensiveIncomeExplorationAndEvaluationAssets" xlink:label="loc"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_ReversalOfImpairmentLossRecognisedInOtherComprehensiveIncomeIntangibleExplorationAndEvaluationAssets" xlink:label="loc_2"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_ReversalOfImpairmentLossRecognisedInOtherComprehensiveIncomeTangibleExplorationAndEvaluationAssets" xlink:label="loc_3"/>
+    <link:calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc" xlink:to="loc_2" order="10.0" weight="1"/>
+    <link:calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc" xlink:to="loc_3" order="20.0" weight="1"/>
+  </link:calculationLink>
+  <link:calculationLink xlink:type="extended" xlink:role="http://xbrl.iasb.org/role/ifrs/IFRS_6_2009-04-01_role-822220" xlink:title="[822220] Notes - Reconciliation of changes in exploration and evaluation assets [alternative]">
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_IncreaseDecreaseThroughTransfersAndOtherChangesExplorationAndEvaluationAssets" xlink:label="loc"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_IncreaseDecreaseThroughTransfersAndOtherChangesIntangibleExplorationAndEvaluationAssets" xlink:label="loc_2"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_IncreaseDecreaseThroughTransfersAndOtherChangesTangibleExplorationAndEvaluationAssets" xlink:label="loc_3"/>
+    <link:calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc" xlink:to="loc_2" order="10.0" weight="1"/>
+    <link:calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc" xlink:to="loc_3" order="20.0" weight="1"/>
+  </link:calculationLink>
+  <link:calculationLink xlink:type="extended" xlink:role="http://xbrl.iasb.org/role/ifrs/IFRS_6_2009-04-01_role-822220" xlink:title="[822220] Notes - Reconciliation of changes in exploration and evaluation assets [alternative]">
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_ChangesInExplorationAndEvaluationAssets" xlink:label="loc"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_ChangesInIntangibleExplorationAndEvaluationAssets" xlink:label="loc_2"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_ChangesInTangibleExplorationAndEvaluationAssets" xlink:label="loc_3"/>
+    <link:calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc" xlink:to="loc_2" order="10.0" weight="1"/>
+    <link:calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc" xlink:to="loc_3" order="20.0" weight="1"/>
+  </link:calculationLink>
+</link:linkbase>

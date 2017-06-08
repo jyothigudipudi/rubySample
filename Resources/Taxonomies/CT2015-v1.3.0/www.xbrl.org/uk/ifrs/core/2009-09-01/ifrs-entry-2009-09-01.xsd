@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+IFRS entry schema for UK 
+Copyright and other information - see http://www.xbrl.org/uk/legal.aspx
+-->
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+            xmlns:ifrs-entry="http://www.xbrl.org/uk/ifrs/entry/2009-09-01"
+            xmlns:link="http://www.xbrl.org/2003/linkbase"
+            xmlns:xbrli="http://www.xbrl.org/2003/instance"
+            xmlns:xlink="http://www.w3.org/1999/xlink"
+            targetNamespace="http://www.xbrl.org/uk/ifrs/entry/2009-09-01"
+            elementFormDefault="qualified">
+   <xsd:annotation>
+      <xsd:appinfo>
+         <link:linkbaseRef xlink:type="simple" xlink:href="http://xbrl.iasb.org/taxonomy/2009-04-01/ifrs/label/lab_ifrs-en_2009-04-01.xml" xlink:role="http://www.xbrl.org/2003/role/labelLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
+	 <link:linkbaseRef xlink:type="simple" xlink:href="http://xbrl.iasb.org/taxonomy/2009-04-01/ifrs/ifrs_3_2007-03-01/ref_ifrs_3_2007-03-01.xml" xlink:role="http://www.xbrl.org/2003/role/referenceLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
+         <link:linkbaseRef xlink:type="simple" xlink:href="http://xbrl.iasb.org/taxonomy/2009-04-01/ifrs/ias_10_2009-04-01/ref_ias_10_2009-04-01.xml" xlink:role="http://www.xbrl.org/2003/role/referenceLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
+         <link:linkbaseRef xlink:type="simple" xlink:href="http://xbrl.iasb.org/taxonomy/2009-04-01/ifrs/ias_11_2009-04-01/ref_ias_11_2009-04-01.xml" xlink:role="http://www.xbrl.org/2003/role/referenceLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
+         <link:linkbaseRef xlink:type="simple" xlink:href="http://xbrl.iasb.org/taxonomy/2009-04-01/ifrs/ias_12_2009-04-01/ref_ias_12_2009-04-01.xml" xlink:role="http://www.xbrl.org/2003/role/referenceLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
+         <link:linkbaseRef xlink:type="simple" xlink:href="http://xbrl.iasb.org/taxonomy/2009-04-01/ifrs/ias_16_2009-04-01/ref_ias_16_2009-04-01.xml" xlink:role="http://www.xbrl.org/2003/role/referenceLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
+         <link:linkbaseRef xlink:type="simple" xlink:href="http://xbrl.iasb.org/taxonomy/2009-04-01/ifrs/ias_17_2009-04-01/ref_ias_17_2009-04-01.xml" xlink:role="http://www.xbrl.org/2003/role/referenceLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
+         <link:linkbaseRef xlink:type="simple" xlink:href="http://xbrl.iasb.org/taxonomy/2009-04-01/ifrs/ias_18_2009-04-01/ref_ias_18_2009-04-01.xml" xlink:role="http://www.xbrl.org/2003/role/referenceLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
+         <link:linkbaseRef xlink:type="simple" xlink:href="http://xbrl.iasb.org/taxonomy/2009-04-01/ifrs/ias_19_2009-04-01/ref_ias_19_2009-04-01.xml" xlink:role="http://www.xbrl.org/2003/role/referenceLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
+         <link:linkbaseRef xlink:type="simple" xlink:href="http://xbrl.iasb.org/taxonomy/2009-04-01/ifrs/ias_1_2009-04-01/ref_ias_1_2009-04-01.xml" xlink:role="http://www.xbrl.org/2003/role/referenceLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
+         <link:linkbaseRef xlink:type="simple" xlink:href="http://xbrl.iasb.org/taxonomy/2009-04-01/ifrs/ias_20_2009-04-01/ref_ias_20_2009-04-01.xml" xlink:role="http://www.xbrl.org/2003/role/referenceLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
+         <link:linkbaseRef xlink:type="simple" xlink:href="http://xbrl.iasb.org/taxonomy/2009-04-01/ifrs/ias_21_2009-04-01/ref_ias_21_2009-04-01.xml" xlink:role="http://www.xbrl.org/2003/role/referenceLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
+         <link:linkbaseRef xlink:type="simple" xlink:href="http://xbrl.iasb.org/taxonomy/2009-04-01/ifrs/ias_23_2009-04-01/ref_ias_23_2009-04-01.xml" xlink:role="http://www.xbrl.org/2003/role/referenceLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
+         <link:linkbaseRef xlink:type="simple" xlink:href="http://xbrl.iasb.org/taxonomy/2009-04-01/ifrs/ias_24_2009-04-01/ref_ias_24_2009-04-01.xml" xlink:role="http://www.xbrl.org/2003/role/referenceLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
+         <link:linkbaseRef xlink:type="simple" xlink:href="http://xbrl.iasb.org/taxonomy/2009-04-01/ifrs/ias_27_2009-04-01/ref_ias_27_2009-04-01.xml" xlink:role="http://www.xbrl.org/2003/role/referenceLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
+         <link:linkbaseRef xlink:type="simple" xlink:href="http://xbrl.iasb.org/taxonomy/2009-04-01/ifrs/ias_28_2009-04-01/ref_ias_28_2009-04-01.xml" xlink:role="http://www.xbrl.org/2003/role/referenceLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
+         <link:linkbaseRef xlink:type="simple" xlink:href="http://xbrl.iasb.org/taxonomy/2009-04-01/ifrs/ias_29_2009-04-01/ref_ias_29_2009-04-01.xml" xlink:role="http://www.xbrl.org/2003/role/referenceLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
+         <link:linkbaseRef xlink:type="simple" xlink:href="http://xbrl.iasb.org/taxonomy/2009-04-01/ifrs/ias_2_2009-04-01/ref_ias_2_2009-04-01.xml" xlink:role="http://www.xbrl.org/2003/role/referenceLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
+         <link:linkbaseRef xlink:type="simple" xlink:href="http://xbrl.iasb.org/taxonomy/2009-04-01/ifrs/ias_31_2009-04-01/ref_ias_31_2009-04-01.xml" xlink:role="http://www.xbrl.org/2003/role/referenceLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
+         <link:linkbaseRef xlink:type="simple" xlink:href="http://xbrl.iasb.org/taxonomy/2009-04-01/ifrs/ias_33_2009-04-01/ref_ias_33_2009-04-01.xml" xlink:role="http://www.xbrl.org/2003/role/referenceLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
+         <link:linkbaseRef xlink:type="simple" xlink:href="http://xbrl.iasb.org/taxonomy/2009-04-01/ifrs/ias_34_2009-04-01/ref_ias_34_2009-04-01.xml" xlink:role="http://www.xbrl.org/2003/role/referenceLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
+         <link:linkbaseRef xlink:type="simple" xlink:href="http://xbrl.iasb.org/taxonomy/2009-04-01/ifrs/ias_36_2009-04-01/ref_ias_36_2009-04-01.xml" xlink:role="http://www.xbrl.org/2003/role/referenceLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
+         <link:linkbaseRef xlink:type="simple" xlink:href="http://xbrl.iasb.org/taxonomy/2009-04-01/ifrs/ias_37_2009-04-01/ref_ias_37_2009-04-01.xml" xlink:role="http://www.xbrl.org/2003/role/referenceLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
+         <link:linkbaseRef xlink:type="simple" xlink:href="http://xbrl.iasb.org/taxonomy/2009-04-01/ifrs/ias_38_2009-04-01/ref_ias_38_2009-04-01.xml" xlink:role="http://www.xbrl.org/2003/role/referenceLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
+         <link:linkbaseRef xlink:type="simple" xlink:href="http://xbrl.iasb.org/taxonomy/2009-04-01/ifrs/ias_40_2009-04-01/ref_ias_40_2009-04-01.xml" xlink:role="http://www.xbrl.org/2003/role/referenceLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
+         <link:linkbaseRef xlink:type="simple" xlink:href="http://xbrl.iasb.org/taxonomy/2009-04-01/ifrs/ias_41_2009-04-01/ref_ias_41_2009-04-01.xml" xlink:role="http://www.xbrl.org/2003/role/referenceLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
+         <link:linkbaseRef xlink:type="simple" xlink:href="http://xbrl.iasb.org/taxonomy/2009-04-01/ifrs/ias_7_2009-04-01/ref_ias_7_2009-04-01.xml" xlink:role="http://www.xbrl.org/2003/role/referenceLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
+         <link:linkbaseRef xlink:type="simple" xlink:href="http://xbrl.iasb.org/taxonomy/2009-04-01/ifrs/ias_8_2009-04-01/ref_ias_8_2009-04-01.xml" xlink:role="http://www.xbrl.org/2003/role/referenceLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
+         <link:linkbaseRef xlink:type="simple" xlink:href="http://xbrl.iasb.org/taxonomy/2009-04-01/ifrs/ifric_17_2009-04-01/ref_ifric_17_2009-04-01.xml" xlink:role="http://www.xbrl.org/2003/role/referenceLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
+         <link:linkbaseRef xlink:type="simple" xlink:href="http://xbrl.iasb.org/taxonomy/2009-04-01/ifrs/ifric_2_2009-04-01/ref_ifric_2_2009-04-01.xml" xlink:role="http://www.xbrl.org/2003/role/referenceLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
+         <link:linkbaseRef xlink:type="simple" xlink:href="http://xbrl.iasb.org/taxonomy/2009-04-01/ifrs/ifric_5_2009-04-01/ref_ifric_5_2009-04-01.xml" xlink:role="http://www.xbrl.org/2003/role/referenceLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
+         <link:linkbaseRef xlink:type="simple" xlink:href="http://xbrl.iasb.org/taxonomy/2009-04-01/ifrs/ifrs_1_2009-04-01/ref_ifrs_1_2009-04-01.xml" xlink:role="http://www.xbrl.org/2003/role/referenceLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
+         <link:linkbaseRef xlink:type="simple" xlink:href="http://xbrl.iasb.org/taxonomy/2009-04-01/ifrs/ifrs_2_2009-04-01/ref_ifrs_2_2009-04-01.xml" xlink:role="http://www.xbrl.org/2003/role/referenceLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
+         <link:linkbaseRef xlink:type="simple" xlink:href="http://xbrl.iasb.org/taxonomy/2009-04-01/ifrs/ifrs_3_2009-04-01/ref_ifrs_3_2009-04-01.xml" xlink:role="http://www.xbrl.org/2003/role/referenceLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
+         <link:linkbaseRef xlink:type="simple" xlink:href="http://xbrl.iasb.org/taxonomy/2009-04-01/ifrs/ifrs_4_2009-04-01/ref_ifrs_4_2009-04-01.xml" xlink:role="http://www.xbrl.org/2003/role/referenceLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
+         <link:linkbaseRef xlink:type="simple" xlink:href="http://xbrl.iasb.org/taxonomy/2009-04-01/ifrs/ifrs_5_2009-04-01/ref_ifrs_5_2009-04-01.xml" xlink:role="http://www.xbrl.org/2003/role/referenceLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
+         <link:linkbaseRef xlink:type="simple" xlink:href="http://xbrl.iasb.org/taxonomy/2009-04-01/ifrs/ifrs_6_2009-04-01/ref_ifrs_6_2009-04-01.xml" xlink:role="http://www.xbrl.org/2003/role/referenceLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
+         <link:linkbaseRef xlink:type="simple" xlink:href="http://xbrl.iasb.org/taxonomy/2009-04-01/ifrs/ifrs_7_2009-04-01/ref_ifrs_7_2009-04-01.xml" xlink:role="http://www.xbrl.org/2003/role/referenceLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
+         <link:linkbaseRef xlink:type="simple" xlink:href="http://xbrl.iasb.org/taxonomy/2009-04-01/ifrs/ifrs_8_2009-04-01/ref_ifrs_8_2009-04-01.xml" xlink:role="http://www.xbrl.org/2003/role/referenceLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
+      </xsd:appinfo>
+   </xsd:annotation>
+   <xsd:import namespace="http://www.xbrl.org/2003/instance"
+               schemaLocation="http://www.xbrl.org/2003/xbrl-instance-2003-12-31.xsd"/>
+   <xsd:import namespace="http://xbrl.iasb.org/taxonomy/2009-04-01/ifrs"
+               schemaLocation="http://xbrl.iasb.org/taxonomy/2009-04-01/ifrs-cor_2009-04-01.xsd"/>
+</xsd:schema>

@@ -1,0 +1,692 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<link:linkbase xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:ref="http://www.xbrl.org/2006/ref" xmlns:uk-char-ref="http://xbrl.frc.org.uk/char/2016-01-01/ref" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.xbrl.org/2003/linkbase http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd http://www.xbrl.org/2006/ref http://www.xbrl.org/2006/ref-2006-02-27.xsd http://xbrl.frc.org.uk/char/2016-01-01/ref ref/ref-2016-01-01.xsd">
+   <link:roleRef roleURI="http://xbrl.frc.org.uk/char/ref/roles/CharitiesSORP" xlink:href="ref/ref-2016-01-01.xsd#CharitiesSORP" xlink:type="simple"/>
+   <link:referenceLink xlink:role="http://www.xbrl.org/2003/role/link" xlink:type="extended">
+      <link:reference id="id_23ad93" xlink:label="lbl_reference2338195" xlink:role="http://xbrl.frc.org.uk/char/ref/roles/CharitiesSORP" xlink:type="resource">
+
+         <ref:Paragraph>19</ref:Paragraph>
+
+         <uk-char-ref:Module>15</uk-char-ref:Module>
+
+      </link:reference>
+      <link:loc xlink:href="https://xbrl.frc.org.uk/fr/2014-09-01/core/frc-core-2014-09-01.xsd#core_CalledUpShareCapitalNotPaidNotExpressedAsCurrentAsset" xlink:label="lbl_CalledUpShareCapitalNotPaidNotExpressedAsCurrentAsset" xlink:type="locator"/>
+      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_CalledUpShareCapitalNotPaidNotExpressedAsCurrentAsset" xlink:to="lbl_reference2338195" xlink:type="arc"/>
+      <link:reference id="id_71d5b5" xlink:label="lbl_reference7460277" xlink:role="http://xbrl.frc.org.uk/char/ref/roles/CharitiesSORP" xlink:type="resource">
+
+         <ref:Paragraph>74</ref:Paragraph>
+
+         <uk-char-ref:Module>10</uk-char-ref:Module>
+
+      </link:reference>
+      <link:loc xlink:href="https://xbrl.frc.org.uk/fr/2014-09-01/core/frc-core-2014-09-01.xsd#core_CashBankOnHand" xlink:label="lbl_CashBankOnHand" xlink:type="locator"/>
+      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_CashBankOnHand" xlink:to="lbl_reference7460277" xlink:type="arc"/>
+      <link:reference id="id_1eed02" xlink:label="lbl_Creditors_references" xlink:role="http://xbrl.frc.org.uk/char/ref/roles/CharitiesSORP" xlink:type="resource">
+
+         <ref:Paragraph>76 to 79</ref:Paragraph>
+
+         <uk-char-ref:Module>10</uk-char-ref:Module>
+
+      </link:reference>
+      <link:loc xlink:href="https://xbrl.frc.org.uk/fr/2014-09-01/core/frc-core-2014-09-01.xsd#core_Creditors" xlink:label="lbl_Creditors" xlink:type="locator"/>
+      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_Creditors" xlink:to="lbl_Creditors_references" xlink:type="arc"/>
+      <link:reference id="id_1f42b00" xlink:label="lbl_reference32779008" xlink:role="http://xbrl.frc.org.uk/char/ref/roles/CharitiesSORP" xlink:type="resource">
+
+         <ref:Paragraph>70, 71</ref:Paragraph>
+
+         <uk-char-ref:Module>10</uk-char-ref:Module>
+
+      </link:reference>
+      <link:loc xlink:href="https://xbrl.frc.org.uk/fr/2014-09-01/core/frc-core-2014-09-01.xsd#core_CurrentAssetInvestments" xlink:label="lbl_CurrentAssetInvestments" xlink:type="locator"/>
+      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_CurrentAssetInvestments" xlink:to="lbl_reference32779008" xlink:type="arc"/>
+      <link:reference id="id_8916ad" xlink:label="lbl_CurrentAssets_references" xlink:role="http://xbrl.frc.org.uk/char/ref/roles/CharitiesSORP" xlink:type="resource">
+
+         <ref:Paragraph>57</ref:Paragraph>
+
+         <uk-char-ref:Module>10</uk-char-ref:Module>
+
+      </link:reference>
+      <link:loc xlink:href="https://xbrl.frc.org.uk/fr/2014-09-01/core/frc-core-2014-09-01.xsd#core_CurrentAssets" xlink:label="lbl_CurrentAssets" xlink:type="locator"/>
+      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_CurrentAssets" xlink:to="lbl_CurrentAssets_references" xlink:type="arc"/>
+      <link:reference id="id_1c97cf3" xlink:label="lbl_reference29981939" xlink:role="http://xbrl.frc.org.uk/char/ref/roles/CharitiesSORP" xlink:type="resource">
+
+         <ref:Paragraph>64 to 66</ref:Paragraph>
+
+         <uk-char-ref:Module>10</uk-char-ref:Module>
+
+      </link:reference>
+      <link:loc xlink:href="https://xbrl.frc.org.uk/fr/2014-09-01/core/frc-core-2014-09-01.xsd#core_Debtors" xlink:label="lbl_Debtors" xlink:type="locator"/>
+      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_Debtors" xlink:to="lbl_reference29981939" xlink:type="arc"/>
+      <link:reference id="id_fd068" xlink:label="lbl_FixedAssets_references" xlink:role="http://xbrl.frc.org.uk/char/ref/roles/CharitiesSORP" xlink:type="resource">
+
+         <ref:Paragraph>12 to 14</ref:Paragraph>
+
+         <uk-char-ref:Module>10</uk-char-ref:Module>
+
+      </link:reference>
+      <link:loc xlink:href="https://xbrl.frc.org.uk/fr/2014-09-01/core/frc-core-2014-09-01.xsd#core_FixedAssets" xlink:label="lbl_FixedAssets" xlink:type="locator"/>
+      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_FixedAssets" xlink:to="lbl_FixedAssets_references" xlink:type="arc"/>
+      <link:reference id="id_81ce94" xlink:label="lbl_reference8507028" xlink:role="http://xbrl.frc.org.uk/char/ref/roles/CharitiesSORP" xlink:type="resource">
+
+         <ref:Paragraph>18 to 23</ref:Paragraph>
+
+         <uk-char-ref:Module>10</uk-char-ref:Module>
+
+      </link:reference>
+      <link:loc xlink:href="https://xbrl.frc.org.uk/fr/2014-09-01/core/frc-core-2014-09-01.xsd#core_IntangibleAssets" xlink:label="lbl_IntangibleAssets" xlink:type="locator"/>
+      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_IntangibleAssets" xlink:to="lbl_reference8507028" xlink:type="arc"/>
+      <link:reference id="id_168d6fa" xlink:label="lbl_reference23647994" xlink:role="http://xbrl.frc.org.uk/char/ref/roles/CharitiesSORP" xlink:type="resource">
+
+         <ref:Paragraph>45 to 48</ref:Paragraph>
+
+         <uk-char-ref:Module>10</uk-char-ref:Module>
+
+      </link:reference>
+      <link:loc xlink:href="https://xbrl.frc.org.uk/fr/2014-09-01/core/frc-core-2014-09-01.xsd#core_InvestmentProperty" xlink:label="lbl_InvestmentProperty" xlink:type="locator"/>
+      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_InvestmentProperty" xlink:to="lbl_reference23647994" xlink:type="arc"/>
+      <link:reference id="id_108065c" xlink:label="lbl_reference17303132" xlink:role="http://xbrl.frc.org.uk/char/ref/roles/CharitiesSORP" xlink:type="resource">
+
+         <ref:Paragraph>41, 42</ref:Paragraph>
+
+         <uk-char-ref:Module>10</uk-char-ref:Module>
+
+      </link:reference>
+      <link:loc xlink:href="https://xbrl.frc.org.uk/fr/2014-09-01/core/frc-core-2014-09-01.xsd#core_InvestmentsFixedAssets" xlink:label="lbl_InvestmentsFixedAssets" xlink:type="locator"/>
+      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_InvestmentsFixedAssets" xlink:to="lbl_reference17303132" xlink:type="arc"/>
+      <link:reference id="id_10b10bb" xlink:label="lbl_reference17502395" xlink:role="http://xbrl.frc.org.uk/char/ref/roles/CharitiesSORP" xlink:type="resource">
+
+         <ref:Paragraph>12 to 15</ref:Paragraph>
+
+         <uk-char-ref:Module>14</uk-char-ref:Module>
+
+      </link:reference>
+      <link:loc xlink:href="https://xbrl.frc.org.uk/fr/2014-09-01/core/frc-core-2014-09-01.xsd#core_NetCashFlowsFromUsedInFinancingActivities" xlink:label="lbl_NetCashFlowsFromUsedInFinancingActivities" xlink:type="locator"/>
+      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_NetCashFlowsFromUsedInFinancingActivities" xlink:to="lbl_reference17502395" xlink:type="arc"/>
+      <link:reference id="id_10aaeed" xlink:label="lbl_reference17477357" xlink:role="http://xbrl.frc.org.uk/char/ref/roles/CharitiesSORP" xlink:type="resource">
+
+         <ref:Paragraph>10, 11</ref:Paragraph>
+
+         <uk-char-ref:Module>14</uk-char-ref:Module>
+
+      </link:reference>
+      <link:loc xlink:href="https://xbrl.frc.org.uk/fr/2014-09-01/core/frc-core-2014-09-01.xsd#core_NetCashFlowsFromUsedInInvestingActivities" xlink:label="lbl_NetCashFlowsFromUsedInInvestingActivities" xlink:type="locator"/>
+      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_NetCashFlowsFromUsedInInvestingActivities" xlink:to="lbl_reference17477357" xlink:type="arc"/>
+      <link:reference id="id_1326d6b" xlink:label="lbl_reference20082027" xlink:role="http://xbrl.frc.org.uk/char/ref/roles/CharitiesSORP" xlink:type="resource">
+         <ref:Paragraph>8, 9</ref:Paragraph>
+         <uk-char-ref:Module>14</uk-char-ref:Module>
+      </link:reference>
+      <link:loc xlink:href="https://xbrl.frc.org.uk/fr/2014-09-01/core/frc-core-2014-09-01.xsd#core_NetCashFlowsFromUsedInOperatingActivities" xlink:label="lbl_NetCashFlowsFromUsedInOperatingActivities" xlink:type="locator"/>
+      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_NetCashFlowsFromUsedInOperatingActivities" xlink:to="lbl_reference20082027" xlink:type="arc"/>
+      <link:reference id="id_2fc3e6" xlink:label="lbl_reference3130342" xlink:role="http://xbrl.frc.org.uk/char/ref/roles/CharitiesSORP" xlink:type="resource">
+
+         <ref:Paragraph>77 to 79</ref:Paragraph>
+
+         <uk-char-ref:Module>10</uk-char-ref:Module>
+
+      </link:reference>
+      <link:loc xlink:href="https://xbrl.frc.org.uk/fr/2014-09-01/core/frc-core-2014-09-01.xsd#core_ProvisionsForLiabilitiesBalanceSheetSubtotal" xlink:label="lbl_ProvisionsForLiabilitiesBalanceSheetSubtotal" xlink:type="locator"/>
+      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_ProvisionsForLiabilitiesBalanceSheetSubtotal" xlink:to="lbl_reference3130342" xlink:type="arc"/>
+      <link:loc xlink:href="https://xbrl.frc.org.uk/fr/2014-09-01/core/frc-core-2014-09-01.xsd#core_RetirementBenefitObligationsSurplus" xlink:label="lbl_RetirementBenefitObligationsSurplus" xlink:type="locator"/>
+      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_RetirementBenefitObligationsSurplus" xlink:to="lbl_reference21982878" xlink:type="arc"/>
+      <link:reference id="id_98382f" xlink:label="lbl_reference9975855" xlink:role="http://xbrl.frc.org.uk/char/ref/roles/CharitiesSORP" xlink:type="resource">
+
+         <ref:Paragraph>59 to 62</ref:Paragraph>
+
+         <uk-char-ref:Module>10</uk-char-ref:Module>
+
+      </link:reference>
+      <link:loc xlink:href="https://xbrl.frc.org.uk/fr/2014-09-01/core/frc-core-2014-09-01.xsd#core_TotalInventories" xlink:label="lbl_TotalInventories" xlink:type="locator"/>
+      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_TotalInventories" xlink:to="lbl_reference9975855" xlink:type="arc"/>
+      <link:reference id="id_1ba0831" xlink:label="lbl_reference28969009" xlink:role="http://xbrl.frc.org.uk/char/ref/roles/CharitiesSORP" xlink:type="resource">
+         <ref:Paragraph>37</ref:Paragraph>
+         <uk-char-ref:Module>3</uk-char-ref:Module>
+      </link:reference>
+      <link:loc xlink:href="https://xbrl.frc.org.uk/fr/2014-09-01/core/frc-core-2014-09-01.xsd#core_StatementComplianceWithApplicableReportingFramework" xlink:label="lbl_StatementComplianceWithApplicableReportingFramework" xlink:type="locator"/>
+      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_StatementComplianceWithApplicableReportingFramework" xlink:to="lbl_reference28969009" xlink:type="arc"/>
+      <link:reference id="id_1f9110" xlink:label="lbl_reference2068752" xlink:role="http://xbrl.frc.org.uk/char/ref/roles/CharitiesSORP" xlink:type="resource">
+         <ref:Paragraph>12</ref:Paragraph>
+         <uk-char-ref:Module>3</uk-char-ref:Module>
+      </link:reference>
+      <link:loc xlink:href="https://xbrl.frc.org.uk/fr/2014-09-01/core/frc-core-2014-09-01.xsd#core_DescriptionReasonsForAnyChangeInReportingPeriodImpactOnComparability" xlink:label="lbl_DescriptionReasonsForAnyChangeInReportingPeriodImpactOnComparability" xlink:type="locator"/>
+      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_DescriptionReasonsForAnyChangeInReportingPeriodImpactOnComparability" xlink:to="lbl_reference2068752" xlink:type="arc"/>
+      <link:reference id="id_124385" xlink:label="lbl_reference1196933" xlink:role="http://xbrl.frc.org.uk/char/ref/roles/CharitiesSORP" xlink:type="resource">
+         <ref:Paragraph>39</ref:Paragraph>
+         <uk-char-ref:Module>3</uk-char-ref:Module>
+      </link:reference>
+      <link:loc xlink:href="https://xbrl.frc.org.uk/fr/2014-09-01/core/frc-core-2014-09-01.xsd#core_FinancialStatementsArePreparedOnGoing-concernBasisTruefalse" xlink:label="lbl_FinancialStatementsArePreparedOnGoing-concernBasisTruefalse" xlink:type="locator"/>
+      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_FinancialStatementsArePreparedOnGoing-concernBasisTruefalse" xlink:to="lbl_reference1196933" xlink:type="arc"/>
+      <link:reference id="id_1edb20" xlink:label="lbl_reference2022176" xlink:role="http://xbrl.frc.org.uk/char/ref/roles/CharitiesSORP" xlink:type="resource">
+         <ref:Paragraph>38</ref:Paragraph>
+         <uk-char-ref:Module>3</uk-char-ref:Module>
+      </link:reference>
+      <link:loc xlink:href="https://xbrl.frc.org.uk/fr/2014-09-01/core/frc-core-2014-09-01.xsd#core_DescriptionWhyEntityNotGoing-concernOrUncertaintiesOverGoing-concernStatus" xlink:label="lbl_DescriptionWhyEntityNotGoing-concernOrUncertaintiesOverGoing-concernStatus" xlink:type="locator"/>
+      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_DescriptionWhyEntityNotGoing-concernOrUncertaintiesOverGoing-concernStatus" xlink:to="lbl_reference2022176" xlink:type="arc"/>
+      <link:reference id="id_102972a" xlink:label="lbl_reference16946986" xlink:role="http://xbrl.frc.org.uk/char/ref/roles/CharitiesSORP" xlink:type="resource">
+         <ref:Paragraph>44</ref:Paragraph>
+         <uk-char-ref:Module>3</uk-char-ref:Module>
+      </link:reference>
+      <link:loc xlink:href="https://xbrl.frc.org.uk/fr/2014-09-01/core/frc-core-2014-09-01.xsd#core_GeneralDescriptionChangesInAccountingPolicies" xlink:label="lbl_GeneralDescriptionChangesInAccountingPolicies" xlink:type="locator"/>
+      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_GeneralDescriptionChangesInAccountingPolicies" xlink:to="lbl_reference16946986" xlink:type="arc"/>
+      <link:reference id="id_46db5d" xlink:label="lbl_reference4643677" xlink:role="http://xbrl.frc.org.uk/char/ref/roles/CharitiesSORP" xlink:type="resource">
+         <ref:Paragraph>56</ref:Paragraph>
+         <uk-char-ref:Module>5</uk-char-ref:Module>
+      </link:reference>
+      <link:loc xlink:href="https://xbrl.frc.org.uk/fr/2014-09-01/core/frc-core-2014-09-01.xsd#core_RevenueRecognitionPolicy" xlink:label="lbl_RevenueRecognitionPolicy" xlink:type="locator"/>
+      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_RevenueRecognitionPolicy" xlink:to="lbl_reference4643677" xlink:type="arc"/>
+      <link:reference id="id_a032b0" xlink:label="lbl_reference10498736" xlink:role="http://xbrl.frc.org.uk/char/ref/roles/CharitiesSORP" xlink:type="resource">
+         <ref:Paragraph>40</ref:Paragraph>
+         <uk-char-ref:Module>3</uk-char-ref:Module>
+      </link:reference>
+      <link:loc xlink:href="https://xbrl.frc.org.uk/fr/2014-09-01/core/frc-core-2014-09-01.xsd#core_GeneralDescriptionAssetsLiabilitiesWithSignificantRiskMaterialAdjustmentIncludingValues" xlink:label="lbl_GeneralDescriptionAssetsLiabilitiesWithSignificantRiskMaterialAdjustmentIncludingValues" xlink:type="locator"/>
+      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_GeneralDescriptionAssetsLiabilitiesWithSignificantRiskMaterialAdjustmentIncludingValues" xlink:to="lbl_reference10498736" xlink:type="arc"/>
+      <link:reference id="id_1848b9a" xlink:label="lbl_reference25463706" xlink:role="http://xbrl.frc.org.uk/char/ref/roles/CharitiesSORP" xlink:type="resource">
+         <ref:Paragraph>35</ref:Paragraph>
+         <uk-char-ref:Module>24</uk-char-ref:Module>
+      </link:reference>
+      <link:loc xlink:href="https://xbrl.frc.org.uk/fr/2014-09-01/core/frc-core-2014-09-01.xsd#core_DescriptionPrimaryReasonsForBusinessCombinationHowControlAcquired" xlink:label="lbl_DescriptionPrimaryReasonsForBusinessCombinationHowControlAcquired" xlink:type="locator"/>
+      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_DescriptionPrimaryReasonsForBusinessCombinationHowControlAcquired" xlink:to="lbl_reference25463706" xlink:type="arc"/>
+      <link:reference id="id_2f5286" xlink:label="lbl_reference3101318" xlink:role="http://xbrl.frc.org.uk/char/ref/roles/CharitiesSORP" xlink:type="resource">
+         <ref:Paragraph>62</ref:Paragraph>
+         <uk-char-ref:Module>4</uk-char-ref:Module>
+      </link:reference>
+      <link:loc xlink:href="https://xbrl.frc.org.uk/fr/2014-09-01/core/frc-core-2014-09-01.xsd#core_GainLossFromRevaluationPropertyPlantEquipmentRecognisedInProfitOrLoss" xlink:label="lbl_GainLossFromRevaluationPropertyPlantEquipmentRecognisedInProfitOrLoss" xlink:type="locator"/>
+      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_GainLossFromRevaluationPropertyPlantEquipmentRecognisedInProfitOrLoss" xlink:to="lbl_reference3101318" xlink:type="arc"/>
+      <link:reference id="id_11a0465" xlink:label="lbl_reference18482277" xlink:role="http://xbrl.frc.org.uk/char/ref/roles/CharitiesSORP" xlink:type="resource">
+         <ref:Paragraph>62</ref:Paragraph>
+         <uk-char-ref:Module>4</uk-char-ref:Module>
+      </link:reference>
+      <link:loc xlink:href="https://xbrl.frc.org.uk/fr/2014-09-01/core/frc-core-2014-09-01.xsd#core_GainLossOnDisposalsPropertyPlantEquipment" xlink:label="lbl_GainLossOnDisposalsPropertyPlantEquipment" xlink:type="locator"/>
+      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_GainLossOnDisposalsPropertyPlantEquipment" xlink:to="lbl_reference18482277" xlink:type="arc"/>
+      <link:reference id="id_16080b7" xlink:label="lbl_reference23101623" xlink:role="http://xbrl.frc.org.uk/char/ref/roles/CharitiesSORP" xlink:type="resource">
+         <ref:Paragraph>62</ref:Paragraph>
+         <uk-char-ref:Module>4</uk-char-ref:Module>
+      </link:reference>
+      <link:loc xlink:href="https://xbrl.frc.org.uk/fr/2014-09-01/core/frc-core-2014-09-01.xsd#core_GainLossFromRevaluationIntangibleAssetsRecognisedInProfitOrLoss" xlink:label="lbl_GainLossFromRevaluationIntangibleAssetsRecognisedInProfitOrLoss" xlink:type="locator"/>
+      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_GainLossFromRevaluationIntangibleAssetsRecognisedInProfitOrLoss" xlink:to="lbl_reference23101623" xlink:type="arc"/>
+      <link:reference id="id_e7cc05" xlink:label="lbl_reference15191045" xlink:role="http://xbrl.frc.org.uk/char/ref/roles/CharitiesSORP" xlink:type="resource">
+         <ref:Paragraph>62</ref:Paragraph>
+         <uk-char-ref:Module>4</uk-char-ref:Module>
+      </link:reference>
+      <link:loc xlink:href="https://xbrl.frc.org.uk/fr/2014-09-01/core/frc-core-2014-09-01.xsd#core_GainLossOnDisposalsIntangibleAssets" xlink:label="lbl_GainLossOnDisposalsIntangibleAssets" xlink:type="locator"/>
+      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_GainLossOnDisposalsIntangibleAssets" xlink:to="lbl_reference15191045" xlink:type="arc"/>
+      <link:reference id="id_1b60b3f" xlink:label="lbl_reference28707647" xlink:role="http://xbrl.frc.org.uk/char/ref/roles/CharitiesSORP" xlink:type="resource">
+         <ref:Paragraph>62</ref:Paragraph>
+         <uk-char-ref:Module>4</uk-char-ref:Module>
+      </link:reference>
+      <link:loc xlink:href="https://xbrl.frc.org.uk/fr/2014-09-01/core/frc-core-2014-09-01.xsd#core_GainLossFromSalesInvestmentPropertiesRecognisedInProfitOrLoss" xlink:label="lbl_GainLossFromSalesInvestmentPropertiesRecognisedInProfitOrLoss" xlink:type="locator"/>
+      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_GainLossFromSalesInvestmentPropertiesRecognisedInProfitOrLoss" xlink:to="lbl_reference28707647" xlink:type="arc"/>
+      <link:reference id="id_164c6ab" xlink:label="lbl_reference23381675" xlink:role="http://xbrl.frc.org.uk/char/ref/roles/CharitiesSORP" xlink:type="resource">
+         <ref:Paragraph>19 to 21</ref:Paragraph>
+         <uk-char-ref:Module>4</uk-char-ref:Module>
+      </link:reference>
+      <link:loc xlink:href="https://xbrl.frc.org.uk/fr/2014-09-01/core/frc-core-2014-09-01.xsd#core_UseContinuingDiscontinuedDimensionToIdentifyContinuedDiscontinuedHeldForSaleValuesGuidance" xlink:label="lbl_UseContinuingDiscontinuedDimensionToIdentifyContinuedDiscontinuedHeldForSaleValuesGuidance" xlink:type="locator"/>
+      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_UseContinuingDiscontinuedDimensionToIdentifyContinuedDiscontinuedHeldForSaleValuesGuidance" xlink:to="lbl_reference23381675" xlink:type="arc"/>
+      <link:reference id="id_785474" xlink:label="lbl_reference7885940" xlink:role="http://xbrl.frc.org.uk/char/ref/roles/CharitiesSORP" xlink:type="resource">
+         <ref:Paragraph>58</ref:Paragraph>
+         <uk-char-ref:Module>5</uk-char-ref:Module>
+      </link:reference>
+      <link:loc xlink:href="https://xbrl.frc.org.uk/fr/2014-09-01/core/frc-core-2014-09-01.xsd#core_GovernmentGrantIncome" xlink:label="lbl_GovernmentGrantIncome" xlink:type="locator"/>
+      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_GovernmentGrantIncome" xlink:to="lbl_reference7885940" xlink:type="arc"/>
+      <link:reference id="id_6f5825" xlink:label="lbl_reference7297061" xlink:role="http://xbrl.frc.org.uk/char/ref/roles/CharitiesSORP" xlink:type="resource">
+         <ref:Paragraph>58</ref:Paragraph>
+         <uk-char-ref:Module>5</uk-char-ref:Module>
+      </link:reference>
+      <link:loc xlink:href="https://xbrl.frc.org.uk/fr/2014-09-01/core/frc-core-2014-09-01.xsd#core_DescriptionGovernmentGrantsOtherFormsGovernmentAssistance" xlink:label="lbl_DescriptionGovernmentGrantsOtherFormsGovernmentAssistance" xlink:type="locator"/>
+      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_DescriptionGovernmentGrantsOtherFormsGovernmentAssistance" xlink:to="lbl_reference7297061" xlink:type="arc"/>
+      <link:reference id="id_1defb16" xlink:label="lbl_reference31390486" xlink:role="http://xbrl.frc.org.uk/char/ref/roles/CharitiesSORP" xlink:type="resource">
+         <ref:Paragraph>58</ref:Paragraph>
+         <uk-char-ref:Module>5</uk-char-ref:Module>
+      </link:reference>
+      <link:loc xlink:href="https://xbrl.frc.org.uk/fr/2014-09-01/core/frc-core-2014-09-01.xsd#core_DescriptionUnfulfilledConditionsOtherContingenciesAttachingToGovernmentAssistance" xlink:label="lbl_DescriptionUnfulfilledConditionsOtherContingenciesAttachingToGovernmentAssistance" xlink:type="locator"/>
+      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_DescriptionUnfulfilledConditionsOtherContingenciesAttachingToGovernmentAssistance" xlink:to="lbl_reference31390486" xlink:type="arc"/>
+      <link:reference id="id_215adc" xlink:label="lbl_reference2185948" xlink:role="http://xbrl.frc.org.uk/char/ref/roles/CharitiesSORP" xlink:type="resource">
+         <ref:Paragraph>43</ref:Paragraph>
+         <uk-char-ref:Module>7</uk-char-ref:Module>
+      </link:reference>
+      <link:loc xlink:href="https://xbrl.frc.org.uk/fr/2014-09-01/core/frc-core-2014-09-01.xsd#core_AdditionalProvisionsIncreaseFromNewProvisionsRecognised" xlink:label="lbl_AdditionalProvisionsIncreaseFromNewProvisionsRecognised" xlink:type="locator"/>
+      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_AdditionalProvisionsIncreaseFromNewProvisionsRecognised" xlink:to="lbl_reference2185948" xlink:type="arc"/>
+      <link:reference id="id_a30047" xlink:label="lbl_reference10682439" xlink:role="http://xbrl.frc.org.uk/char/ref/roles/CharitiesSORP" xlink:type="resource">
+         <ref:Paragraph>26</ref:Paragraph>
+         <uk-char-ref:Module>9</uk-char-ref:Module>
+      </link:reference>
+      <link:loc xlink:href="https://xbrl.frc.org.uk/fr/2014-09-01/core/frc-core-2014-09-01.xsd#core_AlternativeWagesSalariesSub-totalsHeading" xlink:label="lbl_AlternativeWagesSalariesSub-totalsHeading" xlink:type="locator"/>
+      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_AlternativeWagesSalariesSub-totalsHeading" xlink:to="lbl_reference10682439" xlink:type="arc"/>
+      <link:reference id="id_f361f7" xlink:label="lbl_reference15950327" xlink:role="http://xbrl.frc.org.uk/char/ref/roles/CharitiesSORP" xlink:type="resource">
+         <ref:Paragraph>43</ref:Paragraph>
+         <uk-char-ref:Module>7</uk-char-ref:Module>
+      </link:reference>
+      <link:loc xlink:href="https://xbrl.frc.org.uk/fr/2014-09-01/core/frc-core-2014-09-01.xsd#core_AmountAnyAssetRecognisedForExpectedReimbursementForProvision" xlink:label="lbl_AmountAnyAssetRecognisedForExpectedReimbursementForProvision" xlink:type="locator"/>
+      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_AmountAnyAssetRecognisedForExpectedReimbursementForProvision" xlink:to="lbl_reference15950327" xlink:type="arc"/>
+      <link:reference id="id_2b7d9f" xlink:label="lbl_reference2850207" xlink:role="http://xbrl.frc.org.uk/char/ref/roles/CharitiesSORP" xlink:type="resource">
+         <ref:Paragraph>43</ref:Paragraph>
+         <uk-char-ref:Module>7</uk-char-ref:Module>
+      </link:reference>
+      <link:loc xlink:href="https://xbrl.frc.org.uk/fr/2014-09-01/core/frc-core-2014-09-01.xsd#core_AmountAnyExpectedReimbursementForProvision" xlink:label="lbl_AmountAnyExpectedReimbursementForProvision" xlink:type="locator"/>
+      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_AmountAnyExpectedReimbursementForProvision" xlink:to="lbl_reference2850207" xlink:type="arc"/>
+      <link:reference id="id_da0984" xlink:label="lbl_reference14289284" xlink:role="http://xbrl.frc.org.uk/char/ref/roles/CharitiesSORP" xlink:type="resource">
+         <ref:Paragraph>9</ref:Paragraph>
+         <uk-char-ref:Module>14</uk-char-ref:Module>
+      </link:reference>
+      <link:loc xlink:href="https://xbrl.frc.org.uk/fr/2014-09-01/core/frc-core-2014-09-01.xsd#core_CashReceiptsFromOperatingActivities" xlink:label="lbl_CashReceiptsFromOperatingActivities" xlink:type="locator"/>
+      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_CashReceiptsFromOperatingActivities" xlink:to="lbl_reference14289284" xlink:type="arc"/>
+      <link:reference id="id_10f67ce" xlink:label="lbl_reference17786830" xlink:role="http://xbrl.frc.org.uk/char/ref/roles/CharitiesSORP" xlink:type="resource">
+         <ref:Paragraph>43</ref:Paragraph>
+         <uk-char-ref:Module>7</uk-char-ref:Module>
+      </link:reference>
+      <link:loc xlink:href="https://xbrl.frc.org.uk/fr/2014-09-01/core/frc-core-2014-09-01.xsd#core_DecreaseIncreaseInProvisionsThroughDisposalsTransfersToHeldForSale" xlink:label="lbl_DecreaseIncreaseInProvisionsThroughDisposalsTransfersToHeldForSale" xlink:type="locator"/>
+      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_DecreaseIncreaseInProvisionsThroughDisposalsTransfersToHeldForSale" xlink:to="lbl_reference17786830" xlink:type="arc"/>
+      <link:reference id="id_1354732" xlink:label="lbl_reference20268850" xlink:role="http://xbrl.frc.org.uk/char/ref/roles/CharitiesSORP" xlink:type="resource">
+         <ref:Paragraph>59</ref:Paragraph>
+         <uk-char-ref:Module>5</uk-char-ref:Module>
+      </link:reference>
+      <link:loc xlink:href="https://xbrl.frc.org.uk/fr/2014-09-01/core/frc-core-2014-09-01.xsd#core_DeferredIncome" xlink:label="lbl_DeferredIncome" xlink:type="locator"/>
+      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_DeferredIncome" xlink:to="lbl_reference20268850" xlink:type="arc"/>
+      <link:reference id="id_10d0c74" xlink:label="lbl_reference17632372" xlink:role="http://xbrl.frc.org.uk/char/ref/roles/CharitiesSORP" xlink:type="resource">
+         <ref:Paragraph>43</ref:Paragraph>
+         <uk-char-ref:Module>7</uk-char-ref:Module>
+      </link:reference>
+      <link:loc xlink:href="https://xbrl.frc.org.uk/fr/2014-09-01/core/frc-core-2014-09-01.xsd#core_FurtherItemIncreaseDecreaseInProvisionsComponentTotalIncreaseDecreaseInProvisions" xlink:label="lbl_FurtherItemIncreaseDecreaseInProvisionsComponentTotalIncreaseDecreaseInProvisions" xlink:type="locator"/>
+      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_FurtherItemIncreaseDecreaseInProvisionsComponentTotalIncreaseDecreaseInProvisions" xlink:to="lbl_reference17632372" xlink:type="arc"/>
+      <link:reference id="id_181af28" xlink:label="lbl_reference25276200" xlink:role="http://xbrl.frc.org.uk/char/ref/roles/CharitiesSORP" xlink:type="resource">
+         <ref:Paragraph>43</ref:Paragraph>
+         <uk-char-ref:Module>7</uk-char-ref:Module>
+      </link:reference>
+      <link:loc xlink:href="https://xbrl.frc.org.uk/fr/2014-09-01/core/frc-core-2014-09-01.xsd#core_GeneralDescriptionNatureProvisionIncludingTimingOutflowsMajorAssumptionsAboutFutureEvents" xlink:label="lbl_GeneralDescriptionNatureProvisionIncludingTimingOutflowsMajorAssumptionsAboutFutureEvents" xlink:type="locator"/>
+      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_GeneralDescriptionNatureProvisionIncludingTimingOutflowsMajorAssumptionsAboutFutureEvents" xlink:to="lbl_reference25276200" xlink:type="arc"/>
+      <link:reference id="id_e72551" xlink:label="lbl_reference15148369" xlink:role="http://xbrl.frc.org.uk/char/ref/roles/CharitiesSORP" xlink:type="resource">
+         <ref:Paragraph>43</ref:Paragraph>
+         <uk-char-ref:Module>7</uk-char-ref:Module>
+      </link:reference>
+      <link:loc xlink:href="https://xbrl.frc.org.uk/fr/2014-09-01/core/frc-core-2014-09-01.xsd#core_IncreaseDecreaseInExistingProvisions" xlink:label="lbl_IncreaseDecreaseInExistingProvisions" xlink:type="locator"/>
+      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_IncreaseDecreaseInExistingProvisions" xlink:to="lbl_reference15148369" xlink:type="arc"/>
+      <link:reference id="id_1619363" xlink:label="lbl_reference23171939" xlink:role="http://xbrl.frc.org.uk/char/ref/roles/CharitiesSORP" xlink:type="resource">
+         <ref:Paragraph>43</ref:Paragraph>
+         <uk-char-ref:Module>7</uk-char-ref:Module>
+      </link:reference>
+      <link:loc xlink:href="https://xbrl.frc.org.uk/fr/2014-09-01/core/frc-core-2014-09-01.xsd#core_IncreaseDecreaseInProvisionsThroughAdjustmentInValueFromPassageTimeUnwindingDiscount" xlink:label="lbl_IncreaseDecreaseInProvisionsThroughAdjustmentInValueFromPassageTimeUnwindingDiscount" xlink:type="locator"/>
+      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_IncreaseDecreaseInProvisionsThroughAdjustmentInValueFromPassageTimeUnwindingDiscount" xlink:to="lbl_reference23171939" xlink:type="arc"/>
+      <link:reference id="id_b5d8b0" xlink:label="lbl_reference11917488" xlink:role="http://xbrl.frc.org.uk/char/ref/roles/CharitiesSORP" xlink:type="resource">
+         <ref:Paragraph>43</ref:Paragraph>
+         <uk-char-ref:Module>7</uk-char-ref:Module>
+      </link:reference>
+      <link:loc xlink:href="https://xbrl.frc.org.uk/fr/2014-09-01/core/frc-core-2014-09-01.xsd#core_IncreaseDecreaseInProvisionsThroughBusinessCombinations" xlink:label="lbl_IncreaseDecreaseInProvisionsThroughBusinessCombinations" xlink:type="locator"/>
+      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_IncreaseDecreaseInProvisionsThroughBusinessCombinations" xlink:to="lbl_reference11917488" xlink:type="arc"/>
+      <link:reference id="id_1ef618f" xlink:label="lbl_reference32465295" xlink:role="http://xbrl.frc.org.uk/char/ref/roles/CharitiesSORP" xlink:type="resource">
+         <ref:Paragraph>43</ref:Paragraph>
+         <uk-char-ref:Module>7</uk-char-ref:Module>
+      </link:reference>
+      <link:loc xlink:href="https://xbrl.frc.org.uk/fr/2014-09-01/core/frc-core-2014-09-01.xsd#core_IncreaseDecreaseInProvisionsThroughChangeInDiscountRate" xlink:label="lbl_IncreaseDecreaseInProvisionsThroughChangeInDiscountRate" xlink:type="locator"/>
+      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_IncreaseDecreaseInProvisionsThroughChangeInDiscountRate" xlink:to="lbl_reference32465295" xlink:type="arc"/>
+      <link:reference id="id_2c6cad" xlink:label="lbl_reference2911405" xlink:role="http://xbrl.frc.org.uk/char/ref/roles/CharitiesSORP" xlink:type="resource">
+         <ref:Paragraph>43</ref:Paragraph>
+         <uk-char-ref:Module>7</uk-char-ref:Module>
+      </link:reference>
+      <link:loc xlink:href="https://xbrl.frc.org.uk/fr/2014-09-01/core/frc-core-2014-09-01.xsd#core_IncreaseDecreaseInProvisionsThroughForeignExchangeDifferences" xlink:label="lbl_IncreaseDecreaseInProvisionsThroughForeignExchangeDifferences" xlink:type="locator"/>
+      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_IncreaseDecreaseInProvisionsThroughForeignExchangeDifferences" xlink:to="lbl_reference2911405" xlink:type="arc"/>
+      <link:reference id="id_ce4cc6" xlink:label="lbl_reference13520070" xlink:role="http://xbrl.frc.org.uk/char/ref/roles/CharitiesSORP" xlink:type="resource">
+         <ref:Paragraph>43</ref:Paragraph>
+         <uk-char-ref:Module>7</uk-char-ref:Module>
+      </link:reference>
+      <link:loc xlink:href="https://xbrl.frc.org.uk/fr/2014-09-01/core/frc-core-2014-09-01.xsd#core_IncreaseDecreaseInProvisionsThroughTransfersReclassifications" xlink:label="lbl_IncreaseDecreaseInProvisionsThroughTransfersReclassifications" xlink:type="locator"/>
+      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_IncreaseDecreaseInProvisionsThroughTransfersReclassifications" xlink:to="lbl_reference13520070" xlink:type="arc"/>
+      <link:reference id="id_1ae071d" xlink:label="lbl_reference28182301" xlink:role="http://xbrl.frc.org.uk/char/ref/roles/CharitiesSORP" xlink:type="resource">
+         <ref:Paragraph>43</ref:Paragraph>
+         <uk-char-ref:Module>7</uk-char-ref:Module>
+      </link:reference>
+      <link:loc xlink:href="https://xbrl.frc.org.uk/fr/2014-09-01/core/frc-core-2014-09-01.xsd#core_OtherIncreaseDecreaseInProvisions" xlink:label="lbl_OtherIncreaseDecreaseInProvisions" xlink:type="locator"/>
+      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_OtherIncreaseDecreaseInProvisions" xlink:to="lbl_reference28182301" xlink:type="arc"/>
+      <link:reference id="id_1612117" xlink:label="lbl_reference23142679" xlink:role="http://xbrl.frc.org.uk/char/ref/roles/CharitiesSORP" xlink:type="resource">
+         <ref:Paragraph>43</ref:Paragraph>
+         <uk-char-ref:Module>7</uk-char-ref:Module>
+      </link:reference>
+      <link:loc xlink:href="https://xbrl.frc.org.uk/fr/2014-09-01/core/frc-core-2014-09-01.xsd#core_Provisions" xlink:label="lbl_Provisions" xlink:type="locator"/>
+      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_Provisions" xlink:to="lbl_reference23142679" xlink:type="arc"/>
+      <link:reference id="id_10ff645" xlink:label="lbl_reference17823301" xlink:role="http://xbrl.frc.org.uk/char/ref/roles/CharitiesSORP" xlink:type="resource">
+         <ref:Paragraph>43</ref:Paragraph>
+         <uk-char-ref:Module>7</uk-char-ref:Module>
+      </link:reference>
+      <link:loc xlink:href="https://xbrl.frc.org.uk/fr/2014-09-01/core/frc-core-2014-09-01.xsd#core_Provisions-MovementAnalysisHeading" xlink:label="lbl_Provisions-MovementAnalysisHeading" xlink:type="locator"/>
+      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_Provisions-MovementAnalysisHeading" xlink:to="lbl_reference17823301" xlink:type="arc"/>
+      <link:reference id="id_1b02658" xlink:label="lbl_reference28321368" xlink:role="http://xbrl.frc.org.uk/char/ref/roles/CharitiesSORP" xlink:type="resource">
+         <ref:Paragraph>43</ref:Paragraph>
+         <uk-char-ref:Module>7</uk-char-ref:Module>
+      </link:reference>
+      <link:loc xlink:href="https://xbrl.frc.org.uk/fr/2014-09-01/core/frc-core-2014-09-01.xsd#core_ProvisionsUsed" xlink:label="lbl_ProvisionsUsed" xlink:type="locator"/>
+      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_ProvisionsUsed" xlink:to="lbl_reference28321368" xlink:type="arc"/>
+      <link:reference id="id_b64701" xlink:label="lbl_reference11945729" xlink:role="http://xbrl.frc.org.uk/char/ref/roles/CharitiesSORP" xlink:type="resource">
+         <ref:Paragraph>43</ref:Paragraph>
+         <uk-char-ref:Module>7</uk-char-ref:Module>
+      </link:reference>
+      <link:loc xlink:href="https://xbrl.frc.org.uk/fr/2014-09-01/core/frc-core-2014-09-01.xsd#core_StatementOnNon-disclosureInformationRegardingProvisions" xlink:label="lbl_StatementOnNon-disclosureInformationRegardingProvisions" xlink:type="locator"/>
+      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_StatementOnNon-disclosureInformationRegardingProvisions" xlink:to="lbl_reference11945729" xlink:type="arc"/>
+      <link:reference id="id_86fd0f" xlink:label="lbl_reference8846607" xlink:role="http://xbrl.frc.org.uk/char/ref/roles/CharitiesSORP" xlink:type="resource">
+         <ref:Paragraph>43</ref:Paragraph>
+         <uk-char-ref:Module>7</uk-char-ref:Module>
+      </link:reference>
+      <link:loc xlink:href="https://xbrl.frc.org.uk/fr/2014-09-01/core/frc-core-2014-09-01.xsd#core_TotalIncreaseDecreaseInProvisions" xlink:label="lbl_TotalIncreaseDecreaseInProvisions" xlink:type="locator"/>
+      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_TotalIncreaseDecreaseInProvisions" xlink:to="lbl_reference8846607" xlink:type="arc"/>
+      <link:reference id="id_13119c3" xlink:label="lbl_reference19995075" xlink:role="http://xbrl.frc.org.uk/char/ref/roles/CharitiesSORP" xlink:type="resource">
+         <ref:Paragraph>43</ref:Paragraph>
+         <uk-char-ref:Module>7</uk-char-ref:Module>
+      </link:reference>
+      <link:loc xlink:href="https://xbrl.frc.org.uk/fr/2014-09-01/core/frc-core-2014-09-01.xsd#core_UnusedProvisionReversed" xlink:label="lbl_UnusedProvisionReversed" xlink:type="locator"/>
+      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_UnusedProvisionReversed" xlink:to="lbl_reference19995075" xlink:type="arc"/>
+      <link:reference id="id_ba8dec" xlink:label="lbl_reference12226028" xlink:role="http://xbrl.frc.org.uk/char/ref/roles/CharitiesSORP" xlink:type="resource">
+         <ref:Paragraph>43</ref:Paragraph>
+         <uk-char-ref:Module>7</uk-char-ref:Module>
+      </link:reference>
+      <link:loc xlink:href="https://xbrl.frc.org.uk/fr/2014-09-01/core/frc-core-2014-09-01.xsd#core_UseProvisionsDimensionToIdentifyIndividualTypesProvisionGuidance" xlink:label="lbl_UseProvisionsDimensionToIdentifyIndividualTypesProvisionGuidance" xlink:type="locator"/>
+      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_UseProvisionsDimensionToIdentifyIndividualTypesProvisionGuidance" xlink:to="lbl_reference12226028" xlink:type="arc"/>
+      <link:reference id="id_7c608c" xlink:label="lbl_reference8151180" xlink:role="http://xbrl.frc.org.uk/char/ref/roles/CharitiesSORP" xlink:type="resource">
+         <ref:Paragraph>26</ref:Paragraph>
+         <uk-char-ref:Module>9</uk-char-ref:Module>
+      </link:reference>
+      <link:loc xlink:href="https://xbrl.frc.org.uk/fr/2014-09-01/core/frc-core-2014-09-01.xsd#core_WagesSalaries" xlink:label="lbl_WagesSalaries" xlink:type="locator"/>
+      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_WagesSalaries" xlink:to="lbl_reference8151180" xlink:type="arc"/>
+      <link:reference id="id_c0f3e9c" xlink:label="lbl_reference202325660" xlink:role="http://xbrl.frc.org.uk/char/ref/roles/CharitiesSORP" xlink:type="resource">
+         <ref:Paragraph>29</ref:Paragraph>
+         <uk-char-ref:Module>9</uk-char-ref:Module>
+      </link:reference>
+      <link:loc xlink:href="https://xbrl.frc.org.uk/fr/2014-09-01/core/frc-core-2014-09-01.xsd#core_AdministrationSupportAverageNumberEmployees" xlink:label="lbl_AdministrationSupportAverageNumberEmployees" xlink:type="locator"/>
+      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_AdministrationSupportAverageNumberEmployees" xlink:to="lbl_reference202325660" xlink:type="arc"/>
+      <link:reference id="id_57438ca6" xlink:label="lbl_reference1464044710" xlink:role="http://xbrl.frc.org.uk/char/ref/roles/CharitiesSORP" xlink:type="resource">
+         <ref:Paragraph>29</ref:Paragraph>
+         <uk-char-ref:Module>9</uk-char-ref:Module>
+      </link:reference>
+      <link:loc xlink:href="https://xbrl.frc.org.uk/fr/2014-09-01/core/frc-core-2014-09-01.xsd#core_AdministrationSupportNumberEmployeesDate" xlink:label="lbl_AdministrationSupportNumberEmployeesDate" xlink:type="locator"/>
+      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_AdministrationSupportNumberEmployeesDate" xlink:to="lbl_reference1464044710" xlink:type="arc"/>
+      <link:reference id="id_22cc11ef" xlink:label="lbl_reference583799279" xlink:role="http://xbrl.frc.org.uk/char/ref/roles/CharitiesSORP" xlink:type="resource">
+         <ref:Paragraph>29</ref:Paragraph>
+         <uk-char-ref:Module>9</uk-char-ref:Module>
+      </link:reference>
+      <link:loc xlink:href="https://xbrl.frc.org.uk/fr/2014-09-01/core/frc-core-2014-09-01.xsd#core_AverageNumberEmployeesByDepartmentHeading" xlink:label="lbl_AverageNumberEmployeesByDepartmentHeading" xlink:type="locator"/>
+      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_AverageNumberEmployeesByDepartmentHeading" xlink:to="lbl_reference583799279" xlink:type="arc"/>
+      <link:reference id="id_55a009a9" xlink:label="lbl_reference1436551593" xlink:role="http://xbrl.frc.org.uk/char/ref/roles/CharitiesSORP" xlink:type="resource">
+         <ref:Paragraph>29</ref:Paragraph>
+         <uk-char-ref:Module>9</uk-char-ref:Module>
+      </link:reference>
+      <link:loc xlink:href="https://xbrl.frc.org.uk/fr/2014-09-01/core/frc-core-2014-09-01.xsd#core_AverageNumberEmployeesDuringPeriod" xlink:label="lbl_AverageNumberEmployeesDuringPeriod" xlink:type="locator"/>
+      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_AverageNumberEmployeesDuringPeriod" xlink:to="lbl_reference1436551593" xlink:type="arc"/>
+      <link:reference id="id_158b8a30" xlink:label="lbl_reference361466416" xlink:role="http://xbrl.frc.org.uk/char/ref/roles/CharitiesSORP" xlink:type="resource">
+         <ref:Paragraph>20</ref:Paragraph>
+         <uk-char-ref:Module>9</uk-char-ref:Module>
+      </link:reference>
+      <link:loc xlink:href="https://xbrl.frc.org.uk/fr/2014-09-01/core/frc-core-2014-09-01.xsd#core_BalancesAmountsOwedByRelatedParties" xlink:label="lbl_BalancesAmountsOwedByRelatedParties" xlink:type="locator"/>
+      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_BalancesAmountsOwedByRelatedParties" xlink:to="lbl_reference361466416" xlink:type="arc"/>
+      <link:reference id="id_67c9bb31" xlink:label="lbl_reference1741273905" xlink:role="http://xbrl.frc.org.uk/char/ref/roles/CharitiesSORP" xlink:type="resource">
+         <ref:Paragraph>20</ref:Paragraph>
+         <uk-char-ref:Module>9</uk-char-ref:Module>
+      </link:reference>
+      <link:loc xlink:href="https://xbrl.frc.org.uk/fr/2014-09-01/core/frc-core-2014-09-01.xsd#core_BalancesAmountsOwedToRelatedParties" xlink:label="lbl_BalancesAmountsOwedToRelatedParties" xlink:type="locator"/>
+      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_BalancesAmountsOwedToRelatedParties" xlink:to="lbl_reference1741273905" xlink:type="arc"/>
+      <link:reference id="id_65d585c3" xlink:label="lbl_reference1708492227" xlink:role="http://xbrl.frc.org.uk/char/ref/roles/CharitiesSORP" xlink:type="resource">
+         <ref:Paragraph>29</ref:Paragraph>
+         <uk-char-ref:Module>9</uk-char-ref:Module>
+      </link:reference>
+      <link:loc xlink:href="https://xbrl.frc.org.uk/fr/2014-09-01/core/frc-core-2014-09-01.xsd#core_DateWhichNumberEmployeesMeasured" xlink:label="lbl_DateWhichNumberEmployeesMeasured" xlink:type="locator"/>
+      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_DateWhichNumberEmployeesMeasured" xlink:to="lbl_reference1708492227" xlink:type="arc"/>
+      <link:reference id="id_31acd476" xlink:label="lbl_reference833410166" xlink:role="http://xbrl.frc.org.uk/char/ref/roles/CharitiesSORP" xlink:type="resource">
+         <ref:Paragraph>20</ref:Paragraph>
+         <uk-char-ref:Module>9</uk-char-ref:Module>
+      </link:reference>
+      <link:loc xlink:href="https://xbrl.frc.org.uk/fr/2014-09-01/core/frc-core-2014-09-01.xsd#core_DescriptionNatureTransactionsBalancesWithRelatedParties" xlink:label="lbl_DescriptionNatureTransactionsBalancesWithRelatedParties" xlink:type="locator"/>
+      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_DescriptionNatureTransactionsBalancesWithRelatedParties" xlink:to="lbl_reference833410166" xlink:type="arc"/>
+      <link:reference id="id_2d56a08c" xlink:label="lbl_reference760651916" xlink:role="http://xbrl.frc.org.uk/char/ref/roles/CharitiesSORP" xlink:type="resource">
+         <ref:Paragraph>29</ref:Paragraph>
+         <uk-char-ref:Module>9</uk-char-ref:Module>
+      </link:reference>
+      <link:loc xlink:href="https://xbrl.frc.org.uk/fr/2014-09-01/core/frc-core-2014-09-01.xsd#core_DistributionAverageNumberEmployees" xlink:label="lbl_DistributionAverageNumberEmployees" xlink:type="locator"/>
+      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_DistributionAverageNumberEmployees" xlink:to="lbl_reference760651916" xlink:type="arc"/>
+      <link:reference id="id_78e3c21" xlink:label="lbl_reference126762017" xlink:role="http://xbrl.frc.org.uk/char/ref/roles/CharitiesSORP" xlink:type="resource">
+         <ref:Paragraph>29</ref:Paragraph>
+         <uk-char-ref:Module>9</uk-char-ref:Module>
+      </link:reference>
+      <link:loc xlink:href="https://xbrl.frc.org.uk/fr/2014-09-01/core/frc-core-2014-09-01.xsd#core_DistributionNumberEmployeesDate" xlink:label="lbl_DistributionNumberEmployeesDate" xlink:type="locator"/>
+      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_DistributionNumberEmployeesDate" xlink:to="lbl_reference126762017" xlink:type="arc"/>
+      <link:reference id="id_4491960b" xlink:label="lbl_reference1150391819" xlink:role="http://xbrl.frc.org.uk/char/ref/roles/CharitiesSORP" xlink:type="resource">
+         <ref:Paragraph>29</ref:Paragraph>
+         <uk-char-ref:Module>9</uk-char-ref:Module>
+      </link:reference>
+      <link:loc xlink:href="https://xbrl.frc.org.uk/fr/2014-09-01/core/frc-core-2014-09-01.xsd#core_EmployeeInformationFree-textComment" xlink:label="lbl_EmployeeInformationFree-textComment" xlink:type="locator"/>
+      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_EmployeeInformationFree-textComment" xlink:to="lbl_reference1150391819" xlink:type="arc"/>
+      <link:reference id="id_2acad361" xlink:label="lbl_reference717935457" xlink:role="http://xbrl.frc.org.uk/char/ref/roles/CharitiesSORP" xlink:type="resource">
+         <ref:Paragraph>29</ref:Paragraph>
+         <uk-char-ref:Module>9</uk-char-ref:Module>
+      </link:reference>
+      <link:loc xlink:href="https://xbrl.frc.org.uk/fr/2014-09-01/core/frc-core-2014-09-01.xsd#core_EmployeeInformationHeading" xlink:label="lbl_EmployeeInformationHeading" xlink:type="locator"/>
+      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_EmployeeInformationHeading" xlink:to="lbl_reference717935457" xlink:type="arc"/>
+      <link:reference id="id_588a4ede" xlink:label="lbl_reference1485459166" xlink:role="http://xbrl.frc.org.uk/char/ref/roles/CharitiesSORP" xlink:type="resource">
+         <ref:Paragraph>20</ref:Paragraph>
+         <uk-char-ref:Module>9</uk-char-ref:Module>
+      </link:reference>
+      <link:loc xlink:href="https://xbrl.frc.org.uk/fr/2014-09-01/core/frc-core-2014-09-01.xsd#core_ExpensesRecognisedForDoubtfulDebtsOwedByRelatedParties" xlink:label="lbl_ExpensesRecognisedForDoubtfulDebtsOwedByRelatedParties" xlink:type="locator"/>
+      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_ExpensesRecognisedForDoubtfulDebtsOwedByRelatedParties" xlink:to="lbl_reference1485459166" xlink:type="arc"/>
+      <link:reference id="id_17f8bce" xlink:label="lbl_reference25136078" xlink:role="http://xbrl.frc.org.uk/char/ref/roles/CharitiesSORP" xlink:type="resource">
+         <ref:Paragraph>29</ref:Paragraph>
+         <uk-char-ref:Module>9</uk-char-ref:Module>
+      </link:reference>
+      <link:loc xlink:href="https://xbrl.frc.org.uk/fr/2014-09-01/core/frc-core-2014-09-01.xsd#core_FurtherDepartmentItemAverageNumberEmployeesComponentAverageNumberList" xlink:label="lbl_FurtherDepartmentItemAverageNumberEmployeesComponentAverageNumberList" xlink:type="locator"/>
+      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_FurtherDepartmentItemAverageNumberEmployeesComponentAverageNumberList" xlink:to="lbl_reference25136078" xlink:type="arc"/>
+      <link:reference id="id_1f524287" xlink:label="lbl_reference525484679" xlink:role="http://xbrl.frc.org.uk/char/ref/roles/CharitiesSORP" xlink:type="resource">
+         <ref:Paragraph>29</ref:Paragraph>
+         <uk-char-ref:Module>9</uk-char-ref:Module>
+      </link:reference>
+      <link:loc xlink:href="https://xbrl.frc.org.uk/fr/2014-09-01/core/frc-core-2014-09-01.xsd#core_FurtherDepartmentItemNumberEmployeesSpecificDateComponentTotalNumberEmployeesDate" xlink:label="lbl_FurtherDepartmentItemNumberEmployeesSpecificDateComponentTotalNumberEmployeesDate" xlink:type="locator"/>
+      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_FurtherDepartmentItemNumberEmployeesSpecificDateComponentTotalNumberEmployeesDate" xlink:to="lbl_reference525484679" xlink:type="arc"/>
+      <link:reference id="id_a8e60f2" xlink:label="lbl_reference177103090" xlink:role="http://xbrl.frc.org.uk/char/ref/roles/CharitiesSORP" xlink:type="resource">
+         <ref:Paragraph>26</ref:Paragraph>
+         <uk-char-ref:Module>9</uk-char-ref:Module>
+      </link:reference>
+      <link:loc xlink:href="https://xbrl.frc.org.uk/fr/2014-09-01/core/frc-core-2014-09-01.xsd#core_FurtherItemPensionOtherPost-employmentBenefitCostsComponentTotalPensionOtherPost-employmentBenefitCosts" xlink:label="lbl_FurtherItemPensionOtherPost-employmentBenefitCostsComponentTotalPensionOtherPost-employmentBenefitCosts" xlink:type="locator"/>
+      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_FurtherItemPensionOtherPost-employmentBenefitCostsComponentTotalPensionOtherPost-employmentBenefitCosts" xlink:to="lbl_reference177103090" xlink:type="arc"/>
+      <link:reference id="id_1938e8b2" xlink:label="lbl_reference423159986" xlink:role="http://xbrl.frc.org.uk/char/ref/roles/CharitiesSORP" xlink:type="resource">
+         <ref:Paragraph>20</ref:Paragraph>
+         <uk-char-ref:Module>9</uk-char-ref:Module>
+      </link:reference>
+      <link:loc xlink:href="https://xbrl.frc.org.uk/fr/2014-09-01/core/frc-core-2014-09-01.xsd#core_GeneralDescriptionLoansOwedToRelatedPartiesIncludingTermsGuaranteesGiven" xlink:label="lbl_GeneralDescriptionLoansOwedToRelatedPartiesIncludingTermsGuaranteesGiven" xlink:type="locator"/>
+      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_GeneralDescriptionLoansOwedToRelatedPartiesIncludingTermsGuaranteesGiven" xlink:to="lbl_reference423159986" xlink:type="arc"/>
+      <link:reference id="id_6404ef53" xlink:label="lbl_reference1678045011" xlink:role="http://xbrl.frc.org.uk/char/ref/roles/CharitiesSORP" xlink:type="resource">
+         <ref:Paragraph>20</ref:Paragraph>
+         <uk-char-ref:Module>9</uk-char-ref:Module>
+      </link:reference>
+      <link:loc xlink:href="https://xbrl.frc.org.uk/fr/2014-09-01/core/frc-core-2014-09-01.xsd#core_IncomeFromRelatedParties" xlink:label="lbl_IncomeFromRelatedParties" xlink:type="locator"/>
+      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_IncomeFromRelatedParties" xlink:to="lbl_reference1678045011" xlink:type="arc"/>
+      <link:reference id="id_e750b9d" xlink:label="lbl_reference242551709" xlink:role="http://xbrl.frc.org.uk/char/ref/roles/CharitiesSORP" xlink:type="resource">
+         <ref:Paragraph>29</ref:Paragraph>
+         <uk-char-ref:Module>9</uk-char-ref:Module>
+      </link:reference>
+      <link:loc xlink:href="https://xbrl.frc.org.uk/fr/2014-09-01/core/frc-core-2014-09-01.xsd#core_MarketingAverageNumberEmployees" xlink:label="lbl_MarketingAverageNumberEmployees" xlink:type="locator"/>
+      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_MarketingAverageNumberEmployees" xlink:to="lbl_reference242551709" xlink:type="arc"/>
+      <link:reference id="id_65f52062" xlink:label="lbl_reference1710563426" xlink:role="http://xbrl.frc.org.uk/char/ref/roles/CharitiesSORP" xlink:type="resource">
+         <ref:Paragraph>29</ref:Paragraph>
+         <uk-char-ref:Module>9</uk-char-ref:Module>
+      </link:reference>
+      <link:loc xlink:href="https://xbrl.frc.org.uk/fr/2014-09-01/core/frc-core-2014-09-01.xsd#core_MarketingNumberEmployeesDate" xlink:label="lbl_MarketingNumberEmployeesDate" xlink:type="locator"/>
+      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_MarketingNumberEmployeesDate" xlink:to="lbl_reference1710563426" xlink:type="arc"/>
+      <link:reference id="id_766c60dc" xlink:label="lbl_reference1986814172" xlink:role="http://xbrl.frc.org.uk/char/ref/roles/CharitiesSORP" xlink:type="resource">
+         <ref:Paragraph>20</ref:Paragraph>
+         <uk-char-ref:Module>9</uk-char-ref:Module>
+      </link:reference>
+      <link:loc xlink:href="https://xbrl.frc.org.uk/fr/2014-09-01/core/frc-core-2014-09-01.xsd#core_NameOrDescriptionRelatedPartyIfNotDefinedByAnotherTag" xlink:label="lbl_NameOrDescriptionRelatedPartyIfNotDefinedByAnotherTag" xlink:type="locator"/>
+      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_NameOrDescriptionRelatedPartyIfNotDefinedByAnotherTag" xlink:to="lbl_reference1986814172" xlink:type="arc"/>
+      <link:reference id="id_42cb09a3" xlink:label="lbl_reference1120602531" xlink:role="http://xbrl.frc.org.uk/char/ref/roles/CharitiesSORP" xlink:type="resource">
+         <ref:Paragraph>29</ref:Paragraph>
+         <uk-char-ref:Module>9</uk-char-ref:Module>
+      </link:reference>
+      <link:loc xlink:href="https://xbrl.frc.org.uk/fr/2014-09-01/core/frc-core-2014-09-01.xsd#core_NumberEmployeesDate" xlink:label="lbl_NumberEmployeesDate" xlink:type="locator"/>
+      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_NumberEmployeesDate" xlink:to="lbl_reference1120602531" xlink:type="arc"/>
+      <link:reference id="id_645c20c4" xlink:label="lbl_reference1683759300" xlink:role="http://xbrl.frc.org.uk/char/ref/roles/CharitiesSORP" xlink:type="resource">
+         <ref:Paragraph>29</ref:Paragraph>
+         <uk-char-ref:Module>9</uk-char-ref:Module>
+      </link:reference>
+      <link:loc xlink:href="https://xbrl.frc.org.uk/fr/2014-09-01/core/frc-core-2014-09-01.xsd#core_NumberEmployeesSpecificDateHeading" xlink:label="lbl_NumberEmployeesSpecificDateHeading" xlink:type="locator"/>
+      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_NumberEmployeesSpecificDateHeading" xlink:to="lbl_reference1683759300" xlink:type="arc"/>
+      <link:reference id="id_6def871f" xlink:label="lbl_reference1844414239" xlink:role="http://xbrl.frc.org.uk/char/ref/roles/CharitiesSORP" xlink:type="resource">
+         <ref:Paragraph>29</ref:Paragraph>
+         <uk-char-ref:Module>9</uk-char-ref:Module>
+      </link:reference>
+      <link:loc xlink:href="https://xbrl.frc.org.uk/fr/2014-09-01/core/frc-core-2014-09-01.xsd#core_OtherDepartmentsAverageNumberEmployees" xlink:label="lbl_OtherDepartmentsAverageNumberEmployees" xlink:type="locator"/>
+      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_OtherDepartmentsAverageNumberEmployees" xlink:to="lbl_reference1844414239" xlink:type="arc"/>
+      <link:reference id="id_46b8b866" xlink:label="lbl_reference1186510950" xlink:role="http://xbrl.frc.org.uk/char/ref/roles/CharitiesSORP" xlink:type="resource">
+         <ref:Paragraph>29</ref:Paragraph>
+         <uk-char-ref:Module>9</uk-char-ref:Module>
+      </link:reference>
+      <link:loc xlink:href="https://xbrl.frc.org.uk/fr/2014-09-01/core/frc-core-2014-09-01.xsd#core_OtherDepartmentsNumberEmployeesDate" xlink:label="lbl_OtherDepartmentsNumberEmployeesDate" xlink:type="locator"/>
+      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_OtherDepartmentsNumberEmployeesDate" xlink:to="lbl_reference1186510950" xlink:type="arc"/>
+      <link:reference id="id_73f097ff" xlink:label="lbl_reference1945147391" xlink:role="http://xbrl.frc.org.uk/char/ref/roles/CharitiesSORP" xlink:type="resource">
+         <ref:Paragraph>26</ref:Paragraph>
+         <uk-char-ref:Module>9</uk-char-ref:Module>
+      </link:reference>
+      <link:loc xlink:href="https://xbrl.frc.org.uk/fr/2014-09-01/core/frc-core-2014-09-01.xsd#core_OtherPost-employmentBenefitCosts" xlink:label="lbl_OtherPost-employmentBenefitCosts" xlink:type="locator"/>
+      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_OtherPost-employmentBenefitCosts" xlink:to="lbl_reference1945147391" xlink:type="arc"/>
+      <link:reference id="id_21ba8382" xlink:label="lbl_reference565871490" xlink:role="http://xbrl.frc.org.uk/char/ref/roles/CharitiesSORP" xlink:type="resource">
+         <ref:Paragraph>26</ref:Paragraph>
+         <uk-char-ref:Module>9</uk-char-ref:Module>
+      </link:reference>
+      <link:loc xlink:href="https://xbrl.frc.org.uk/fr/2014-09-01/core/frc-core-2014-09-01.xsd#core_OtherShort-termEmployeeBenefits" xlink:label="lbl_OtherShort-termEmployeeBenefits" xlink:type="locator"/>
+      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_OtherShort-termEmployeeBenefits" xlink:to="lbl_reference565871490" xlink:type="arc"/>
+      <link:reference id="id_7225271f" xlink:label="lbl_reference1915037471" xlink:role="http://xbrl.frc.org.uk/char/ref/roles/CharitiesSORP" xlink:type="resource">
+         <ref:Paragraph>20</ref:Paragraph>
+         <uk-char-ref:Module>9</uk-char-ref:Module>
+      </link:reference>
+      <link:loc xlink:href="https://xbrl.frc.org.uk/fr/2014-09-01/core/frc-core-2014-09-01.xsd#core_PaymentsToRelatedParties" xlink:label="lbl_PaymentsToRelatedParties" xlink:type="locator"/>
+      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_PaymentsToRelatedParties" xlink:to="lbl_reference1915037471" xlink:type="arc"/>
+      <link:reference id="id_c940d65" xlink:label="lbl_PensionCostsDefinedBenefitPlan_references" xlink:role="http://xbrl.frc.org.uk/char/ref/roles/CharitiesSORP" xlink:type="resource">
+         <ref:Paragraph>26</ref:Paragraph>
+         <uk-char-ref:Module>9</uk-char-ref:Module>
+      </link:reference>
+      <link:loc xlink:href="https://xbrl.frc.org.uk/fr/2014-09-01/core/frc-core-2014-09-01.xsd#core_PensionCostsDefinedBenefitPlan" xlink:label="lbl_PensionCostsDefinedBenefitPlan" xlink:type="locator"/>
+      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_PensionCostsDefinedBenefitPlan" xlink:to="lbl_PensionCostsDefinedBenefitPlan_references" xlink:type="arc"/>
+      <link:reference id="id_4d5eaf5c" xlink:label="lbl_PensionCostsDefinedBenefitPlan_references" xlink:role="http://xbrl.frc.org.uk/char/ref/roles/CharitiesSORP" xlink:type="resource">
+         <ref:Paragraph>22</ref:Paragraph>
+         <uk-char-ref:Module>17</uk-char-ref:Module>
+      </link:reference>
+      <link:reference id="id_3315586" xlink:label="lbl_PensionCostsDefinedContributionPlan_references" xlink:role="http://xbrl.frc.org.uk/char/ref/roles/CharitiesSORP" xlink:type="resource">
+         <ref:Paragraph>26</ref:Paragraph>
+         <uk-char-ref:Module>9</uk-char-ref:Module>
+      </link:reference>
+      <link:loc xlink:href="https://xbrl.frc.org.uk/fr/2014-09-01/core/frc-core-2014-09-01.xsd#core_PensionCostsDefinedContributionPlan" xlink:label="lbl_PensionCostsDefinedContributionPlan" xlink:type="locator"/>
+      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_PensionCostsDefinedContributionPlan" xlink:to="lbl_PensionCostsDefinedContributionPlan_references" xlink:type="arc"/>
+      <link:reference id="id_6a369a1" xlink:label="lbl_PensionCostsDefinedContributionPlan_references" xlink:role="http://xbrl.frc.org.uk/char/ref/roles/CharitiesSORP" xlink:type="resource">
+         <ref:Paragraph>21</ref:Paragraph>
+         <uk-char-ref:Module>17</uk-char-ref:Module>
+      </link:reference>
+      <link:reference id="id_e8572e9" xlink:label="lbl_reference243626729" xlink:role="http://xbrl.frc.org.uk/char/ref/roles/CharitiesSORP" xlink:type="resource">
+         <ref:Paragraph>29</ref:Paragraph>
+         <uk-char-ref:Module>9</uk-char-ref:Module>
+      </link:reference>
+      <link:loc xlink:href="https://xbrl.frc.org.uk/fr/2014-09-01/core/frc-core-2014-09-01.xsd#core_ProductionAverageNumberEmployees" xlink:label="lbl_ProductionAverageNumberEmployees" xlink:type="locator"/>
+      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_ProductionAverageNumberEmployees" xlink:to="lbl_reference243626729" xlink:type="arc"/>
+      <link:reference id="id_1bd76b0b" xlink:label="lbl_reference467102475" xlink:role="http://xbrl.frc.org.uk/char/ref/roles/CharitiesSORP" xlink:type="resource">
+         <ref:Paragraph>29</ref:Paragraph>
+         <uk-char-ref:Module>9</uk-char-ref:Module>
+      </link:reference>
+      <link:loc xlink:href="https://xbrl.frc.org.uk/fr/2014-09-01/core/frc-core-2014-09-01.xsd#core_ProductionNumberEmployeesDate" xlink:label="lbl_ProductionNumberEmployeesDate" xlink:type="locator"/>
+      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_ProductionNumberEmployeesDate" xlink:to="lbl_reference467102475" xlink:type="arc"/>
+      <link:reference id="id_79379c28" xlink:label="lbl_reference2033687592" xlink:role="http://xbrl.frc.org.uk/char/ref/roles/CharitiesSORP" xlink:type="resource">
+         <ref:Paragraph>20</ref:Paragraph>
+         <uk-char-ref:Module>9</uk-char-ref:Module>
+      </link:reference>
+      <link:loc xlink:href="https://xbrl.frc.org.uk/fr/2014-09-01/core/frc-core-2014-09-01.xsd#core_ProvisionsForAmountsOwedByRelatedParties" xlink:label="lbl_ProvisionsForAmountsOwedByRelatedParties" xlink:type="locator"/>
+      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_ProvisionsForAmountsOwedByRelatedParties" xlink:to="lbl_reference2033687592" xlink:type="arc"/>
+      <link:reference id="id_20560c6e" xlink:label="lbl_reference542510190" xlink:role="http://xbrl.frc.org.uk/char/ref/roles/CharitiesSORP" xlink:type="resource">
+         <ref:Paragraph>27</ref:Paragraph>
+         <uk-char-ref:Module>9</uk-char-ref:Module>
+      </link:reference>
+      <link:loc xlink:href="https://xbrl.frc.org.uk/fr/2014-09-01/core/frc-core-2014-09-01.xsd#core_RedundancyCosts" xlink:label="lbl_RedundancyCosts" xlink:type="locator"/>
+      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_RedundancyCosts" xlink:to="lbl_reference542510190" xlink:type="arc"/>
+      <link:reference id="id_4a881383" xlink:label="lbl_reference1250431875" xlink:role="http://xbrl.frc.org.uk/char/ref/roles/CharitiesSORP" xlink:type="resource">
+         <ref:Paragraph>29</ref:Paragraph>
+         <uk-char-ref:Module>9</uk-char-ref:Module>
+      </link:reference>
+      <link:loc xlink:href="https://xbrl.frc.org.uk/fr/2014-09-01/core/frc-core-2014-09-01.xsd#core_ResearchDevelopmentAverageNumberEmployees" xlink:label="lbl_ResearchDevelopmentAverageNumberEmployees" xlink:type="locator"/>
+      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_ResearchDevelopmentAverageNumberEmployees" xlink:to="lbl_reference1250431875" xlink:type="arc"/>
+      <link:reference id="id_cc9e3c8" xlink:label="lbl_reference214557640" xlink:role="http://xbrl.frc.org.uk/char/ref/roles/CharitiesSORP" xlink:type="resource">
+         <ref:Paragraph>29</ref:Paragraph>
+         <uk-char-ref:Module>9</uk-char-ref:Module>
+      </link:reference>
+      <link:loc xlink:href="https://xbrl.frc.org.uk/fr/2014-09-01/core/frc-core-2014-09-01.xsd#core_ResearchDevelopmentNumberEmployeesDate" xlink:label="lbl_ResearchDevelopmentNumberEmployeesDate" xlink:type="locator"/>
+      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_ResearchDevelopmentNumberEmployeesDate" xlink:to="lbl_reference214557640" xlink:type="arc"/>
+      <link:reference id="id_3ff9398d" xlink:label="lbl_reference1073297805" xlink:role="http://xbrl.frc.org.uk/char/ref/roles/CharitiesSORP" xlink:type="resource">
+         <ref:Paragraph>29</ref:Paragraph>
+         <uk-char-ref:Module>9</uk-char-ref:Module>
+      </link:reference>
+      <link:loc xlink:href="https://xbrl.frc.org.uk/fr/2014-09-01/core/frc-core-2014-09-01.xsd#core_SalesMarketingDistributionAverageNumberEmployees" xlink:label="lbl_SalesMarketingDistributionAverageNumberEmployees" xlink:type="locator"/>
+      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_SalesMarketingDistributionAverageNumberEmployees" xlink:to="lbl_reference1073297805" xlink:type="arc"/>
+      <link:reference id="id_4a0dd08a" xlink:label="lbl_reference1242419338" xlink:role="http://xbrl.frc.org.uk/char/ref/roles/CharitiesSORP" xlink:type="resource">
+         <ref:Paragraph>29</ref:Paragraph>
+         <uk-char-ref:Module>9</uk-char-ref:Module>
+      </link:reference>
+      <link:loc xlink:href="https://xbrl.frc.org.uk/fr/2014-09-01/core/frc-core-2014-09-01.xsd#core_SalesMarketingDistributionNumberEmployeesDate" xlink:label="lbl_SalesMarketingDistributionNumberEmployeesDate" xlink:type="locator"/>
+      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_SalesMarketingDistributionNumberEmployeesDate" xlink:to="lbl_reference1242419338" xlink:type="arc"/>
+      <link:reference id="id_791485b5" xlink:label="lbl_reference2031388085" xlink:role="http://xbrl.frc.org.uk/char/ref/roles/CharitiesSORP" xlink:type="resource">
+         <ref:Paragraph>29</ref:Paragraph>
+         <uk-char-ref:Module>9</uk-char-ref:Module>
+      </link:reference>
+      <link:loc xlink:href="https://xbrl.frc.org.uk/fr/2014-09-01/core/frc-core-2014-09-01.xsd#core_SellingAverageNumberEmployees" xlink:label="lbl_SellingAverageNumberEmployees" xlink:type="locator"/>
+      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_SellingAverageNumberEmployees" xlink:to="lbl_reference2031388085" xlink:type="arc"/>
+      <link:reference id="id_f814219" xlink:label="lbl_reference260129305" xlink:role="http://xbrl.frc.org.uk/char/ref/roles/CharitiesSORP" xlink:type="resource">
+         <ref:Paragraph>29</ref:Paragraph>
+         <uk-char-ref:Module>9</uk-char-ref:Module>
+      </link:reference>
+      <link:loc xlink:href="https://xbrl.frc.org.uk/fr/2014-09-01/core/frc-core-2014-09-01.xsd#core_SellingNumberEmployeesDate" xlink:label="lbl_SellingNumberEmployeesDate" xlink:type="locator"/>
+      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_SellingNumberEmployeesDate" xlink:to="lbl_reference260129305" xlink:type="arc"/>
+      <link:reference id="id_6dac310d" xlink:label="lbl_reference1840001293" xlink:role="http://xbrl.frc.org.uk/char/ref/roles/CharitiesSORP" xlink:type="resource">
+         <ref:Paragraph>26</ref:Paragraph>
+         <uk-char-ref:Module>9</uk-char-ref:Module>
+      </link:reference>
+      <link:loc xlink:href="https://xbrl.frc.org.uk/fr/2014-09-01/core/frc-core-2014-09-01.xsd#core_SocialSecurityCosts" xlink:label="lbl_SocialSecurityCosts" xlink:type="locator"/>
+      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_SocialSecurityCosts" xlink:to="lbl_reference1840001293" xlink:type="arc"/>
+      <link:reference id="id_794648f8" xlink:label="lbl_reference2034649336" xlink:role="http://xbrl.frc.org.uk/char/ref/roles/CharitiesSORP" xlink:type="resource">
+         <ref:Paragraph>20</ref:Paragraph>
+         <uk-char-ref:Module>9</uk-char-ref:Module>
+      </link:reference>
+      <link:loc xlink:href="https://xbrl.frc.org.uk/fr/2014-09-01/core/frc-core-2014-09-01.xsd#core_UseRelatedPartyDimensionToIdentifyTypesOrRelatedPartyOrIndividualRelatedPartyGuidance" xlink:label="lbl_UseRelatedPartyDimensionToIdentifyTypesOrRelatedPartyOrIndividualRelatedPartyGuidance" xlink:type="locator"/>
+      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_UseRelatedPartyDimensionToIdentifyTypesOrRelatedPartyOrIndividualRelatedPartyGuidance" xlink:to="lbl_reference2034649336" xlink:type="arc"/>
+      <link:reference id="id_5863df4f" xlink:label="lbl_reference1482940239" xlink:role="http://xbrl.frc.org.uk/char/ref/roles/CharitiesSORP" xlink:type="resource">
+         <ref:Paragraph>20</ref:Paragraph>
+         <uk-char-ref:Module>9</uk-char-ref:Module>
+      </link:reference>
+      <link:loc xlink:href="https://xbrl.frc.org.uk/fr/2014-09-01/core/frc-core-2014-09-01.xsd#core_UseRelatedPartyTransactionTypeDimensionToIdentifyNatureTransactionGuidance" xlink:label="lbl_UseRelatedPartyTransactionTypeDimensionToIdentifyNatureTransactionGuidance" xlink:type="locator"/>
+      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_UseRelatedPartyTransactionTypeDimensionToIdentifyNatureTransactionGuidance" xlink:to="lbl_reference1482940239" xlink:type="arc"/>
+      <link:reference id="id_13f1b73" xlink:label="lbl_reference20913011" xlink:role="http://xbrl.frc.org.uk/char/ref/roles/CharitiesSORP" xlink:type="resource">
+         <ref:Paragraph>26</ref:Paragraph>
+         <uk-char-ref:Module>9</uk-char-ref:Module>
+      </link:reference>
+      <link:loc xlink:href="https://xbrl.frc.org.uk/fr/2014-09-01/core/frc-core-2014-09-01.xsd#core_WagesSalariesExcludingRedundancyCosts" xlink:label="lbl_WagesSalariesExcludingRedundancyCosts" xlink:type="locator"/>
+      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_WagesSalariesExcludingRedundancyCosts" xlink:to="lbl_reference20913011" xlink:type="arc"/>
+      <link:reference id="id_15aa41f5" xlink:label="lbl_reference363479541" xlink:role="http://xbrl.frc.org.uk/char/ref/roles/CharitiesSORP" xlink:type="resource">
+         <ref:Paragraph>26</ref:Paragraph>
+         <uk-char-ref:Module>9</uk-char-ref:Module>
+      </link:reference>
+      <link:loc xlink:href="https://xbrl.frc.org.uk/fr/2014-09-01/core/frc-core-2014-09-01.xsd#core_WagesSalariesIncludingRedundancyCosts" xlink:label="lbl_WagesSalariesIncludingRedundancyCosts" xlink:type="locator"/>
+      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_WagesSalariesIncludingRedundancyCosts" xlink:to="lbl_reference363479541" xlink:type="arc"/>
+      <link:reference id="id_110fa48" xlink:label="lbl_reference18065919" xlink:role="http://xbrl.frc.org.uk/char/ref/roles/CharitiesSORP" xlink:type="resource">
+         <ref:Paragraph>24 to 31</ref:Paragraph>
+         <uk-char-ref:Module>18</uk-char-ref:Module>
+      </link:reference>
+      <link:loc xlink:href="https://xbrl.frc.org.uk/fr/2014-09-01/core/frc-core-2014-09-01.xsd#core_ForImpairmentLossReversalAmountsSeeImpairmentLossesReversalsSectionUnderNotesOnIncomeExpenseCross-reference" xlink:label="lbl_ForImpairmentLossReversalAmountsSeeImpairmentLossesReversalsSectionUnderNotesOnIncomeExpenseCross-reference" xlink:type="locator"/>
+      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_ForImpairmentLossReversalAmountsSeeImpairmentLossesReversalsSectionUnderNotesOnIncomeExpenseCross-reference" xlink:to="lbl_reference18065919" xlink:type="arc"/>
+      <link:reference id="id_148245e" xlink:label="lbl_reference21505118" xlink:role="http://xbrl.frc.org.uk/char/ref/roles/CharitiesSORP" xlink:type="resource">
+         <ref:Paragraph>22</ref:Paragraph>
+         <uk-char-ref:Module>14</uk-char-ref:Module>
+      </link:reference>
+      <link:loc xlink:href="https://xbrl.frc.org.uk/fr/2014-09-01/core/frc-core-2014-09-01.xsd#core_GainLossInCashFlowsFromChangeInInventories" xlink:label="lbl_GainLossInCashFlowsFromChangeInInventories" xlink:type="locator"/>
+      <link:referenceArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="lbl_GainLossInCashFlowsFromChangeInInventories" xlink:to="lbl_reference21505118" xlink:type="arc"/>
+      <link:reference id="id_f0e2ed" xlink:label="lbl_FixedAssets_references" xlink:role="http://xbrl.frc.org.uk/char/ref/roles/CharitiesSORP" xlink:type="resource">
+         <ref:Paragraph>29</ref:Paragraph>
+         <uk-char-ref:Module>2</uk-char-ref:Module>
+      </link:reference>
+      <link:reference id="id_182db9a" xlink:label="lbl_CurrentAssets_references" xlink:role="http://xbrl.frc.org.uk/char/ref/roles/CharitiesSORP" xlink:type="resource">
+         <ref:Paragraph>29</ref:Paragraph>
+         <uk-char-ref:Module>2</uk-char-ref:Module>
+      </link:reference>
+      <link:reference id="id_1ec0cf2" xlink:label="lbl_Creditors_references" xlink:role="http://xbrl.frc.org.uk/char/ref/roles/CharitiesSORP" xlink:type="resource">
+         <ref:Paragraph>29</ref:Paragraph>
+         <uk-char-ref:Module>2</uk-char-ref:Module>
+      </link:reference>
+      <link:reference id="id_92d00" xlink:label="lbl_reference21982878" xlink:role="http://xbrl.frc.org.uk/char/ref/roles/CharitiesSORP" xlink:type="resource">
+         <ref:Paragraph>89</ref:Paragraph>
+         <uk-char-ref:Module>10</uk-char-ref:Module>
+      </link:reference>
+   </link:referenceLink>
+</link:linkbase>

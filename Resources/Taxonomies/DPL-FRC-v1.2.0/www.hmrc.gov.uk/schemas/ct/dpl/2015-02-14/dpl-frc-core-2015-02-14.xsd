@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<xsd:schema xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xbrldt="http://xbrl.org/2005/xbrldt" xmlns:xbrli="http://www.xbrl.org/2003/instance" attributeFormDefault="unqualified" elementFormDefault="qualified" xsi:schemaLocation="http://www.w3.org/2001/XMLSchema http://www.w3.org/2001/XMLSchema.xsd http://www.xbrl.org/2003/instance http://www.xbrl.org/2003/xbrl-instance-2003-12-31.xsd" targetNamespace="http://www.govtalk.gov.uk/uk/fr/tax/dpl-frc-core/2015-02-14" xmlns:dpl-frc-core="http://www.govtalk.gov.uk/uk/fr/tax/dpl-frc-core/2015-02-14">
+    <xsd:import namespace="http://www.xbrl.org/2003/instance" schemaLocation="http://www.xbrl.org/2003/xbrl-instance-2003-12-31.xsd"/>
+    <xsd:import namespace="http://www.govtalk.gov.uk/uk/fr/tax/dpl-frc/2015-02-14" schemaLocation="dpl-frc/2015-02-14/dpl-frc-2015-02-14.xsd"/>
+    <xsd:annotation>
+        <xsd:appinfo/>
+    </xsd:annotation>
+</xsd:schema>

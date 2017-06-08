@@ -1,0 +1,24 @@
+Charities FRS 102 SORP Taxonomy 
+Version: 1.1.1
+Base taxonomy: FRC Taxonomy v2.1.0
+Formal Version Date: 2016-01-01
+Release Date: 2016-01-22
+
+Change History:
+
+Changes v1.1.0 -> v1.1.1 (2016-01-22):
+* Add target roles to some hypercube -> dimension links, so that they have domain members.
+
+Changes v1.0.0 -> v1.1.0 (2016-01-20):
+* Made small additions requested by email.
+
+Changes v0.1.0 -> v1.0.0 (2016-01-15):
+* Final taxonomy release with updated content and new namespace for entrypoint:
+** Charities FRS 102 SORP: "https://xbrl.frc.org.uk/char/2016-01-01/char-2016-01-01.xsd";
+* Switched base taxonomy to FRC Taxonomy v2.1.0;
+* RELEASE_NOTES added to taxonomy ZIP.
+
+v0.1.0 (2015-09-23):
+* Initial draft taxonomy release for public consultation with entry point:
+** Charities FRS 102 SORP: "https://xbrl.frc.org.uk/char/2015-01-01/char-2015-01-01.xsd".
+

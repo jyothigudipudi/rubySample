@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<catalog xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
+  <rewriteURI rewritePrefix="../www.hmrc.gov.uk/schemas/ct/dpl/2015-02-14/" uriStartString="http://www.hmrc.gov.uk/schemas/ct/dpl/2015-02-14/"/>
+  <rewriteURI rewritePrefix="../www.hmrc.gov.uk/schemas/ct/combined/2015-02-14/frs-101-dpl-2015-02-14.xsd" uriStartString="http://www.hmrc.gov.uk/schemas/ct/combined/2015-02-14/frs-101-dpl-2015-02-14.xsd"/>
+  <rewriteURI rewritePrefix="../www.hmrc.gov.uk/schemas/ct/combined/2015-02-14/frs-full-dpl-2015-02-14.xsd" uriStartString="http://www.hmrc.gov.uk/schemas/ct/combined/2015-02-14/frs-full-dpl-2015-02-14.xsd"/>
+  <rewriteURI rewritePrefix="../www.hmrc.gov.uk/schemas/ct/combined/2015-02-14/frs-102-dpl-2015-02-14.xsd" uriStartString="http://www.hmrc.gov.uk/schemas/ct/combined/2015-02-14/frs-102-dpl-2015-02-14.xsd"/>
+  <rewriteURI rewritePrefix="../www.hmrc.gov.uk/schemas/ct/combined/2015-02-01/ct-comp-dpl-frc-core-2015-02-01.xsd" uriStartString="http://www.hmrc.gov.uk/schemas/ct/combined/2015-02-01/ct-comp-dpl-frc-core-2015-02-01.xsd"/>
+  <rewriteURI rewritePrefix="../www.hmrc.gov.uk/schemas/ct/combined/2015-02-01/ct-comp-frs-full-dpl-2015-02-01.xsd" uriStartString="http://www.hmrc.gov.uk/schemas/ct/combined/2015-02-01/ct-comp-frs-full-dpl-2015-02-01.xsd"/>
+  <rewriteURI rewritePrefix="../www.hmrc.gov.uk/schemas/ct/combined/2015-02-01/ct-comp-frs-101-dpl-2015-02-01.xsd" uriStartString="http://www.hmrc.gov.uk/schemas/ct/combined/2015-02-01/ct-comp-frs-101-dpl-2015-02-01.xsd"/>
+  <rewriteURI rewritePrefix="../www.hmrc.gov.uk/schemas/ct/combined/2015-02-01/ct-comp-frs-102-dpl-2015-02-01.xsd" uriStartString="http://www.hmrc.gov.uk/schemas/ct/combined/2015-02-01/ct-comp-frs-102-dpl-2015-02-01.xsd"/>
+  <rewriteURI rewritePrefix="../www.hmrc.gov.uk/schemas/ct/combined/2016-10-01/ct-comp-frs-101-dpl-2016-10-01.xsd" uriStartString="http://www.hmrc.gov.uk/schemas/ct/combined/2016-10-01/ct-comp-frs-101-dpl-2016-10-01.xsd"/>
+  <rewriteURI rewritePrefix="../www.hmrc.gov.uk/schemas/ct/combined/2016-10-01/ct-comp-frs-102-dpl-2016-10-01.xsd" uriStartString="http://www.hmrc.gov.uk/schemas/ct/combined/2016-10-01/ct-comp-frs-102-dpl-2016-10-01.xsd"/>
+  <rewriteURI rewritePrefix="../www.hmrc.gov.uk/schemas/ct/combined/2016-10-01/ct-comp-frs-full-dpl-2016-10-01.xsd" uriStartString="http://www.hmrc.gov.uk/schemas/ct/combined/2016-10-01/ct-comp-frs-full-dpl-2016-10-01.xsd"/>
+  <rewriteURI rewritePrefix="../www.hmrc.gov.uk/schemas/ct/combined/2016-10-01/ct-comp-dpl-frc-core-2016-10-01.xsd" uriStartString="http://www.hmrc.gov.uk/schemas/ct/combined/2016-10-01/ct-comp-dpl-frc-core-2016-10-01.xsd"/>
+</catalog>

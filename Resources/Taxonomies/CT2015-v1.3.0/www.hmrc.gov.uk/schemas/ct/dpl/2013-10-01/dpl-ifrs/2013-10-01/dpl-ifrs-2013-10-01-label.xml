@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<linkbase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.xbrl.org/2003/linkbase" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="http://www.xbrl.org/2003/linkbase http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd">
+  <labelLink xlink:type="extended" xlink:role="http://www.xbrl.org/2003/role/link">
+    <loc xlink:type="locator" xlink:href="dpl-ifrs-2013-10-01.xsd#dpl-ifrs_ForImpairmentLossReversalOnFinancialAssetsSeeFinance-relatedCostsSectionCross-reference" xlink:label="dpl-ifrs_ForImpairmentLossReversalOnFinancialAssetsSeeFinance-relatedCostsSectionCross-reference"/>
+    <label xlink:type="resource" xlink:label="dpl-ifrs_ForImpairmentLossReversalOnFinancialAssetsSeeFinance-relatedCostsSectionCross-reference_lbl" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">For impairment loss (reversal) on financial assets, see finance-related costs section [cross-reference]</label>
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="dpl-ifrs_ForImpairmentLossReversalOnFinancialAssetsSeeFinance-relatedCostsSectionCross-reference" xlink:to="dpl-ifrs_ForImpairmentLossReversalOnFinancialAssetsSeeFinance-relatedCostsSectionCross-reference_lbl"/>
+    <loc xlink:type="locator" xlink:href="dpl-ifrs-2013-10-01.xsd#dpl-ifrs_ImpairmentLossReversalInvestmentsInSubsidiariesAssociatesJoint-ventures" xlink:label="dpl-ifrs_ImpairmentLossReversalInvestmentsInSubsidiariesAssociatesJoint-ventures"/>
+    <label xlink:type="resource" xlink:label="dpl-ifrs_ImpairmentLossReversalInvestmentsInSubsidiariesAssociatesJoint-ventures_lbl" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Impairment loss (reversal), investments in subsidiaries, associates and joint-ventures</label>
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="dpl-ifrs_ImpairmentLossReversalInvestmentsInSubsidiariesAssociatesJoint-ventures" xlink:to="dpl-ifrs_ImpairmentLossReversalInvestmentsInSubsidiariesAssociatesJoint-ventures_lbl"/>
+    <loc xlink:type="locator" xlink:href="dpl-ifrs-2013-10-01.xsd#dpl-ifrs_ImpairmentLossReversalOnFinancialAssetsNotCoveredElsewhere" xlink:label="dpl-ifrs_ImpairmentLossReversalOnFinancialAssetsNotCoveredElsewhere"/>
+    <label xlink:type="resource" xlink:label="dpl-ifrs_ImpairmentLossReversalOnFinancialAssetsNotCoveredElsewhere_lbl" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Impairment loss (reversal) on financial assets not covered elsewhere</label>
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="dpl-ifrs_ImpairmentLossReversalOnFinancialAssetsNotCoveredElsewhere" xlink:to="dpl-ifrs_ImpairmentLossReversalOnFinancialAssetsNotCoveredElsewhere_lbl"/>
+    <loc xlink:type="locator" xlink:href="dpl-ifrs-2013-10-01.xsd#dpl-ifrs_IncomeFromOtherInvestments" xlink:label="dpl-ifrs_IncomeFromOtherInvestments"/>
+    <label xlink:type="resource" xlink:label="dpl-ifrs_IncomeFromOtherInvestments_lbl" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Income from other investments</label>
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="dpl-ifrs_IncomeFromOtherInvestments" xlink:to="dpl-ifrs_IncomeFromOtherInvestments_lbl"/>
+    <loc xlink:type="locator" xlink:href="dpl-ifrs-2013-10-01.xsd#dpl-ifrs_IncreaseDecreaseInFinishedGoods" xlink:label="dpl-ifrs_IncreaseDecreaseInFinishedGoods"/>
+    <label xlink:type="resource" xlink:label="dpl-ifrs_IncreaseDecreaseInFinishedGoods_lbl" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Increase (decrease) in finished goods</label>
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="dpl-ifrs_IncreaseDecreaseInFinishedGoods" xlink:to="dpl-ifrs_IncreaseDecreaseInFinishedGoods_lbl"/>
+    <loc xlink:type="locator" xlink:href="dpl-ifrs-2013-10-01.xsd#dpl-ifrs_IncreaseDecreaseInMerchandise" xlink:label="dpl-ifrs_IncreaseDecreaseInMerchandise"/>
+    <label xlink:type="resource" xlink:label="dpl-ifrs_IncreaseDecreaseInMerchandise_lbl" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Increase (decrease) in merchandise</label>
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="dpl-ifrs_IncreaseDecreaseInMerchandise" xlink:to="dpl-ifrs_IncreaseDecreaseInMerchandise_lbl"/>
+    <loc xlink:type="locator" xlink:href="dpl-ifrs-2013-10-01.xsd#dpl-ifrs_IncreaseDecreaseInOtherInventories" xlink:label="dpl-ifrs_IncreaseDecreaseInOtherInventories"/>
+    <label xlink:type="resource" xlink:label="dpl-ifrs_IncreaseDecreaseInOtherInventories_lbl" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Increase (decrease) in other inventories</label>
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="dpl-ifrs_IncreaseDecreaseInOtherInventories" xlink:to="dpl-ifrs_IncreaseDecreaseInOtherInventories_lbl"/>
+    <loc xlink:type="locator" xlink:href="dpl-ifrs-2013-10-01.xsd#dpl-ifrs_IncreaseDecreaseInProductionSupplies" xlink:label="dpl-ifrs_IncreaseDecreaseInProductionSupplies"/>
+    <label xlink:type="resource" xlink:label="dpl-ifrs_IncreaseDecreaseInProductionSupplies_lbl" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Increase (decrease) in production supplies</label>
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="dpl-ifrs_IncreaseDecreaseInProductionSupplies" xlink:to="dpl-ifrs_IncreaseDecreaseInProductionSupplies_lbl"/>
+    <loc xlink:type="locator" xlink:href="dpl-ifrs-2013-10-01.xsd#dpl-ifrs_IncreaseDecreaseInRawMaterials" xlink:label="dpl-ifrs_IncreaseDecreaseInRawMaterials"/>
+    <label xlink:type="resource" xlink:label="dpl-ifrs_IncreaseDecreaseInRawMaterials_lbl" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Increase (decrease) in raw materials</label>
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="dpl-ifrs_IncreaseDecreaseInRawMaterials" xlink:to="dpl-ifrs_IncreaseDecreaseInRawMaterials_lbl"/>
+    <loc xlink:type="locator" xlink:href="dpl-ifrs-2013-10-01.xsd#dpl-ifrs_IncreaseDecreaseInWorkInProgress" xlink:label="dpl-ifrs_IncreaseDecreaseInWorkInProgress"/>
+    <label xlink:type="resource" xlink:label="dpl-ifrs_IncreaseDecreaseInWorkInProgress_lbl" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Increase (decrease) in work in progress</label>
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="dpl-ifrs_IncreaseDecreaseInWorkInProgress" xlink:to="dpl-ifrs_IncreaseDecreaseInWorkInProgress_lbl"/>
+    <loc xlink:type="locator" xlink:href="dpl-ifrs-2013-10-01.xsd#dpl-ifrs_Post-taxGainLossRecognisedOnDisposalDiscontinuedOperations" xlink:label="dpl-ifrs_Post-taxGainLossRecognisedOnDisposalDiscontinuedOperations"/>
+    <label xlink:type="resource" xlink:label="dpl-ifrs_Post-taxGainLossRecognisedOnDisposalDiscontinuedOperations_lbl" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Post-tax gain (loss) recognised on disposal of discontinued operations</label>
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="dpl-ifrs_Post-taxGainLossRecognisedOnDisposalDiscontinuedOperations" xlink:to="dpl-ifrs_Post-taxGainLossRecognisedOnDisposalDiscontinuedOperations_lbl"/>
+    <loc xlink:type="locator" xlink:href="dpl-ifrs-2013-10-01.xsd#dpl-ifrs_RedundancyCostsExcludingDirectors" xlink:label="dpl-ifrs_RedundancyCostsExcludingDirectors"/>
+    <label xlink:type="resource" xlink:label="dpl-ifrs_RedundancyCostsExcludingDirectors_lbl" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Redundancy costs, excluding directors</label>
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="dpl-ifrs_RedundancyCostsExcludingDirectors" xlink:to="dpl-ifrs_RedundancyCostsExcludingDirectors_lbl"/>
+    <loc xlink:type="locator" xlink:href="dpl-ifrs-2013-10-01.xsd#dpl-ifrs_Share-basedPaymentsExpenses" xlink:label="dpl-ifrs_Share-basedPaymentsExpenses"/>
+    <label xlink:type="resource" xlink:label="dpl-ifrs_Share-basedPaymentsExpenses_lbl" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Share-based payments expenses</label>
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="dpl-ifrs_Share-basedPaymentsExpenses" xlink:to="dpl-ifrs_Share-basedPaymentsExpenses_lbl"/>
+    <loc xlink:type="locator" xlink:href="dpl-ifrs-2013-10-01.xsd#dpl-ifrs_Sub-totalsNotIncludedElsewhereHeading" xlink:label="dpl-ifrs_Sub-totalsNotIncludedElsewhereHeading"/>
+    <label xlink:type="resource" xlink:label="dpl-ifrs_Sub-totalsNotIncludedElsewhereHeading_lbl" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en">Sub-totals not included elsewhere [heading]</label>
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="dpl-ifrs_Sub-totalsNotIncludedElsewhereHeading" xlink:to="dpl-ifrs_Sub-totalsNotIncludedElsewhereHeading_lbl"/>
+  </labelLink>
+</linkbase>

@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<taxonomyPackage xmlns="http://xbrl.org/PWD/2014-01-15/taxonomy-package" xml:lang="en">
+  <name>Charities FRS 102 SORP Taxonomy</name>
+  <version>1.1.1</version>
+  <remappings>
+    <remapping prefix="https://xbrl.frc.org.uk/char/2016-01-01/" replaceWith="./char/2016-01-01/"/>
+  </remappings>
+  <entryPoints>
+    <entryPoint>
+      <name>Charities FRS 102 SORP</name>
+      <entryPointDocument href="https://xbrl.frc.org.uk/char/2016-01-01/char-2016-01-01.xsd"/>
+    </entryPoint>
+  </entryPoints>
+</taxonomyPackage>

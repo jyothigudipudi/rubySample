@@ -1,0 +1,102 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<taxonomyPackage xmlns="http://www.corefiling.com/xbrl/taxonomypackage/v1" xml:lang="en">
+  <name>CT2015 Taxonomy</name>
+  <version>1.3.0</version>
+  <remappings>
+    <remapping prefix="http://xbrl.iasb.org/taxonomy/2009-04-01/" replaceWith="xbrl.iasb.org/taxonomy/2009-04-01/"/>
+    <remapping prefix="http://www.hmrc.gov.uk/schemas/ct/dpl/2013-10-01/" replaceWith="www.hmrc.gov.uk/schemas/ct/dpl/2013-10-01/"/>
+    <remapping prefix="http://www.hmrc.gov.uk/schemas/ct/comp/2015-02-01/" replaceWith="www.hmrc.gov.uk/schemas/ct/comp/2015-02-01/"/>
+    <remapping prefix="http://www.hmrc.gov.uk/schemas/ct/combined/2015-02-01/ct-comp-dpl-ifrs-main-2015-02-01.xsd" replaceWith="www.hmrc.gov.uk/schemas/ct/combined/2015-02-01/ct-comp-dpl-ifrs-main-2015-02-01.xsd"/>
+    <remapping prefix="http://www.hmrc.gov.uk/schemas/ct/combined/2015-02-01/ct-comp-full-gaap-dpl-2015-02-01.xsd" replaceWith="www.hmrc.gov.uk/schemas/ct/combined/2015-02-01/ct-comp-full-gaap-dpl-2015-02-01.xsd"/>
+    <remapping prefix="http://www.hmrc.gov.uk/schemas/ct/combined/2015-02-01/ct-comp-dpl-gaap-main-2015-02-01.xsd" replaceWith="www.hmrc.gov.uk/schemas/ct/combined/2015-02-01/ct-comp-dpl-gaap-main-2015-02-01.xsd"/>
+    <remapping prefix="http://www.hmrc.gov.uk/schemas/ct/combined/2015-02-01/ct-comp-char-dpl-2015-02-01.xsd" replaceWith="www.hmrc.gov.uk/schemas/ct/combined/2015-02-01/ct-comp-char-dpl-2015-02-01.xsd"/>
+    <remapping prefix="http://www.hmrc.gov.uk/schemas/ct/combined/2015-02-01/ct-comp-min-gaap-dpl-2015-02-01.xsd" replaceWith="www.hmrc.gov.uk/schemas/ct/combined/2015-02-01/ct-comp-min-gaap-dpl-2015-02-01.xsd"/>
+    <remapping prefix="http://www.hmrc.gov.uk/schemas/ct/combined/2015-02-01/ct-comp-full-ifrs-dpl-2015-02-01.xsd" replaceWith="www.hmrc.gov.uk/schemas/ct/combined/2015-02-01/ct-comp-full-ifrs-dpl-2015-02-01.xsd"/>
+    <remapping prefix="http://www.hmrc.gov.uk/schemas/ct/combined/2013-10-01/" replaceWith="www.hmrc.gov.uk/schemas/ct/combined/2013-10-01/"/>
+    <remapping prefix="http://www.xbrl.org/dtr/type/" replaceWith="www.xbrl.org/dtr/type/"/>
+    <remapping prefix="http://www.xbrl.org/uk/cd/exchanges/2009-09-01/" replaceWith="www.xbrl.org/uk/cd/exchanges/2009-09-01/"/>
+    <remapping prefix="http://www.xbrl.org/uk/cd/languages/2009-09-01/" replaceWith="www.xbrl.org/uk/cd/languages/2009-09-01/"/>
+    <remapping prefix="http://www.xbrl.org/uk/cd/countries-regions/2009-09-01/" replaceWith="www.xbrl.org/uk/cd/countries-regions/2009-09-01/"/>
+    <remapping prefix="http://www.xbrl.org/uk/cd/business/2009-09-01/" replaceWith="www.xbrl.org/uk/cd/business/2009-09-01/"/>
+    <remapping prefix="http://www.xbrl.org/uk/cd/currencies/2009-09-01/" replaceWith="www.xbrl.org/uk/cd/currencies/2009-09-01/"/>
+    <remapping prefix="http://www.xbrl.org/uk/ifrs/core/2009-09-01/" replaceWith="www.xbrl.org/uk/ifrs/core/2009-09-01/"/>
+    <remapping prefix="http://www.xbrl.org/uk/ifrs/banking/2009-09-01/" replaceWith="www.xbrl.org/uk/ifrs/banking/2009-09-01/"/>
+    <remapping prefix="http://www.xbrl.org/uk/gaap/core/2009-09-01/" replaceWith="www.xbrl.org/uk/gaap/core/2009-09-01/"/>
+    <remapping prefix="http://www.xbrl.org/uk/all/gaap-ref/2009-09-01/" replaceWith="www.xbrl.org/uk/all/gaap-ref/2009-09-01/"/>
+    <remapping prefix="http://www.xbrl.org/uk/all/types/2009-09-01/" replaceWith="www.xbrl.org/uk/all/types/2009-09-01/"/>
+    <remapping prefix="http://www.xbrl.org/uk/all/ref/2009-09-01/" replaceWith="www.xbrl.org/uk/all/ref/2009-09-01/"/>
+    <remapping prefix="http://www.xbrl.org/uk/all/common/2009-09-01/" replaceWith="www.xbrl.org/uk/all/common/2009-09-01/"/>
+    <remapping prefix="http://www.xbrl.org/uk/reports/direp/2009-09-01/" replaceWith="www.xbrl.org/uk/reports/direp/2009-09-01/"/>
+    <remapping prefix="http://www.xbrl.org/uk/reports/aurep/2009-09-01/" replaceWith="www.xbrl.org/uk/reports/aurep/2009-09-01/"/>
+    <remapping prefix="http://www.xbrl.org/uk/char/core/2009-09-01/" replaceWith="www.xbrl.org/uk/char/core/2009-09-01/"/>
+    <remapping prefix="http://www.xbrl.org/uk/all/common/2009-09-01/" replaceWith="www.xbrl.org/uk/all/common/2009-09-01/"/>
+    <remapping prefix="http://www.xbrl.org/uk/all/gaap-ref/2009-09-01/" replaceWith="www.xbrl.org/uk/all/gaap-ref/2009-09-01/"/>
+    <remapping prefix="http://www.xbrl.org/uk/all/ref/2009-09-01/" replaceWith="www.xbrl.org/uk/all/ref/2009-09-01/"/>
+    <remapping prefix="http://www.xbrl.org/uk/all/types/2009-09-01/" replaceWith="www.xbrl.org/uk/all/types/2009-09-01/"/>
+    <remapping prefix="http://www.xbrl.org/uk/cd/business/2009-09-01/" replaceWith="www.xbrl.org/uk/cd/business/2009-09-01/"/>
+    <remapping prefix="http://www.xbrl.org/uk/cd/countries-regions/2009-09-01/" replaceWith="www.xbrl.org/uk/cd/countries-regions/2009-09-01/"/>
+    <remapping prefix="http://www.xbrl.org/uk/cd/currencies/2009-09-01/" replaceWith="www.xbrl.org/uk/cd/currencies/2009-09-01/"/>
+    <remapping prefix="http://www.xbrl.org/uk/cd/exchanges/2009-09-01/" replaceWith="www.xbrl.org/uk/cd/exchanges/2009-09-01/"/>
+    <remapping prefix="http://www.xbrl.org/uk/cd/languages/2009-09-01/" replaceWith="www.xbrl.org/uk/cd/languages/2009-09-01/"/>
+    <remapping prefix="http://www.xbrl.org/uk/char/core/2009-09-01/" replaceWith="www.xbrl.org/uk/char/core/2009-09-01/"/>
+    <remapping prefix="http://www.xbrl.org/uk/gaap/core/2009-09-01/" replaceWith="www.xbrl.org/uk/gaap/core/2009-09-01/"/>
+    <remapping prefix="http://www.xbrl.org/uk/ifrs/banking/2009-09-01/" replaceWith="www.xbrl.org/uk/ifrs/banking/2009-09-01/"/>
+    <remapping prefix="http://www.xbrl.org/uk/ifrs/core/2009-09-01/" replaceWith="www.xbrl.org/uk/ifrs/core/2009-09-01/"/>
+    <remapping prefix="http://www.xbrl.org/uk/reports/aurep/2009-09-01/" replaceWith="www.xbrl.org/uk/reports/aurep/2009-09-01/"/>
+    <remapping prefix="http://www.xbrl.org/uk/reports/direp/2009-09-01/" replaceWith="www.xbrl.org/uk/reports/direp/2009-09-01/"/>
+  </remappings>
+  <entryPoints>
+    <entryPoint>
+      <name>DPL Taxonomy (IFRS)</name>
+      <entryPointDocument href="http://www.hmrc.gov.uk/schemas/ct/dpl/2013-10-01/dpl-ifrs-main-2013-10-01.xsd"/>
+    </entryPoint>
+    <entryPoint>
+      <name>Comp + Full UK IFRS with DPL Taxonomy</name>
+      <entryPointDocument href="http://www.hmrc.gov.uk/schemas/ct/combined/2015-02-01/ct-comp-full-ifrs-dpl-2015-02-01.xsd"/>
+    </entryPoint>
+    <entryPoint>
+      <name>Full UK GAAP with DPL Taxonomy</name>
+      <entryPointDocument href="http://www.hmrc.gov.uk/schemas/ct/combined/2013-10-01/full-gaap-dpl-2013-10-01.xsd"/>
+    </entryPoint>
+    <entryPoint>
+      <name>UK Charities with DPL Taxonomy</name>
+      <entryPointDocument href="http://www.hmrc.gov.uk/schemas/ct/combined/2013-10-01/char-dpl-2013-10-01.xsd"/>
+    </entryPoint>
+    <entryPoint>
+      <name>DPL Taxonomy (GAAP)</name>
+      <entryPointDocument href="http://www.hmrc.gov.uk/schemas/ct/dpl/2013-10-01/dpl-gaap-main-2013-10-01.xsd"/>
+    </entryPoint>
+    <entryPoint>
+      <name>Full UK IFRS with DPL Taxonomy</name>
+      <entryPointDocument href="http://www.hmrc.gov.uk/schemas/ct/combined/2013-10-01/full-ifrs-dpl-2013-10-01.xsd"/>
+    </entryPoint>
+    <entryPoint>
+      <name>Comp + DPL Taxonomy (IFRS)</name>
+      <entryPointDocument href="http://www.hmrc.gov.uk/schemas/ct/combined/2015-02-01/ct-comp-dpl-ifrs-main-2015-02-01.xsd"/>
+    </entryPoint>
+    <entryPoint>
+      <name>Comp + Minimum UK GAAP with DPL Taxonomy</name>
+      <entryPointDocument href="http://www.hmrc.gov.uk/schemas/ct/combined/2015-02-01/ct-comp-min-gaap-dpl-2015-02-01.xsd"/>
+    </entryPoint>
+    <entryPoint>
+      <name>Comp + DPL Taxonomy (GAAP)</name>
+      <entryPointDocument href="http://www.hmrc.gov.uk/schemas/ct/combined/2015-02-01/ct-comp-dpl-gaap-main-2015-02-01.xsd"/>
+    </entryPoint>
+    <entryPoint>
+      <name>CT Computations Taxonomy</name>
+      <entryPointDocument href="http://www.hmrc.gov.uk/schemas/ct/comp/2015-02-01/ct-2015-02-01.xsd"/>
+    </entryPoint>
+    <entryPoint>
+      <name>Minimum UK GAAP with DPL Taxonomy</name>
+      <entryPointDocument href="http://www.hmrc.gov.uk/schemas/ct/combined/2013-10-01/min-gaap-dpl-2013-10-01.xsd"/>
+    </entryPoint>
+    <entryPoint>
+      <name>Comp + UK Charities with DPL Taxonomy</name>
+      <entryPointDocument href="http://www.hmrc.gov.uk/schemas/ct/combined/2015-02-01/ct-comp-char-dpl-2015-02-01.xsd"/>
+    </entryPoint>
+    <entryPoint>
+      <name>Comp + Full UK GAAP with DPL Taxonomy</name>
+      <entryPointDocument href="http://www.hmrc.gov.uk/schemas/ct/combined/2015-02-01/ct-comp-full-gaap-dpl-2015-02-01.xsd"/>
+    </entryPoint>
+  </entryPoints>
+</taxonomyPackage>

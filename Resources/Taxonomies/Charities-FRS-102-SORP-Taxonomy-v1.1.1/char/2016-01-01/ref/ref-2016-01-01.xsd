@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:uk-char-ref="http://xbrl.frc.org.uk/char/2016-01-01/ref" xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:xlink="http://www.w3.org/1999/xlink" attributeFormDefault="unqualified" blockDefault="" elementFormDefault="qualified" finalDefault="" targetNamespace="http://xbrl.frc.org.uk/char/2016-01-01/ref">
+   <annotation>
+      <appinfo>
+         <link:roleType id="CharitiesSORP" roleURI="http://xbrl.frc.org.uk/char/ref/roles/CharitiesSORP">
+            <definition xmlns="http://www.xbrl.org/2003/linkbase">Charities SORP</definition>
+            <link:usedOn>link:reference</link:usedOn>
+         </link:roleType>
+      <link:roleType id="charitiesAct2011" roleURI="http://xbrl.frc.org.uk/char/ref/roles/CharitiesAct2011">
+            <definition xmlns="http://www.xbrl.org/2003/linkbase">Charities Act 2011</definition>
+            <link:usedOn>link:reference</link:usedOn>
+         </link:roleType>
+    </appinfo>
+   </annotation>
+   <import namespace="http://www.xbrl.org/2003/instance" schemaLocation="http://www.xbrl.org/2003/xbrl-instance-2003-12-31.xsd"/>
+   <import namespace="http://www.xbrl.org/2003/linkbase" schemaLocation="http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd"/>
+   <element abstract="false" id="uk-char-ref_linkPart_Module" name="Module" nillable="false" substitutionGroup="link:part" type="string">
+      <annotation>
+         <documentation>Module number</documentation>
+      </annotation>
+   </element>
+   <element abstract="false" id="uk-char-ref_Table" name="Table" nillable="false" substitutionGroup="link:part" type="string"/>
+</schema>

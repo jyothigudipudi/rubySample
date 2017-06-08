@@ -1,0 +1,56 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<taxonomyPackage xmlns="http://xbrl.org/2016/taxonomy-package" xml:lang="en">
+  <identifier>http://www.hmrc.gov.uk/schemas/ct/dpl/2015-02-14/v1-2-0/</identifier>
+  <name>DPL FRC</name>
+  <version>1.2.0</version>
+  <entryPoints>
+    <entryPoint>
+      <name>DPL FRC</name>
+      <entryPointDocument href="http://www.hmrc.gov.uk/schemas/ct/dpl/2015-02-14/dpl-frc-core-2015-02-14.xsd"/>
+    </entryPoint>
+    <entryPoint>
+      <name>DPL FRC + FRS 101</name>
+      <entryPointDocument href="http://www.hmrc.gov.uk/schemas/ct/combined/2015-02-14/frs-101-dpl-2015-02-14.xsd"/>
+    </entryPoint>
+    <entryPoint>
+      <name>DPL FRC + FRS 102</name>
+      <entryPointDocument href="http://www.hmrc.gov.uk/schemas/ct/combined/2015-02-14/frs-102-dpl-2015-02-14.xsd"/>
+    </entryPoint>
+    <entryPoint>
+      <name>DPL FRC + FRS Full</name>
+      <entryPointDocument href="http://www.hmrc.gov.uk/schemas/ct/combined/2015-02-14/frs-full-dpl-2015-02-14.xsd"/>
+    </entryPoint>
+    <entryPoint>
+      <name>Comp + DPL FRC + FRS 101</name>
+      <entryPointDocument href="http://www.hmrc.gov.uk/schemas/ct/combined/2015-02-01/ct-comp-frs-101-dpl-2015-02-01.xsd"/>
+    </entryPoint>
+    <entryPoint>
+      <name>Comp + DPL FRC + FRS 102</name>
+      <entryPointDocument href="http://www.hmrc.gov.uk/schemas/ct/combined/2015-02-01/ct-comp-frs-102-dpl-2015-02-01.xsd"/>
+    </entryPoint>
+    <entryPoint>
+      <name>Comp + DPL FRC + FRS Full</name>
+      <entryPointDocument href="http://www.hmrc.gov.uk/schemas/ct/combined/2015-02-01/ct-comp-frs-full-dpl-2015-02-01.xsd"/>
+    </entryPoint>
+    <entryPoint>
+      <name>Comp + DPL FRC</name>
+      <entryPointDocument href="http://www.hmrc.gov.uk/schemas/ct/combined/2015-02-01/ct-comp-dpl-frc-core-2015-02-01.xsd"/>
+    </entryPoint>
+    <entryPoint>
+      <name>Comp 2016 + DPL FRC + FRS 101</name>
+      <entryPointDocument href="http://www.hmrc.gov.uk/schemas/ct/combined/2016-10-01/ct-comp-frs-101-dpl-2016-10-01.xsd"/>
+    </entryPoint>
+    <entryPoint>
+      <name>Comp 2016 + DPL FRC + FRS 102</name>
+      <entryPointDocument href="http://www.hmrc.gov.uk/schemas/ct/combined/2016-10-01/ct-comp-frs-102-dpl-2016-10-01.xsd"/>
+    </entryPoint>
+    <entryPoint>
+      <name>Comp 2016 + DPL FRC + FRS Full</name>
+      <entryPointDocument href="http://www.hmrc.gov.uk/schemas/ct/combined/2016-10-01/ct-comp-frs-full-dpl-2016-10-01.xsd"/>
+    </entryPoint>
+    <entryPoint>
+      <name>Comp 2016 + DPL FRC</name>
+      <entryPointDocument href="http://www.hmrc.gov.uk/schemas/ct/combined/2016-10-01/ct-comp-dpl-frc-core-2016-10-01.xsd"/>
+    </entryPoint>
+  </entryPoints>
+</taxonomyPackage>

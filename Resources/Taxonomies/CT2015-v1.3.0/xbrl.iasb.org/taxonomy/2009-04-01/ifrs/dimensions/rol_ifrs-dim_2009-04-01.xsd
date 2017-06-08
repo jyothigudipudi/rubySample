@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+            Taxonomy: 2009-04-01 (Final)
+            ********************** 
+            Copyright © 2009 International Accounting Standards Committee (IASC) Foundation 
+            This material is copyright of the IASC Foundation and all rights are reserved. 
+            No part of this material may be translated, reprinted, reproduced or utilised in 
+            any form or manner that is not expressly permitted by the IASC Foundations XBRL 
+            IP Policy see: http://www.iasb.org/xbrl/ 
+            ********************** 
+ -->
+<xsd:schema targetNamespace="http://xbrl.iasb.org/role/ifrs/dimensions" attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:rol_dim="http://xbrl.iasb.org/role/ifrs/dimensions" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <xsd:annotation>
+    <xsd:appinfo>
+      <link:roleType roleURI="http://xbrl.iasb.org/role/ifrs/ifrs-dim_role-913000" id="ifrs-dim_role-913000">
+        <link:definition>[913000] Dimension - Consolidated and separate financial statements</link:definition>
+        <link:usedOn>link:definitionLink</link:usedOn>
+        <link:usedOn>link:presentationLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://xbrl.iasb.org/role/ifrs/ifrs-dim_role-901000" id="ifrs-dim_role-901000">
+        <link:definition>[901000] Dimension - Retrospective application and retrospective restatement</link:definition>
+        <link:usedOn>link:definitionLink</link:usedOn>
+        <link:usedOn>link:presentationLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://xbrl.iasb.org/role/ifrs/ifrs-dim_role-902000" id="ifrs-dim_role-902000">
+        <link:definition>[902000] Dimension - Financial effect of transition from previous GAAP to IFRSs</link:definition>
+        <link:usedOn>link:definitionLink</link:usedOn>
+        <link:usedOn>link:presentationLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://xbrl.iasb.org/role/ifrs/ifrs-dim_role-903000" id="ifrs-dim_role-903000">
+        <link:definition>[903000] Dimension - Continuing and discontinued operations</link:definition>
+        <link:usedOn>link:definitionLink</link:usedOn>
+        <link:usedOn>link:presentationLink</link:usedOn>
+      </link:roleType>
+    </xsd:appinfo>
+  </xsd:annotation>
+  <xsd:import namespace="http://www.xbrl.org/2003/linkbase" schemaLocation="http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd"/>
+</xsd:schema>

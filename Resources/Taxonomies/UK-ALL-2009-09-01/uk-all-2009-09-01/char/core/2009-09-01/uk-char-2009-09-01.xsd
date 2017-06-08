@@ -1,0 +1,572 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+UK-Charities-Basic schema
+2009-09-01 VERSION 1.1
+Copyright and other information - see http://www.xbrl.org/uk/legal.aspx
+-->
+<schema xmlns="http://www.w3.org/2001/XMLSchema" xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:uk-char="http://www.xbrl.org/uk/char/core/2009-09-01" xmlns:uk-aurep="http://www.xbrl.org/uk/reports/aurep/2009-09-01" xmlns:uk-bus="http://www.xbrl.org/uk/cd/business/2009-09-01" xmlns:uk-cd-ref="http://www.xbrl.org/uk/all/ref/2009-09-01" xmlns:uk-countries="http://www.xbrl.org/uk/cd/countries/2009-09-01" xmlns:uk-curr="http://www.xbrl.org/uk/cd/currencies/2009-09-01" xmlns:uk-direp="http://www.xbrl.org/uk/reports/direp/2009-09-01" xmlns:uk-exch="http://www.xbrl.org/uk/cd/exchanges/2009-09-01" xmlns:uk-lang="http://www.xbrl.org/uk/cd/languages/2009-09-01" xmlns:uk-types="http://www.xbrl.org/uk/all/types/2009-09-01" xmlns:xbrldt="http://xbrl.org/2005/xbrldt" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" targetNamespace="http://www.xbrl.org/uk/char/core/2009-09-01" elementFormDefault="qualified" attributeFormDefault="unqualified">
+  <annotation>
+    <appinfo>
+      <link:roleType roleURI="http://www.xbrl.org/uk/role/char/TrusteesReport" id="TrusteesReport">
+        <link:definition>05 - Trustees Report</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.xbrl.org/uk/role/char/StatementOfFinancialActivities" id="StatementOfFinancialActivities">
+        <link:definition>10 - Statement of Financial Activities</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.xbrl.org/uk/role/char/OtherUKGAAPData" id="OtherUKGAAPData">
+        <link:definition>25 - Other UK GAAP Data</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.xbrl.org/uk/role/char/Dimension-TrusteesAndOfficers" id="Dimension-TrusteesAndOfficers">
+        <link:definition>500 - Dimension - Trustees and Officers</link:definition>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.xbrl.org/uk/role/char/Dimension-CharityFunds" id="Dimension-CharitableFunds">
+        <link:definition>130 - Dimension - Charity Funds</link:definition>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.xbrl.org/uk/role/char/Dimension-CharitableActivities" id="Dimension-CharitableActivities">
+        <link:definition>132 - Dimension - Charitable Activities</link:definition>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.xbrl.org/uk/role/char/Dimension-FixedAssetInvestmentPurpose" id="Dimension-FixedAssetInvestmentPurpose">
+        <link:definition>241 - Dimension - Fixed Asset Investment Purpose</link:definition>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.xbrl.org/uk/role/char/Hypercube-TrusteesAndOfficers" id="Hypercube-TrusteesAndOfficers">
+        <link:definition>900 - Hypercube - Trustees and Officers</link:definition>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.xbrl.org/uk/role/char/Hypercube-SOFAData" id="Hypercube-SOFAData">
+        <link:definition>608 - Hypercube - SOFA Data</link:definition>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.xbrl.org/uk/role/char/Hypercube-CharityFunds" id="Hypercube-CharityFunds">
+        <link:definition>794 - Hypercube - Charity Funds</link:definition>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.xbrl.org/uk/role/char/Hypercube-CharitableActivities" id="Hypercube-CharitableActivities">
+        <link:definition>672 - Hypercube - Charitable Activities</link:definition>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:linkbaseRef xlink:type="simple" xlink:href="uk-char-2009-09-01-definition.xml" xlink:role="http://www.xbrl.org/2003/role/definitionLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase" xlink:title="Definition Links, all" />
+      <link:linkbaseRef xlink:type="simple" xlink:href="uk-char-2009-09-01-label.xml" xlink:role="http://www.xbrl.org/2003/role/labelLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase" xlink:title="Label Links, all" />
+      <link:linkbaseRef xlink:type="simple" xlink:href="uk-char-2009-09-01-reference.xml" xlink:role="http://www.xbrl.org/2003/role/referenceLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase" xlink:title="Reference Links, all" />
+    </appinfo>
+  </annotation>
+  <import namespace="http://www.xbrl.org/2003/instance" schemaLocation="http://www.xbrl.org/2003/xbrl-instance-2003-12-31.xsd" />
+  <import namespace="http://www.xbrl.org/uk/all/types/2009-09-01" schemaLocation="../../../all/types/2009-09-01/uk-types-2009-09-01.xsd" />
+  <import namespace="http://xbrl.org/2005/xbrldt" schemaLocation="http://www.xbrl.org/2005/xbrldt-2005.xsd" />
+  <import namespace="http://www.xbrl.org/uk/gaap/core/2009-09-01" schemaLocation="../../../gaap/core/2009-09-01/uk-gaap-2009-09-01.xsd" />
+  <import namespace="http://www.xbrl.org/2006/ref" schemaLocation="http://www.xbrl.org/2006/ref-2006-02-27.xsd" />
+  <import namespace="http://www.xbrl.org/uk/all/common/2009-09-01" schemaLocation="../../../all/common/2009-09-01/uk-common-2009-09-01.xsd" />
+  <import namespace="http://www.xbrl.org/uk/all/gaap-ref/2009-09-01" schemaLocation="../../../all/gaap-ref/2009-09-01/uk-gaap-ref-2009-09-01.xsd" />
+  <element id="uk-char_ActivitiesForGeneratingFundsPolicy" name="ActivitiesForGeneratingFundsPolicy" type="xbrli:stringItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" nillable="true" />
+  <element id="uk-char_AllCharitableActivitiesDefault" name="AllCharitableActivitiesDefault" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-char_AllTrustees" name="AllTrustees" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-char_AllocationSupportCostsCharitableActivities" name="AllocationSupportCostsCharitableActivities" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" xbrli:balance="debit" nillable="true" />
+  <element id="uk-char_AllocationSupportCostsFundGeneration" name="AllocationSupportCostsFundGeneration" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" xbrli:balance="debit" nillable="true" />
+  <element id="uk-char_AllocationSupportCostsGovernance" name="AllocationSupportCostsGovernance" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" xbrli:balance="debit" nillable="true" />
+  <element id="uk-char_AmateurSport" name="AmateurSport" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-char_AnimalWelfare" name="AnimalWelfare" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-char_ArtsCultureHeritageScience" name="ArtsCultureHeritageScience" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-char_BalanceSheetOtherDataHeading" name="BalanceSheetOtherDataHeading" type="xbrli:stringItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-char_CampaigningCharitableActivitiesCosts" name="CampaigningCharitableActivitiesCosts" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" xbrli:balance="debit" nillable="true" />
+  <element id="uk-char_CapitalGrantsPolicy" name="CapitalGrantsPolicy" type="xbrli:stringItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" nillable="true" />
+  <element id="uk-char_CashDonationsToEndowmentFunds" name="CashDonationsToEndowmentFunds" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" nillable="true" />
+  <element id="uk-char_CashFlowFromPaymentsFromPermanentEndowments" name="CashFlowFromPaymentsFromPermanentEndowments" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" nillable="true" />
+  <element id="uk-char_CashFlowOutflowFromEndowmentInvestments" name="CashFlowOutflowFromEndowmentInvestments" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" nillable="true" />
+  <element id="uk-char_CashFlowOutflowFromFinancingEndowmentInvestments" name="CashFlowOutflowFromFinancingEndowmentInvestments" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" nillable="true" />
+  <element id="uk-char_ChairTrustees" name="ChairTrustees" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-char_CharitableActivitiesDimension" name="CharitableActivitiesDimension" type="xbrli:stringItemType" substitutionGroup="xbrldt:dimensionItem" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-char_CharitableActivitiesExpenditure" name="CharitableActivitiesExpenditure" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" xbrli:balance="debit" nillable="true" />
+  <element id="uk-char_CharitableActivitiesExpenditure-AnalysisByFunctionHeading" name="CharitableActivitiesExpenditure-AnalysisByFunctionHeading" type="xbrli:stringItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-char_CharitableActivitiesExpenditureHeading" name="CharitableActivitiesExpenditureHeading" type="xbrli:stringItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-char_CharitableActivitiesHypercube" name="CharitableActivitiesHypercube" type="xbrli:stringItemType" substitutionGroup="xbrldt:hypercubeItem" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-char_CharitableInvestmentIncome" name="CharitableInvestmentIncome" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" xbrli:balance="credit" nillable="true" />
+  <element id="uk-char_CharitableInvestmentManagementCosts" name="CharitableInvestmentManagementCosts" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" xbrli:balance="debit" nillable="true" />
+  <element id="uk-char_CharitableProjectServicesIncome" name="CharitableProjectServicesIncome" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" xbrli:balance="credit" nillable="true" />
+  <element id="uk-char_CharitableReservesPolicy" name="CharitableReservesPolicy" type="xbrli:stringItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" nillable="true" />
+  <element id="uk-char_CharitableServiceProvisionCosts" name="CharitableServiceProvisionCosts" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" xbrli:balance="debit" nillable="true" />
+  <element id="uk-char_CharitableServiceProvisionDirectCosts" name="CharitableServiceProvisionDirectCosts" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" xbrli:balance="debit" nillable="true" />
+  <element id="uk-char_CharitableServiceProvisionIndirectCosts" name="CharitableServiceProvisionIndirectCosts" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" xbrli:balance="debit" nillable="true" />
+  <element id="uk-char_CharityFunds" name="CharityFunds" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="instant" xbrli:balance="credit" nillable="true" />
+  <element id="uk-char_CharityFunds-MovementAnalysisHeading" name="CharityFunds-MovementAnalysisHeading" type="xbrli:stringItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-char_CharityFundsDimension" name="CharityFundsDimension" type="xbrli:stringItemType" substitutionGroup="xbrldt:dimensionItem" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-char_CharityFundsHypercube" name="CharityFundsHypercube" type="xbrli:stringItemType" substitutionGroup="xbrldt:hypercubeItem" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-char_CharityItemsInheritingBasicDimensionsHeading" name="CharityItemsInheritingBasicDimensionsHeading" type="xbrli:stringItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-char_CharityRegisteredNumber" name="CharityRegisteredNumber" type="xbrli:stringItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" nillable="true" />
+  <element id="uk-char_CharityRiskManagementStatement" name="CharityRiskManagementStatement" type="xbrli:stringItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" nillable="true" />
+  <element id="uk-char_ChiefExecutiveCharity" name="ChiefExecutiveCharity" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-char_CitizenshipCommunityDevelopment" name="CitizenshipCommunityDevelopment" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-char_CommunicationsSupportCosts" name="CommunicationsSupportCosts" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" xbrli:balance="debit" nillable="true" />
+  <element id="uk-char_CompanyDefaultTagRepresentsIndividualUnconsolidatedCharityDataExplanation" name="CompanyDefaultTagRepresentsIndividualUnconsolidatedCharityDataExplanation" type="xbrli:stringItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-char_ConferencesSimilarActivitiesCharitableActivitiesCosts" name="ConferencesSimilarActivitiesCharitableActivitiesCosts" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" xbrli:balance="debit" nillable="true" />
+  <element id="uk-char_ConferencesSimilarActivitiesCostsGeneratingFunds" name="ConferencesSimilarActivitiesCostsGeneratingFunds" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" xbrli:balance="debit" nillable="true" />
+  <element id="uk-char_ConferencesSimilarActivitiesIncomeCharitableActivities" name="ConferencesSimilarActivitiesIncomeCharitableActivities" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" xbrli:balance="credit" nillable="true" />
+  <element id="uk-char_ConferencesSimilarActivitiesIncomeFundGeneration" name="ConferencesSimilarActivitiesIncomeFundGeneration" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" xbrli:balance="credit" nillable="true" />
+  <element id="uk-char_CostGenerationFunds-AnalysisByFunctionHeading" name="CostGenerationFunds-AnalysisByFunctionHeading" type="xbrli:stringItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-char_CostsActivitiesForGeneratingFundsHeading" name="CostsActivitiesForGeneratingFundsHeading" type="xbrli:stringItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-char_CostsFundraisingTradingCostGoodsSoldOtherCosts" name="CostsFundraisingTradingCostGoodsSoldOtherCosts" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" xbrli:balance="debit" nillable="true" />
+  <element id="uk-char_CostsGeneratingFunds" name="CostsGeneratingFunds" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" xbrli:balance="debit" nillable="true" />
+  <element id="uk-char_CostsGeneratingVoluntaryContributionsHeading" name="CostsGeneratingVoluntaryContributionsHeading" type="xbrli:stringItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-char_CostsGeneratingVoluntaryIncome" name="CostsGeneratingVoluntaryIncome" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" xbrli:balance="debit" nillable="true" />
+  <element id="uk-char_CostsOfCharitableActivitiesPolicy" name="CostsOfCharitableActivitiesPolicy" type="xbrli:stringItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" nillable="true" />
+  <element id="uk-char_CostsOfGeneratingFundsPolicy" name="CostsOfGeneratingFundsPolicy" type="xbrli:stringItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" nillable="true" />
+  <element id="uk-char_CostsOtherTypeActivitiesForGeneratingFunds" name="CostsOtherTypeActivitiesForGeneratingFunds" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" xbrli:balance="debit" nillable="true" />
+  <element id="uk-char_CostsOtherTypeCharitableActivity" name="CostsOtherTypeCharitableActivity" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" xbrli:balance="debit" nillable="true" />
+  <element id="uk-char_CostsOtherTypeEventForCharitableActivities" name="CostsOtherTypeEventForCharitableActivities" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" xbrli:balance="debit" nillable="true" />
+  <element id="uk-char_CostsOtherTypeEventForGeneratingFunds" name="CostsOtherTypeEventForGeneratingFunds" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" xbrli:balance="debit" nillable="true" />
+  <element id="uk-char_CostsOtherTypeIncome-raisingEventForCharitableActivities" name="CostsOtherTypeIncome-raisingEventForCharitableActivities" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" xbrli:balance="debit" nillable="true" />
+  <element id="uk-char_CostsOtherTypeServiceProvisionForCharitableActivities" name="CostsOtherTypeServiceProvisionForCharitableActivities" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" xbrli:balance="debit" nillable="true" />
+  <element id="uk-char_CostsOtherTypeTrading" name="CostsOtherTypeTrading" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" xbrli:balance="debit" nillable="true" />
+  <element id="uk-char_DateSigningTrusteesReport" name="DateSigningTrusteesReport" type="xbrli:dateItemType" substitutionGroup="xbrli:item" xbrli:periodType="instant" nillable="true" />
+  <element id="uk-char_DateValuationHeritageAssets" name="DateValuationHeritageAssets" type="xbrli:dateItemType" substitutionGroup="xbrli:item" xbrli:periodType="instant" nillable="true" />
+  <element id="uk-char_DeclarationThatAllIncomeExpenditureDerivesFromContinuingActivities" name="DeclarationThatAllIncomeExpenditureDerivesFromContinuingActivities" type="xbrli:booleanItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" nillable="true" />
+  <element id="uk-char_DeclarationThatSOFAIncludesAllGainsLossesRecognisedInPeriod" name="DeclarationThatSOFAIncludesAllGainsLossesRecognisedInPeriod" type="xbrli:booleanItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" nillable="true" />
+  <element id="uk-char_DecreaseInCharitableFundFromTransfersToAnotherCharityOnMergingOrWindingUp" name="DecreaseInCharitableFundFromTransfersToAnotherCharityOnMergingOrWindingUp" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" xbrli:balance="debit" nillable="true" />
+  <element id="uk-char_DepreciationOtherAmountsWrittenOffFixedAssetsCharitableActivities" name="DepreciationOtherAmountsWrittenOffFixedAssetsCharitableActivities" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" xbrli:balance="debit" nillable="true" />
+  <element id="uk-char_DepreciationOtherAmountsWrittenOffFixedAssetsFundGeneration" name="DepreciationOtherAmountsWrittenOffFixedAssetsFundGeneration" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" xbrli:balance="debit" nillable="true" />
+  <element id="uk-char_DescriptionAcquisitionsHeritageAssets" name="DescriptionAcquisitionsHeritageAssets" type="xbrli:stringItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" nillable="true" />
+  <element id="uk-char_DescriptionAnySignificantLimitationsOnValuation" name="DescriptionAnySignificantLimitationsOnValuation" type="xbrli:stringItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" nillable="true" />
+  <element id="uk-char_DescriptionDisposalsHeritageAssets" name="DescriptionDisposalsHeritageAssets" type="xbrli:stringItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" nillable="true" />
+  <element id="uk-char_DescriptionExternalValuersIfUsed" name="DescriptionExternalValuersIfUsed" type="xbrli:stringItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" nillable="true" />
+  <element id="uk-char_DescriptionHeritageAssetsAcquiredByDonationWhichItNotPracticalToValue" name="DescriptionHeritageAssetsAcquiredByDonationWhichItNotPracticalToValue" type="xbrli:stringItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" nillable="true" />
+  <element id="uk-char_DescriptionHeritageAssetsNotReportedInBalanceSheet" name="DescriptionHeritageAssetsNotReportedInBalanceSheet" type="xbrli:stringItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" nillable="true" />
+  <element id="uk-char_DescriptionHeritageAssetsReportedCost" name="DescriptionHeritageAssetsReportedCost" type="xbrli:stringItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" nillable="true" />
+  <element id="uk-char_DescriptionHeritageAssetsReportedValuation" name="DescriptionHeritageAssetsReportedValuation" type="xbrli:stringItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" nillable="true" />
+  <element id="uk-char_DescriptionMethodValuationHeritageAssets" name="DescriptionMethodValuationHeritageAssets" type="xbrli:stringItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" nillable="true" />
+  <element id="uk-char_DescriptionObjectivesCharity" name="DescriptionObjectivesCharity" type="xbrli:stringItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" nillable="true" />
+  <element id="uk-char_DescriptionOfStatusOfCharity" name="DescriptionOfStatusOfCharity" type="xbrli:stringItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" nillable="true" />
+  <element id="uk-char_DescriptionOtherTypeActivitiesForGeneratingFunds" name="DescriptionOtherTypeActivitiesForGeneratingFunds" type="xbrli:stringItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" nillable="true" />
+  <element id="uk-char_DescriptionOtherTypeCharitableActivity" name="DescriptionOtherTypeCharitableActivity" type="xbrli:stringItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" nillable="true" />
+  <element id="uk-char_DescriptionOtherTypeEventForCharitableActivities" name="DescriptionOtherTypeEventForCharitableActivities" type="xbrli:stringItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" nillable="true" />
+  <element id="uk-char_DescriptionOtherTypeEventForGeneratingFunds" name="DescriptionOtherTypeEventForGeneratingFunds" type="xbrli:stringItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" nillable="true" />
+  <element id="uk-char_DescriptionOtherTypeIncome-raisingEventForCharitableActivities" name="DescriptionOtherTypeIncome-raisingEventForCharitableActivities" type="xbrli:stringItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" nillable="true" />
+  <element id="uk-char_DescriptionOtherTypeIncome-raisingServiceForCharitableActivities" name="DescriptionOtherTypeIncome-raisingServiceForCharitableActivities" type="xbrli:stringItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" nillable="true" />
+  <element id="uk-char_DescriptionOtherTypeServiceForCharitableActivities" name="DescriptionOtherTypeServiceForCharitableActivities" type="xbrli:stringItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" nillable="true" />
+  <element id="uk-char_DescriptionOtherTypeTradingIncome" name="DescriptionOtherTypeTradingIncome" type="xbrli:stringItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" nillable="true" />
+  <element id="uk-char_DescriptionPrincipalSourcesFunding" name="DescriptionPrincipalSourcesFunding" type="xbrli:stringItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" nillable="true" />
+  <element id="uk-char_DescriptionPurposesProgramme-relatedInvestments" name="DescriptionPurposesProgramme-relatedInvestments" type="xbrli:stringItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" nillable="true" />
+  <element id="uk-char_DescriptionSignificantHeritageAssetsAcquiredByDonation" name="DescriptionSignificantHeritageAssetsAcquiredByDonation" type="xbrli:stringItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" nillable="true" />
+  <element id="uk-char_DescriptionSpecificHeritageAssetsBeingValued" name="DescriptionSpecificHeritageAssetsBeingValued" type="xbrli:stringItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" nillable="true" />
+  <element id="uk-char_DescriptionTransactionsInHeritageAssetsNotReportedInBalanceSheet" name="DescriptionTransactionsInHeritageAssetsNotReportedInBalanceSheet" type="xbrli:stringItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" nillable="true" />
+  <element id="uk-char_DesignatedFundsAccountingPolicy" name="DesignatedFundsAccountingPolicy" type="xbrli:stringItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" nillable="true" />
+  <element id="uk-char_DimensionMembersIdentifyingPositionTrusteesEntityOfficersHeading" name="DimensionMembersIdentifyingPositionTrusteesEntityOfficersHeading" type="xbrli:stringItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-char_DimensionMembersWhichMayBeUsedToIdentifyPurposeCharitableExpenditureHeading" name="DimensionMembersWhichMayBeUsedToIdentifyPurposeCharitableExpenditureHeading" type="xbrli:stringItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-char_DimensionMembersWhichMayBeUsedWithSOFAItemsHeading" name="DimensionMembersWhichMayBeUsedWithSOFAItemsHeading" type="xbrli:stringItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-char_DirectMarketingCostsGeneratingFunds" name="DirectMarketingCostsGeneratingFunds" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" xbrli:balance="debit" nillable="true" />
+  <element id="uk-char_DirectMarketingFundGeneration" name="DirectMarketingFundGeneration" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" xbrli:balance="credit" nillable="true" />
+  <element id="uk-char_DonatedServicesAndFacilitiesPolicy" name="DonatedServicesAndFacilitiesPolicy" type="xbrli:stringItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" nillable="true" />
+  <element id="uk-char_DonatedServicesFacilitiesIncome" name="DonatedServicesFacilitiesIncome" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" xbrli:balance="credit" nillable="true" />
+  <element id="uk-char_DonatedServicesGiftsInKindCostsCharitableActivities" name="DonatedServicesGiftsInKindCostsCharitableActivities" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" xbrli:balance="debit" nillable="true" />
+  <element id="uk-char_DonatedServicesGiftsInKindCostsFundGeneration" name="DonatedServicesGiftsInKindCostsFundGeneration" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" xbrli:balance="debit" nillable="true" />
+  <element id="uk-char_DonatedServicesGiftsInKindTotalCosts" name="DonatedServicesGiftsInKindTotalCosts" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" xbrli:balance="debit" nillable="true" />
+  <element id="uk-char_DonationsCostsGeneratingContributions" name="DonationsCostsGeneratingContributions" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" xbrli:balance="debit" nillable="true" />
+  <element id="uk-char_DonationsFromCommunityGroupsProceeds" name="DonationsFromCommunityGroupsProceeds" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" xbrli:balance="credit" nillable="true" />
+  <element id="uk-char_DonationsFromCompaniesProceeds" name="DonationsFromCompaniesProceeds" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" xbrli:balance="credit" nillable="true" />
+  <element id="uk-char_DonationsFromCompaniesTrustsSimilarCostsGeneratingContributions" name="DonationsFromCompaniesTrustsSimilarCostsGeneratingContributions" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" xbrli:balance="debit" nillable="true" />
+  <element id="uk-char_DonationsFromCompaniesTrustsSimilarProceeds" name="DonationsFromCompaniesTrustsSimilarProceeds" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" xbrli:balance="credit" nillable="true" />
+  <element id="uk-char_DonationsFromGeneralPublicCostsGeneratingContributions" name="DonationsFromGeneralPublicCostsGeneratingContributions" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" xbrli:balance="debit" nillable="true" />
+  <element id="uk-char_DonationsFromIndividualsProceeds" name="DonationsFromIndividualsProceeds" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" xbrli:balance="credit" nillable="true" />
+  <element id="uk-char_DonationsFromTrustsSimilarProceeds" name="DonationsFromTrustsSimilarProceeds" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" xbrli:balance="credit" nillable="true" />
+  <element id="uk-char_DonationsLegaciesFromGeneralPublicProceeds" name="DonationsLegaciesFromGeneralPublicProceeds" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" xbrli:balance="credit" nillable="true" />
+  <element id="uk-char_DonationsLegaciesFromIndividualsProceeds" name="DonationsLegaciesFromIndividualsProceeds" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" xbrli:balance="credit" nillable="true" />
+  <element id="uk-char_DonationsLegaciesProceeds" name="DonationsLegaciesProceeds" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" xbrli:balance="credit" nillable="true" />
+  <element id="uk-char_DonationsProceeds" name="DonationsProceeds" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" xbrli:balance="credit" nillable="true" />
+  <element id="uk-char_DonationsToMajorAppealsCostsGeneratingContributions" name="DonationsToMajorAppealsCostsGeneratingContributions" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" xbrli:balance="debit" nillable="true" />
+  <element id="uk-char_DonationsToMajorAppealsProceeds" name="DonationsToMajorAppealsProceeds" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" xbrli:balance="credit" nillable="true" />
+  <element id="uk-char_DonorRecruitmentCostsGeneratingContributions" name="DonorRecruitmentCostsGeneratingContributions" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" xbrli:balance="debit" nillable="true" />
+  <element id="uk-char_Education" name="Education" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-char_EducationTrainingIncomeCharitableActivities" name="EducationTrainingIncomeCharitableActivities" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" xbrli:balance="credit" nillable="true" />
+  <element id="uk-char_EfficiencyArmedForcesPoliceSimilarServices" name="EfficiencyArmedForcesPoliceSimilarServices" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-char_EndowmentFunds" name="EndowmentFunds" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-char_EndowmentFundsAccountingPolicy" name="EndowmentFundsAccountingPolicy" type="xbrli:stringItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" nillable="true" />
+  <element id="uk-char_EndowmentFundsExpendable" name="EndowmentFundsExpendable" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-char_EndowmentFundsPermanent" name="EndowmentFundsPermanent" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-char_EndowmentOtherRestrictedFundsAccountingPolicy" name="EndowmentOtherRestrictedFundsAccountingPolicy" type="xbrli:stringItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" nillable="true" />
+  <element id="uk-char_EnvironmentalProtectionImprovement" name="EnvironmentalProtectionImprovement" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-char_EstablishmentFacilitiesCosts" name="EstablishmentFacilitiesCosts" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" xbrli:balance="debit" nillable="true" />
+  <element id="uk-char_EventsCharitableActivitiesCosts" name="EventsCharitableActivitiesCosts" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" xbrli:balance="debit" nillable="true" />
+  <element id="uk-char_EventsCostsGeneratingFunds" name="EventsCostsGeneratingFunds" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" xbrli:balance="debit" nillable="true" />
+  <element id="uk-char_EventsIncomeCharitableActivities" name="EventsIncomeCharitableActivities" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" xbrli:balance="credit" nillable="true" />
+  <element id="uk-char_EventsIncomeFundGeneration" name="EventsIncomeFundGeneration" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" xbrli:balance="credit" nillable="true" />
+  <element id="uk-char_FinanceSupportCosts" name="FinanceSupportCosts" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" xbrli:balance="debit" nillable="true" />
+  <element id="uk-char_FixedAssetInvestmentPurposeDimension" name="FixedAssetInvestmentPurposeDimension" type="xbrli:stringItemType" substitutionGroup="xbrldt:dimensionItem" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-char_FixedAssetInvestmentsExcludingProgramme-relatedInvestmentsDefault" name="FixedAssetInvestmentsExcludingProgramme-relatedInvestmentsDefault" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-char_FixedAssetInvestmentsIncludingProgramme-relatedInvestments" name="FixedAssetInvestmentsIncludingProgramme-relatedInvestments" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-char_ForCostsOtherTypesActivitiesSeeIncomeFromActivitiesForGeneratingFundsNoteCross-reference" name="ForCostsOtherTypesActivitiesSeeIncomeFromActivitiesForGeneratingFundsNoteCross-reference" type="xbrli:stringItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-char_ForCostsOtherTypesEventsSeeIncomeFromActivitiesForGeneratingFundsNoteCross-reference" name="ForCostsOtherTypesEventsSeeIncomeFromActivitiesForGeneratingFundsNoteCross-reference" type="xbrli:stringItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-char_ForExternalAuditCostsSeeFeesToAuditorsNoteCross-reference" name="ForExternalAuditCostsSeeFeesToAuditorsNoteCross-reference" type="xbrli:stringItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-char_ForOtherGainsLossesSeeTotalReservesSTRGLNotesInUKGAAPDataSectionCross-reference" name="ForOtherGainsLossesSeeTotalReservesSTRGLNotesInUKGAAPDataSectionCross-reference" type="xbrli:stringItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-char_ForOtherRequiredTagsSeeOtherUKGAAPDataSectionCross-reference" name="ForOtherRequiredTagsSeeOtherUKGAAPDataSectionCross-reference" type="xbrli:stringItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-char_ForOtherTagsForAssetsLiabilitiesSeeBalanceSheetOrOtherNotesCrossReference" name="ForOtherTagsForAssetsLiabilitiesSeeBalanceSheetOrOtherNotesCrossReference" type="xbrli:stringItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-char_ForOtherTagsForMovementAnalysisSeeSOFACross-reference" name="ForOtherTagsForMovementAnalysisSeeSOFACross-reference" type="xbrli:stringItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-char_ForTotalDepreciationSimilarCostsSeeOperatingCostsRelatedToFixedAssetsNoteCross-reference" name="ForTotalDepreciationSimilarCostsSeeOperatingCostsRelatedToFixedAssetsNoteCross-reference" type="xbrli:stringItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-char_ForTotalStaffCostsSeeEmployeeInformationNoteCross-reference" name="ForTotalStaffCostsSeeEmployeeInformationNoteCross-reference" type="xbrli:stringItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-char_ForTotalSupportCostsSeeSupportCostsNoteCross-reference" name="ForTotalSupportCostsSeeSupportCostsNoteCross-reference" type="xbrli:stringItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-char_FundAccountingPolicy" name="FundAccountingPolicy" type="xbrli:stringItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" nillable="true" />
+  <element id="uk-char_GainLossFromOtherRecognisedGainsLosses" name="GainLossFromOtherRecognisedGainsLosses" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" xbrli:balance="credit" nillable="true" />
+  <element id="uk-char_GainLossFromRevaluationDisposalInvestmentAssets" name="GainLossFromRevaluationDisposalInvestmentAssets" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" xbrli:balance="credit" nillable="true" />
+  <element id="uk-char_GainLossFromRevaluationHeritageAssets" name="GainLossFromRevaluationHeritageAssets" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" xbrli:balance="credit" nillable="true" />
+  <element id="uk-char_GeneralDescriptionNatureHeritageAssetsHeldByEntity" name="GeneralDescriptionNatureHeritageAssetsHeldByEntity" type="xbrli:stringItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" nillable="true" />
+  <element id="uk-char_GeneralExpensesCharitableActivities" name="GeneralExpensesCharitableActivities" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" xbrli:balance="debit" nillable="true" />
+  <element id="uk-char_GeneralExpensesFundGeneration" name="GeneralExpensesFundGeneration" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" xbrli:balance="debit" nillable="true" />
+  <element id="uk-char_GeneralExpensesTotalCosts" name="GeneralExpensesTotalCosts" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" xbrli:balance="debit" nillable="true" />
+  <element id="uk-char_GeneralManagementAdministrationSupportCosts" name="GeneralManagementAdministrationSupportCosts" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" xbrli:balance="debit" nillable="true" />
+  <element id="uk-char_GeneralPublicBenefitPurposes" name="GeneralPublicBenefitPurposes" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-char_GiftAidPaymentToCharity" name="GiftAidPaymentToCharity" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" xbrli:balance="debit" nillable="true" />
+  <element id="uk-char_GiftsInKindPolicy" name="GiftsInKindPolicy" type="xbrli:stringItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" nillable="true" />
+  <element id="uk-char_GiftsInKindVoluntaryIncomeIncludingCapitalGifts" name="GiftsInKindVoluntaryIncomeIncludingCapitalGifts" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" xbrli:balance="credit" nillable="true" />
+  <element id="uk-char_GoodsDonatedForCharitableDistribution" name="GoodsDonatedForCharitableDistribution" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" xbrli:balance="credit" nillable="true" />
+  <element id="uk-char_GovernanceCosts" name="GovernanceCosts" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" xbrli:balance="debit" nillable="true" />
+  <element id="uk-char_GovernanceCosts-AnalysisByFunctionHeading" name="GovernanceCosts-AnalysisByFunctionHeading" type="xbrli:stringItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-char_GovernanceCostsPolicy" name="GovernanceCostsPolicy" type="xbrli:stringItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" nillable="true" />
+  <element id="uk-char_GovernmentGrantsVoluntaryIncomeIncludingCapitalGrants" name="GovernmentGrantsVoluntaryIncomeIncludingCapitalGrants" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" xbrli:balance="credit" nillable="true" />
+  <element id="uk-char_Grant-makingSupportCosts" name="Grant-makingSupportCosts" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" xbrli:balance="debit" nillable="true" />
+  <element id="uk-char_GrantsCostsGeneratingVoluntaryContributions" name="GrantsCostsGeneratingVoluntaryContributions" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" xbrli:balance="debit" nillable="true" />
+  <element id="uk-char_GrantsFromCompaniesVoluntaryIncomeIncludingCapitalGrants" name="GrantsFromCompaniesVoluntaryIncomeIncludingCapitalGrants" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" xbrli:balance="credit" nillable="true" />
+  <element id="uk-char_GrantsFromOtherCharitiesVoluntaryIncomeIncludingCapitalGrants" name="GrantsFromOtherCharitiesVoluntaryIncomeIncludingCapitalGrants" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" xbrli:balance="credit" nillable="true" />
+  <element id="uk-char_GrantsPayable" name="GrantsPayable" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" xbrli:balance="debit" nillable="true" />
+  <element id="uk-char_GrantsPayablePolicy" name="GrantsPayablePolicy" type="xbrli:stringItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" nillable="true" />
+  <element id="uk-char_GrantsPayableWithPerformanceConditionsPolicy" name="GrantsPayableWithPerformanceConditionsPolicy" type="xbrli:stringItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" nillable="true" />
+  <element id="uk-char_GrantsPayableWithoutPerformanceConditionsPolicy" name="GrantsPayableWithoutPerformanceConditionsPolicy" type="xbrli:stringItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" nillable="true" />
+  <element id="uk-char_GrantsReceivablePolicy" name="GrantsReceivablePolicy" type="xbrli:stringItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" nillable="true" />
+  <element id="uk-char_GrantsToCharities" name="GrantsToCharities" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" xbrli:balance="debit" nillable="true" />
+  <element id="uk-char_GrantsToIndividuals" name="GrantsToIndividuals" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" xbrli:balance="debit" nillable="true" />
+  <element id="uk-char_GrantsToOtherInstitutions" name="GrantsToOtherInstitutions" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" xbrli:balance="debit" nillable="true" />
+  <element id="uk-char_GrantsVoluntaryIncomeIncludingCapitalGrants" name="GrantsVoluntaryIncomeIncludingCapitalGrants" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" xbrli:balance="credit" nillable="true" />
+  <element id="uk-char_Health" name="Health" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-char_HeritageAssets" name="HeritageAssets" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="instant" xbrli:balance="debit" nillable="true" />
+  <element id="uk-char_HeritageAssetsAcquisitionManagementPolicy" name="HeritageAssetsAcquisitionManagementPolicy" type="xbrli:stringItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" nillable="true" />
+  <element id="uk-char_HeritageAssetsCapitalisationPolicy" name="HeritageAssetsCapitalisationPolicy" type="xbrli:stringItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" nillable="true" />
+  <element id="uk-char_HeritageAssetsCost-MovementAnalysisHeading" name="HeritageAssetsCost-MovementAnalysisHeading" type="xbrli:stringItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-char_HeritageAssetsCostAdditions" name="HeritageAssetsCostAdditions" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" xbrli:balance="debit" nillable="true" />
+  <element id="uk-char_HeritageAssetsCostCarryingAmountDisposals" name="HeritageAssetsCostCarryingAmountDisposals" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" xbrli:balance="credit" nillable="true" />
+  <element id="uk-char_HeritageAssetsCostCostAcquisitions" name="HeritageAssetsCostCostAcquisitions" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" xbrli:balance="debit" nillable="true" />
+  <element id="uk-char_HeritageAssetsCostImpairmentLosses" name="HeritageAssetsCostImpairmentLosses" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" xbrli:balance="credit" nillable="true" />
+  <element id="uk-char_HeritageAssetsCostProceedsFromDisposals" name="HeritageAssetsCostProceedsFromDisposals" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" xbrli:balance="credit" nillable="true" />
+  <element id="uk-char_HeritageAssetsCostValueAcquiredByDonations" name="HeritageAssetsCostValueAcquiredByDonations" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" xbrli:balance="debit" nillable="true" />
+  <element id="uk-char_HeritageAssetsMeasurementsPolicy" name="HeritageAssetsMeasurementsPolicy" type="xbrli:stringItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" nillable="true" />
+  <element id="uk-char_HeritageAssetsPolicy" name="HeritageAssetsPolicy" type="xbrli:stringItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" nillable="true" />
+  <element id="uk-char_HeritageAssetsReportedCost" name="HeritageAssetsReportedCost" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="instant" xbrli:balance="debit" nillable="true" />
+  <element id="uk-char_HeritageAssetsReportedCostHeading" name="HeritageAssetsReportedCostHeading" type="xbrli:stringItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-char_HeritageAssetsReportedValuation" name="HeritageAssetsReportedValuation" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="instant" xbrli:balance="debit" nillable="true" />
+  <element id="uk-char_HeritageAssetsReportedValuationHeading" name="HeritageAssetsReportedValuationHeading" type="xbrli:stringItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-char_HeritageAssetsValuation-MovementAnalysisHeading" name="HeritageAssetsValuation-MovementAnalysisHeading" type="xbrli:stringItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-char_HeritageAssetsValuationAdditions" name="HeritageAssetsValuationAdditions" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" xbrli:balance="debit" nillable="true" />
+  <element id="uk-char_HeritageAssetsValuationCarryingAmountDisposals" name="HeritageAssetsValuationCarryingAmountDisposals" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" xbrli:balance="credit" nillable="true" />
+  <element id="uk-char_HeritageAssetsValuationCostAcquisitions" name="HeritageAssetsValuationCostAcquisitions" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" xbrli:balance="debit" nillable="true" />
+  <element id="uk-char_HeritageAssetsValuationImpairmentLosses" name="HeritageAssetsValuationImpairmentLosses" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" xbrli:balance="credit" nillable="true" />
+  <element id="uk-char_HeritageAssetsValuationIncreaseDecreaseFromRevaluations" name="HeritageAssetsValuationIncreaseDecreaseFromRevaluations" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" xbrli:balance="debit" nillable="true" />
+  <element id="uk-char_HeritageAssetsValuationProceedsFromDisposals" name="HeritageAssetsValuationProceedsFromDisposals" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" xbrli:balance="credit" nillable="true" />
+  <element id="uk-char_HeritageAssetsValuationValueAcquiredByDonations" name="HeritageAssetsValuationValueAcquiredByDonations" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" xbrli:balance="debit" nillable="true" />
+  <element id="uk-char_HumanResourcesSupportCosts" name="HumanResourcesSupportCosts" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" xbrli:balance="debit" nillable="true" />
+  <element id="uk-char_HumanRightsConflictResolutionReconciliation" name="HumanRightsConflictResolutionReconciliation" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-char_IncomeFromActivitiesForGeneratingFunds" name="IncomeFromActivitiesForGeneratingFunds" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" xbrli:balance="credit" nillable="true" />
+  <element id="uk-char_IncomeFromActivitiesForGeneratingFundsHeading" name="IncomeFromActivitiesForGeneratingFundsHeading" type="xbrli:stringItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-char_IncomeFromOtherTypeActivitiesForGeneratingFunds" name="IncomeFromOtherTypeActivitiesForGeneratingFunds" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" xbrli:balance="credit" nillable="true" />
+  <element id="uk-char_IncomeFromOtherTypeEventForCharitableActivities" name="IncomeFromOtherTypeEventForCharitableActivities" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" xbrli:balance="credit" nillable="true" />
+  <element id="uk-char_IncomeFromOtherTypeEventForGeneratingFunds" name="IncomeFromOtherTypeEventForGeneratingFunds" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" xbrli:balance="credit" nillable="true" />
+  <element id="uk-char_IncomeFromOtherTypeIncome-raisingServiceProvisionForCharitableActivities" name="IncomeFromOtherTypeIncome-raisingServiceProvisionForCharitableActivities" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" xbrli:balance="credit" nillable="true" />
+  <element id="uk-char_IncomeFromOtherTypeTrading" name="IncomeFromOtherTypeTrading" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" xbrli:balance="credit" nillable="true" />
+  <element id="uk-char_IncomeGainsInCharitableFundsInPeriod" name="IncomeGainsInCharitableFundsInPeriod" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" xbrli:balance="credit" nillable="true" />
+  <element id="uk-char_IncomingResources" name="IncomingResources" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" xbrli:balance="credit" nillable="true" />
+  <element id="uk-char_IncomingResourcesFromCharitableActivities" name="IncomingResourcesFromCharitableActivities" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" xbrli:balance="credit" nillable="true" />
+  <element id="uk-char_IncomingResourcesFromCharitableActivitiesHeading" name="IncomingResourcesFromCharitableActivitiesHeading" type="xbrli:stringItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-char_IncomingResourcesFromCharitableActivitiesPolicy" name="IncomingResourcesFromCharitableActivitiesPolicy" type="xbrli:stringItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" nillable="true" />
+  <element id="uk-char_IncomingResourcesFromGeneratedFunds" name="IncomingResourcesFromGeneratedFunds" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" xbrli:balance="credit" nillable="true" />
+  <element id="uk-char_IncomingResourcesPolicy" name="IncomingResourcesPolicy" type="xbrli:stringItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" nillable="true" />
+  <element id="uk-char_IncreaseDecreaseInCharitableFundsFromTransfersBetweenCharities" name="IncreaseDecreaseInCharitableFundsFromTransfersBetweenCharities" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" xbrli:balance="credit" nillable="true" />
+  <element id="uk-char_IncreaseDecreaseInCharitableFundsFromTransfersBetweenFunds" name="IncreaseDecreaseInCharitableFundsFromTransfersBetweenFunds" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" xbrli:balance="credit" nillable="true" />
+  <element id="uk-char_IncreaseInCharitableFundFromTransfersFromExistingCharity" name="IncreaseInCharitableFundFromTransfersFromExistingCharity" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" xbrli:balance="credit" nillable="true" />
+  <element id="uk-char_InformationOnSubsidiariesHeading" name="InformationOnSubsidiariesHeading" type="xbrli:stringItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-char_InformationTechnologySupportCosts" name="InformationTechnologySupportCosts" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" xbrli:balance="debit" nillable="true" />
+  <element id="uk-char_InternalAuditCostsGovernance" name="InternalAuditCostsGovernance" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" xbrli:balance="debit" nillable="true" />
+  <element id="uk-char_ItemsInheritingCharitableActivitiesDimensions" name="ItemsInheritingCharitableActivitiesDimensions" type="xbrli:stringItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-char_ItemsInheritingCharityFundsDimensions" name="ItemsInheritingCharityFundsDimensions" type="xbrli:stringItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-char_ItemsInheritingSOFADataDimensions" name="ItemsInheritingSOFADataDimensions" type="xbrli:stringItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-char_ItemsInheritingTrusteesOfficersDimension" name="ItemsInheritingTrusteesOfficersDimension" type="xbrli:stringItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-char_LegaciesCostsGeneratingContributions" name="LegaciesCostsGeneratingContributions" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" xbrli:balance="debit" nillable="true" />
+  <element id="uk-char_LegaciesProceeds" name="LegaciesProceeds" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" xbrli:balance="credit" nillable="true" />
+  <element id="uk-char_LegaciesReceivablePolicy" name="LegaciesReceivablePolicy" type="xbrli:stringItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" nillable="true" />
+  <element id="uk-char_LegalFeesCharitableActivities" name="LegalFeesCharitableActivities" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" xbrli:balance="debit" nillable="true" />
+  <element id="uk-char_LegalFeesFundGeneration" name="LegalFeesFundGeneration" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" xbrli:balance="debit" nillable="true" />
+  <element id="uk-char_LegalFeesGovernance" name="LegalFeesGovernance" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" xbrli:balance="debit" nillable="true" />
+  <element id="uk-char_LegalFeesTotalCosts" name="LegalFeesTotalCosts" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" xbrli:balance="debit" nillable="true" />
+  <element id="uk-char_ListTrusteesEntityOfficersHeading" name="ListTrusteesEntityOfficersHeading" type="xbrli:stringItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-char_LocalFundraisingStreetCollectionCostsGeneratingFunds" name="LocalFundraisingStreetCollectionCostsGeneratingFunds" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" xbrli:balance="debit" nillable="true" />
+  <element id="uk-char_LocalFundraisingStreetCollectionFundGeneration" name="LocalFundraisingStreetCollectionFundGeneration" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" xbrli:balance="credit" nillable="true" />
+  <element id="uk-char_LotteriesCompetitionsCostsGeneratingFunds" name="LotteriesCompetitionsCostsGeneratingFunds" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" xbrli:balance="debit" nillable="true" />
+  <element id="uk-char_LotteriesCompetitionsIncomeFundGeneration" name="LotteriesCompetitionsIncomeFundGeneration" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" xbrli:balance="credit" nillable="true" />
+  <element id="uk-char_MarketingPublicityCostsCharitableActivities" name="MarketingPublicityCostsCharitableActivities" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" xbrli:balance="debit" nillable="true" />
+  <element id="uk-char_MarketingPublicityCostsGeneratingFunds" name="MarketingPublicityCostsGeneratingFunds" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" xbrli:balance="debit" nillable="true" />
+  <element id="uk-char_MembershipContributionsCostsGeneratingFunds" name="MembershipContributionsCostsGeneratingFunds" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" xbrli:balance="debit" nillable="true" />
+  <element id="uk-char_MembershipContributionsFundGeneration" name="MembershipContributionsFundGeneration" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" xbrli:balance="credit" nillable="true" />
+  <element id="uk-char_NameTrustee" name="NameTrustee" type="xbrli:stringItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" nillable="true" />
+  <element id="uk-char_NameTrusteeSigningAccounts" name="NameTrusteeSigningAccounts" type="uk-types:fixedItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" nillable="true" />
+  <element id="uk-char_NetAssetsByCharityFund-AnalysisHeading" name="NetAssetsByCharityFund-AnalysisHeading" type="xbrli:stringItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-char_NetIncomeLossFromTrading" name="NetIncomeLossFromTrading" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" xbrli:balance="credit" nillable="true" />
+  <element id="uk-char_NetIncomingOutgoingResourcesBeforeOtherRecognisedGainsLosses" name="NetIncomingOutgoingResourcesBeforeOtherRecognisedGainsLosses" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" xbrli:balance="credit" nillable="true" />
+  <element id="uk-char_NetIncomingOutgoingResourcesBeforeTransfersOtherRecognisedGainsLosses" name="NetIncomingOutgoingResourcesBeforeTransfersOtherRecognisedGainsLosses" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" xbrli:balance="credit" nillable="true" />
+  <element id="uk-char_NetIncomingResourcesLessCostsGeneratingFunds" name="NetIncomingResourcesLessCostsGeneratingFunds" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" xbrli:balance="credit" nillable="true" />
+  <element id="uk-char_NetIncomingResourcesSubtotalsHeading" name="NetIncomingResourcesSubtotalsHeading" type="xbrli:stringItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-char_NetIncreaseDecreaseInCharitableFunds" name="NetIncreaseDecreaseInCharitableFunds" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" xbrli:balance="credit" nillable="true" />
+  <element id="uk-char_NetVoluntaryIncomeCapitalGrantsCosts" name="NetVoluntaryIncomeCapitalGrantsCosts" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" xbrli:balance="credit" nillable="true" />
+  <element id="uk-char_NotesOnSOFAHeading" name="NotesOnSOFAHeading" type="xbrli:stringItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-char_OtherAccountingPoliciesHeading" name="OtherAccountingPoliciesHeading" type="xbrli:stringItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-char_OtherAccountingPolicyStatementsHeading" name="OtherAccountingPolicyStatementsHeading" type="xbrli:stringItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-char_OtherCharitableActivitiesCosts" name="OtherCharitableActivitiesCosts" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" xbrli:balance="debit" nillable="true" />
+  <element id="uk-char_OtherCharitableActivity" name="OtherCharitableActivity" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-char_OtherCostsActivitiesForGeneratingFunds" name="OtherCostsActivitiesForGeneratingFunds" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" xbrli:balance="debit" nillable="true" />
+  <element id="uk-char_OtherCostsCharitableActivities" name="OtherCostsCharitableActivities" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" xbrli:balance="debit" nillable="true" />
+  <element id="uk-char_OtherCostsFundGeneration" name="OtherCostsFundGeneration" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" xbrli:balance="debit" nillable="true" />
+  <element id="uk-char_OtherCostsGeneratingVoluntaryContributions" name="OtherCostsGeneratingVoluntaryContributions" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" xbrli:balance="debit" nillable="true" />
+  <element id="uk-char_OtherCostsGovernance" name="OtherCostsGovernance" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" xbrli:balance="debit" nillable="true" />
+  <element id="uk-char_OtherCostsServicesForCharitableActivitiesGrouping" name="OtherCostsServicesForCharitableActivitiesGrouping" substitutionGroup="xbrli:tuple" nillable="true">
+    <complexType>
+      <complexContent>
+        <restriction base="anyType">
+          <sequence>
+            <element ref="uk-char:DescriptionOtherTypeServiceForCharitableActivities" minOccurs="0" maxOccurs="1" />
+            <element ref="uk-char:CostsOtherTypeServiceProvisionForCharitableActivities" minOccurs="0" maxOccurs="1" />
+          </sequence>
+          <attribute name="id" type="ID" />
+        </restriction>
+      </complexContent>
+    </complexType>
+  </element>
+  <element id="uk-char_OtherDirectCostsCharitableActivities" name="OtherDirectCostsCharitableActivities" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" xbrli:balance="debit" nillable="true" />
+  <element id="uk-char_OtherDirectCostsFundGeneration" name="OtherDirectCostsFundGeneration" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" xbrli:balance="debit" nillable="true" />
+  <element id="uk-char_OtherDirectCostsTotalCosts" name="OtherDirectCostsTotalCosts" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" xbrli:balance="debit" nillable="true" />
+  <element id="uk-char_OtherEventsForCharitableActivitiesGrouping" name="OtherEventsForCharitableActivitiesGrouping" substitutionGroup="xbrli:tuple" nillable="true">
+    <complexType>
+      <complexContent>
+        <restriction base="anyType">
+          <sequence>
+            <element ref="uk-char:DescriptionOtherTypeEventForCharitableActivities" minOccurs="0" maxOccurs="1" />
+            <element ref="uk-char:CostsOtherTypeEventForCharitableActivities" minOccurs="0" maxOccurs="1" />
+          </sequence>
+          <attribute name="id" type="ID" />
+        </restriction>
+      </complexContent>
+    </complexType>
+  </element>
+  <element id="uk-char_OtherEventsForCharitableActivitiesWhichRaiseIncomeGrouping" name="OtherEventsForCharitableActivitiesWhichRaiseIncomeGrouping" substitutionGroup="xbrli:tuple" nillable="true">
+    <complexType>
+      <complexContent>
+        <restriction base="anyType">
+          <sequence>
+            <element ref="uk-char:DescriptionOtherTypeIncome-raisingEventForCharitableActivities" minOccurs="0" maxOccurs="1" />
+            <element ref="uk-char:IncomeFromOtherTypeEventForCharitableActivities" minOccurs="0" maxOccurs="1" />
+            <element ref="uk-char:CostsOtherTypeIncome-raisingEventForCharitableActivities" minOccurs="0" maxOccurs="1" />
+          </sequence>
+          <attribute name="id" type="ID" />
+        </restriction>
+      </complexContent>
+    </complexType>
+  </element>
+  <element id="uk-char_OtherEventsForGeneratingFundsGrouping" name="OtherEventsForGeneratingFundsGrouping" substitutionGroup="xbrli:tuple" nillable="true">
+    <complexType>
+      <complexContent>
+        <restriction base="anyType">
+          <sequence>
+            <element ref="uk-char:DescriptionOtherTypeEventForGeneratingFunds" minOccurs="0" maxOccurs="1" />
+            <element ref="uk-char:IncomeFromOtherTypeEventForGeneratingFunds" minOccurs="0" maxOccurs="1" />
+            <element ref="uk-char:CostsOtherTypeEventForGeneratingFunds" minOccurs="0" maxOccurs="1" />
+          </sequence>
+          <attribute name="id" type="ID" />
+        </restriction>
+      </complexContent>
+    </complexType>
+  </element>
+  <element id="uk-char_OtherGrantsVoluntaryIncomeIncludingCapitalGrants" name="OtherGrantsVoluntaryIncomeIncludingCapitalGrants" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" xbrli:balance="credit" nillable="true" />
+  <element id="uk-char_OtherIncomeCharitableActivities" name="OtherIncomeCharitableActivities" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" xbrli:balance="credit" nillable="true" />
+  <element id="uk-char_OtherIncomeFromActivitiesForGeneratingFunds" name="OtherIncomeFromActivitiesForGeneratingFunds" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" xbrli:balance="credit" nillable="true" />
+  <element id="uk-char_OtherIncomeFromProvisionServicesForCharitableActivitiesGrouping" name="OtherIncomeFromProvisionServicesForCharitableActivitiesGrouping" substitutionGroup="xbrli:tuple" nillable="true">
+    <complexType>
+      <complexContent>
+        <restriction base="anyType">
+          <sequence>
+            <element ref="uk-char:DescriptionOtherTypeIncome-raisingServiceForCharitableActivities" minOccurs="0" maxOccurs="1" />
+            <element ref="uk-char:IncomeFromOtherTypeIncome-raisingServiceProvisionForCharitableActivities" minOccurs="0" maxOccurs="1" />
+          </sequence>
+          <attribute name="id" type="ID" />
+        </restriction>
+      </complexContent>
+    </complexType>
+  </element>
+  <element id="uk-char_OtherIncomingResources" name="OtherIncomingResources" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" xbrli:balance="credit" nillable="true" />
+  <element id="uk-char_OtherNotesOnBalanceSheetHeading" name="OtherNotesOnBalanceSheetHeading" type="xbrli:stringItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-char_OtherNotesOnCashFlowStatementHeading" name="OtherNotesOnCashFlowStatementHeading" type="xbrli:stringItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-char_OtherResourcesExpended" name="OtherResourcesExpended" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" xbrli:balance="debit" nillable="true" />
+  <element id="uk-char_OtherSupportCosts" name="OtherSupportCosts" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" xbrli:balance="debit" nillable="true" />
+  <element id="uk-char_OtherTotalCosts" name="OtherTotalCosts" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" xbrli:balance="debit" nillable="true" />
+  <element id="uk-char_OtherTypesActivitiesForGeneratingFundsGrouping" name="OtherTypesActivitiesForGeneratingFundsGrouping" substitutionGroup="xbrli:tuple" nillable="true">
+    <complexType>
+      <complexContent>
+        <restriction base="anyType">
+          <sequence>
+            <element ref="uk-char:DescriptionOtherTypeActivitiesForGeneratingFunds" minOccurs="0" maxOccurs="1" />
+            <element ref="uk-char:IncomeFromOtherTypeActivitiesForGeneratingFunds" minOccurs="0" maxOccurs="1" />
+            <element ref="uk-char:CostsOtherTypeActivitiesForGeneratingFunds" minOccurs="0" maxOccurs="1" />
+          </sequence>
+          <attribute name="id" type="ID" />
+        </restriction>
+      </complexContent>
+    </complexType>
+  </element>
+  <element id="uk-char_OtherTypesCharitableActivitiesGrouping" name="OtherTypesCharitableActivitiesGrouping" substitutionGroup="xbrli:tuple" nillable="true">
+    <complexType>
+      <complexContent>
+        <restriction base="anyType">
+          <sequence>
+            <element ref="uk-char:DescriptionOtherTypeCharitableActivity" minOccurs="1" maxOccurs="1" />
+            <element ref="uk-char:CostsOtherTypeCharitableActivity" minOccurs="0" maxOccurs="1" />
+          </sequence>
+          <attribute name="id" type="ID" />
+        </restriction>
+      </complexContent>
+    </complexType>
+  </element>
+  <element id="uk-char_OtherTypesTradingIncomeGrouping" name="OtherTypesTradingIncomeGrouping" substitutionGroup="xbrli:tuple" nillable="true">
+    <complexType>
+      <complexContent>
+        <restriction base="anyType">
+          <sequence>
+            <element ref="uk-char:DescriptionOtherTypeTradingIncome" minOccurs="0" maxOccurs="1" />
+            <element ref="uk-char:IncomeFromOtherTypeTrading" minOccurs="0" maxOccurs="1" />
+            <element ref="uk-char:CostsOtherTypeTrading" minOccurs="0" maxOccurs="1" />
+          </sequence>
+          <attribute name="id" type="ID" />
+        </restriction>
+      </complexContent>
+    </complexType>
+  </element>
+  <element id="uk-char_OtherUKGAAPTagsAvailableForUseWithCharityFinancialDataHeading" name="OtherUKGAAPTagsAvailableForUseWithCharityFinancialDataHeading" type="xbrli:stringItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-char_OtherVoluntaryIncomeIncludingCapitalGifts" name="OtherVoluntaryIncomeIncludingCapitalGifts" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" xbrli:balance="credit" nillable="true" />
+  <element id="uk-char_OutgoingResourcesFromCharitableFundsInPeriod" name="OutgoingResourcesFromCharitableFundsInPeriod" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" xbrli:balance="debit" nillable="true" />
+  <element id="uk-char_PolicyDevelopmentCharitableActivitiesCosts" name="PolicyDevelopmentCharitableActivitiesCosts" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" xbrli:balance="debit" nillable="true" />
+  <element id="uk-char_PovertyReliefPrevention" name="PovertyReliefPrevention" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-char_ProfitForPeriodRetainedInSubsidiary" name="ProfitForPeriodRetainedInSubsidiary" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" xbrli:balance="credit" nillable="true" />
+  <element id="uk-char_ProfitLossAccountOtherDataHeading" name="ProfitLossAccountOtherDataHeading" type="xbrli:stringItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-char_Programme-relatedSocialInvestments" name="Programme-relatedSocialInvestments" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-char_ProgrammeRelatedSocialInvestmentsPolicy" name="ProgrammeRelatedSocialInvestmentsPolicy" type="xbrli:stringItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" nillable="true" />
+  <element id="uk-char_ProgrammerelatedSocialInvestmentsPolicy" name="ProgrammerelatedSocialInvestmentsPolicy" type="xbrli:stringItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" nillable="true" />
+  <element id="uk-char_PropertyProvisionCharitableActivitiesCosts" name="PropertyProvisionCharitableActivitiesCosts" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" xbrli:balance="debit" nillable="true" />
+  <element id="uk-char_PropertyRentalIncomeCharitableActivities" name="PropertyRentalIncomeCharitableActivities" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" xbrli:balance="credit" nillable="true" />
+  <element id="uk-char_PropertyRentalIncomeCostsGeneratingFunds" name="PropertyRentalIncomeCostsGeneratingFunds" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" xbrli:balance="debit" nillable="true" />
+  <element id="uk-char_PropertyRentalIncomeFundGeneration" name="PropertyRentalIncomeFundGeneration" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" xbrli:balance="credit" nillable="true" />
+  <element id="uk-char_ProvisionInformationCharitableActivitiesCosts" name="ProvisionInformationCharitableActivitiesCosts" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" xbrli:balance="debit" nillable="true" />
+  <element id="uk-char_ProvisionInformationIncomeCharitableActivities" name="ProvisionInformationIncomeCharitableActivities" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" xbrli:balance="credit" nillable="true" />
+  <element id="uk-char_ProvisionSupportCharitableActivitiesCosts" name="ProvisionSupportCharitableActivitiesCosts" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" xbrli:balance="debit" nillable="true" />
+  <element id="uk-char_ProvisionSupportIncomeCharitableActivities" name="ProvisionSupportIncomeCharitableActivities" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" xbrli:balance="credit" nillable="true" />
+  <element id="uk-char_PurchaseHeritageAssets" name="PurchaseHeritageAssets" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" nillable="true" />
+  <element id="uk-char_RealisedGainLossFromDisposalInvestmentAssets" name="RealisedGainLossFromDisposalInvestmentAssets" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" xbrli:balance="credit" nillable="true" />
+  <element id="uk-char_RecognitionOfLiabilitiesPolicy" name="RecognitionOfLiabilitiesPolicy" type="xbrli:stringItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" nillable="true" />
+  <element id="uk-char_RegularGivingCostsGeneratingVoluntaryContributions" name="RegularGivingCostsGeneratingVoluntaryContributions" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" xbrli:balance="debit" nillable="true" />
+  <element id="uk-char_RegularGivingVoluntaryIncomeCapitalDonations" name="RegularGivingVoluntaryIncomeCapitalDonations" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" xbrli:balance="credit" nillable="true" />
+  <element id="uk-char_Relief-in-needYoungElderlyOrOthersInDistress" name="Relief-in-needYoungElderlyOrOthersInDistress" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-char_Religion" name="Religion" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-char_ResearchDevelopmentCharitableActivitiesCosts" name="ResearchDevelopmentCharitableActivitiesCosts" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" xbrli:balance="debit" nillable="true" />
+  <element id="uk-char_ResearchDevelopmentIncomeCharitableActivities" name="ResearchDevelopmentIncomeCharitableActivities" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" xbrli:balance="credit" nillable="true" />
+  <element id="uk-char_ReservesRetainedInSubsidiary" name="ReservesRetainedInSubsidiary" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="instant" xbrli:balance="credit" nillable="true" />
+  <element id="uk-char_ResourcesExpended" name="ResourcesExpended" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" xbrli:balance="debit" nillable="true" />
+  <element id="uk-char_ResourcesExpendedCostsByFunctionOrNaturalCategoryHeading" name="ResourcesExpendedCostsByFunctionOrNaturalCategoryHeading" type="xbrli:stringItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-char_ResourcesExpendedPolicy" name="ResourcesExpendedPolicy" type="xbrli:stringItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" nillable="true" />
+  <element id="uk-char_RestrictedFunds" name="RestrictedFunds" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-char_RestrictedIncomeFunds" name="RestrictedIncomeFunds" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-char_RestrictedIncomeFundsAccountingPolicy" name="RestrictedIncomeFundsAccountingPolicy" type="xbrli:stringItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" nillable="true" />
+  <element id="uk-char_SOFADataHypercube" name="SOFADataHypercube" type="xbrli:stringItemType" substitutionGroup="xbrldt:hypercubeItem" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-char_SaleHeritageAssets" name="SaleHeritageAssets" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" nillable="true" />
+  <element id="uk-char_SalesGoodsServicesFundGeneration" name="SalesGoodsServicesFundGeneration" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" xbrli:balance="credit" nillable="true" />
+  <element id="uk-char_ShopIncomeFromSellingDonatedGoodsBought-inServices" name="ShopIncomeFromSellingDonatedGoodsBought-inServices" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" xbrli:balance="credit" nillable="true" />
+  <element id="uk-char_SponsorshipCostsGeneratingFunds" name="SponsorshipCostsGeneratingFunds" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" xbrli:balance="debit" nillable="true" />
+  <element id="uk-char_SponsorshipIncomeFundGeneration" name="SponsorshipIncomeFundGeneration" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" xbrli:balance="credit" nillable="true" />
+  <element id="uk-char_StaffCostsCharitableActivities" name="StaffCostsCharitableActivities" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" xbrli:balance="debit" nillable="true" />
+  <element id="uk-char_StaffCostsFundGeneration" name="StaffCostsFundGeneration" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" xbrli:balance="debit" nillable="true" />
+  <element id="uk-char_StaffCostsGovernance" name="StaffCostsGovernance" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" xbrli:balance="debit" nillable="true" />
+  <element id="uk-char_StatementFinancialActivitiesHeading" name="StatementFinancialActivitiesHeading" type="xbrli:stringItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-char_SupportCosts" name="SupportCosts" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" xbrli:balance="debit" nillable="true" />
+  <element id="uk-char_SupportCostsHeading" name="SupportCostsHeading" type="xbrli:stringItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-char_TotalCosts-AnalysisByFunctionHeading" name="TotalCosts-AnalysisByFunctionHeading" type="xbrli:stringItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-char_TotalFundsDefault" name="TotalFundsDefault" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-char_TradingIncome" name="TradingIncome" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" xbrli:balance="credit" nillable="true" />
+  <element id="uk-char_TradingSubsidiariesProfitLossHeading" name="TradingSubsidiariesProfitLossHeading" type="xbrli:stringItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-char_TradingSubsidiariesResultsHeading" name="TradingSubsidiariesResultsHeading" type="xbrli:stringItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-char_TradingSubsidiaryCosts" name="TradingSubsidiaryCosts" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" xbrli:balance="debit" nillable="true" />
+  <element id="uk-char_Trustee1" name="Trustee1" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-char_Trustee10" name="Trustee10" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-char_Trustee11" name="Trustee11" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-char_Trustee12" name="Trustee12" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-char_Trustee13" name="Trustee13" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-char_Trustee14" name="Trustee14" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-char_Trustee15" name="Trustee15" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-char_Trustee16" name="Trustee16" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-char_Trustee17" name="Trustee17" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-char_Trustee18" name="Trustee18" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-char_Trustee19" name="Trustee19" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-char_Trustee2" name="Trustee2" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-char_Trustee20" name="Trustee20" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-char_Trustee21" name="Trustee21" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-char_Trustee22" name="Trustee22" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-char_Trustee23" name="Trustee23" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-char_Trustee24" name="Trustee24" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-char_Trustee25" name="Trustee25" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-char_Trustee26" name="Trustee26" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-char_Trustee27" name="Trustee27" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-char_Trustee28" name="Trustee28" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-char_Trustee29" name="Trustee29" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-char_Trustee3" name="Trustee3" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-char_Trustee30" name="Trustee30" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-char_Trustee4" name="Trustee4" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-char_Trustee5" name="Trustee5" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-char_Trustee6" name="Trustee6" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-char_Trustee7" name="Trustee7" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-char_Trustee8" name="Trustee8" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-char_Trustee9" name="Trustee9" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-char_TrusteeCostsCharitableActivities" name="TrusteeCostsCharitableActivities" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" xbrli:balance="debit" nillable="true" />
+  <element id="uk-char_TrusteeCostsGovernance" name="TrusteeCostsGovernance" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" xbrli:balance="debit" nillable="true" />
+  <element id="uk-char_TrusteeExpenses" name="TrusteeExpenses" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" nillable="true" />
+  <element id="uk-char_TrusteeSalary" name="TrusteeSalary" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" nillable="true" />
+  <element id="uk-char_TrusteeSigningReport" name="TrusteeSigningReport" type="uk-types:fixedItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" nillable="true" />
+  <element id="uk-char_TrusteeTotalRemuneration" name="TrusteeTotalRemuneration" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" nillable="true" />
+  <element id="uk-char_TrusteesAreAwareCharityCommissionGuidanceOnPublicBenefit" name="TrusteesAreAwareCharityCommissionGuidanceOnPublicBenefit" type="xbrli:booleanItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" nillable="true" />
+  <element id="uk-char_TrusteesOfficersDimension" name="TrusteesOfficersDimension" type="xbrli:stringItemType" substitutionGroup="xbrldt:dimensionItem" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-char_TrusteesOfficersHypercube" name="TrusteesOfficersHypercube" type="xbrli:stringItemType" substitutionGroup="xbrldt:hypercubeItem" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-char_TrusteesRemunerationFree-textComment" name="TrusteesRemunerationFree-textComment" type="xbrli:stringItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" nillable="true" />
+  <element id="uk-char_TrusteesRemunerationHeading" name="TrusteesRemunerationHeading" type="xbrli:stringItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-char_TrusteesReportHeading" name="TrusteesReportHeading" type="xbrli:stringItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-char_TrusteesTotalCosts" name="TrusteesTotalCosts" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" xbrli:balance="debit" nillable="true" />
+  <element id="uk-char_UnrealisedGainLossFromRevaluationInvestmentAssets" name="UnrealisedGainLossFromRevaluationInvestmentAssets" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" xbrli:balance="credit" nillable="true" />
+  <element id="uk-char_UnrestrictedFunds" name="UnrestrictedFunds" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-char_UnrestrictedFundsAccountingPolicy" name="UnrestrictedFundsAccountingPolicy" type="xbrli:stringItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" nillable="true" />
+  <element id="uk-char_UnrestrictedFundsDesignated" name="UnrestrictedFundsDesignated" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-char_UnrestrictedFundsGeneral" name="UnrestrictedFundsGeneral" type="uk-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-char_UseDimensionsToIdentifyDifferentTypesCharitableFundsExplanation" name="UseDimensionsToIdentifyDifferentTypesCharitableFundsExplanation" type="xbrli:stringItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-char_UseInvestmentPurposeDimensionToIdentifyProgramme-relatedInvestmentsInvestmentsHeldForReturnExplanation" name="UseInvestmentPurposeDimensionToIdentifyProgramme-relatedInvestmentsInvestmentsHeldForReturnExplanation" type="xbrli:stringItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-char_UseSubsidiariesDimensionToIdentifyTotalIndividualSubsidiariesHeading" name="UseSubsidiariesDimensionToIdentifyTotalIndividualSubsidiariesHeading" type="xbrli:stringItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-char_ValuationHeritageAssetsGrouping" name="ValuationHeritageAssetsGrouping" substitutionGroup="xbrli:tuple" nillable="true">
+    <complexType>
+      <complexContent>
+        <restriction base="anyType">
+          <sequence>
+            <element ref="uk-char:DescriptionSpecificHeritageAssetsBeingValued" minOccurs="0" maxOccurs="1" />
+            <element ref="uk-char:ValueSpecificHeritageAssetsAssignedValuation" minOccurs="0" maxOccurs="1" />
+            <element ref="uk-char:DateValuationHeritageAssets" minOccurs="0" maxOccurs="1" />
+            <element ref="uk-char:DescriptionMethodValuationHeritageAssets" minOccurs="0" maxOccurs="1" />
+            <element ref="uk-char:DescriptionAnySignificantLimitationsOnValuation" minOccurs="0" maxOccurs="1" />
+            <element ref="uk-char:DescriptionExternalValuersIfUsed" minOccurs="0" maxOccurs="1" />
+          </sequence>
+          <attribute name="id" type="ID" />
+        </restriction>
+      </complexContent>
+    </complexType>
+  </element>
+  <element id="uk-char_ValueSpecificHeritageAssetsAssignedValuation" name="ValueSpecificHeritageAssetsAssignedValuation" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="instant" xbrli:balance="debit" nillable="true" />
+  <element id="uk-char_VoluntaryContributionsHeading" name="VoluntaryContributionsHeading" type="xbrli:stringItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" abstract="true" nillable="true" />
+  <element id="uk-char_VoluntaryIncome" name="VoluntaryIncome" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" xbrli:balance="credit" nillable="true" />
+  <element id="uk-char_VoluntaryIncomePolicy" name="VoluntaryIncomePolicy" type="xbrli:stringItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" nillable="true" />
+</schema>

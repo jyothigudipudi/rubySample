@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+            Taxonomy: 2009-04-01 (Final)
+            ********************** 
+            Copyright © 2009 International Accounting Standards Committee (IASC) Foundation 
+            This material is copyright of the IASC Foundation and all rights are reserved. 
+            No part of this material may be translated, reprinted, reproduced or utilised in 
+            any form or manner that is not expressly permitted by the IASC Foundations XBRL 
+            IP Policy see: http://www.iasb.org/xbrl/ 
+            ********************** 
+            
+
+        -->
+<link:linkbase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.xbrl.org/2006/ref http://www.xbrl.org/2006/ref-2006-02-27.xsd http://www.xbrl.org/2003/linkbase http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:ref="http://www.xbrl.org/2006/ref" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <link:roleRef roleURI="http://xbrl.iasb.org/role/reference/commonPracticeRef" xlink:type="simple" xlink:href="../../ifrs-roles_2009-04-01.xsd#commonPracticeRef"/>
+  <link:referenceLink xlink:type="extended" xlink:role="http://www.xbrl.org/2003/role/link">
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_ProceedsFromLongtermBorrowingsClassifiedAsFinancingActivities" xlink:label="loc_4"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_DisclosureOfRedemptionProhibitionTransferBetweenFinancialLiabilitiesAndEquityExplanatory" xlink:label="loc"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_TimingAndReasonForTransferBetweenFinancialLiabilitiesAndEquityAttributableToChangeInRedemptionProhibition" xlink:label="loc_2"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_TransferBetweenFinancialLiabilitiesAndEquityAttributableToChangeInRedemptionProhibition" xlink:label="loc_3"/>
+    <link:reference xlink:type="resource" xlink:label="res_3" xlink:role="http://xbrl.iasb.org/role/reference/commonPracticeRef">
+      <ref:Name>IAS</ref:Name>
+      <ref:Number>7</ref:Number>
+      <ref:IssueDate>2009-01-01</ref:IssueDate>
+      <ref:Paragraph>17</ref:Paragraph>
+      <ref:Subparagraph>c</ref:Subparagraph>
+    </link:reference>
+    <link:reference xlink:type="resource" xlink:label="res" xlink:role="http://www.xbrl.org/2003/role/reference">
+      <ref:Name>IFRIC</ref:Name>
+      <ref:Number>2</ref:Number>
+      <ref:IssueDate>2009-01-01</ref:IssueDate>
+      <ref:Section>Disclosure</ref:Section>
+    </link:reference>
+    <link:reference xlink:type="resource" xlink:label="res_2" xlink:role="http://www.xbrl.org/2003/role/disclosureRef">
+      <ref:Name>IFRIC</ref:Name>
+      <ref:Number>2</ref:Number>
+      <ref:IssueDate>2009-01-01</ref:IssueDate>
+      <ref:Paragraph>13</ref:Paragraph>
+    </link:reference>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="loc_4" xlink:to="res_3" order="1.0"/>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="loc" xlink:to="res"/>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="loc_2" xlink:to="res_2"/>
+    <link:referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="loc_3" xlink:to="res_2"/>
+  </link:referenceLink>
+</link:linkbase>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+UK-IFRS - entry schema for full IFRS BANKING taxonomy and associated files 
+2009-09-01 VERSION 1.3
+Copyright and other information - see http://www.xbrl.org/uk/legal.aspx
+-->
+<schema xmlns="http://www.w3.org/2001/XMLSchema" xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:uk-bank-all="http://www.xbrl.org/uk/ifrs/bank-all/2009-09-01" targetNamespace="http://www.xbrl.org/uk/ifrs/bank-all/2009-09-01" elementFormDefault="qualified" attributeFormDefault="unqualified">
+  <import namespace="http://www.xbrl.org/2003/instance" schemaLocation="http://www.xbrl.org/2003/xbrl-instance-2003-12-31.xsd" />
+  <import namespace="http://www.xbrl.org/uk/ifrs/banking/2009-09-01" schemaLocation="ifrs/banking/2009-09-01/uk-banking-2009-09-01.xsd" />
+</schema>

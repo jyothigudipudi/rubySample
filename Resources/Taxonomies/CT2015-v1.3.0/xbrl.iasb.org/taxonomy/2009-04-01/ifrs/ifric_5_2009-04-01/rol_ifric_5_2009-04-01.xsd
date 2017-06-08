@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+            Taxonomy: 2009-04-01 (Final)
+            ********************** 
+            Copyright © 2009 International Accounting Standards Committee (IASC) Foundation 
+            This material is copyright of the IASC Foundation and all rights are reserved. 
+            No part of this material may be translated, reprinted, reproduced or utilised in 
+            any form or manner that is not expressly permitted by the IASC Foundations XBRL 
+            IP Policy see: http://www.iasb.org/xbrl/ 
+            ********************** 
+            
+
+        -->
+<xsd:schema targetNamespace="http://xbrl.iasb.org/role/ifrs/rol_ifric_5_2009-04-01" attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:rol_ifric_5_2009-04-01="http://xbrl.iasb.org/role/ifrs/rol_ifric_5_2009-04-01" xmlns:link="http://www.xbrl.org/2003/linkbase">
+  <xsd:annotation>
+    <xsd:appinfo>
+      <link:roleType roleURI="http://xbrl.iasb.org/role/ifrs/IFRIC_5_2009-04-01_role-868200" id="IFRIC_5_2009-04-01_role-868200">
+        <link:definition>[868200] Notes - Nature of interest and restrictions on access to assets in funds</link:definition>
+        <link:usedOn>link:definitionLink</link:usedOn>
+        <link:usedOn>link:presentationLink</link:usedOn>
+      </link:roleType>
+    </xsd:appinfo>
+  </xsd:annotation>
+  <xsd:import namespace="http://www.xbrl.org/2003/linkbase" schemaLocation="http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd"/>
+</xsd:schema>

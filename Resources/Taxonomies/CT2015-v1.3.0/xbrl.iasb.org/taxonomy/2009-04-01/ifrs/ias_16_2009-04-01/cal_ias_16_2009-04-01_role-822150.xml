@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+            Taxonomy: 2009-04-01 (Final)
+            ********************** 
+            Copyright © 2009 International Accounting Standards Committee (IASC) Foundation 
+            This material is copyright of the IASC Foundation and all rights are reserved. 
+            No part of this material may be translated, reprinted, reproduced or utilised in 
+            any form or manner that is not expressly permitted by the IASC Foundations XBRL 
+            IP Policy see: http://www.iasb.org/xbrl/ 
+            ********************** 
+            
+
+        -->
+<link:linkbase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.xbrl.org/2003/linkbase http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <link:roleRef roleURI="http://xbrl.iasb.org/role/ifrs/IAS_16_2009-04-01_role-822150" xlink:type="simple" xlink:href="rol_ias_16_2009-04-01.xsd#IAS_16_2009-04-01_role-822150"/>
+  <link:calculationLink xlink:type="extended" xlink:role="http://xbrl.iasb.org/role/ifrs/IAS_16_2009-04-01_role-822150" xlink:title="[822150] Notes - Classes of property, plant and equipment, gross carrying amount/accumulated depreciation">
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_LandAndBuildings" xlink:label="loc"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_LandAndBuildingsGross" xlink:label="loc_2"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_LandAndBuildingsAccumulatedDepreciationAndImpairment" xlink:label="loc_3"/>
+    <link:calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc" xlink:to="loc_2" order="10.0" weight="1"/>
+    <link:calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc" xlink:to="loc_3" order="20.0" weight="-1"/>
+  </link:calculationLink>
+  <link:calculationLink xlink:type="extended" xlink:role="http://xbrl.iasb.org/role/ifrs/IAS_16_2009-04-01_role-822150" xlink:title="[822150] Notes - Classes of property, plant and equipment, gross carrying amount/accumulated depreciation">
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_TangibleExplorationAndEvaluationAssets" xlink:label="loc"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_TangibleExplorationAndEvaluationAssetsGross" xlink:label="loc_2"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_TangibleExplorationAndEvaluationAssetsAccumulatedDepreciationAndImpairment" xlink:label="loc_3"/>
+    <link:calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc" xlink:to="loc_2" order="10.0" weight="1"/>
+    <link:calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc" xlink:to="loc_3" order="20.0" weight="-1"/>
+  </link:calculationLink>
+  <link:calculationLink xlink:type="extended" xlink:role="http://xbrl.iasb.org/role/ifrs/IAS_16_2009-04-01_role-822150" xlink:title="[822150] Notes - Classes of property, plant and equipment, gross carrying amount/accumulated depreciation">
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_FixturesAndFittings" xlink:label="loc"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_FixturesAndFittingsGross" xlink:label="loc_2"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_FixturesAndFittingsAccumulatedDepreciationAndImpairment" xlink:label="loc_3"/>
+    <link:calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc" xlink:to="loc_2" order="10.0" weight="1"/>
+    <link:calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc" xlink:to="loc_3" order="20.0" weight="-1"/>
+  </link:calculationLink>
+  <link:calculationLink xlink:type="extended" xlink:role="http://xbrl.iasb.org/role/ifrs/IAS_16_2009-04-01_role-822150" xlink:title="[822150] Notes - Classes of property, plant and equipment, gross carrying amount/accumulated depreciation">
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_ConstructionInProgress" xlink:label="loc"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_ConstructionInProgressGross" xlink:label="loc_2"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_ConstructionInProgressAccumulatedDepreciationAndImpairment" xlink:label="loc_3"/>
+    <link:calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc" xlink:to="loc_2" order="10.0" weight="1"/>
+    <link:calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc" xlink:to="loc_3" order="20.0" weight="-1"/>
+  </link:calculationLink>
+  <link:calculationLink xlink:type="extended" xlink:role="http://xbrl.iasb.org/role/ifrs/IAS_16_2009-04-01_role-822150" xlink:title="[822150] Notes - Classes of property, plant and equipment, gross carrying amount/accumulated depreciation">
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_OfficeEquipment" xlink:label="loc"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_OfficeEquipmentGross" xlink:label="loc_2"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_OfficeEquipmentAccumulatedDepreciationAndImpairment" xlink:label="loc_3"/>
+    <link:calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc" xlink:to="loc_2" order="10.0" weight="1"/>
+    <link:calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc" xlink:to="loc_3" order="20.0" weight="-1"/>
+  </link:calculationLink>
+  <link:calculationLink xlink:type="extended" xlink:role="http://xbrl.iasb.org/role/ifrs/IAS_16_2009-04-01_role-822150" xlink:title="[822150] Notes - Classes of property, plant and equipment, gross carrying amount/accumulated depreciation">
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_Vehicles" xlink:label="loc"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_VehiclesGross" xlink:label="loc_2"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_VehiclesAccumulatedDepreciationAndImpairment" xlink:label="loc_3"/>
+    <link:calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc" xlink:to="loc_2" order="10.0" weight="1"/>
+    <link:calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc" xlink:to="loc_3" order="20.0" weight="-1"/>
+  </link:calculationLink>
+  <link:calculationLink xlink:type="extended" xlink:role="http://xbrl.iasb.org/role/ifrs/IAS_16_2009-04-01_role-822150" xlink:title="[822150] Notes - Classes of property, plant and equipment, gross carrying amount/accumulated depreciation">
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_Machinery" xlink:label="loc"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_MachineryGross" xlink:label="loc_2"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_MachineryAccumulatedDepreciationAndImpairment" xlink:label="loc_3"/>
+    <link:calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc" xlink:to="loc_2" order="10.0" weight="1"/>
+    <link:calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc" xlink:to="loc_3" order="20.0" weight="-1"/>
+  </link:calculationLink>
+  <link:calculationLink xlink:type="extended" xlink:role="http://xbrl.iasb.org/role/ifrs/IAS_16_2009-04-01_role-822150" xlink:title="[822150] Notes - Classes of property, plant and equipment, gross carrying amount/accumulated depreciation">
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_OtherPropertyPlantAndEquipment" xlink:label="loc"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_OtherPropertyPlantAndEquipmentGross" xlink:label="loc_2"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_OtherPropertyPlantAndEquipmentAccumulatedDepreciationAndImpairment" xlink:label="loc_3"/>
+    <link:calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc" xlink:to="loc_2" order="10.0" weight="1"/>
+    <link:calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc" xlink:to="loc_3" order="20.0" weight="-1"/>
+  </link:calculationLink>
+  <link:calculationLink xlink:type="extended" xlink:role="http://xbrl.iasb.org/role/ifrs/IAS_16_2009-04-01_role-822150" xlink:title="[822150] Notes - Classes of property, plant and equipment, gross carrying amount/accumulated depreciation">
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_PropertyPlantAndEquipment" xlink:label="loc"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_PropertyPlantAndEquipmentGross" xlink:label="loc_2"/>
+    <link:loc xlink:type="locator" xlink:href="../../ifrs-cor_2009-04-01.xsd#ifrs_PropertyPlantAndEquipmentAccumulatedDepreciationAndImpairment" xlink:label="loc_3"/>
+    <link:calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc" xlink:to="loc_2" order="10.0" weight="1"/>
+    <link:calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc" xlink:to="loc_3" order="20.0" weight="-1"/>
+  </link:calculationLink>
+</link:linkbase>

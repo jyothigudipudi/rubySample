@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<catalog xmlns='urn:oasis:names:tc:entity:xmlns:xml:catalog' prefer='public'>
+	<rewriteURI uriStartString='https://xbrl.frc.org.uk/char/2015-01-01/' rewritePrefix='../../Taxonomies/Charities-FRS-102-SORP-Taxonomy-0.1.0/char/2015-01-01/' />
+  <rewriteURI uriStartString='https://xbrl.frc.org.uk/general/2014-09-01/' rewritePrefix='../../Taxonomies/xbrl.frc.org.uk/general/2014-09-01/' />
+  <rewriteURI uriStartString='https://xbrl.frc.org.uk/FRS-102/2014-09-01/' rewritePrefix='../../Taxonomies/xbrl.frc.org.uk/FRS-102/2014-09-01/' />
+  <rewriteURI uriStartString='https://xbrl.frc.org.uk/cd/2014-09-01/' rewritePrefix='../../Taxonomies/xbrl.frc.org.uk/cd/2014-09-01/' />
+  <rewriteURI uriStartString='https://xbrl.frc.org.uk/reports/2014-09-01/' rewritePrefix='../../Taxonomies/xbrl.frc.org.uk/reports/2014-09-01/' />
+  <rewriteURI uriStartString='https://xbrl.frc.org.uk/fr/2014-09-01/' rewritePrefix='../../Taxonomies/xbrl.frc.org.uk/fr/2014-09-01/' />
+</catalog>

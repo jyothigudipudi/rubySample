@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+            Taxonomy: 2009-04-01 (Final)
+            ********************** 
+            Copyright © 2009 International Accounting Standards Committee (IASC) Foundation 
+            This material is copyright of the IASC Foundation and all rights are reserved. 
+            No part of this material may be translated, reprinted, reproduced or utilised in 
+            any form or manner that is not expressly permitted by the IASC Foundations XBRL 
+            IP Policy see: http://www.iasb.org/xbrl/ 
+            ********************** 
+            
+
+        --><xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+            xmlns:rol_ifrs_3_2007-03-01="http://xbrl.iasb.org/role/ifrs/rol_ifrs_3_2007-03-01"
+            xmlns:link="http://www.xbrl.org/2003/linkbase"
+            elementFormDefault="qualified"
+            attributeFormDefault="unqualified"
+            targetNamespace="http://xbrl.iasb.org/role/ifrs/rol_ifrs_3_2007-03-01">
+   <xsd:annotation>
+      <xsd:appinfo>
+         <link:roleType roleURI="http://xbrl.iasb.org/role/ifrs/IFRS_3_2007-03-01_role-817000"
+                        id="IFRS_3_2007-03-01_role-817000">
+            <link:definition>[817000] Notes - Business combinations</link:definition>
+            <link:usedOn>link:definitionLink</link:usedOn>
+            <link:usedOn>link:presentationLink</link:usedOn>
+         </link:roleType>
+         <link:roleType roleURI="http://xbrl.iasb.org/role/ifrs/IFRS_3_2007-03-01_role-823320"
+                        id="IFRS_3_2007-03-01_role-823320">
+            <link:definition>[823320] Notes - Reconciliation of changes in goodwill</link:definition>
+            <link:usedOn>link:calculationLink</link:usedOn>
+            <link:usedOn>link:definitionLink</link:usedOn>
+            <link:usedOn>link:presentationLink</link:usedOn>
+         </link:roleType>
+      </xsd:appinfo>
+   </xsd:annotation>
+   <xsd:import namespace="http://www.xbrl.org/2003/linkbase"
+               schemaLocation="http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd"/>
+</xsd:schema>

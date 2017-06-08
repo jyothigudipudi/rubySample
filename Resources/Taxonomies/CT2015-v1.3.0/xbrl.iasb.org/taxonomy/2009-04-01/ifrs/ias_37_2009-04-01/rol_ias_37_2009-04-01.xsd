@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+            Taxonomy: 2009-04-01 (Final)
+            ********************** 
+            Copyright © 2009 International Accounting Standards Committee (IASC) Foundation 
+            This material is copyright of the IASC Foundation and all rights are reserved. 
+            No part of this material may be translated, reprinted, reproduced or utilised in 
+            any form or manner that is not expressly permitted by the IASC Foundations XBRL 
+            IP Policy see: http://www.iasb.org/xbrl/ 
+            ********************** 
+            
+
+        -->
+<xsd:schema targetNamespace="http://xbrl.iasb.org/role/ifrs/rol_ias_37_2009-04-01" attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:rol_ias_37_2009-04-01="http://xbrl.iasb.org/role/ifrs/rol_ias_37_2009-04-01" xmlns:link="http://www.xbrl.org/2003/linkbase">
+  <xsd:annotation>
+    <xsd:appinfo>
+      <link:roleType roleURI="http://xbrl.iasb.org/role/ifrs/IAS_37_2009-04-01_role-827520" id="IAS_37_2009-04-01_role-827520">
+        <link:definition>[827520] Notes - Reconciliation of changes in other provisions</link:definition>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+        <link:usedOn>link:presentationLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://xbrl.iasb.org/role/ifrs/IAS_37_2009-04-01_role-827530" id="IAS_37_2009-04-01_role-827530">
+        <link:definition>[827530] Notes - Reconciliation of changes in other provisions [alternative]</link:definition>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+        <link:usedOn>link:presentationLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://xbrl.iasb.org/role/ifrs/IAS_37_2009-04-01_role-827540" id="IAS_37_2009-04-01_role-827540">
+        <link:definition>[827540] Notes - Classes of other provisions, short-term/long-term classification</link:definition>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+        <link:usedOn>link:presentationLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://xbrl.iasb.org/role/ifrs/IAS_37_2009-04-01_role-827550" id="IAS_37_2009-04-01_role-827550">
+        <link:definition>[827550] Notes - Classes of other provisions, short-term/long-term classification [alternative]</link:definition>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+        <link:usedOn>link:presentationLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://xbrl.iasb.org/role/ifrs/IAS_37_2009-04-01_role-827570" id="IAS_37_2009-04-01_role-827570">
+        <link:definition>[827570] Notes - Other provisions, contingent liabilities and contingent assets</link:definition>
+        <link:usedOn>link:definitionLink</link:usedOn>
+        <link:usedOn>link:presentationLink</link:usedOn>
+      </link:roleType>
+    </xsd:appinfo>
+  </xsd:annotation>
+  <xsd:import namespace="http://www.xbrl.org/2003/linkbase" schemaLocation="http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd"/>
+</xsd:schema>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ns0:catalog xmlns:ns0="urn:oasis:names:tc:entity:xmlns:xml:catalog" prefer="public">
+	<ns0:rewriteURI rewritePrefix="../../Taxonomies/FRC-Taxonomy-v2.1.0/" uriStartString="https://xbrl.frc.org.uk/"/>
+</ns0:catalog>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+            Taxonomy: 2009-04-01 (Final)
+            ********************** 
+            Copyright © 2009 International Accounting Standards Committee (IASC) Foundation 
+            This material is copyright of the IASC Foundation and all rights are reserved. 
+            No part of this material may be translated, reprinted, reproduced or utilised in 
+            any form or manner that is not expressly permitted by the IASC Foundations XBRL 
+            IP Policy see: http://www.iasb.org/xbrl/ 
+            ********************** 
+            
+
+        -->
+<xsd:schema targetNamespace="http://xbrl.iasb.org/role/ifrs/rol_ifrs_6_2009-04-01" attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:rol_ifrs_6_2009-04-01="http://xbrl.iasb.org/role/ifrs/rol_ifrs_6_2009-04-01" xmlns:link="http://www.xbrl.org/2003/linkbase">
+  <xsd:annotation>
+    <xsd:appinfo>
+      <link:roleType roleURI="http://xbrl.iasb.org/role/ifrs/IFRS_6_2009-04-01_role-822200" id="IFRS_6_2009-04-01_role-822200">
+        <link:definition>[822200] Notes - Exploration and evaluation assets</link:definition>
+        <link:usedOn>link:definitionLink</link:usedOn>
+        <link:usedOn>link:presentationLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://xbrl.iasb.org/role/ifrs/IFRS_6_2009-04-01_role-822210" id="IFRS_6_2009-04-01_role-822210">
+        <link:definition>[822210] Notes - Measurement for exploration and evaluation assets</link:definition>
+        <link:usedOn>link:definitionLink</link:usedOn>
+        <link:usedOn>link:presentationLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://xbrl.iasb.org/role/ifrs/IFRS_6_2009-04-01_role-822220" id="IFRS_6_2009-04-01_role-822220">
+        <link:definition>[822220] Notes - Reconciliation of changes in exploration and evaluation assets [alternative]</link:definition>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+        <link:usedOn>link:presentationLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://xbrl.iasb.org/role/ifrs/IFRS_6_2009-04-01_role-822230" id="IFRS_6_2009-04-01_role-822230">
+        <link:definition>[822230] Notes - Reconciliation of changes in exploration and evaluation assets</link:definition>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+        <link:usedOn>link:presentationLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://xbrl.iasb.org/role/ifrs/IFRS_6_2009-04-01_role-822240" id="IFRS_6_2009-04-01_role-822240">
+        <link:definition>[822240] Notes - Exploration and evaluation assets, gross carrying amount/accumulated depreciation [alternative]</link:definition>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+        <link:usedOn>link:presentationLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://xbrl.iasb.org/role/ifrs/IFRS_6_2009-04-01_role-822250" id="IFRS_6_2009-04-01_role-822250">
+        <link:definition>[822250] Notes - Exploration and evaluation assets, gross carrying amount/accumulated depreciation</link:definition>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+        <link:usedOn>link:presentationLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://xbrl.iasb.org/role/ifrs/IFRS_6_2009-04-01_role-822260" id="IFRS_6_2009-04-01_role-822260">
+        <link:definition>[822260] Notes - Revalued amounts, exploration and evaluation assets [alternative]</link:definition>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+        <link:usedOn>link:presentationLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://xbrl.iasb.org/role/ifrs/IFRS_6_2009-04-01_role-822270" id="IFRS_6_2009-04-01_role-822270">
+        <link:definition>[822270] Notes - Revalued amounts, exploration and evaluation assets</link:definition>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+        <link:usedOn>link:presentationLink</link:usedOn>
+      </link:roleType>
+    </xsd:appinfo>
+  </xsd:annotation>
+  <xsd:import namespace="http://www.xbrl.org/2003/linkbase" schemaLocation="http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd"/>
+</xsd:schema>

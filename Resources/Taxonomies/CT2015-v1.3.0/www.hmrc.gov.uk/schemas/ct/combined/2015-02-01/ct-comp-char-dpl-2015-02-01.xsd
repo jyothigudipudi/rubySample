@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:ct-comp-char-dpl="http://www.govtalk.gov.uk/uk/fr/tax/uk-hmrc-ct-comp-char-dpl/2015-02-01" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:xlink="http://www.w3.org/1999/xlink" attributeFormDefault="unqualified" elementFormDefault="qualified" targetNamespace="http://www.govtalk.gov.uk/uk/fr/tax/uk-hmrc-ct-comp-char-dpl/2015-02-01">
+   <xsd:import namespace="http://www.xbrl.org/2003/instance" schemaLocation="http://www.xbrl.org/2003/xbrl-instance-2003-12-31.xsd"/>
+   <xsd:import namespace="http://www.xbrl.org/2003/linkbase" schemaLocation="http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd"/>
+   <xsd:import namespace="http://www.govtalk.gov.uk/uk/fr/tax/uk-hmrc-ct/2015-02-01" schemaLocation="../../comp/2015-02-01/ct-2015-02-01.xsd"/>
+   <xsd:import namespace="http://www.govtalk.gov.uk/uk/fr/tax/char-dpl/2013-10-01" schemaLocation="../2013-10-01/char-dpl-2013-10-01.xsd"/>
+</xsd:schema>

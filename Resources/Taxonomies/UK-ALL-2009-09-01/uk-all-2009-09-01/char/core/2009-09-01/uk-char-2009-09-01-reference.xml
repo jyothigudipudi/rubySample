@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+UK-Charities-Reference linkbase
+2009-09-01 VERSION 1.0
+Copyright and other information - see http://www.xbrl.org/uk/legal.aspx
+-->
+<linkbase xmlns="http://www.xbrl.org/2003/linkbase" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:uk-char="http://www.xbrl.org/uk/char/core/2009-09-01" xmlns:ref="http://www.xbrl.org/2006/ref" xsi:schemaLocation=" http://www.xbrl.org/2003/linkbase http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd http://www.xbrl.org/uk/char/core/2009-09-01 uk-char-2009-09-01.xsd http://www.xbrl.org/2006/ref http://www.xbrl.org/2006/ref-2006-02-27.xsd">
+  <referenceLink xlink:type="extended" xlink:role="http://www.xbrl.org/2003/role/link">
+    <loc xlink:type="locator" xlink:href="uk-char-2009-09-01.xsd#uk-char_DateValuationHeritageAssets" xlink:label="uk-char_DateValuationHeritageAssets" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-char_DateValuationHeritageAssets" xlink:to="uk-char_DateValuationHeritageAssets_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-char_DateValuationHeritageAssets_ref">
+      <ref:Name>FRS</ref:Name>
+      <ref:Number>30</ref:Number>
+      <ref:Paragraph>11</ref:Paragraph>
+      <ref:Subparagraph>ii</ref:Subparagraph>
+      <ref:Clause>a</ref:Clause>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-char-2009-09-01.xsd#uk-char_DescriptionAcquisitionsHeritageAssets" xlink:label="uk-char_DescriptionAcquisitionsHeritageAssets" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-char_DescriptionAcquisitionsHeritageAssets" xlink:to="uk-char_DescriptionAcquisitionsHeritageAssets_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-char_DescriptionAcquisitionsHeritageAssets_ref">
+      <ref:Name>FRS</ref:Name>
+      <ref:Number>30</ref:Number>
+      <ref:Paragraph>6</ref:Paragraph>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-char-2009-09-01.xsd#uk-char_DescriptionAnySignificantLimitationsOnValuation" xlink:label="uk-char_DescriptionAnySignificantLimitationsOnValuation" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-char_DescriptionAnySignificantLimitationsOnValuation" xlink:to="uk-char_DescriptionAnySignificantLimitationsOnValuation_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-char_DescriptionAnySignificantLimitationsOnValuation_ref">
+      <ref:Name>FRS</ref:Name>
+      <ref:Number>30</ref:Number>
+      <ref:Paragraph>11</ref:Paragraph>
+      <ref:Subparagraph>ii</ref:Subparagraph>
+      <ref:Clause>d</ref:Clause>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-char-2009-09-01.xsd#uk-char_DescriptionDisposalsHeritageAssets" xlink:label="uk-char_DescriptionDisposalsHeritageAssets" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-char_DescriptionDisposalsHeritageAssets" xlink:to="uk-char_DescriptionDisposalsHeritageAssets_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-char_DescriptionDisposalsHeritageAssets_ref">
+      <ref:Name>FRS</ref:Name>
+      <ref:Number>30</ref:Number>
+      <ref:Paragraph>6</ref:Paragraph>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-char-2009-09-01.xsd#uk-char_DescriptionExternalValuersIfUsed" xlink:label="uk-char_DescriptionExternalValuersIfUsed" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-char_DescriptionExternalValuersIfUsed" xlink:to="uk-char_DescriptionExternalValuersIfUsed_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-char_DescriptionExternalValuersIfUsed_ref">
+      <ref:Name>FRS</ref:Name>
+      <ref:Number>30</ref:Number>
+      <ref:Paragraph>11</ref:Paragraph>
+      <ref:Subparagraph>ii</ref:Subparagraph>
+      <ref:Clause>c</ref:Clause>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-char-2009-09-01.xsd#uk-char_DescriptionHeritageAssetsAcquiredByDonationWhichItNotPracticalToValue" xlink:label="uk-char_DescriptionHeritageAssetsAcquiredByDonationWhichItNotPracticalToValue" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-char_DescriptionHeritageAssetsAcquiredByDonationWhichItNotPracticalToValue" xlink:to="uk-char_DescriptionHeritageAssetsAcquiredByDonationWhichItNotPracticalToValue_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-char_DescriptionHeritageAssetsAcquiredByDonationWhichItNotPracticalToValue_ref">
+      <ref:Name>FRS</ref:Name>
+      <ref:Number>30</ref:Number>
+      <ref:Paragraph>15</ref:Paragraph>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-char-2009-09-01.xsd#uk-char_DescriptionHeritageAssetsNotReportedInBalanceSheet" xlink:label="uk-char_DescriptionHeritageAssetsNotReportedInBalanceSheet" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-char_DescriptionHeritageAssetsNotReportedInBalanceSheet" xlink:to="uk-char_DescriptionHeritageAssetsNotReportedInBalanceSheet_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-char_DescriptionHeritageAssetsNotReportedInBalanceSheet_ref">
+      <ref:Name>FRS</ref:Name>
+      <ref:Number>30</ref:Number>
+      <ref:Paragraph>9</ref:Paragraph>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-char-2009-09-01.xsd#uk-char_DescriptionHeritageAssetsReportedCost" xlink:label="uk-char_DescriptionHeritageAssetsReportedCost" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-char_DescriptionHeritageAssetsReportedCost" xlink:to="uk-char_DescriptionHeritageAssetsReportedCost_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-char_DescriptionHeritageAssetsReportedCost_ref">
+      <ref:Name>FRS</ref:Name>
+      <ref:Number>30</ref:Number>
+      <ref:Paragraph>11</ref:Paragraph>
+      <ref:Subparagraph>i</ref:Subparagraph>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-char-2009-09-01.xsd#uk-char_DescriptionHeritageAssetsReportedValuation" xlink:label="uk-char_DescriptionHeritageAssetsReportedValuation" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-char_DescriptionHeritageAssetsReportedValuation" xlink:to="uk-char_DescriptionHeritageAssetsReportedValuation_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-char_DescriptionHeritageAssetsReportedValuation_ref">
+      <ref:Name>FRS</ref:Name>
+      <ref:Number>30</ref:Number>
+      <ref:Paragraph>11</ref:Paragraph>
+      <ref:Subparagraph>i</ref:Subparagraph>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-char-2009-09-01.xsd#uk-char_DescriptionMethodValuationHeritageAssets" xlink:label="uk-char_DescriptionMethodValuationHeritageAssets" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-char_DescriptionMethodValuationHeritageAssets" xlink:to="uk-char_DescriptionMethodValuationHeritageAssets_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-char_DescriptionMethodValuationHeritageAssets_ref">
+      <ref:Name>FRS</ref:Name>
+      <ref:Number>30</ref:Number>
+      <ref:Paragraph>11</ref:Paragraph>
+      <ref:Subparagraph>II</ref:Subparagraph>
+      <ref:Clause>b</ref:Clause>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-char-2009-09-01.xsd#uk-char_DescriptionSignificantHeritageAssetsAcquiredByDonation" xlink:label="uk-char_DescriptionSignificantHeritageAssetsAcquiredByDonation" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-char_DescriptionSignificantHeritageAssetsAcquiredByDonation" xlink:to="uk-char_DescriptionSignificantHeritageAssetsAcquiredByDonation_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-char_DescriptionSignificantHeritageAssetsAcquiredByDonation_ref">
+      <ref:Name>FRS</ref:Name>
+      <ref:Number>30</ref:Number>
+      <ref:Paragraph>15</ref:Paragraph>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-char-2009-09-01.xsd#uk-char_DescriptionSpecificHeritageAssetsBeingValued" xlink:label="uk-char_DescriptionSpecificHeritageAssetsBeingValued" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-char_DescriptionSpecificHeritageAssetsBeingValued" xlink:to="uk-char_DescriptionSpecificHeritageAssetsBeingValued_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-char_DescriptionSpecificHeritageAssetsBeingValued_ref">
+      <ref:Name>FRS</ref:Name>
+      <ref:Number>30</ref:Number>
+      <ref:Paragraph>11</ref:Paragraph>
+      <ref:Subparagraph>ii</ref:Subparagraph>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-char-2009-09-01.xsd#uk-char_DescriptionTransactionsInHeritageAssetsNotReportedInBalanceSheet" xlink:label="uk-char_DescriptionTransactionsInHeritageAssetsNotReportedInBalanceSheet" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-char_DescriptionTransactionsInHeritageAssetsNotReportedInBalanceSheet" xlink:to="uk-char_DescriptionTransactionsInHeritageAssetsNotReportedInBalanceSheet_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-char_DescriptionTransactionsInHeritageAssetsNotReportedInBalanceSheet_ref">
+      <ref:Name>FRS</ref:Name>
+      <ref:Number>30</ref:Number>
+      <ref:Paragraph>14</ref:Paragraph>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-char-2009-09-01.xsd#uk-char_GainLossFromRevaluationHeritageAssets" xlink:label="uk-char_GainLossFromRevaluationHeritageAssets" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-char_GainLossFromRevaluationHeritageAssets" xlink:to="uk-char_GainLossFromRevaluationHeritageAssets_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-char_GainLossFromRevaluationHeritageAssets_ref">
+      <ref:Name>FRS</ref:Name>
+      <ref:Number>30</ref:Number>
+      <ref:Paragraph>19</ref:Paragraph>
+      <ref:Subparagraph>iii</ref:Subparagraph>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-char-2009-09-01.xsd#uk-char_GeneralDescriptionNatureHeritageAssetsHeldByEntity" xlink:label="uk-char_GeneralDescriptionNatureHeritageAssetsHeldByEntity" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-char_GeneralDescriptionNatureHeritageAssetsHeldByEntity" xlink:to="uk-char_GeneralDescriptionNatureHeritageAssetsHeldByEntity_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-char_GeneralDescriptionNatureHeritageAssetsHeldByEntity_ref">
+      <ref:Name>FRS</ref:Name>
+      <ref:Number>30</ref:Number>
+      <ref:Paragraph>6</ref:Paragraph>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-char-2009-09-01.xsd#uk-char_HeritageAssetsAcquisitionManagementPolicy" xlink:label="uk-char_HeritageAssetsAcquisitionManagementPolicy" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-char_HeritageAssetsAcquisitionManagementPolicy" xlink:to="uk-char_HeritageAssetsAcquisitionManagementPolicy_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-char_HeritageAssetsAcquisitionManagementPolicy_ref">
+      <ref:Name>FRS</ref:Name>
+      <ref:Number>30</ref:Number>
+      <ref:Paragraph>7</ref:Paragraph>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-char-2009-09-01.xsd#uk-char_HeritageAssetsCapitalisationPolicy" xlink:label="uk-char_HeritageAssetsCapitalisationPolicy" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-char_HeritageAssetsCapitalisationPolicy" xlink:to="uk-char_HeritageAssetsCapitalisationPolicy_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-char_HeritageAssetsCapitalisationPolicy_ref">
+      <ref:Name>Charities SORP</ref:Name>
+      <ref:Paragraph>294</ref:Paragraph>
+      <ref:Subparagraph>c</ref:Subparagraph>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-char-2009-09-01.xsd#uk-char_HeritageAssetsCostAdditions" xlink:label="uk-char_HeritageAssetsCostAdditions" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-char_HeritageAssetsCostAdditions" xlink:to="uk-char_HeritageAssetsCostAdditions_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-char_HeritageAssetsCostAdditions_ref">
+      <ref:Name>FRS</ref:Name>
+      <ref:Number>30</ref:Number>
+      <ref:Paragraph>14</ref:Paragraph>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-char-2009-09-01.xsd#uk-char_HeritageAssetsCostCarryingAmountDisposals" xlink:label="uk-char_HeritageAssetsCostCarryingAmountDisposals" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-char_HeritageAssetsCostCarryingAmountDisposals" xlink:to="uk-char_HeritageAssetsCostCarryingAmountDisposals_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-char_HeritageAssetsCostCarryingAmountDisposals_ref">
+      <ref:Name>FRS</ref:Name>
+      <ref:Number>30</ref:Number>
+      <ref:Paragraph>14</ref:Paragraph>
+      <ref:Subparagraph>c</ref:Subparagraph>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-char-2009-09-01.xsd#uk-char_HeritageAssetsCostCostAcquisitions" xlink:label="uk-char_HeritageAssetsCostCostAcquisitions" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-char_HeritageAssetsCostCostAcquisitions" xlink:to="uk-char_HeritageAssetsCostCostAcquisitions_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-char_HeritageAssetsCostCostAcquisitions_ref">
+      <ref:Name>FRS</ref:Name>
+      <ref:Number>30</ref:Number>
+      <ref:Paragraph>14</ref:Paragraph>
+      <ref:Subparagraph>a</ref:Subparagraph>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-char-2009-09-01.xsd#uk-char_HeritageAssetsCostImpairmentLosses" xlink:label="uk-char_HeritageAssetsCostImpairmentLosses" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-char_HeritageAssetsCostImpairmentLosses" xlink:to="uk-char_HeritageAssetsCostImpairmentLosses_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-char_HeritageAssetsCostImpairmentLosses_ref">
+      <ref:Name>FRS</ref:Name>
+      <ref:Number>30</ref:Number>
+      <ref:Paragraph>14</ref:Paragraph>
+      <ref:Subparagraph>d</ref:Subparagraph>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-char-2009-09-01.xsd#uk-char_HeritageAssetsCostProceedsFromDisposals" xlink:label="uk-char_HeritageAssetsCostProceedsFromDisposals" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-char_HeritageAssetsCostProceedsFromDisposals" xlink:to="uk-char_HeritageAssetsCostProceedsFromDisposals_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-char_HeritageAssetsCostProceedsFromDisposals_ref">
+      <ref:Name>FRS</ref:Name>
+      <ref:Number>30</ref:Number>
+      <ref:Paragraph>14</ref:Paragraph>
+      <ref:Subparagraph>c</ref:Subparagraph>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-char-2009-09-01.xsd#uk-char_HeritageAssetsCostValueAcquiredByDonations" xlink:label="uk-char_HeritageAssetsCostValueAcquiredByDonations" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-char_HeritageAssetsCostValueAcquiredByDonations" xlink:to="uk-char_HeritageAssetsCostValueAcquiredByDonations_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-char_HeritageAssetsCostValueAcquiredByDonations_ref">
+      <ref:Name>FRS</ref:Name>
+      <ref:Number>30</ref:Number>
+      <ref:Paragraph>14</ref:Paragraph>
+      <ref:Subparagraph>b</ref:Subparagraph>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-char-2009-09-01.xsd#uk-char_HeritageAssetsMeasurementsPolicy" xlink:label="uk-char_HeritageAssetsMeasurementsPolicy" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-char_HeritageAssetsMeasurementsPolicy" xlink:to="uk-char_HeritageAssetsMeasurementsPolicy_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-char_HeritageAssetsMeasurementsPolicy_ref">
+      <ref:Name>FRS</ref:Name>
+      <ref:Number>30</ref:Number>
+      <ref:Paragraph>8</ref:Paragraph>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-char-2009-09-01.xsd#uk-char_HeritageAssetsPolicy" xlink:label="uk-char_HeritageAssetsPolicy" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-char_HeritageAssetsPolicy" xlink:to="uk-char_HeritageAssetsPolicy_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-char_HeritageAssetsPolicy_ref">
+      <ref:Name>FRS</ref:Name>
+      <ref:Number>30</ref:Number>
+      <ref:Paragraph>7, 8</ref:Paragraph>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-char-2009-09-01.xsd#uk-char_HeritageAssetsReportedCost" xlink:label="uk-char_HeritageAssetsReportedCost" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-char_HeritageAssetsReportedCost" xlink:to="uk-char_HeritageAssetsReportedCost_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-char_HeritageAssetsReportedCost_ref">
+      <ref:Name>FRS</ref:Name>
+      <ref:Number>30</ref:Number>
+      <ref:Paragraph>11</ref:Paragraph>
+      <ref:Subparagraph>i</ref:Subparagraph>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-char-2009-09-01.xsd#uk-char_HeritageAssetsReportedValuation" xlink:label="uk-char_HeritageAssetsReportedValuation" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-char_HeritageAssetsReportedValuation" xlink:to="uk-char_HeritageAssetsReportedValuation_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-char_HeritageAssetsReportedValuation_ref">
+      <ref:Name>FRS</ref:Name>
+      <ref:Number>30</ref:Number>
+      <ref:Paragraph>11</ref:Paragraph>
+      <ref:Subparagraph>i</ref:Subparagraph>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-char-2009-09-01.xsd#uk-char_HeritageAssets" xlink:label="uk-char_HeritageAssets" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-char_HeritageAssets" xlink:to="uk-char_HeritageAssets_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-char_HeritageAssets_ref">
+      <ref:Name>FRS</ref:Name>
+      <ref:Number>30</ref:Number>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-char-2009-09-01.xsd#uk-char_HeritageAssetsValuationAdditions" xlink:label="uk-char_HeritageAssetsValuationAdditions" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-char_HeritageAssetsValuationAdditions" xlink:to="uk-char_HeritageAssetsValuationAdditions_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-char_HeritageAssetsValuationAdditions_ref">
+      <ref:Name>FRS</ref:Name>
+      <ref:Number>30</ref:Number>
+      <ref:Paragraph>14</ref:Paragraph>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-char-2009-09-01.xsd#uk-char_HeritageAssetsValuationCarryingAmountDisposals" xlink:label="uk-char_HeritageAssetsValuationCarryingAmountDisposals" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-char_HeritageAssetsValuationCarryingAmountDisposals" xlink:to="uk-char_HeritageAssetsValuationCarryingAmountDisposals_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-char_HeritageAssetsValuationCarryingAmountDisposals_ref">
+      <ref:Name>FRS</ref:Name>
+      <ref:Number>30</ref:Number>
+      <ref:Paragraph>14</ref:Paragraph>
+      <ref:Subparagraph>c</ref:Subparagraph>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-char-2009-09-01.xsd#uk-char_HeritageAssetsValuationCostAcquisitions" xlink:label="uk-char_HeritageAssetsValuationCostAcquisitions" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-char_HeritageAssetsValuationCostAcquisitions" xlink:to="uk-char_HeritageAssetsValuationCostAcquisitions_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-char_HeritageAssetsValuationCostAcquisitions_ref">
+      <ref:Name>FRS</ref:Name>
+      <ref:Number>30</ref:Number>
+      <ref:Paragraph>14</ref:Paragraph>
+      <ref:Subparagraph>a</ref:Subparagraph>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-char-2009-09-01.xsd#uk-char_HeritageAssetsValuationImpairmentLosses" xlink:label="uk-char_HeritageAssetsValuationImpairmentLosses" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-char_HeritageAssetsValuationImpairmentLosses" xlink:to="uk-char_HeritageAssetsValuationImpairmentLosses_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-char_HeritageAssetsValuationImpairmentLosses_ref">
+      <ref:Name>FRS</ref:Name>
+      <ref:Number>30</ref:Number>
+      <ref:Paragraph>14</ref:Paragraph>
+      <ref:Subparagraph>d</ref:Subparagraph>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-char-2009-09-01.xsd#uk-char_HeritageAssetsValuationIncreaseDecreaseFromRevaluations" xlink:label="uk-char_HeritageAssetsValuationIncreaseDecreaseFromRevaluations" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-char_HeritageAssetsValuationIncreaseDecreaseFromRevaluations" xlink:to="uk-char_HeritageAssetsValuationIncreaseDecreaseFromRevaluations_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-char_HeritageAssetsValuationIncreaseDecreaseFromRevaluations_ref">
+      <ref:Name>FRS</ref:Name>
+      <ref:Number>30</ref:Number>
+      <ref:Paragraph>14</ref:Paragraph>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-char-2009-09-01.xsd#uk-char_HeritageAssetsValuationProceedsFromDisposals" xlink:label="uk-char_HeritageAssetsValuationProceedsFromDisposals" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-char_HeritageAssetsValuationProceedsFromDisposals" xlink:to="uk-char_HeritageAssetsValuationProceedsFromDisposals_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-char_HeritageAssetsValuationProceedsFromDisposals_ref">
+      <ref:Name>FRS</ref:Name>
+      <ref:Number>30</ref:Number>
+      <ref:Paragraph>14</ref:Paragraph>
+      <ref:Subparagraph>c</ref:Subparagraph>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-char-2009-09-01.xsd#uk-char_HeritageAssetsValuationValueAcquiredByDonations" xlink:label="uk-char_HeritageAssetsValuationValueAcquiredByDonations" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-char_HeritageAssetsValuationValueAcquiredByDonations" xlink:to="uk-char_HeritageAssetsValuationValueAcquiredByDonations_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-char_HeritageAssetsValuationValueAcquiredByDonations_ref">
+      <ref:Name>FRS</ref:Name>
+      <ref:Number>30</ref:Number>
+      <ref:Paragraph>14</ref:Paragraph>
+      <ref:Subparagraph>b</ref:Subparagraph>
+    </reference>
+    <loc xlink:type="locator" xlink:href="uk-char-2009-09-01.xsd#uk-char_ValueSpecificHeritageAssetsAssignedValuation" xlink:label="uk-char_ValueSpecificHeritageAssetsAssignedValuation" />
+    <referenceArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-reference" xlink:from="uk-char_ValueSpecificHeritageAssetsAssignedValuation" xlink:to="uk-char_ValueSpecificHeritageAssetsAssignedValuation_ref" />
+    <reference xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/reference" xlink:label="uk-char_ValueSpecificHeritageAssetsAssignedValuation_ref">
+      <ref:Name>FRS</ref:Name>
+      <ref:Number>30</ref:Number>
+      <ref:Paragraph>11</ref:Paragraph>
+      <ref:Subparagraph>ii</ref:Subparagraph>
+    </reference>
+  </referenceLink>
+</linkbase>

@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:ct-roles="http://www.govtalk.gov.uk/uk/fr/tax/uk-hmrc-ct-roles/2015-02-01" xmlns:xbrli="http://www.xbrl.org/2003/instance" attributeFormDefault="unqualified" elementFormDefault="qualified" targetNamespace="http://www.govtalk.gov.uk/uk/fr/tax/uk-hmrc-ct-roles/2015-02-01">
+   <xsd:annotation>
+      <xsd:appinfo>
+         <roleType xmlns="http://www.xbrl.org/2003/linkbase" id="Hypercube-Company" roleURI="http://www.govtalk.gov.uk/uk/fr/tax/uk-hmrc-ct-roles/role/Hypercube-Company">
+            <definition>ct01 - Company</definition>
+            <usedOn>link:presentationLink</usedOn>
+            <usedOn>link:definitionLink</usedOn>
+         </roleType>
+         <roleType xmlns="http://www.xbrl.org/2003/linkbase" id="Hypercube-UKTrade" roleURI="http://www.govtalk.gov.uk/uk/fr/tax/uk-hmrc-ct-roles/role/Hypercube-UKTrade">
+            <definition>ct02 - UK Trade</definition>
+            <usedOn>link:presentationLink</usedOn>
+            <usedOn>link:definitionLink</usedOn>
+         </roleType>
+         <roleType xmlns="http://www.xbrl.org/2003/linkbase" id="Hypercube-UKProperty" roleURI="http://www.govtalk.gov.uk/uk/fr/tax/uk-hmrc-ct-roles/role/Hypercube-UKProperty">
+            <definition>ct03 - UK Property</definition>
+            <usedOn>link:presentationLink</usedOn>
+            <usedOn>link:definitionLink</usedOn>
+         </roleType>
+         <roleType xmlns="http://www.xbrl.org/2003/linkbase" id="Hypercube-OverseasTrade" roleURI="http://www.govtalk.gov.uk/uk/fr/tax/uk-hmrc-ct-roles/role/Hypercube-OverseasTrade">
+            <definition>ct04 - Overseas Trade</definition>
+            <usedOn>link:presentationLink</usedOn>
+            <usedOn>link:definitionLink</usedOn>
+         </roleType>
+         <roleType xmlns="http://www.xbrl.org/2003/linkbase" id="Hypercube-OverseasProperty" roleURI="http://www.govtalk.gov.uk/uk/fr/tax/uk-hmrc-ct-roles/role/Hypercube-OverseasProperty">
+            <definition>ct05 - Overseas Property</definition>
+            <usedOn>link:presentationLink</usedOn>
+            <usedOn>link:definitionLink</usedOn>
+         </roleType>
+         <roleType xmlns="http://www.xbrl.org/2003/linkbase" id="Hypercube-ManagementExpenses" roleURI="http://www.govtalk.gov.uk/uk/fr/tax/uk-hmrc-ct-roles/role/Hypercube-ManagementExpenses">
+            <definition>ct06 - Management Expenses</definition>
+            <usedOn>link:presentationLink</usedOn>
+            <usedOn>link:definitionLink</usedOn>
+         </roleType>
+         <roleType xmlns="http://www.xbrl.org/2003/linkbase" id="Hypercube-ChargeableGains" roleURI="http://www.govtalk.gov.uk/uk/fr/tax/uk-hmrc-ct-roles/role/Hypercube-ChargeableGains">
+            <definition>ct07 - Chargeable Gains</definition>
+            <usedOn>link:presentationLink</usedOn>
+            <usedOn>link:definitionLink</usedOn>
+         </roleType>
+         <roleType xmlns="http://www.xbrl.org/2003/linkbase" id="Hypercube-LoansToParticipators" roleURI="http://www.govtalk.gov.uk/uk/fr/tax/uk-hmrc-ct-roles/role/Hypercube-LoansToParticipators">
+            <definition>ct08 - Loans to Participators</definition>
+            <usedOn>link:presentationLink</usedOn>
+            <usedOn>link:definitionLink</usedOn>
+         </roleType>
+         <roleType xmlns="http://www.xbrl.org/2003/linkbase" id="Hypercube-CreativeIndustries" roleURI="http://www.govtalk.gov.uk/uk/fr/tax/uk-hmrc-ct-roles/role/Hypercube-CreativeIndustries">
+            <definition>ct09 - Creative Industries</definition>
+            <usedOn>link:presentationLink</usedOn>
+            <usedOn>link:definitionLink</usedOn>
+         </roleType>
+         <roleType xmlns="http://www.xbrl.org/2003/linkbase" id="Dimension-BusinessType-Company" roleURI="http://www.govtalk.gov.uk/uk/fr/tax/uk-hmrc-ct-roles/role/Dimension-BusinessType-Company">
+            <definition>ctd11 - Dimension - Business type - Company</definition>
+            <usedOn>link:definitionLink</usedOn>
+         </roleType>
+         <roleType xmlns="http://www.xbrl.org/2003/linkbase" id="Dimension-BusinessType-Trade" roleURI="http://www.govtalk.gov.uk/uk/fr/tax/uk-hmrc-ct-roles/role/Dimension-BusinessType-Trade">
+            <definition>ctd12 - Dimension - Business type - Trade</definition>
+            <usedOn>link:definitionLink</usedOn>
+         </roleType>
+         <roleType xmlns="http://www.xbrl.org/2003/linkbase" id="Dimension-BusinessType-PropertyBusiness" roleURI="http://www.govtalk.gov.uk/uk/fr/tax/uk-hmrc-ct-roles/role/Dimension-BusinessType-PropertyBusiness">
+            <definition>ctd13 - Dimension - Business type - Property</definition>
+            <usedOn>link:definitionLink</usedOn>
+         </roleType>
+         <roleType xmlns="http://www.xbrl.org/2003/linkbase" id="Dimension-BusinessType-ManagementExpenses" roleURI="http://www.govtalk.gov.uk/uk/fr/tax/uk-hmrc-ct-roles/role/Dimension-BusinessType-ManagementExpenses">
+            <definition>ctd14 - Dimension - Business type - Management expenses</definition>
+            <usedOn>link:definitionLink</usedOn>
+         </roleType>
+         <roleType xmlns="http://www.xbrl.org/2003/linkbase" id="Dimension-Territory" roleURI="http://www.govtalk.gov.uk/uk/fr/tax/uk-hmrc-ct-roles/role/Dimension-Territory">
+            <definition>ctd20 - Dimension - Territory</definition>
+            <usedOn>link:definitionLink</usedOn>
+         </roleType>
+         <roleType xmlns="http://www.xbrl.org/2003/linkbase" id="Dimension-Territory-UK" roleURI="http://www.govtalk.gov.uk/uk/fr/tax/uk-hmrc-ct-roles/role/Dimension-Territory-UK">
+            <definition>ctd21 - Dimension - Territory - UK</definition>
+            <usedOn>link:definitionLink</usedOn>
+         </roleType>
+         <roleType xmlns="http://www.xbrl.org/2003/linkbase" id="Dimension-Territory-Overseas" roleURI="http://www.govtalk.gov.uk/uk/fr/tax/uk-hmrc-ct-roles/role/Dimension-Territory-Overseas">
+            <definition>ctd22 - Dimension - Territory - Overseas</definition>
+            <usedOn>link:definitionLink</usedOn>
+         </roleType>
+         <roleType xmlns="http://www.xbrl.org/2003/linkbase" id="Dimension-CounterpartyType" roleURI="http://www.govtalk.gov.uk/uk/fr/tax/uk-hmrc-ct-roles/role/Dimension-CounterpartyType">
+            <definition>ctd30 - Dimension - Counterparty type</definition>
+            <usedOn>link:definitionLink</usedOn>
+         </roleType>
+         <roleType xmlns="http://www.xbrl.org/2003/linkbase" id="Dimension-DetailedAnalysis" roleURI="http://www.govtalk.gov.uk/uk/fr/tax/uk-hmrc-ct-roles/role/Dimension-DetailedAnalysis">
+            <definition>ctd40 - Dimension - Detailed analysis</definition>
+            <usedOn>link:definitionLink</usedOn>
+         </roleType>
+         <roleType xmlns="http://www.xbrl.org/2003/linkbase" id="Dimension-CreativeIndustryType" roleURI="http://www.govtalk.gov.uk/uk/fr/tax/uk-hmrc-ct-roles/role/Dimension-CreativeIndustryType">
+            <definition>ctd50 - Dimension - Creative industry type</definition>
+            <usedOn>link:definitionLink</usedOn>
+         </roleType>
+		 <roleType xmlns="http://www.xbrl.org/2003/linkbase" id="Dimension-AssetType" roleURI="http://www.govtalk.gov.uk/uk/fr/tax/uk-hmrc-ct-roles/role/Dimension-AssetType">
+            <definition>ctd60 - Dimension - Asset type</definition>
+            <usedOn>link:definitionLink</usedOn>
+         </roleType>
+		 <roleType xmlns="http://www.xbrl.org/2003/linkbase" id="Reference-ItemsMarkedForFutureDeletion" roleURI="http://www.govtalk.gov.uk/uk/fr/tax/uk-hmrc-ct-roles/role/Reference-ItemsMarkedForFutureDeletion">
+            <definition>Reference - Items Marked For Future Deletion</definition>
+            <usedOn>link:reference</usedOn>
+         </roleType>
+         <roleType xmlns="http://www.xbrl.org/2003/linkbase" id="Reference-UKTrade" roleURI="http://www.govtalk.gov.uk/uk/fr/tax/uk-hmrc-ct-roles/role/Reference-UKTrade">
+            <definition>Reference - UK Trade</definition>
+            <usedOn>link:reference</usedOn>
+         </roleType>
+         <roleType xmlns="http://www.xbrl.org/2003/linkbase" id="Reference-UKPropertyBusiness" roleURI="http://www.govtalk.gov.uk/uk/fr/tax/uk-hmrc-ct-roles/role/Reference-UKPropertyBusiness">
+            <definition>Reference - UK Property Business</definition>
+            <usedOn>link:reference</usedOn>
+         </roleType>
+         <roleType xmlns="http://www.xbrl.org/2003/linkbase" id="Reference-OverseasTrade" roleURI="http://www.govtalk.gov.uk/uk/fr/tax/uk-hmrc-ct-roles/role/Reference-OverseasTrade">
+            <definition>Reference - Overseas Trade</definition>
+            <usedOn>link:reference</usedOn>
+         </roleType>
+         <roleType xmlns="http://www.xbrl.org/2003/linkbase" id="Reference-OverseasPropertyBusiness" roleURI="http://www.govtalk.gov.uk/uk/fr/tax/uk-hmrc-ct-roles/role/Reference-OverseasPropertyBusiness">
+            <definition>Reference - Overseas Property Business</definition>
+            <usedOn>link:reference</usedOn>
+         </roleType>
+         <roleType xmlns="http://www.xbrl.org/2003/linkbase" id="Reference-PropertyBusiness" roleURI="http://www.govtalk.gov.uk/uk/fr/tax/uk-hmrc-ct-roles/role/Reference-PropertyBusiness">
+            <definition>Reference - Property Business</definition>
+            <usedOn>link:reference</usedOn>
+         </roleType>
+         <roleType xmlns="http://www.xbrl.org/2003/linkbase" id="Reference-ManagementExpenses" roleURI="http://www.govtalk.gov.uk/uk/fr/tax/uk-hmrc-ct-roles/role/Reference-ManagementExpenses">
+            <definition>Reference - Management Expenses</definition>
+            <usedOn>link:reference</usedOn>
+         </roleType>
+         <roleType xmlns="http://www.xbrl.org/2003/linkbase" id="Reference-Television" roleURI="http://www.govtalk.gov.uk/uk/fr/tax/uk-hmrc-ct-roles/role/Reference-Television">
+            <definition>Reference - Television</definition>
+            <usedOn>link:reference</usedOn>
+         </roleType>
+         <roleType xmlns="http://www.xbrl.org/2003/linkbase" id="Reference-VideoGame" roleURI="http://www.govtalk.gov.uk/uk/fr/tax/uk-hmrc-ct-roles/role/Reference-VideoGame">
+            <definition>Reference - Video Game</definition>
+            <usedOn>link:reference</usedOn>
+         </roleType>
+         <roleType xmlns="http://www.xbrl.org/2003/linkbase" id="Reference-Film" roleURI="http://www.govtalk.gov.uk/uk/fr/tax/uk-hmrc-ct-roles/role/Reference-Film">
+            <definition>Reference - Film</definition>
+            <usedOn>link:reference</usedOn>
+         </roleType>
+         <roleType xmlns="http://www.xbrl.org/2003/linkbase" id="MandatoryItemsRequired"
+                   roleURI="http://www.govtalk.gov.uk/uk/fr/tax/uk-hmrc-ct-roles/role/MandatoryItemsRequired">
+            <definition>Mandatory items must be reported</definition>
+            <usedOn>link:definitionLink</usedOn>
+         </roleType>
+      </xsd:appinfo>
+   </xsd:annotation>
+</xsd:schema>

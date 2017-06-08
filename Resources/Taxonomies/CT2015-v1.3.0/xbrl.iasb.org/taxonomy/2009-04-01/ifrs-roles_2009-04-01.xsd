@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+            Taxonomy: 2009-04-01 (Final)
+            ********************** 
+            Copyright © 2009 International Accounting Standards Committee (IASC) Foundation 
+            This material is copyright of the IASC Foundation and all rights are reserved. 
+            No part of this material may be translated, reprinted, reproduced or utilised in 
+            any form or manner that is not expressly permitted by the IASC Foundations XBRL 
+            IP Policy see: http://www.iasb.org/xbrl/ 
+            ********************** 
+            
+
+        -->
+<xsd:schema targetNamespace="http://xbrl.iasb.org/taxonomy/2009-04-01/ifrs/roles" attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:ifrs="http://xbrl.iasb.org/taxonomy/2009-04-01/ifrs/roles" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xbrli="http://www.xbrl.org/2003/instance">
+  <xsd:annotation>
+    <xsd:appinfo>
+      <link:roleType roleURI="http://xbrl.iasb.org/role/reference/commonPracticeRef" id="commonPracticeRef">
+        <link:definition>Reference for common practice disclosure</link:definition>
+        <link:usedOn>link:reference</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://xbrl.iasb.org/role/reference/nonauthoritativeLiterature" id="nonauthoritativeLiterature">
+        <link:definition>Non-authoritative literature</link:definition>
+        <link:usedOn>link:reference</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://xbrl.iasb.org/role/reference/recognitionRef" id="recognitionRef">
+        <link:definition>Reference for recognition and derecognition</link:definition>
+        <link:usedOn>link:reference</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://xbrl.iasb.org/role/label/labelNegated" id="labelNegated">
+        <link:definition>Negated standard label</link:definition>
+        <link:usedOn>link:label</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://xbrl.iasb.org/role/label/netLabel" id="netLabel">
+        <link:definition>Net label</link:definition>
+        <link:usedOn>link:label</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://xbrl.iasb.org/role/label/netLabelNegated" id="netLabelNegated">
+        <link:definition>Negated net label</link:definition>
+        <link:usedOn>link:label</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://xbrl.iasb.org/role/label/periodEndLabelNegated" id="periodEndLabelNegated">
+        <link:definition>Negated period end label</link:definition>
+        <link:usedOn>link:label</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://xbrl.iasb.org/role/label/periodStartLabelNegated" id="periodStartLabelNegated">
+        <link:definition>Negated period start label</link:definition>
+        <link:usedOn>link:label</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://xbrl.iasb.org/role/label/presentationGuidanceNegated" id="presentationGuidanceNegated">
+        <link:definition>Negated presentation guidance</link:definition>
+        <link:usedOn>link:label</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://xbrl.iasb.org/role/label/terseLabelNegated" id="terseLabelNegated">
+        <link:definition>Negated terse label</link:definition>
+        <link:usedOn>link:label</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://xbrl.iasb.org/role/label/totalLabelNegated" id="totalLabelNegated">
+        <link:definition>Negated total label</link:definition>
+        <link:usedOn>link:label</link:usedOn>
+      </link:roleType>
+    </xsd:appinfo>
+  </xsd:annotation>
+  <xsd:import namespace="http://www.xbrl.org/2003/linkbase" schemaLocation="http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd"/>
+</xsd:schema>
